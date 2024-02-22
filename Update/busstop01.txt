@@ -82,41 +82,41 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　某地方の山奥。",
-		   NULL, "The scene is set deep within the mountains of a certain region,", Line_WaitForInput);
+		   NULL, "어느 지방의 깊은 산골,", Line_WaitForInput);
 	OutputLine(NULL, "村の外れのバスの停留所「雛見沢（ひなみざわ）停留所」",
-		   NULL, " where there is a bus stop on the outskirts of a village - the \"Hinamizawa Bus Stop\".", Line_Normal);
+		   NULL, " 마을 외곽의 버스 정류장 '히나미자와 정류장'.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　周辺に民家の類はなく人気もない寂しい場所。",
-		   NULL, "It is a lonely place devoid of people, with hardly any private homes nearby.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "주변에는 민가도 없고 인적도 드문 쓸쓸한 곳.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　外は雨で陰鬱な雰囲気に支配されている。",
-		   NULL, "Rain is pouring outside, and a gloomy mood hangs over the area.", Line_Normal);
+		   NULL, "밖은 비로 인해 음울한 분위기가 지배하고 있다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　待合所は粗末な木製の屋台造りで、かろうじて雨露をしのげる程度でしかない。",
-		   NULL, "That bus stop is a stand made from crude wood that only just barely keeps out of the rain.", Line_WaitForInput);
+		   NULL, "대기실은 조악한 나무 가판대로, 간신히 비와 이슬을 피할 수 있는 정도에 불과하다.", Line_WaitForInput);
 	OutputLine(NULL, "中には３人掛けのベンチが２つと町会の掲示板しかない。",
-		   NULL, " Inside, there is a bench only wide enough for three people, and two town bulletin boards.", Line_Normal);
+		   NULL, " 안에는 3인용 벤치 2개와 마을회의 게시판밖에 없다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　掲示板には村祭りの義援金や国勢調査等のポスターが張ってあり、",
-		   NULL, "The bulletin boards hold posters, including one concerning a national census and one about donations to the village festival. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "게시판에는 마을 축제의 기부금이나 인구 조사 등의 포스터가 붙어 있고, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "中でも「雛見沢ダム計画絶対反対」等のダム計画反対の住民ちらしが目立つ。",
-		   NULL, "The poster that stands out the most, however, is the one reading, \"Oppose the Hinamizawa Dam Project\" made by the residents protesting it.", Line_Normal);
+		   NULL, "그중에서도 '히나미자와 댐 계획 절대 반대' 등 댐 계획에 반대하는 주민 전단지가 눈에 띈다.", Line_Normal);
 	ClearMessage();
 
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雨の音しか聞こえない無人の「雛見沢停留所」に２人の学生（魅音・梨花）がやってくる。",
-		   NULL, "Two young students (Mion and Rika) approach the empty Hinamizawa Bus Stop with only the sound of rain to be heard.", Line_Normal);
+		   NULL, "비 소리만 들리고 아무도 없는 '히나미자와 정류장'에 두 명의 학생(미온·리카)이 모습을 드러낸다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -136,7 +136,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0000", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あはははは！あーっはっはっはっは！！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Ahahahaha! Ahhhahahaha!!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"아하하하하! 아하하하하하!!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -144,7 +144,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 52, "sprite/hri2a_01_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 3, 300, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0000", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「盛大に降って来ちゃったわね。だから言ったのに…カサ持って行こうって。」",
-		   "<color=#6972c1>Rika</color> ", "\"It's really coming down, isn't it? This is why I told you... we should've brought umbrellas.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"비가 정말 엄청 내리기 시작했네. 그래서 말했잖아... 우산 챙기자고.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -152,7 +152,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0010", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「手荷物なんかあったら盛大に遊べないじゃないですかー！…まま！降って来ちゃったのは仕方ないってコトで！」",
-		   "<color=#5ec69a>Mion</color> ", "\"But we couldn't play as hard if we had our hands full of stuff, could we?! ...Oh well! Nothing we can do about it now!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"짐 같은 거 들고 있으면 제대로 놀 수 없잖아요! ...자, 자! 이제 와서 비가 오는 건 어쩔 수 없다는 걸로!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -160,7 +160,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0010", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…でもすごい降りね。…やむといいんだけど。」",
-		   "<color=#6972c1>Rika</color> ", "\"...Still, it's really pouring. ...I hope it stops soon.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래도 정말 많이 오네. ...그치면 좋겠는데.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -168,7 +168,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0020", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「大丈夫大丈夫！人類の歴史始まって以来、やまなかった雨と昇らなかった太陽はありませーんって！」",
-		   "<color=#5ec69a>Mion</color> ", "\"It's fine, it's fine! There's never been an unending rain or a day the sun didn't rise throughout all of human history!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"괜찮아요, 괜찮아요! 인류의 역사가 시작된 이래로, 그치지 않은 비와 뜨지 않은 태양은 없었다고요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -177,7 +177,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0030", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……あはははは！何か私、カッコいいコト言っちゃったー！あーっはっはっはっは！」",
-		   "<color=#5ec69a>Mion</color> ", "\"......Ahahahaha! I think I just said something cool! Ahhhahahaha!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"......아하하하하! 왠지 저, 멋진 말을 한 거 같은데요! 아하하하하하!", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -185,20 +185,20 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0020", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「笑いで死ねたらあなた、もう死んでるわね…。」",
-		   "<color=#6972c1>Rika</color> ", "\"If people could die from laughing, you'd be a pile of ash by now...\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"웃다가 죽을 수 있다면 너, 벌써 죽었겠네...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 53, "sprite/hmi2a_12_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0040", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あっはっはっは！",
-		   "<color=#5ec69a>Mion</color> ", "\"Ahahaha!", Line_Continue);
+		   "<color=#5ec69a>Mion</color> ", "\"아하하하!", Line_Continue);
 	OutputLine(NULL, "笑い死ねたらそれこそ本望ってもんすよ！",
-		   NULL, " I'd love nothing more than to die laughing!", Line_Continue);
+		   NULL, " 웃어서 죽을 수 있다면 그야말로 소원인걸요!", Line_Continue);
 	OutputLine(NULL, "あーっはっはっは！",
-		   NULL, " Ahhhahaha!", Line_Continue);
+		   NULL, " 아하하하!", Line_Continue);
 	OutputLine(NULL, "…げほげほげほッ！」",
-		   NULL, " ...Ghoh, ghoh, ghoh!\"", Line_Normal);
+		   NULL, " ...콜록, 콜록, 콜록!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -208,7 +208,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0030", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…はしゃぎ過ぎだってば。…大丈夫？」",
-		   "<color=#6972c1>Rika</color> ", "\"...See, I told you. ...You alright?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...너무 들떴다니까 ...괜찮아?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
