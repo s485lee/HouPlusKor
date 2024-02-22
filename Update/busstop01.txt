@@ -216,7 +216,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0050", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あーげほんげほん！…ははは！すんません。」",
-		   "<color=#5ec69a>Mion</color> ", "\"Yeah, ghoh, ghoh! ...Hahaha! Sorry.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"아, 크흠, 크흠! ...하하하! 죄송해요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -226,7 +226,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0040", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「でも、…喜んでくれてよかった。こんなに楽しんでもらえるなんて思わなかったわ。」",
-		   "<color=#6972c1>Rika</color> ", "\"Still... I'm glad you're enjoying yourself. I didn't think you'd find it this fun.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래도, ...기뻐해 줘서 다행이야. 이렇게 즐거워할 줄은 몰랐거든.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -234,7 +234,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0060", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「いや！今日は本当に！それこそもーしっちゃかめっちゃかむっちゃくちゃに楽しかったです！いやぁーホントもー…あーっはっはっはっは！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Man! Seriously, though! Today I had a buttload ton of fun! Man, seriously... ahhhahahaha!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"아냐! 오늘은 진짜로! 그야말로 정말 너무너무 재미있었어요! 이야~ 정말로... 아-하하하하하!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -242,7 +242,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0050", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…大袈裟に喜び過ぎよ。…悪い気はしないけどね…。」",
-		   "<color=#6972c1>Rika</color> ", "\"...You're exaggerating your enjoyment now. ...Not that it feels bad, though...\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"너무 과장되게 기뻐하는거 같은데... 나쁘지 않은 기분이지만...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -250,7 +250,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0070", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…そのー…なんてゆーんですかね、…私ってほら、こーゆう性格じゃないですか。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...Well... What do I say? ...I'm just, you know? This is who I am, right?\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그게 말이죠... 어떻게 말해야 할까요, ...저는 이런 성격이잖아요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -258,7 +258,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0080", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「いっつも一人で騒いで外しまくって。…梨花さんも私の事、うるさいヤツだと思ってんだろーなぁ…、って思ってたんですよ…。」",
-		   "<color=#5ec69a>Mion</color> ", "\"I'm always going off the rails all by myself. ...I always thought... that you considered me annoying, Rika-san...\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"항상 혼자서 시끄럽게 떠들고 말도 안 되는 소리를 하고... 리카 씨도 저를 시끄러운 녀석이라고 생각하고 있겠지, 라고 생각했었어요\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -266,12 +266,12 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0060", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…私は魅音の事をうるさいなんて思った事はないわよ。…いつもの騒がしいあなたが好きよ。」",
-		   "<color=#6972c1>Rika</color> ", "\"...I've never once thought you were annoying. ...I love how lively you always are.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...나는 미온이 시끄럽다고 생각한 적 없어. ...항상 소란스러운 네가 좋아.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0090", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ははは！…だから梨花さんの方から遊びに行こうって誘ってくれた時、ものすごく嬉しかったんですよ。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...Hahaha! ...So, that's why I was really happy when you invited me to come out and play.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...하하하! ...그래서 리카 씨가 먼저 놀러 가자고 했을 때, 정말로 기뻤어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -279,11 +279,11 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0100", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「梨花さんに誘われたらもー！",
-		   "<color=#5ec69a>Mion</color> ", "\"When I got your invitation, man!", Line_Continue);
+		   "<color=#5ec69a>Mion</color> ", "\"리카 씨가 같이 가자고 하면!", Line_Continue);
 	OutputLine(NULL, "予定なんかオールキャンセル！",
-		   NULL, " All my plans, bam, canceled!", Line_Continue);
+		   NULL, " 당연 다른 계획은 전부 취소!", Line_Continue);
 	OutputLine(NULL, "学校なんかないも同然ですよ！」",
-		   NULL, " Forget about school too!\"", Line_Normal);
+		   NULL, " 학교 같은 건 없는 거나 마찬가지예요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -291,12 +291,12 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0070", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…やっぱり学校さぼって遊びに行こうなんて、良くなかったかしら。」",
-		   "<color=#6972c1>Rika</color> ", "\"...It probably wasn't a good thing that we skipped school to go and play.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...역시 학교 빼먹고 놀러 가자는 건, 좋지 않았으려나.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0110", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「いーんですいーんです！どうせ藤嶋の授業なんか１日さぼったって大して変わんないんですから！…それに平日じゃなかったらここまで盛大に遊び倒せませんでしたよ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"It's fine, it's fine! It's not like missing a day of Fujishima's classes will make that much difference! ...Besides, we couldn't have worn ourselves out playing around like this if it wasn't a weekday, right?!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"괜찮아요, 괜찮아요! 어차피 후지시마의 수업 하루 빠졌다고 별로 달라지는 거 없으니까요! ...게다가 평일이 아니었으면 이렇게 크게 놀 수도 없었을 거예요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -304,7 +304,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0080", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…学校をさぼって遊びに行った価値はあった…かな…？」",
-		   "<color=#6972c1>Rika</color> ", "\"...You think it really was worth skipping school to go play... then...?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...학교를 빼먹고 놀러 간 가치가 있었다는 말 인거지?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -312,7 +312,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0120", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ありありありあり！ありまくりでしたよ！…正直な所、真面目っぽい梨花さんが学校さぼって遊びに行こうって言い出した時はかなり意外でしたけどねー。」",
-		   "<color=#5ec69a>Mion</color> ", "\"Yeah, yeah, yeah, yeah! Absolutely, yeah! ...Though to be honest, I was really surprised when you suggested we should, as diligent as you seem to be and all.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"있고있고있고있고! 있고말고요! ...솔직히 말하자면, 성실해 보이는 리카 씨가 학교를 빼먹고 놀러 가자고 말했을 때 꽤 의외였지만요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -320,7 +320,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0090", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…私が言うと意外？」",
-		   "<color=#6972c1>Rika</color> ", "\"...It was a surprise for me to say that?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...내가 말하면 의외라고?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -328,7 +328,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0130", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「だって梨花さん、優等生ーってカンジじゃないすかー！」",
-		   "<color=#5ec69a>Mion</color> ", "\"I mean, Rika-san, you come off as a real teacher's pet, you know!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그야, 리카 씨는 모범생이라는 느낌이잖아요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -336,7 +336,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0140", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「その梨花さんが内緒でこっそり耳元で」",
-		   "<color=#5ec69a>Mion</color> ", "\"So when you secretly whispered into my ear,", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그 리카 씨가 몰래 조용히 귓가에서,", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -345,11 +345,11 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0150", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「来週の水曜日学校をさぼらない？」",
-		   "<color=#5ec69a>Mion</color> ", "'Want to skip school next Wednesday?'", Line_Continue);
+		   "<color=#5ec69a>Mion</color> ", "'다음 수요일에 학교 빼먹지 않을래?'", Line_Continue);
 	OutputLine(NULL, "なんて言われた日にゃもー、休むしか！",
-		   NULL, " Well, when that day came, I just had to skip!", Line_Continue);
+		   NULL, " 라는 말을 들으면, 땡땡이 칠 수밖에 없죠!!", Line_Continue);
 	OutputLine(NULL, "ってカンジでー！」",
-		   NULL, " You know?!\"", Line_Normal);
+		   NULL, " 그런 느낌으로!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -358,11 +358,11 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0160", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ひょっとしてコクられちゃうのかな！？",
-		   "<color=#5ec69a>Mion</color> ", "\"I even thought you might be confessing to me!", Line_Continue);
+		   "<color=#5ec69a>Mion</color> ", "\"혹시 고백받는 건가!?", Line_Continue);
 	OutputLine(NULL, "なんてーッ！",
-		   NULL, " Just kidding!", Line_Continue);
+		   NULL, " 뭐 그런!", Line_Continue);
 	OutputLine(NULL, "いつしか二人は友情からもう一歩上の感情へステップアーップ！！」",
-		   NULL, " But before we know it, maybe our emotions will take us one step up from friendship!!\"", Line_Normal);
+		   NULL, " 어느새 두 사람은 우정에서 한 걸음 더 나아가 더 높은 감정으로 스텝 업!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
