@@ -1198,7 +1198,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0350", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ついでに温泉旅行が当ります。」",
-		   "<color=#5ec69a>Mion</color> ", "\"게다가, 온천 여행도 하실수 있습니다\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"게다가, 온천여행에도 당첨됩니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1211,13 +1211,13 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0380", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…それで？」",
-		   "<color=#6972c1>Rika</color> ", "\"...So?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...그래서?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	OutputLine(NULL, "　ぎょろりと魅音に振り返る梨花。",
-		   NULL, "Rika turns and glares at Mion.", Line_WaitForInput);
+		   NULL, "뒤돌아 미온을 째려보는 리카.", Line_WaitForInput);
 	OutputLine(NULL, "真面目な話に水をさす魅音をどんどん追い詰めていく。",
-		   NULL, " She stomps even closer to Mion, who has just interrupted their serious discussion.", Line_Normal);
+		   NULL, " 진지한 이야기에 찬물을 끼얹은 미온을 점점 몰아붙인다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1225,7 +1225,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0360", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「へ？…ははははは！当ったらいいなぁ！なんてーッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Huh? ...Hahahahaha! I hope we win one! You know?!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"어? ...하하하하하! 당첨되면 좋겠네! 이라구요?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1234,7 +1234,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0390", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それで？」",
-		   "<color=#6972c1>Rika</color> ", "\"So?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래서?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1242,7 +1242,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0370", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「普通はペアでご招待なんですよねぇ！…当たったら一緒に行きましょうねー…温泉ー！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Normally you win a pair of tickets, right? ...So let's go together if we win! ...To the hot springs!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"보통은 커플로 초대되는 거잖아요! ..당첨되면 같이 가죠, 온천으로!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1250,7 +1250,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0400", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それで？」",
-		   "<color=#6972c1>Rika</color> ", "\"So?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래서?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1258,7 +1258,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0380", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「お、温泉行ったら背中の流しっこしましょーねーッ！んで出たら浴衣で卓球ー！」",
-		   "<color=#5ec69a>Mion</color> ", "\"W-When we go to the hot springs, we can wash each other's backs! Then when we're done, we can play ping pong in yukata!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"오, 온천 가면 서로 등 씻겨주고, 나와서는 유카타 입고 탁구!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1266,7 +1266,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0410", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それでぇええ！？」",
-		   "<color=#6972c1>Rika</color> ", "\"Soooo?!\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래서어어?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1274,7 +1274,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0390", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「その後は窓から河原の花火大会を眺めてー！いい雰囲気に盛り上がって来た所でふと絡みつく私の指ー！梨花さんは恥じらいつつも身を委ねーッ…！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Then afterward, we'll gaze at the fireworks show by the river through our window! Then once we've gotten into a nice mood, our fingers will suddenly entwine! And while it embarrasses you, you'll lean into me...!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그 후에는 창문 너머 강가의 불꽃놀이를 구경하면서! 분위기가 한껏 고조된 순간, 문득 뒤엉키는 내 손가락! 리카 씨는 부끄러워하면서도 몸을 허락하고...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1285,9 +1285,9 @@ void main()
 	ShakeScreen( 4, 6, 20, 50, 1, );
 
 	OutputLine(NULL, "　ずんずんと追い詰められ、上記セリフを叫びながら２人退場。",
-		   NULL, "Rika rapidly closes in on Mion and the two exit the scene while screaming her usual line.", Line_WaitForInput);
+		   NULL, "계속해서 몰아붙이며, 위의 대사를 외치면서 두 사람이 퇴장한다.", Line_WaitForInput);
 	OutputLine(NULL, "何の事やら理解できず立ち尽くす建設省の２人。",
-		   NULL, " The two from the Ministry of Construction stand there dumbstruck, unable to understand what was happening.", Line_Normal);
+		   NULL, " 무슨 일인지 이해하지 못하고 멍하니 서 있는 건설성의 두 사람.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1296,7 +1296,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0200", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「……最近の若い子は仲がいいねぇ。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"......Young girls nowadays sure get along well.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"......요즘 젊은 애들은 사이가 좋네.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1304,7 +1304,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0170", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…ちと違うんじゃないですかねぇ…。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"...I think that was slightly different than getting along...\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"...좀 다른 게 아닐까요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
