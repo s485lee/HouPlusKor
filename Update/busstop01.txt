@@ -874,7 +874,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0090", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「ご存知でしたか。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"You already knew?\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"알고 계셨군요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -882,11 +882,11 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0320", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…へー、梨花さんよくわかりますねぇ。",
-		   "<color=#5ec69a>Mion</color> ", "\"...Wow, I'm surprised!", Line_Continue);
+		   "<color=#5ec69a>Mion</color> ", "\"...헤-, 리카 씨 잘 아시네요.", Line_Continue);
 	OutputLine(NULL, "…いわゆるあれですかー？",
-		   NULL, " ...Is this one of those,", Line_Continue);
+		   NULL, " ...이른바 그건가요?,", Line_Continue);
 	OutputLine(NULL, "「簡単な推理だよワトソン君」ってヤツー！」",
-		   NULL, " 'It's elementary, Watson!' sorta things?!\"", Line_Normal);
+		   NULL, " '간단한 추리야, 왓슨 군'이라는 거죠!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -897,7 +897,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0250", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…推理も何も。…そんな格好して歩いてるのはダム計画の関係者だけよ。」",
-		   "<color=#6972c1>Rika</color> ", "\"...There's not much to deduce. ...Only people involved with the dam project walk around in an outfit like that.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...추리도 뭐도 아니야. ...그런 복장을 하고 다니는 건 댐 계획 관계자뿐이니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -905,7 +905,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0100", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「はっはっは！…仰る通りですよ。名探偵さんには感服しました。改めて自己紹介しましょう。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"Hahaha! ...It's just as you say. I'm impressed, detective. Allow me to introduce myself once more.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"하하하! ...말씀하신 대로입니다. 명탐정님께 감탄했습니다. 다시 자기소개를 하겠습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -914,7 +914,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0110", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「この４月に砂防部傾斜地保全課から参りました、建設省河川局都市河川の利根川です。」（握手を求める）",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"I'm Tonegawa from the Ministry of Construction, River Bureau, Urban River Office. I left the Erosion and Sediment Control Department in April.\" (Seeking handshake)", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"이번 4월에 사방부 경사지 보전과에서 온, 건설성 하천국 도시 하천의 토네가와 입니다.\" (악수를 청하며)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -922,7 +922,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0090", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「同じく都市河川の荒川です。」（握手を求める）",
-		   "<color=#5f5248>Arakawa</color> ", "\"Arakawa from the same Urban River Office.\" (Seeking handshake)", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"저도 도시 하천의 아라카와입니다. \" (악수를 청하며)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -930,7 +930,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0330", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「同じくワカリマセンの園崎です。」（梨花側に握手を求める）",
-		   "<color=#5ec69a>Mion</color> ", "\"Sonozaki from the same makes-no-sense-to-me.\" (Seeking handshake from Rika)", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"'모르겟슴다'의 소노자키입니다.\" (리카에게 악수를 청하며)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -939,15 +939,15 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0260", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「同じくワカンナイのはあんたの脳ミソよ…。」",
-		   "<color=#6972c1>Rika</color> ", "\"What makes no sense to me is your brain...\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"모르겠는건 너의 머리속이야...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	DrawScene( "black", 1000 );
 
 	OutputLine(NULL, "　ほんのしばらくの沈黙。",
-		   NULL, "A moment of silence passes.", Line_WaitForInput);
+		   NULL, "잠시 동안 침묵이 흐른다.", Line_WaitForInput);
 	OutputLine(NULL, "梨花は差し出される手に握手しようとしない。",
-		   NULL, " Rika makes no attempt to shake the hands offered to her.", Line_Normal);
+		   NULL, " 리카는 내민 손에 악수하려 하려고 하지 않는다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -959,7 +959,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0270", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…握手なんかすると思う？…雛見沢を滅ぼそうとする人間と。」",
-		   "<color=#6972c1>Rika</color> ", "\"...Did you really think I'd shake your hand? ...When you're one of the ones trying to destroy Hinamizawa?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...악수 같은 걸 할 줄 알아? ...히나미자와를 멸망시키려는 사람과.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -967,7 +967,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0120", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…これは手厳しい。」（利根川、手を引っ込める）",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"...That's harsh.\" (Drawing his hand back)", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"...말이 좀 심하시네요.\" (토네가와, 손을 거두며)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -976,7 +976,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0280", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…握手なんかすると思う？…雛見沢を汚そうとする人間と。」",
-		   "<color=#6972c1>Rika</color> ", "\"...Did you think I'd shake your hand? ...When you're one of the ones trying to defile Hinamizawa?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...악수 같은 걸 할 줄 알아? ...히나미자와를 멸망시키려는 사람과.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -984,7 +984,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0100", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…これは手厳しい。」（荒川、手を引っ込める）",
-		   "<color=#5f5248>Arakawa</color> ", "\"...That's harsh.\" (Drawing his hand back)", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"......말이 좀 심하시네요.\" (아라카와, 손을 거두며)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -993,7 +993,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0340", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…へっへっへー…！」（苦笑いしながら握手を待つ魅音）",
-		   "<color=#5ec69a>Mion</color> ", "\"...Hehehe...!\" (Waiting for her handshake with a wry smile)", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...헤헤헤..!\" (쓴웃음을 지으며 악수를 기다리는 미온)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1001,7 +1001,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0290", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……雛見沢にダムなんて許さない。」（魅音に構わず２人を凝視する梨花）",
-		   "<color=#6972c1>Rika</color> ", "\"......We won't allow there to be a dam here in Hinamizawa.\" (Ignoring Mion and staring at the other two)", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...히나미자와에 댐 따위 허락할 수 없어.\" (미온을 아랑곳하지 않고 두 사람을 뚫어져라 바라보는 리카)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1012,12 +1012,12 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0130", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「雛見川にダムは必要なんです。下流地域の利水と治水事業にこの上なく貢献できるでしょう。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"Hinami River needs a dam. It will provide extraordinary contributions to the irrigation of the regions downstream, as well as flood control operations.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"히나미강에 댐은 필요합니다. 하류 지역의 이수와 치수 사업에 크게 기여할 수 있을 거예요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0300", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「だめ。」",
-		   "<color=#6972c1>Rika</color> ", "\"No.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"안 돼.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1025,12 +1025,12 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0110", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ダムで発電できる電力も重要です。最大３５万キロワットの大電力は日本の高度経済成長の追い風となります。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"We also need the electricity that a dam could generate. A generator outputting up to 350,000 kilowatts will be a boon to Japan's rapid economic growth.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"댐으로 발전할 수 있는 전력도 중요합니다. 최대 35만 킬로와트의 대전력은 일본의 고도 경제 성장을 돕는 추진력이 됩니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0310", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「だめ。」",
-		   "<color=#6972c1>Rika</color> ", "\"No.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"안 돼.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1038,12 +1038,12 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0140", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「ダムの地域開発効果も無視する事はできません。地元はもちろん、沿線各都市の産業文化の向上に大いに貢献するでしょう。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"You can't ignore the effects a dam would have on development of the region either. It would be a huge contribution not only locally, but also to the advancement of industries in the railway cities around here.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"댐의 지역 개발 효과도 무시할 수 없습니다. 지역사회는 물론, 연선 각 도시의 산업 문화 향상에 크게 기여할 겁니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0320", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「だめ。」",
-		   "<color=#6972c1>Rika</color> ", "\"No.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"안 돼.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1055,7 +1055,7 @@ void main()
 	PlayBGM( 1, "me/ame2", 50, 0 );
 
 	OutputLine(NULL, "　相変わらず魅音は握手を求めたまま固まっている。",
-		   NULL, "Mion remains frozen, looking for a handshake.", Line_Normal);
+		   NULL, "여전히 미온은 악수를 기다리는 채 굳어 있다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1063,7 +1063,7 @@ void main()
 	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 200, TRUE );
 
 	OutputLine(NULL, "呆れながら魅音と握手する梨花。",
-		   NULL, "Exasperated, Rika shakes her hand.", Line_Normal);
+		   NULL, "질린 표정을 하며 미온과 악수하는 리카", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1073,7 +1073,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　無言で妙に嬉しがる魅音。",
-		   NULL, "Mion is silently overjoyed.", Line_Normal);
+		   NULL, "말 없이 이상하리만큼 기뻐하는 미온.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1082,7 +1082,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0330", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…どんな綺麗事を並べたって。雛見沢をダム湖に沈める理由になんかならない。」",
-		   "<color=#6972c1>Rika</color> ", "\"...You can list all the niceties you want. None of them are a good reason to submerge Hinamizawa under a reservoir.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...아무리 말을 포장해도. 히나미자와를 댐 호수에 가라앉히는 이유가 될 수 없어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1092,7 +1092,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0150", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…もちろんお気持ちはわかります。ですが雛見沢はダム工事に有利な条件をいくつも持っているのです。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"...Of course we understand how you feel. However, there are still several conditions that make Hinamizawa most suitable for construction of the dam.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"...물론 여러분의 마음은 이해합니다. 하지만 히나미자와는 댐 공사에 유리한 조건을 여럿 갖추고 있습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1100,7 +1100,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0120", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ひとつは地形条件です。雛見沢は雛見川の川幅が極端に狭まった場所で、しかも岩盤は花崗岩。…ダムの設置場所としては最高の条件なのです。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"The first is the layout of the terrain. Hinamizawa is where the Hinami River comes to its narrowest point, and the bedrock here is granite. ...Those are both perfect conditions for the construction of a dam.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"하나는 지형 조건입니다. 히나미자와는 히나미강의 강폭이 극도로 좁아진 곳에 위치해 있으며, 게다가 암반은 화강암입니다. ...댐 설치 장소로서는 최고의 조건입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1108,7 +1108,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0340", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それで？」",
-		   "<color=#6972c1>Rika</color> ", "\"So?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래서?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1116,12 +1116,12 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0160", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「電気の需要中心地に近く、送電ロスが少ない事も重要です。先程申し上げた通り、最大の発電力は３５万キロワット。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"Another important factor is its proximity to a center of demand for electricity, so there's little lost in transmission. Also, as I mentioned before, it could generate up to 350,000 kilowatts.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"전기 수요 중심지에 가깝고, 송전 손실이 적다는 것도 중요합니다. 앞서 말씀드렸듯이, 최대 발전량은 35만 킬로와트입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0130", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「これは一昔前の四国全土の消費電力量に当ります。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"That's the same amount of energy that used to be consumed by all of Shikoku.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"이거는 한때 시코쿠 전역의 전력 소비량에 해당합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1129,7 +1129,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0350", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それで？」",
-		   "<color=#6972c1>Rika</color> ", "\"So?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래서?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1137,7 +1137,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0170", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「貯水効率の高さも挙げられます。雛見沢ダムの場合、貯水効率は２００。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"It can also raise our water storage efficiency. The Hinamizawa dam will have a storage efficiency of 200.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"저수 효율도 높아집니다. 히나미자와 댐의 경우, 저수 효율은 200입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1145,7 +1145,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0140", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「これはダム体積の２００倍に当ります。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"That means 200 times the dam capacity.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"이는 댐 부피의 200배에 해당합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1153,7 +1153,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0360", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それで？」",
-		   "<color=#6972c1>Rika</color> ", "\"So?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래서?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1161,7 +1161,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0180", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「つまり雛見沢にダムを築けば水位が上がり、ダム湖としては全長３０キロ以上のものになります。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"In other words, once the Hinamizawa dam is built, the water level will rise and the reservoir will span over a full 30 kilometers.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"즉, 히나미자와에 댐을 건설하면 수위가 상승하여, 댐 호수로서는 전체 길이가 30킬로미터 이상이 됩니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1169,7 +1169,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0150", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「これは東京から大宮までの距離に当ります。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"That's about the distance from Tokyo to Oomiya.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"이는 도쿄에서 오미야까지의 거리입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1177,12 +1177,12 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0370", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それで？」",
-		   "<color=#6972c1>Rika</color> ", "\"So?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그래서?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0190", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「骨材の調達の利便性も重要です。雛見沢ダムには容積１５０万立方メートルの骨材が必要と計算されています。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"The convenience of acquiring construction aggregate is also an important factor. We've calculated that the Hinamizawa dam will require 1,500,000 cubic meters of aggregate.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"골재의 조달 편의성도 빼놓을수 없습니다. 히나미자와 댐에는 용적 150만 입방미터의 골재가 필요하다고 예상됩니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1190,7 +1190,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0160", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「これは丸ビル６杯分に当ります。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"That's enough for six buildings.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"이는 37층 빌딩 6채를 지을수 있는 분량입니다\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1198,7 +1198,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0350", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ついでに温泉旅行が当ります。」",
-		   "<color=#5ec69a>Mion</color> ", "\"We could also win a hot springs trip, too.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"게다가, 온천 여행도 하실수 있습니다\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
