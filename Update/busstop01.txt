@@ -1477,7 +1477,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0440", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「で…電気だっていっぱい発電できていいじゃないですか。３５万キロでしたっけ？すごい発電量じゃないですかー！」",
-		   "<color=#5ec69a>Mion</color> ", "\"B...But the fact that it generates lots of electricity is good, isn't it? 350,000 kilowatts, was it? That's an incredible amount of power!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"저...전기도 많이 발전시킬 수 있어서 좋잖아요. 35만 킬로였나요? 엄청난 발전량이잖아요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1486,7 +1486,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0460", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「詭弁よ。実際は堆砂のせいで年々発電量は下がる一方。豪雨時には岩石が混じるからタービンを痛めるって理由で発電機、回してないの、知ってた？」",
-		   "<color=#6972c1>Rika</color> ", "\"That's blatant sophistry. The truth is that their electrical output only goes down with every year, due to sediment. Did you know they don't run the generators during heavy rainfall because rocks can slip in and damage the turbines?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"궤변이야. 실제로는 퇴적물 때문에 해마다 발전량이 점점 떨어져. 호우 때는 암석이 섞여서 터빈을 손상시킨다는 이유로 발전기를 돌리지 않는 다는거, 알고 있어?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1495,7 +1495,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0450", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「そ！それにほら！一度造っちゃえばもーホント、末永ーくニッポンの役に立つじゃないですかー…！」",
-		   "<color=#5ec69a>Mion</color> ", "\"But! But also! Once it's built, it really will contribute to Japan for a long time...!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"게...게다가 봐요! 한 번 지으면 정말로, 정말 오래동안 일본에 도움이 되지 않습니까...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1504,7 +1504,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0470", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「詭弁よ。土砂がどんどん溜まっていって、最後には泥が詰まっただけのダムになってしまうのよ。…ダムには寿命があるの、知ってた？」",
-		   "<color=#6972c1>Rika</color> ", "\"That's blatant sophistry. Sediment only continues to build up, ultimately leaving the dam clogged with mud. ...Did you know that all dams have a lifespan too?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"궤변이야. 토사가 점점 쌓여서, 결국에는 진흙이 가득 찬 댐이 되어버려. ...댐에는 수명이 있다는 거, 알고 있어?"\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1513,7 +1513,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0460", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…えーとえぇーと…！……深川弁当にイカ飯弁当ー…。…なんちてー…。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...Uhh, uhh...! ......We could have a Cuban or a Reuben... ...or something...?\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...그러니까, 그래서...! ...후쿠가와 도시락에 오징어밥 도시락... 이라던지...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1522,7 +1522,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0200", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「それは駅弁…。」（魅音と荒川、申し訳なさそうに笑う。）",
-		   "<color=#5f5248>Arakawa</color> ", "\"That's sandwich artistry...\" (Mion and Arakawa smile guiltily.)", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"그건 에키벤...\" (미온과 아라카와가 미안한 듯 웃는다.)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
