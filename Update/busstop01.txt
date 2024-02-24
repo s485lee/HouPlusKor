@@ -1323,11 +1323,11 @@ void main()
 	ShakeScreen( 0, 3, 100, 1, 50, );
 
 	OutputLine(NULL, "　どっかん！",
-		   NULL, "Bang!", Line_Continue);
+		   NULL, "우당탕!", Line_Continue);
 	OutputLine(NULL, "ばっかん！",
-		   NULL, " Thud!", Line_Continue);
+		   NULL, " 쿵!", Line_Continue);
 	OutputLine(NULL, "と数回の打撲音。",
-		   NULL, " Several more sounds of blows pass.", Line_Normal);
+		   NULL, " 계속되는 소란스러운 소리.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1337,11 +1337,11 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　建設省の２人、ぎょっとして顔を見合わせる。",
-		   NULL, "The two Ministry men look at each other in shock.", Line_Normal);
+		   NULL, "건설성의 두 사람, 당황하며 서로 얼굴을 마주본다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その後に手をぱんぱんとはたきながら梨花が戻ってくる。",
-		   NULL, "Afterwards, Rika returns to the scene, smacking her hands clean.", Line_Normal);
+		   NULL, "그 후에, 리카가 손을 팡팡 털며 돌아온다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1351,7 +1351,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0420", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…とにかくダムは反対よ。」",
-		   "<color=#6972c1>Rika</color> ", "\"...Anyway, I'm opposed to the dam.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...어쨌든 댐은 반대야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1360,7 +1360,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0210", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「ぼぼぼ暴力はいかん！」（２人抱き合いながら後退る）",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"Y-Y-Y-You can't resort to violence!\" (Both men back away while holding each other.)", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"폭력은 안 돼요!" (두 사람이 서로 껴안으며 뒷걸음질 친다)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1369,7 +1369,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0180", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「いいい、いやぁ！僕は最初っからダムは反対だったんですよーッ！」",
-		   "<color=#5f5248>Arakawa</color> ", "\"W-W-W-Well! I was opposed to the dam at first too!\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"아..아..아니요! 저는 처음에는 댐 건설을 반대했었습니다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1377,7 +1377,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0220", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「荒川君ーッ！」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"Arakawa-kun!\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"아라카와군!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1385,14 +1385,14 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0190", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ダムは環境破壊の根源ですよねー！ねーッ！？ひぃいいいいいー！」",
-		   "<color=#5f5248>Arakawa</color> ", "\"Dams cause destruction to the environment, after all! Right?! Hiiiii!\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"댐은 환경 파괴의 근원이죠, 그렇죠! 그렇죠!?" "히이이이이익!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	DrawSceneWithMask( "black", "effect/left", 0, 0, 300 );
 
 	OutputLine(NULL, "　下腹部を押さえながらよろよろと魅音が戻ってくる。",
-		   NULL, "Mion returns to the scene clutching her stomach and staggering.", Line_Normal);
+		   NULL, "하복부를 움켜쥐며 비틀거리는 미온이 돌아온다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1402,7 +1402,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0400", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…今のパンチ、効いたっす…。すい臓破裂したらどーすんすかー？…うぅ。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...That punch just now... it really hurt... What would you do if it had ruptured my pancreas? ...Nngh.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...방금 그 펀치, 강했다구요... 췌장이 터지면 어쩔려고 그래요?... 으윽.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1410,9 +1410,9 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0430", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「とにかくダムはだめ。",
-		   "<color=#6972c1>Rika</color> ", "\"Anyway, the dam is no good.", Line_Continue);
+		   "<color=#6972c1>Rika</color> ", "\"어쨌든 댐은 안 돼.", Line_Continue);
 	OutputLine(NULL, "絶対にだめ。」（魅音に向き直りセリフ）",
-		   NULL, " In fact, it's absolutely bad.\" (Said while turning to Mion)", Line_Normal);
+		   NULL, " 절대로 안 돼." (미온에게 돌아서며 말한다.)", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1420,9 +1420,9 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0410", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「どーしてだめなんですかー？」（魅音、大袈裟に身を翻しセリフ。",
-		   "<color=#5ec69a>Mion</color> ", "\"Why is it a bad thing?\" (Mion says while dodging exaggeratedly.", Line_Continue);
+		   "<color=#5ec69a>Mion</color> ", "\"어째서 안 되는 겁니까?\" (미온이 과장되게 몸을 돌리며 말한다.", Line_Continue);
 	OutputLine(NULL, "腹痛はなくなり、殴られた事は「なかった事」になっている。）",
-		   NULL, " Her stomach pain has disappeared, as if she were never hit at all.)", Line_Normal);
+		   NULL, " 복통은 사라졌고, 맞은 일은 '없었던 일'이 되어 있다.)", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1430,7 +1430,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0440", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…だめ。…理由なんか必要ない。」",
-		   "<color=#6972c1>Rika</color> ", "\"...No. ...There doesn't need to be a reason for that.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...안 돼. ...이유 따윈 필요 없어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1438,7 +1438,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0420", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「そりゃー反論としては良くないですよ梨花さん。ちゃんとだめな理由を挙げなくちゃー。」",
-		   "<color=#5ec69a>Mion</color> ", "\"That's not a very good rebuttal then, Rika-san. You gotta have some reason, right?\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그건 반론으로서 좋지 않다구요 리카 씨. 제대로 안 되는 이유를 들어야죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1447,9 +1447,9 @@ void main()
 	PlayBGM( 0, "bgm0/higurashi(utu)", 70, 0 );
 
 	OutputLine(NULL, "　これ以降、魅音がダム賛成意見を述べる度に、建設省の２人大仰に頷く。",
-		   NULL, "Henceforth, the two Ministry men add exaggerated nods every time Mion expresses agreement with the dam.", Line_WaitForInput);
+		   NULL, "이후로, 미온이 댐 찬성 의견을 말할 때마다, 건설성의 두 사람은 과장되게 고개를 끄덕인다.", Line_WaitForInput);
 	OutputLine(NULL, "たまに梨花に睨まれ、抱き合ったまますくみ上がる。",
-		   NULL, " Occasionally Rika glares at them, and they cower while still holding each other.", Line_Normal);
+		   NULL, " 가끔 리카에게 째려받을때 마다, 두 사람은 서로 껴안은 채로 웅크린다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1459,7 +1459,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0430", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ダムって悪いもんじゃないと思うんですよ。社会で習ったじゃないですか。洪水を防いでくれるって。」",
-		   "<color=#5ec69a>Mion</color> ", "\"I don't think the dam is really a bad thing. We learned about this in social studies, right? That it helps prevent flooding.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"댐이 나쁜 것만은 아니라고 생각하거든요. 학교에서 배웠잖아요? 홍수를 막아준다고.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1468,7 +1468,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0450", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「詭弁よ。集中豪雨時に一度に放水し、逆に鉄砲水を引き起こしているわ。…結構、操作規定がずさんなの、知ってた？」",
-		   "<color=#6972c1>Rika</color> ", "\"That's blatant sophistry. When the area receives heavy rainfall they have to drain it out, which actually causes flash floods. ...Did you know their operating standards are pretty lax?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"궤변이야. 집중 호우 때 한꺼번에 방류함으로써 오히려 홍수를 일으켜. ...상당히 운영 규정이 엉성하다는 거, 알고 있어?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
