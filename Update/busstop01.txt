@@ -1865,33 +1865,33 @@ void main()
 	GetAchievement("BUSSTOP_1");
 
 	OutputLine(NULL, "　暗転。",
-		   NULL, "Blackout.", Line_WaitForInput);
+		   NULL, "암전.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音。",
-		   NULL, " The sound of heavy rain plays.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 세찬 빗소리.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	ChangeVolumeOfBGM( 1, 100, 2000 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　舞台は真っ暗のまま。",
-		   NULL, "The scene remains pitch black.", Line_WaitForInput);
+		   NULL, "무대는 암전된 채로", Line_WaitForInput);
 	OutputLine(NULL, "無線の声が聞こえる。",
-		   NULL, " A voice plays over the radio.", Line_Normal);
+		   NULL, " 무전 소리가 들린다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0000", 128, TRUE);
 	OutputLine("<color=#f5e6d3>保土田の声</color> ", "「……本部より１号車、応答願います。……１号車どうぞ…。」",
-		   "<color=#f5e6d3>Hotoda's Voice</color> ", "\"......This is Car One to HQ, do you read? ......Car One, over...\"", Line_Normal);
+		   "<color=#f5e6d3>Hotoda's Voice</color> ", "\"본부에서 1호차에, 응답 바랍니다. 1호차, 응답...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	PlaySE( 0, "enrai2", 70, 64 );
 
 	OutputLine(NULL, "　遠くで雷の音。",
-		   NULL, "The sound of thunder echoes in the distance.", Line_WaitForInput);
+		   NULL, "멀리서 천둥 소리가 들린다.", Line_WaitForInput);
 	OutputLine(NULL, "徐々に舞台明るくなる。",
-		   NULL, " The stage slowly grows lighter.", Line_WaitForInput);
+		   NULL, " 점차 무대가 밝아진다.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音、遠くなっていく。",
-		   NULL, " The sound of rain fades into the distance.", Line_Normal);
+		   NULL, " 세찬 빗소리가 멀어져 간다", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1903,9 +1903,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　建設省の２人の姿はない。",
-		   NULL, "The two Ministry men are gone.", Line_WaitForInput);
+		   NULL, "건설성의 두 사람의 모습은 없다.", Line_WaitForInput);
 	OutputLine(NULL, "男（吉村）が駆けながら登場する。",
-		   NULL, " A man (Yoshimura) appears, running on stage.", Line_Normal);
+		   NULL, " 남자(요시무라)가 달리면서 등장한다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1916,7 +1916,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0000", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…いやーっはっはっはっは！…風呂桶をひっくり返したような雨だねぇ！」",
-		   "<color=#715348>Yoshimura</color> ", "\"...Man, hahahaha! ...It's like someone's dumping a bathtub on us out there!\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"...이야, 하하하하! ...비가 엄청 쏟아지네!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1924,7 +1924,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0010", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「これじゃ傘をさしてもささなくても同じだよ。いやーっはっはっはっは！……うへぇ…パンツの中までぐっしょりだよ…。…見るかい？」",
-		   "<color=#715348>Yoshimura</color> ", "\"It doesn't matter if you've got an umbrella or not. Man, hahahaha! ......Blegh... even my underwear's soaked... ...Wanna see?\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"이래서야 우산을 써도 안 써도 마찬가지네. 이야, 하하하하! ......으아아... 팬티까지 흠뻑 젖었어... ...볼래?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1935,7 +1935,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0640", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「滅多に見れるもんじゃないのでぜひーッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"It's not something I get to see often, so absolutely!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"쉽게 볼 수 있는게 아니니까 당근이죠!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1943,7 +1943,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0020", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…あ、いや、…そー来るとは思わなかったな。」",
-		   "<color=#715348>Yoshimura</color> ", "\"...Oh, uhh... I didn't think you'd actually say yes.\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"...아, 아니... 진짜로 본다고 할 줄은 몰랐는데.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1951,7 +1951,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0540", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……知ってる人…？」",
-		   "<color=#6972c1>Rika</color> ", "\"......Someone you know...?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"......아는 사람...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1959,7 +1959,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0650", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「まっさかー、あんなオッサンに知り合いいないですよ。」",
-		   "<color=#5ec69a>Mion</color> ", "\"No way. I don't know any old men like him.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그럴리가요. 저런 아저씨 알리가 없지 않습니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1967,7 +1967,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0550", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「だって今親しそうに話してたじゃない。」",
-		   "<color=#6972c1>Rika</color> ", "\"You seemed awfully close while talking to him just now, though.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"방금 전까지 친한 듯이 얘기하고 있었잖아?.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1975,7 +1975,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0660", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「やだなー、私の心は梨花さんだけのものですわーん！寂しい中年の独り言に相づち打ってあげただけですよーぅ。」",
-		   "<color=#5ec69a>Mion</color> ", "\"Oh no, my heart belongs solely to you, Rika-san! I was just making conversation with a lonely, middle-aged man who was babbling to himself.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"싫어요, 제 마음은 리카 씨만의 것이에요. 쓸쓸한 중년 아저씨의 혼잣말에 맞장구 쳐준 것뿐이에요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1983,7 +1983,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0030", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「中年とはひどいな！これでもまだ２８なんだけどねぇ！」",
-		   "<color=#715348>Yoshimura</color> ", "\"That's cruel! I'm still only 28, you know!\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"중년 아저씨라니 너무하네! 이래 뵈도 아직 28이라고!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1991,7 +1991,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0670", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「四捨五入すれば３０じゃーん？　３０ったらもう立派な中年だよねー！」",
-		   "<color=#5ec69a>Mion</color> ", "\"So when you round up, that's 30, right? At 30, you're well into middle age!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"반올림하면 30이잖아요? 30이면 이미 훌륭한 중년이지 않습니까!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1999,7 +1999,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0040", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「あのねぇ、男は三十路から味が出るもんなんだぜ？」",
-		   "<color=#715348>Yoshimura</color> ", "\"Listen here, men get more mature and charming when they hit their thirties.\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"저기, 남자는 30대부터 제 멋이 난다고?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2007,7 +2007,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0680", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ミソから味ー！？…わーわーッ！！梨花さん、この人ヤバいー！！」",
-		   "<color=#5ec69a>Mion</color> ", "\"They mate ant farms?! ...W-Wah!! Rika-san, this man's gone nuts!!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"30대부터?! ...우와!! 리카 씨, 이 사람 위험해요!!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2015,7 +2015,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0050", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「ミソじゃなくて三十路だー！！」",
-		   "<color=#715348>Yoshimura</color> ", "\"They don't mate ants, they grow mature!!\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"30대가 뭐 어때서! 나이 많은게 죄야?\"", Line_Normal); 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2025,7 +2025,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0690", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「その上、痔なんすかーッ！？…この人ヤバ過ぎーッ！！あははははは！！」",
-		   "<color=#5ec69a>Mion</color> ", "\"They grow manure?! ...This man's pretty far gone!! Ahahahahahaha!!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"게다가 치질도?! ...이 사람 너무 위험해요!! 아하하하하하!!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2033,7 +2033,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0060", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「……負けたよ負けたよ。痔でいいよ…。…若い子にゃ勝てんねぇ…。」",
-		   "<color=#715348>Yoshimura</color> ", "\"......You win, you win. Manure's fine... ...I can't beat you kids...\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"......졌다, 졌어. 치질 있으면 뭐 어때... ...젊은애들한테는 이길 수 없네...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2041,14 +2041,14 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0700", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「梨花さん、あのオッサン結構面白いヤツですよー！…おねだりしたらお小遣いくれるかもしれませんねー！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Rika-san, this old man's a pretty funny guy! ...Maybe he'll give us some money if we beg!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"리카 씨, 저 아저씨 꽤 재밌는 사람이네요! ...조르면 용돈 줄지도 모르겠네요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	ModDrawCharacter(1, 52, "sprite/hri2a_01_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0560", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…本当に初対面？…よく会話が弾むわね。」",
-		   "<color=#6972c1>Rika</color> ", "\"...You really only just met him? ...I'm surprised you can keep up a conversation.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...정말 처음 만난 거야? ...대화가 잘 통하네.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
