@@ -1530,9 +1530,9 @@ void main()
 	ModDrawCharacter(2, 52, "portrait/hri2a_08_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 
 	OutputLine(NULL, "　キッと周囲を睨み付ける梨花。",
-		   NULL, "Rika glares sharply at those around her.", Line_WaitForInput);
+		   NULL, "리카가 주변을 날카롭게 노려본다.", Line_WaitForInput);
 	OutputLine(NULL, "魅音と荒川、しゅんとする。",
-		   NULL, " Both Mion and Arakawa shrivel up on the spot.", Line_Normal);
+		   NULL, " 미온과 아라카와, 시무룩해진다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1541,7 +1541,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0230", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…ダムの恩恵は下流が受け、上流はシワ寄せを受けるだけと言われております。…梨花さんのご意見はもっともとは思います。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"...It's often said the benefits of a dam go downstream while those upstream foot the bill. ...I think your arguments are valid, Rika-san.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"...댐의 혜택은 하류 지역이 받고, 상류 지역은 부정적인 영향만 받는다고 알려져 있습니다. ...리카 씨의 의견은 매우 타당하다고 생각합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1549,7 +1549,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0240", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…ですが！…どうか利水事業にご理解をいただきたいのです。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"...However! ...I really hope you'll appreciate its benefit toward irrigation works.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"...그러나! ...부디 수자원 사업에 대한 이해를 부탁드립니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1558,7 +1558,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0480", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…どうあっても雛見沢を湖の底に沈めたいのね。」",
-		   "<color=#6972c1>Rika</color> ", "\"...You want to submerge Hinamizawa under a reservoir no matter what, then.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...어떻게 해서든 히나미자와를 호수 밑바닥에 가라앉히고 싶은 거구나.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1567,16 +1567,16 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0210", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…雛見沢の住民の皆さんの心の痛みは重々承知しております。もちろん相応の補償はさせていただくつもりです。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"...We truly understand the grief this must be causing to everyone living in Hinamizawa. But of course that's why we're offering appropriate compensation.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"...히나미자와 주민들의 마음의 고통은 충분히 이해하고 있습니다. 물론, 적절한 보상을 드릴 예정입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 300, FALSE );
 	ModDrawCharacter(2, 52, "portrait/hri2a_12_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 
-	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0490", 128, TRUE);
+	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0490", 128, TRUE)
 	OutputLine("<color=#6972c1>梨花</color> ", "「立ち退き料のこと？」",
-		   "<color=#6972c1>Rika</color> ", "\"You mean the compensation money for our eviction?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"퇴거 보상금 말이야?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1586,7 +1586,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0250", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「もちろん市内の新築マンションを斡旋させていただきます。駅にも近く、公益施設も充実した素晴らしい環境です。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"Of course we're also working with others to see to the construction of new apartments in the city. They're wonderful places to live, with plenty of access to public services and close proximity to the station.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"물론 시내의 신축 아파트를 소개해 드리겠습니다. 역에도 가깝고 공공 시설도 잘 갖춰진 훌륭한 환경입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1595,7 +1595,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0470", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「そうそうそれそれ！それがおいしーんですよねー。」",
-		   "<color=#5ec69a>Mion</color> ", "\"Uh-huh, that, that! That's a tempting offer, isn't it?\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"맞아, 맞아, 그거 그거! 그게 바로 좋은 거잖아요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1603,7 +1603,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0480", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…そりゃー私だって生まれは雛見沢ですからね。愛着がないわけじゃないですよ。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...I was born here in Hinamizawa too. So it's not like I don't have any attachment to the place.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...그야 저도 태어난 곳이 히나미자와니까요. 애정이 없는 건 아니에요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1611,7 +1611,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0490", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…でもねぇ、世帯数数百のこんな山奥の村で青春時代を終えちゃうなんて寂しいじゃないですかー…。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...But wouldn't it be kind of sad to spend my entire youth in this mountain village, with only a few hundred homes...?\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...하지만요, 가구 몇백 개의 이런 산골짜기 마을에서 청춘을 보낸다는건 외롭잖아요.....\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1619,7 +1619,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0500", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「街はいいですよー。何でもあるんです。テレビでしか見たことのないあんな物やこんな物が本当にあるんですよー！？」",
-		   "<color=#5ec69a>Mion</color> ", "\"Cities are great. They have everything. You can really find all sorts of things we've only ever seen on TV!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"도시는 좋아요. 뭐든지 다 있어요. 텔레비전으로만 보던 그런 것이나 이런 것이 정말로 있다구요!?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1628,7 +1628,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0500", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…テレビかぶれの東京かぶれね。…東京観光に行って以来そればっかり。」",
-		   "<color=#6972c1>Rika</color> ", "\"...TV this, Tokyo that. ...That's all I've heard from you since you went sightseeing there.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"텔레비전에 빠지고 도쿄에 빠졌네. ...도쿄에 여행을 간 이후로 그말뿐이야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1641,22 +1641,22 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0510", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「かぶれ者で結構ですよ！でも考えて下さいよ！…この雛見沢で一番高い建物って何か知ってます！？…消防団の３階建てなんですよ！？」",
-		   "<color=#5ec69a>Mion</color> ", "\"So what if I'm a wannabe! Just think about it! ...Do you know what the tallest building is here in Hinamizawa?! ...It's the three-story fire department!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"빠져도 좋아요! 하지만 생각해보세요! ...이 히나미자와에서 가장 높은 건물이 뭐인지 알아요!? ...소방대의 3층짜리 건물이랍니다!?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0520", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「雛見沢にエスカレーターのある建物なんてありますー！？ないでしょッ！ちなみにエレベーターはあるんですよねぇ！小学校の給食運搬用のエレベーター。」",
-		   "<color=#5ec69a>Mion</color> ", "\"Are there any buildings with an escalator here in Hinamizawa?! There aren't! There is an elevator, by the way! The elevator used to transport food for the elementary school.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"히나미자와에 에스컬레이터가 있는 건물이 있어요!? 없죠! 참고로 엘리베이터는 있답니다! 초등학교의 급식 운반용 엘리베이터요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0530", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…そんなのイヤですッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"...I'm sick of all that!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...그런 건 싫다구요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0510", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「生まれ故郷より街の生活の方がいいって言うのね。…ご先祖さまも泣いてるわよ。」",
-		   "<color=#6972c1>Rika</color> ", "\"So you're saying life in the city would be better than in your hometown. ...Your ancestors must be crying.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"고향보다 도시 생활이 더 좋다고 하는 거구나. ...조상님이 슬퍼 하실 거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1667,32 +1667,32 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0540", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「こんな山奥の田舎で一生を終えるなんて絶対に嫌ッ！私は普通の子みたいに普通の街に普通の物に囲まれて、普通に暮らしたいんですよッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"I absolutely refuse to let my life end here, in some backwater mountains! I want to live a normal life like a normal girl in a normal city surrounded by normal things!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"이런 산속 시골에서 평생을 보내는 건 절대 싫어요! 저는 평범한 아이들처럼 평범한 도시에서 평범한 물건들에 둘러싸여 평범하게 살고 싶다구요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0520", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「雛見沢の人間が街で生活なんかできると思う！？」",
-		   "<color=#6972c1>Rika</color> ", "\"Do you think the people in Hinamizawa are capable of living in a city?!\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"히나미자와 사람들이 도시에서 생활할 수 있다고 생각해?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0550", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「余計なお世話ですよッ！そんなにここが好きなら勝手に住んでればいいじゃないですか！私を巻き込まないで下さいよッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"That's their problem! If they like this place so much, then they can stay here! Don't drag me into it!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그런건 내 알 바 아니예요! 여기가 그렇게 좋으면 혼자 살면 되잖아요! 저를 끌어들이지 말아주세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0560", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ウチは貧乏だから引っ越しなんかできなかったけど！立ち退き料のおかげでやっと街へ引っ越せるお金が出来たんです！」",
-		   "<color=#5ec69a>Mion</color> ", "\"...My family's poor, so we couldn't move even if we wanted to! But thanks to the compensation money, we'll finally have enough to move into the city!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...우리 집은 가난해서 이사갈 수 없었지만! 퇴거 보상금 덕분에 드디어 도시로 이사갈 돈이 생겼다구요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0570", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ダム計画が中止になっちゃったらどうなるんですか！？」",
-		   "<color=#5ec69a>Mion</color> ", "\"...What do you think will happen to us if the dam project's cancelled?!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...댐 계획이 중단되면 어떻게 하실건가요!?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0580", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…もう私をこんな山奥に縛りつけないでッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"...Don't tie me down to these mountains any longer!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...더이상 저를 이런 산골에 가둬두지 마세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1704,16 +1704,16 @@ void main()
 	//;gosub *rain_off
 
 	OutputLine(NULL, "　激情に涙をためる魅音。",
-		   NULL, "Tears well in Mion's eyes, full of violent emotion,", Line_Continue);
+		   NULL, "쏟아질 것 같은 눈물을 참는 미온.", Line_Continue);
 	OutputLine(NULL, "言葉少なく立ち尽くす梨花。",
-		   NULL, " Rika stands there with little to say,", Line_Continue);
+		   NULL, " 말없이 서 있는 리카.", Line_Continue);
 	OutputLine(NULL, "はらはらしながら見守る建設省の２人。",
-		   NULL, " and the two Ministry men anxiously watch over both them.", Line_Normal);
+		   NULL, " 걱정스러운 시선으로 지켜보는 건설성의 두 사람.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　突然、踵を返して退場しようとする梨花。",
-		   NULL, "Suddenly, Rika turns on her heel and exits the scene.", Line_Normal);
+		   NULL, "갑자기, 발뒤꿈치를 돌려 퇴장하려는 리카", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1722,7 +1722,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0530", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…お手洗い行ってくる。」",
-		   "<color=#6972c1>Rika</color> ", "\"...I'm going to the bathroom.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...화장실 좀 다녀올게.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1731,18 +1731,18 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0590", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「り、梨花さん…！」",
-		   "<color=#5ec69a>Mion</color> ", "\"R-Rika-san...!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"리...리카씨!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	FadeBustshotWithFiltering( 2, "effect/right", 0, FALSE, 0, 0, 300, TRUE );
 
 	OutputLine(NULL, "　足早に退場する梨花。",
-		   NULL, "Rika exits quickly.", Line_WaitForInput);
+		   NULL, "빠른 걸음으로 퇴장하는 리카.", Line_WaitForInput);
 	OutputLine(NULL, "はっと我に返り追おうとする魅音。",
-		   NULL, " Mion gets a hold of herself and starts to follow after her,", Line_WaitForInput);
+		   NULL, " 문득 정신을 차리고 따라가려는 미온.", Line_WaitForInput);
 	OutputLine(NULL, "その時突然、荒川が呻き出す。",
-		   NULL, " but Arakawa suddenly lets out a groan.", Line_Normal);
+		   NULL, " 그때 갑자기, 아라카와가 신음을 낸다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1757,7 +1757,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0260", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…荒川君！」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"...Arakawa-kun!\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"...아라카와군!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1765,7 +1765,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0600", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あの、……大丈夫ですかー…？」",
-		   "<color=#5ec69a>Mion</color> ", "\"Umm...... are you all right...?\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"저기...... 괜찮으세요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1773,7 +1773,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0270", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「休み明けから体調が悪くてね。…急に苦しくなるらしいんだよ。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"He's been feeling poorly since the weekend ended. ...Apparently, he keeps feeling pain all of a sudden.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"휴일 이후로 몸 컨디션이 안 좋다고 하네요 ...갑자기 아파온다고.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1781,7 +1781,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0610", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あ、あのー…トイレなら裏にありますよー…？…あ、でも今…梨花さんが入ってるしー…。」",
-		   "<color=#5ec69a>Mion</color> ", "\"U-Umm... there's a bathroom around back...? ...Oh, but right now... Rika-san's using it...\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"아, 그게... 화장실이라면 저기에 있어요...? 아, 그런데 지금... 리카 씨가 들어가 있는데...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1789,7 +1789,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0280", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「腹痛ってわけじゃないんだよ。…大丈夫か！？荒川君！」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"It's not a stomach ache. ...Are you all right?! Arakawa-kun!\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"복통은 아닙니다. ...괜찮나?! 아라카와군!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1797,7 +1797,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0220", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…すみません…。…すぐ…おさまりますから…。………………。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"...I'm sorry... ...It'll... settle down soon... ............\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"...죄송합니다... ...금방... 괜찮아질거예요... ............\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1805,7 +1805,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0290", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「働き過ぎなんだよ！いっぺん医者に見せた方がいい。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"You're working yourself too hard! You should get yourself checked out by a doctor.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"너무 과로로 무리했어! 병원에 가서 진찰을 받는게 어때?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1813,7 +1813,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0230", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「すみません。もう大丈夫です…。まだ頭ががんがんしますけど…。…はい。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"I'm sorry. I'm fine now... Though my head's still throbbing... ...Yeah.\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"죄송합니다. 이제 괜찮습니다... 아직 머리가 많이 아프긴 하지만요... ...네.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1821,7 +1821,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0300", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「クモ膜下出血とかの前兆がそんなのじゃなかったかい！？とにかく明日は休んで！…大きな病院で医者に見てもらいなさい。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"It almost sounds like subarachnoid hemorrhaging...! At any rate, you're resting tomorrow! ...Go have a doctor check you out at a major hospital.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"지주막하 출혈 같은 병의 전조 증상일수도 있어...! 아무튼 내일은 쉬도록 해! ...큰 병원에서 의사에게 진찰 받도록 해.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1829,7 +1829,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0240", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……そうですね。…すみません。…本当に急に…痛み出して…。」",
-		   "<color=#5f5248>Arakawa</color> ", "\"......You're right. ...Sorry. ...It really started hurting... all of a sudden...\"", Line_Normal);
+		   "<color=#5f5248>Arakawa</color> ", "\"......그렇네요. ...죄송합니다. ...정말 갑자기... 아파오기 시작해서...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1842,21 +1842,21 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0620", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…そーいえば私も頭痛いですよ。…うん。がんがんする。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...Now that you mention it, my head hurts too. ...Yeah. It's throbbing.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...그러고 보니 저도 머리가 아파요. ...지끈지끈거려.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,TON_D1,80
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0310", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「それはいけないな。風邪をひいたのかも知れない。」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"That's not good. You might have caught a cold.\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"그건 안 좋군요. 감기에 걸렸을지도 모르겠네요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld l,MIO_D1,80
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0630", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…雨ですからー。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...It is raining out.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...비가 오니까요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
