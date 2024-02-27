@@ -2150,9 +2150,9 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0110", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「趣味はいろいろ。",
-		   "<color=#715348>Yoshimura</color> ", "\"I have many different hobbies.", Line_Continue);
+		   "<color=#715348>Yoshimura</color> ", "\"취미는 여러가지.", Line_Continue);
 	OutputLine(NULL, "職業はフリーライターってとこかな。」",
-		   NULL, " I guess you could say my career is in freelance writing.\"", Line_Normal);
+		   NULL, " 직업은 프리랜서 작가 정도.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2163,7 +2163,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0600", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「フリーターの親戚…？」",
-		   "<color=#6972c1>Rika</color> ", "\"Is that like, a freeloader...?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"그러니까 백수...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	//;（耳元でごにょごにょやっている）
@@ -2172,7 +2172,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0760", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…フリーの雑誌記者ですよぅ。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...It means he writes articles freely for different places.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...할일 없는 잡지 기자죠?.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2182,7 +2182,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0120", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…次のバスは……何だ。だいぶ時間があるじゃないか。…こいつはついてるなー！…若い女の子たちと雨宿りとはねぇ！」",
-		   "<color=#715348>Yoshimura</color> ", "\"...This next bus is in...... well. It's quite some time from now. ...Today's my lucky day! ...I get to share shelter from the rain with a pair of cute young girls!\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"...다음 버스는 언제지? 꽤 시간이 남네. ...오늘은 운이 좋구나! ...이런 젊은 여자애들과 같이 비를 피한다니 말이야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2193,9 +2193,9 @@ void main()
 
 
 	OutputLine(NULL, "　利根川と荒川、トイレから戻ってくる。",
-		   NULL, "Tonegawa and Arakawa return from the bathroom.", Line_WaitForInput);
+		   NULL, "토네가와와 아라카와, 화장실에서 돌아온다", Line_WaitForInput);
 	OutputLine(NULL, "吉村はちょっと残念そう。",
-		   NULL, " Yoshimura looks disappointed.", Line_Normal);
+		   NULL, " 요시무라는 조금 아쉬워 보인다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2203,7 +2203,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0320", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…おや、お友達ですか？」",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"...Oh? A friend of yours?\"", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"...어라, 친구분이신가요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2211,7 +2211,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0770", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「知らないオッサンです。」",
-		   "<color=#5ec69a>Mion</color> ", "\"Nah, just some strange old man.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"모르는 아저씨예요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2221,7 +2221,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0130", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「キツいな！……どうも、吉村です。バスが来るまで雨宿りに加えて下さい。…雛見沢ダムの関係の方ですね？」",
-		   "<color=#715348>Yoshimura</color> ", "\"That's harsh! ...Hello, I'm Yoshimura. Please allow me take shelter from the rain in here too. ...You two are with the dam project, right?\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"너무하네! ...안녕하세요, 요시무라입니다. 버스가 올 때까지 비를 피할 수 있게 해주세요. ...히나미자와 댐 관련 분들이신가요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2229,7 +2229,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0330", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「どうも。建設省河川局、都市河川の利根川です。」（手を差し出す）",
-		   "<color=#ccaa95>Tonegawa</color> ", "\"Hello. Tonegawa from the Ministry of Construction's River Bureau, Urban River Office.\" (Holding out his hand.)", Line_Normal);
+		   "<color=#ccaa95>Tonegawa</color> ", "\"안녕하세요. 건설성 하천국, 도시 하천의 토네가와입니다.\" (손을 내민다.)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2237,9 +2237,9 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0250", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「どうも。",
-		   "<color=#5f5248>Arakawa</color> ", "\"Hello.", Line_Continue);
+		   "<color=#5f5248>Arakawa</color> ", "\"안녕하세요.", Line_Continue);
 	OutputLine(NULL, "都市河川の荒川です。」（手を差し出す）",
-		   NULL, " Arakawa, also from the Urban River Office.\" (Holding out his hand.)", Line_Normal);
+		   NULL, " 도시 하천의 아라카와입니다.\" (손을 내민다.)", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2251,7 +2251,7 @@ void main()
 	OutputLine("<color=#5ec69a>魅音</color>・<color=#6972c1>梨花</color>", "「どうも。",
 		   "<color=#5ec69a>Mion</color> & <color=#6972c1>Rika</color>", "\"Hello.", Line_Continue);
 	OutputLine(NULL, "ワカリマセンの園崎（古手）です。」（吉村に手を差し出す）",
-		   NULL, " Sonozaki (Furude), also from makes-no-sense-to-me.\" (Holding their hands out to Yoshimura.)", Line_Normal);
+		   NULL, " 모르겟슴다의 소노자키 (후루데) 입니다.\" (오시무라에게 손을 내민다.)", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2259,11 +2259,11 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0140", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…な、仲良しさんみたいだねぇ…。…みんなお友達なのかい…？」",
-		   "<color=#715348>Yoshimura</color> ", "\"...L-Looks like you're all getting along well... ...Are you all friends...?\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"...치..친해 보이네... ...모두 친구인 거야...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	OutputLine(NULL, "　４人、顔を見合せてからゆっくりと首を横に振る。",
-		   NULL, "All four look at each other and slowly shake their heads.", Line_Normal);
+		   NULL, "네 사람은 서로 얼굴을 바라보다가 천천히 고개를 젓는다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2271,7 +2271,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0150", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…充分、仲良しさんに見えるよ。…うん。」",
-		   "<color=#715348>Yoshimura</color> ", "\"...You look like awfully close friends though. ...You really do.\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"...충분히 친구사이처럼 보여. ...응.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2279,7 +2279,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0160", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「あー、みんなそのままでいいかな！せっかくの仲良し４人組だから写真を撮ろう！…はい笑って笑ってー！」（懐からカメラを取り出し構える）",
-		   "<color=#715348>Yoshimura</color> ", "\"Uhh, can you all stay like that for a moment? I want to take a picture of you four friends together! ...Okay, smile, smile!\" (Pulling a camera out of his pocket and aiming it at them.)", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"아, 모두 그대로 있어봐! 모처럼 사이좋은 4인조니까 사진 찍자! ...자, 웃어봐, 웃어봐\" (품속에서 카메라를 꺼낸다)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2293,7 +2293,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0170", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「現役女子高生の乱れた性。建設省職員、雛見沢で援助交際。」",
-		   "<color=#715348>Yoshimura</color> ", "\"The disgraceful state of modern high school girls. Ministry of Construction employees engaged in compensated dating in Hinamizawa!\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"현역 여고생의 문란한 성생활. 건설성 직원, 히나미자와에서 원조 교제.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2328,13 +2328,13 @@ void main()
 	StopBGM( 0 );
 
 	OutputLine(NULL, "　暗転。",
-		   NULL, "Blackout.", Line_WaitForInput);
+		   NULL, "암전.", Line_WaitForInput);
 	OutputLine(NULL, "どかどかどっかん！",
-		   NULL, " Bam, bam, bam!", Line_Continue);
+		   NULL, " 쿵쾅쿵쾅!", Line_Continue);
 	OutputLine(NULL, "と打撲音が響く。",
-		   NULL, " The sound of pounding rings out.", Line_WaitForInput);
+		   NULL, " 하는 소란스러운 소리가 울려퍼진다.", Line_WaitForInput);
 	OutputLine(NULL, "しばらくの沈黙。",
-		   NULL, " A moment of silence follows.", Line_Normal);
+		   NULL, " 잠시의 정적.", Line_Normal);
 	ClearMessage();
 
 
@@ -2345,14 +2345,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　舞台は真っ暗のまま。",
-		   NULL, "The scene remains pitch black.", Line_WaitForInput);
+		   NULL, "무대는 암전된 채로.", Line_WaitForInput);
 	OutputLine(NULL, "無線の声が聞こえる。",
-		   NULL, " A voice plays over a radio.", Line_Normal);
+		   NULL, " 무전기에서 목소리가 들린다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 60, "ps3/s26/60/toda_0000", 128, TRUE);
 	OutputLine("<color=#f5e6d3>織田の声</color> ", "「……本部どうぞ。本部どうぞ。……全車配置完了…。」",
-		   "<color=#f5e6d3>Oda's Voice</color> ", "\"......HQ, over. HQ, over. ......All cars now in position...\"", Line_Normal);
+		   "<color=#f5e6d3>Oda's Voice</color> ", "\"......본부입니다. 본부입니다. ......전 차량 배치 완료...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	PlaySE( 0, "rakurai3", 100, 64 );
@@ -2361,11 +2361,11 @@ void main()
 	ChangeVolumeOfBGM( 1, 50, 2000 );
 
 	OutputLine(NULL, "　落雷の音。",
-		   NULL, "Thunder echoes.", Line_WaitForInput);
+		   NULL, "천둥 소리.", Line_WaitForInput);
 	OutputLine(NULL, "徐々に舞台明るくなる。",
-		   NULL, " The stage steadily lights up.", Line_WaitForInput);
+		   NULL, " 점점 무대가 밝아진다.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音、遠くなっていく。",
-		   NULL, " The sound of heavy rain fades into the distance.", Line_Normal);
+		   NULL, " 세찬 비 소리가 멀어져 간다", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
