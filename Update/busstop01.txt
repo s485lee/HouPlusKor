@@ -2057,12 +2057,12 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0710", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「それは私と梨花さんの時と同じ事。初対面だけどいっぱいお話したじゃないですかー。」",
-		   "<color=#5ec69a>Mion</color> ", "\"It's the same as with you and me. I spoke a whole lot when we first met, didn't I?\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"그야 제가 리카 씨와 처음 만날을 때와 똑같지 않습니까. 초면이지만 많이 이야기했잖아요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0720", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…まーもっとも私が一方的に話しかけて一人ではしゃいでただけだったかも知れないですけどねぇ…。」",
-		   "<color=#5ec69a>Mion</color> ", "\"...Well, maybe that was more just me carrying on all by myself...\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"...하긴, 제가 일방적으로 말을 걸고 혼자 신나게 떠들었을 수도 있겠네요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2070,7 +2070,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0570", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……そんな事ない。…私も楽しかったわ。」",
-		   "<color=#6972c1>Rika</color> ", "\"......That's not true. ...I had fun too.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"......그런건 아니야. ...나도 즐거웠으니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2078,7 +2078,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0730", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……さっきはすみません。…言い過ぎました。」",
-		   "<color=#5ec69a>Mion</color> ", "\"......Sorry about earlier. ...I went too far.\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"......방금 전은 죄송해요. ....말이 지나쳤네요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2086,7 +2086,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0580", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……うぅん。…私の方こそ。…ごめんね。」",
-		   "<color=#6972c1>Rika</color> ", "\"......No. ...I should apologize. ...I'm sorry.\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"......아니야. ...나야말로. ...미안해.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2094,7 +2094,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0070", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「……へー…！すごいオトし方だねぇ。そういう方向に持ってくとは思わなかったなぁ！」",
-		   "<color=#715348>Yoshimura</color> ", "\"......Wow...! You seduced her real good. I didn't think you'd take it in that direction!\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"......헤...! 대단한 방법이네. 그런 대화로 이어질줄은 몰랐어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2102,7 +2102,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0740", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「うっさいなぁ！今いいカンジだったのにーッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Shut up! We just got a good mood going here!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"닥쳐! 지금 좋은 분위기였는데!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2110,7 +2110,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0080", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「そうすごむなよ。わかったよわかった！…もー一切口は挟まないから！どーぞ好きなだけ、行くトコまで行っちゃってくれ。」",
-		   "<color=#715348>Yoshimura</color> ", "\"Don't look so menacing. Fine, fine! ...I won't say a single word more! You go ahead and take it as far as you can go.\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"그렇게 화내지 마. 알았어 알았어! ...이제 전혀 말 안 섞을게! 마음껏, 원하는 대로 끝까지 가보라고.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2118,7 +2118,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0750", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「えぇーッ！？行くトコまでってなになにーッ！？わーわー！梨花さんこの人やーらしーッ！」",
-		   "<color=#5ec69a>Mion</color> ", "\"Huh?! What do you mean as far as I can go?! Whoa, whoa! Rika-san, this guy's a perv!\"", Line_Normal);
+		   "<color=#5ec69a>Mion</color> ", "\"에에엑?! 끝까지 간다니 뭐...뭐에요?! 우와! 리카 씨, 이 아저씨 변태예요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2126,7 +2126,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0090", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…梨花ちゃんって言うのかい？…僕は吉村って言うんだ。よろしく。」",
-		   "<color=#715348>Yoshimura</color> ", "\"...You're Rika-chan, then? ...I'm Yoshimura. Nice to meet you.\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"...리카 쨩이라고 부르면 되니? ...난 요시무라라고 해. 잘 부탁해.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2134,7 +2134,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0590", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…吉村さんはご趣味とご職業は何ですか？」",
-		   "<color=#6972c1>Rika</color> ", "\"...What are your hobbies and career, Yoshimura-san?\"", Line_Normal);
+		   "<color=#6972c1>Rika</color> ", "\"...요시무라 씨는 취미와 직업이 어떻게 되시죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2142,7 +2142,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0100", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「あん！？…いやーっはっはっは！お見合いだってそこまで単刀直入じゃないぜー？」",
-		   "<color=#715348>Yoshimura</color> ", "\"Huh?! ...Man, hahaha! No one's that blunt, even at formal marriage interviews.\"", Line_Normal);
+		   "<color=#715348>Yoshimura</color> ", "\"어?! ...이런, 하하하하! 정력결혼이라도 그렇게 직설적으로 묻지는 않아요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
