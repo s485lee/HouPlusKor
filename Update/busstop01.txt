@@ -3781,7 +3781,7 @@ void main()
 	ModDrawCharacter(2, 55, "sprite/hara1a_10_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0710", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「知らないッ！その二人の事は本当に知らない！…加藤さんの事は本当に…聞いただけで……よくは知らないんですッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"몰라요! 그 두 사람의 일은 정말 몰라요! ...카토 씨의 대히서는 정말로... 들은 것뿐이고...... 잘은 몰라요!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"몰라요! 그 두 사람의 일은 정말 몰라요! ...카토 씨의 대해서는 정말로... 들은 것뿐이고...... 잘은 몰라요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0590", 128, TRUE);
@@ -3837,7 +3837,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0730", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…知らないですッ！私は食事に出掛けてた！…帰って来たら…騒がしくなっていて……終わってたんですよ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"...모릅니다! 저는 식사하러 나갔었어요! ...돌와왔을 때에는... 소란스러웠고...... 끝나버렸었어요!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"...모릅니다! 저는 식사하러 나갔었어요! ...돌아왔을 때에는... 소란스러웠고...... 끝나버렸었어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -3868,7 +3868,7 @@ void main()
 	ModDrawCharacter(4, 56, "sprite/hton1a_08_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0570", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「……そんな事もあったかな…。…工事業者と立ち会った職員がケガをして運び出されたって話で…。…騒然とした日があったような……。」",
-		   "<color=#ccaa95>토네가와</color> ", "\"......그런 일도 있었나... ...공사업자와 함께 있던 직원이 다쳐서 구급차로 실려 갔다는 이야기였고... ...소란스러운 날이 있었던 것 같네요......\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"......그런 일도 있었나... ...공사업자와 함께 있던 직원이 다쳐서 구급차로 실려 갔다는 이야기였고... ...소란스러운 날이 있었었지......\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -4372,7 +4372,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0800", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「翌朝。お父さんに借りた携帯をポケットに入れたままトイレで用を足そうとしたら、うっかり便器に落としてしまって大変だ。」",
-		   "<color=#715348>요시무라</color> ", "\"다음 날 아침. 아버지에게 빌린 휴대전화를 주머니에 넣은 채 화장실에서 일을 보려고 했는데, 우연히 변기에 떨어뜨려서 큰일이었어.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"다음 날 아침. 아버지에게 빌린 휴대전화를 주머니에 넣은 채 화장실에서 일을 보려고 했는데, 실수로 변기에 떨어뜨려서 큰일이었어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0810", 128, TRUE);
@@ -4633,7 +4633,7 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0000", 128, TRUE);
 	OutputLine("<color=#f5e6d3>新田の声</color> ", "「…本部より全車へ。……部外者混入につき作戦開始時刻を延期。全車は即応態勢で待機。…油断するな。どう出てくるかわからんぞ。」",
-		   "<color=#f5e6d3>Nitta's Voice</color> ", "\"...본부로부터 전 차량에게. ......외부인 침입으로 작전 개시 시간을 연기. 모든 차량은 즉시 대가하고, ...주의를 늦추지 마십시오. 어떻게 될지 알 수 없습니다.\"", Line_Normal);
+		   "<color=#f5e6d3>Nitta's Voice</color> ", "\"...본부로부터 전 차량에게. ......외부인 침입으로 작전 개시 시간을 연기. 모든 차량은 즉시 대기, ...주의를 늦추지 마라. 어떻게 될지 알 수 없다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -4818,7 +4818,7 @@ void main()
 	ModDrawCharacter(2, 59, "sprite/hoka1a_04_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0010", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「どうか冷静にお願いします。…私どもは警察です。ある事件により近辺を捜査中です。皆さんのご協力をお願いします。」",
-		   "<color=#574f58>Okano</color> ", "\"진정하시고 협조해주세요. 저희는 경찰입니다. 어떤 사건으로 인해 이 근처를 조사하고 있습니다. 여러분들의 협조를 부탁드립니다.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"진정하세요. 저희는 경찰입니다. 어떤 사건으로 인해 이 근처를 조사하고 있습니다. 여러분들의 협조를 부탁드립니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5003,25 +5003,25 @@ void main()
 
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0080", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「…もちろん誤解で単独犯の可能性もあります。……性別は…男性である可能性が高い！」",
-		   "<color=#574f58>Okano</color> ", "\"...Of course we could be mistaken. There's also a chance they were acting alone. ...As for gender... there's a high chance they were male.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"...물론 착오로 단독범일 가능성도 있지만. ...지금까지 알려진 정보들을 보면 남성일 가능성이 높습니다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 200, TRUE );
 
 	OutputLine(NULL, "　魅音、立ち上がって建設省の２人と吉村を見比べる。",
-		   NULL, "미온 stands up and looks over the two Ministry men, and then at 요시무라.", Line_WaitForInput);
+		   NULL, "미온은 일어나서 건설성의 두 사람과 요시무라를 번갈아 보았다.", Line_WaitForInput);
 	OutputLine(NULL, "吉村は建設省の２人を疑う。",
-		   NULL, " 요시무라 eyes the two Ministry men suspiciously.", Line_WaitForInput);
+		   NULL, " 요시무라는 건설성의 두 사람을 의심한다.", Line_WaitForInput);
 	OutputLine(NULL, "たじろぐ２人。",
-		   NULL, " They both wince.", Line_Normal);
+		   NULL, " 주춤하는 두 사람.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	ModDrawCharacter(3, 59, "sprite/hoka1a_04_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0090", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「…目撃が曖昧なので女性の可能性も否定できません。…ま、…建設省のお二人は身元が確かなので問題ないでしょう。アリバイも調べやすい。」",
-		   "<color=#574f58>Okano</color> ", "\"...Witness accounts were vague, so we can't rule out the possibility it was done by a woman. ...Well... these two from the Ministry certainly are who they say they are, so there's no problems there. It'll be easy to confirm their alibis too.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"...목격 정보가 불확실해서 여성일 가능성도 배제할 수는 없습니다. ...음... 건설성 두 분은 신원이 확실한 만큼 문제는 없을 겁니다. 알리바이도 조사하기 쉬울 테니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	//;（建設省の２人、肩をなで下ろす。）@
@@ -5029,14 +5029,14 @@ void main()
 	ModDrawCharacter(2, 54, "sprite/hyos1a_12_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1130", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「つまり、犯人はどんなヤツなのかまったく見当がつかない、って事ですか？」",
-		   "<color=#715348>요시무라</color> ", "\"In other words, you have absolutely no idea who the culprit might be, is that right?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"즉, 범인이 어떤 사람인지 전혀 짐작이 가지 않는다는 건가요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 58, "sprite/hhos1a_07_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0040", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「詳しく申し上げられないだけです。…皆さんの中に被疑者がいるかも知れませんから。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"We simply can't offer any specific details. ...After all, the suspect might be one of you all.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"자세히 말씀드릴 수는 없습니다. ...여러분 중에 용의자가 있을 수도 있으니까요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	//;（魅音・吉村・建設省の２人、互いをじろじろ見る。）@
@@ -5050,7 +5050,7 @@ void main()
 	DrawScene( "background/hina_bus_03", 400 );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0050", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…で？…君たちの身分証は？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...So? ...What about your IDs?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...그럼? ...너희들의 신분증은?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5059,40 +5059,40 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1250", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「はは、は！…郵便局のカードじゃーだめですかねぇ…？」",
-		   "<color=#5ec69a>미온</color> ", "\"Haha, ha! ...Does a post office card work...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"하하, 하! ...우체국 카드는 안 될까요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0060", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…君たち学生ね？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...You two are students, right?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...너희들, 학생이지?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(4, 53, "sprite/hmi2a_04_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1260", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「刑事さん、私ゃ思うに、あの吉村ってオッサンが怪しいと思うんですよ…。」",
-		   "<color=#5ec69a>미온</color> ", "\"Detective, I think that man 요시무라 there is suspicious...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"형사님, 제 생각에는 저 요시무라라는 아저씨가 수상하다고 생각합니다...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_05_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0070", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…今日は平日だね。学校はどうしたの？ん？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Today's a weekday, right? Why aren't you in school? Hmm?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...오늘은 평일인데. 학교는 어떻게 한 거야? 어?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(4, 53, "sprite/hmi2a_08_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1270", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「いやー、えへへへ！…そのー…開校記念日でー…！」",
-		   "<color=#5ec69a>미온</color> ", "\"Well, ehehehe! ...Umm... today's the anniversary of our school's founding...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"아니, 에헤헤헤! ...그... 개교 기념일이라서요...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_03_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0080", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…ちょっと向こうで話を聞かせてもらっていい？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Do you mind if we talk to them for a bit?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...잠깐 저 쪽에서 이야기 좀 나눌 수 있을까?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5102,7 +5102,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1280", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「じゃなくてほらッ！学級閉鎖ー！みんなインフルエンザでぶっ倒れてー！」",
-		   "<color=#5ec69a>미온</color> ", "\"Wait, I mean! School was closed! Everyone's come down with the flu!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"그게 아니라! 휴교령이예요! 다들 인플루엔자로 쓰러져버려서!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5113,14 +5113,14 @@ void main()
 	//;ld l,hos_d6,80
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0090", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…開校記念日で学級閉鎖で？…次は何…？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...First it's the founding day, now the school's closed? ...What'll it be next...?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...…개교 기념일이라니...휴교령이라니... 뭐하는 거야...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld r,mio_D8a,80
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1290", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あ、あ、あ、…雨ですからー！」",
-		   "<color=#5ec69a>미온</color> ", "\"Uh, uh, uh... Because it's raining!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"비, 비, 비... 비가 오니까요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;cl l,0
@@ -5129,7 +5129,7 @@ void main()
 	DrawScene( "black", 400 );
 
 	OutputLine(NULL, "　魅音と梨花を伴って星野退場。",
-		   NULL, "미온 and 리카 leave the scene with Hoshino.", Line_Normal);
+		   NULL, "호시노, 미온, 그리고 리카가 퇴장한다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5138,41 +5138,41 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0650", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…あ、……トイレに行っちゃまずいですか…？」",
-		   "<color=#ccaa95>토네가와</color> ", "\"...Oh...... is it alright if I go use the bathroom?\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"...아...... 잠시 화장실 다녀와도 될까요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 59, "sprite/hoka1a_01_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0100", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「構いませんよ。どうぞ。」",
-		   "<color=#574f58>Okano</color> ", "\"I don't mind. Go ahead.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"괜찮아요. 가세요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 56, "sprite/hton1a_01_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0660", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…ちょっと行ってくる。」",
-		   "<color=#ccaa95>토네가와</color> ", "\"...I'll be right back, then.\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"...잠깐 다녀올게요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 400, TRUE );
 
 	OutputLine(NULL, "　利根川退場。",
-		   NULL, "토네가와 leaves the scene.", Line_WaitForInput);
+		   NULL, "토네가와는 퇴장한다.", Line_WaitForInput);
 	OutputLine(NULL, "しばらくして岡野に電話が入る。",
-		   NULL, " After a moment, Okano gets a call.", Line_Normal);
+		   NULL, " 잠시 후, 오카노에게 전화가 걸려온다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 400, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0110", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「はい岡野です。………………はい。…………………はい。」",
-		   "<color=#574f58>Okano</color> ", "\"Yes, Okano here. ..................Yes. .....................Yes.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"네, 오카노입니다. ..................네. .....................네.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	OutputLine(NULL, "　岡野は携帯で話をしながら退場する。",
-		   NULL, "Okano exits the stage talking on his phone.", Line_Normal);
+		   NULL, "오카노는 휴대폰으로 이야기하며 퇴장한다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5180,39 +5180,39 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぽかんとして見送る吉村。",
-		   NULL, "요시무라 watches agape as they leave.", Line_WaitForInput);
+		   NULL, "요시무라는 멍하게 그들을 바라본다.", Line_WaitForInput);
 	DisableWindow();
 
 	ModDrawCharacter(5, 55, "sprite/hara1a_05_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 
 	OutputLine(NULL, "荒川はまた頭痛が始まったようで頭を押さえている。",
-		   NULL, " 아라카와 holds his head like his headache has returned.", Line_Normal);
+		   NULL, " 아라카와는 또다시 두통이 시작된 것 같이 머리를 움켜쥐고 있다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	ModDrawCharacter(4, 54, "sprite/hyos1a_12_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1140", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「どうしました？…また頭痛ですか？」",
-		   "<color=#715348>요시무라</color> ", "\"What's the matter? ...Another headache?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"무슨 일이세요? ...또 두통이세요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(5, 55, "sprite/hara1a_04_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0830", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…え…えぇ…。…また……痛くなってきた…。」",
-		   "<color=#5f5248>아라카와</color> ", "\"...Yes... Yes... ...It's...... hurting again...\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"...아... 아... ...또...... 아프기 시작해서...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1150", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「お辛そうですねぇ。……代われるものなら代わってあげたいですよ。」",
-		   "<color=#715348>요시무라</color> ", "\"They really seem painful. ......If I could take them on for you, I would.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"고통스러워 보이네요. ......제가 대신 겪을 수 있다면 좋겠는데.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(5, 55, "sprite/hara1a_05_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0840", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……くそ……。……参ったな…。……く………。」",
-		   "<color=#5f5248>아라카와</color> ", "\"......Dammit...... ......This sucks... ......Kh.........\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"......젠장...... ......큰일났네... ......씨.........\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5226,37 +5226,37 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1160", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「頭痛の原因はたくさんあるんだそうです。風邪、眼精疲労が主なところですが他にもたくさんあります。」",
-		   "<color=#715348>요시무라</color> ", "\"They say there are lots of different causes for headaches. Colds and eyestrain are the leading causes, but there are a lot of other ones too.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"두통의 원인은 다양하고 합니다. 감기, 눈의 피로가 주된 원인이지만 그 외에도 많습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1170", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「面白い事にですね、脳自身は傷つけられても痛みを感じないんだそうですよ。」",
-		   "<color=#715348>요시무라</color> ", "\"It's funny, but apparently you don't feel any pain when the brain itself is damaged.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"흥미로운건, 뇌 자체는 상처를 입어도 통증을 느끼지 않는다고 합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0850", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……こんなに痛いのに…？」",
-		   "<color=#5f5248>아라카와</color> ", "\"......Even though it hurts this bad...?\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"......이렇게나 아픈데도...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1180", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「自殺する時、ピストルで頭を撃つでしょう。…あれって、一番痛みを感じない死に方らしいですね。」",
-		   "<color=#715348>요시무라</color> ", "\"When people commit suicide, they sometimes shoot their heads with a pistol, right? ...Apparently you actually experience the least pain when dying that way.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"자살할 때, 권총으로 머리를 쏘잖아요? ...그게, 가장 고통이 없는 죽음이라고 하네요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1190", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…反面、意外にも辛いのが切腹なんですよ。脳と違って痛みをまともに感じますからね。」",
-		   "<color=#715348>요시무라</color> ", "\"...In contrast, committing seppuku is surprisingly painful. Because unlike when you damage the brain, you feel all the pain in your stomach.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...반면해, 의외로 고통스러운 게 할복이에요. 뇌와 달리 고통을 제대로 느끼니까요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1200", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「だからほら、介錯ってあるでしょう。…痛みに苦しむ前に首をはねてくれる人。…ははは！面白くない話でしたかねぇ。」",
-		   "<color=#715348>요시무라</color> ", "\"That's why there was always a second, you know. ...That person's job was to behead the man before they suffered too much. ...Hahaha! I guess that wasn't a very funny tidbit, was it?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"그래서, 뒤에서 목을 베는 사람이 있는 거잖아요. ...고통 속에서 괴로워하기 전에 목을 베어줘서 빠르게 끝내주는 사람. ...하하하! 재미없는 이야기였나요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0860", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「………はは、………くぅ……！」",
-		   "<color=#5f5248>아라카와</color> ", "\".........Haha......... Khh......!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\".........하하하......... 크윽......!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5265,24 +5265,24 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1210", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「辛そうですねぇ。…いっその事、介錯してあげられればいいんですけど。」",
-		   "<color=#715348>요시무라</color> ", "\"That looks so painful. ...I almost wish I could be your second at this point.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"고통스러워 보이시네요. ...차라리, 목을 베어드릴 수 있다면 좋겠지만요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 55, "sprite/hara1a_05_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0870", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「………冗談じゃない…。………ううッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\".........That's not funny... .........Nnngh!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\".........장난하지 마세요... .........으으!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1220", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「あなたの場合、頭痛の原因は睡眠不足にあるように思いますが、いかがです？」",
-		   "<color=#715348>요시무라</color> ", "\"In your case, I imagine the cause of the headache is lack of sleep. Does that sound right?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"당신의 경우, 두통의 원인이 수면 부족에 있는 것 같은데, 어떻게 생각하세요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1230", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…ちゃんと６時間眠ってますか？昨夜は何時に床に就きましたか？」",
-		   "<color=#715348>요시무라</color> ", "\"...Are you getting at least six hours sleep at night? What time do you usually turn in for bed?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...충분히 6시간 잠을 자고 계세요? 어젯밤에는 몇 시에 잠자리에 들었나요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5290,18 +5290,18 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0880", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……１２時前には消灯したよ。…７時間は眠ってる…！……うぅ…ッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"......I turn the lights out just before midnight. ...I get a full seven hours sleep...! ......Nngh...!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"......12시 전에 잠자리에 들었어요. ...7시간은 잤는데...! ......으윽...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1240", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「本当にですか？…本当にそれだけ眠れていれば、そんなに辛くはならないはずなんですがねぇ。」",
-		   "<color=#715348>요시무라</color> ", "\"Really? ...If you're really getting that much sleep, then you shouldn't be in so much pain.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"정말 그렇습니까? ...정말 그 정도로 잠을 자면 그렇게 괴롭지는 않을텐데요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	OutputLine(NULL, "　悶え苦しむ荒川。",
-		   NULL, "아라카와 continues writhing in pain.", Line_WaitForInput);
+		   NULL, "고통스러워하는 아라카와.", Line_WaitForInput);
 	OutputLine(NULL, "吉村は得意そうに話すだけ。",
-		   NULL, " 요시무라 continues speaking like he knows what's going on.", Line_Normal);
+		   NULL, " 요시무라는 능청스럽게 이야기를 계속한다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5314,7 +5314,7 @@ void main()
 	//;ld l,yos_D1,80
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1250", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…本当に眠れていましたか？…本当に。」",
-		   "<color=#715348>요시무라</color> ", "\"...Were you really able to sleep? ...Truly?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...정말로 잘 수 있었나요? ....정말로?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5324,7 +5324,7 @@ void main()
 	//;ld r,ara_D4a,80
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0890", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…寝たさ！…寝てますよ。」",
-		   "<color=#5f5248>아라카와</color> ", "\"...I slept! ...I am sleeping.\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"...잤어요! ...잤다구요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5334,7 +5334,7 @@ void main()
 	//;ld l,yos_D5,80
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1260", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「灯をちゃんと消して？…灯をつけっぱなしだと深くは眠れませんよ？」",
-		   "<color=#715348>요시무라</color> ", "\"You're making sure to turn the lights out? ...If you leave the lights on, you can't get decent sleep, you know.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"불을 제대로 껐어요? ...불을 켜놓고 있으면 깊이 잠들 수 없어요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5344,7 +5344,7 @@ void main()
 	//;ld c,ara_D9a,22
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0900", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……ちょっと……消し忘れただけです…！」",
-		   "<color=#5f5248>아라카와</color> ", "\"......I just...... forgot to turn them off a bit...!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"......그냥...... 끄는 걸 깜빡했어요...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5354,7 +5354,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1270", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「本当に瞼を閉じてましたか？…横になっているだけでは睡眠とは言えませんよ。」",
-		   "<color=#715348>요시무라</color> ", "\"Did you really close your eyes? ...You can't call it sleep if you're just lying down.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"정말로 눈을 감았나요? ...그저 누워있는 것만으로는 잠이라고 할 수 없어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5363,7 +5363,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0910", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「閉じてた！…ちゃんと瞼を閉じて寝ようとしましたよッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"I closed them! ...I closed my eyes and tried to sleep!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"감았어요! ...제대로 눈을 감고 잠들려고 했어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5371,7 +5371,7 @@ void main()
 	ModDrawCharacter(2, 54, "portrait/hyos1a_09_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1280", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…でも眠れなかった…？」",
-		   "<color=#715348>요시무라</color> ", "\"...But you couldn't sleep...?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...하지만 잠들지 못했다...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5379,7 +5379,7 @@ void main()
 	ModDrawCharacter(1, 55, "portrait/hara1a_10_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 300, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0920", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……寝ようとしましたよ！寝ようとッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"......I tried to sleep! I tried to!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"......잠을 자려고 했어요! 잠을 자려고 했다고!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5387,7 +5387,7 @@ void main()
 	ModDrawCharacter(2, 54, "portrait/hyos1a_08_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1290", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「………どうして瞼を閉じられなかったんです？」",
-		   "<color=#715348>요시무라</color> ", "\".........Why couldn't you close your eyes?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\".........왜 눈꺼풀을 감을 수 없었나요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5397,7 +5397,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0930", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……うるさいなぁッ！…そんな事、どうでもいいじゃないですか！」",
-		   "<color=#5f5248>아라카와</color> ", "\"......Shut up! ...Why does any of that even matter?!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"......시끄러워! ...그런 건 상관없잖아요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5405,7 +5405,7 @@ void main()
 	ModDrawCharacter(2, 54, "portrait/hyos1a_09_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1300", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…不眠で毎晩、辛いんでしょう？」",
-		   "<color=#715348>요시무라</color> ", "\"...It must be tough going every night without sleep, huh?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...불면증 때문에 매일 밤이 괴롭죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5413,7 +5413,7 @@ void main()
 	ModDrawCharacter(1, 55, "portrait/hara1a_12_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 300, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0940", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「僕は、……不眠なんかじゃ…ないッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"I'm not...... going without... sleep!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"저는...... 불면증 같은 거... 없어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5427,7 +5427,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1310", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…近藤さんも言ってましたよ。……不眠で辛いって。」",
-		   "<color=#715348>요시무라</color> ", "\"...Kondou-san said so too. ......That it was tough missing sleep.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...콘도 씨도 말했죠. ......불면증으로 힘들다고.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5437,7 +5437,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0950", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「近藤さんなんか知らない！…僕は不眠なんかじゃないんだッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"I don't care about Kondou-san! ...I'm not going without sleep!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"콘도 씨 같은 건 몰라!! ...나는 불면증 같은 거 없어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5445,7 +5445,7 @@ void main()
 	ModDrawCharacter(2, 54, "portrait/hyos1a_08_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1320", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…寝ようとすると、…落ち着かなくなって起きてしまう。…そうでしょう。」",
-		   "<color=#715348>요시무라</color> ", "\"...You try to sleep, sure... but you feel restless and end up waking up. ...Isn't that right?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...자려고 하면, ... 불안해져서 일어나 버리죠. ...그렇죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5453,7 +5453,7 @@ void main()
 	ModDrawCharacter(1, 55, "portrait/hara1a_10_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 300, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0960", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「そんなことはないッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"That's not true!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"그런 일은 없어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5461,7 +5461,7 @@ void main()
 	ModDrawCharacter(2, 54, "portrait/hyos1a_09_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1330", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…でもその内、感じるようになったんですよね？」",
-		   "<color=#715348>요시무라</color> ", "\"...But at some point you began to feel it, didn't you?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...그러나 결국에는 느끼게 되었잖아요, 그렇죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5471,7 +5471,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0970", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「感じるッ！？…何も感じないですよ！何もッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Feel it?! ...I'm not feeling anything! Anything at all!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"느끼다니요!? 아무것도 느끼지 않아요! 아무것도!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5488,14 +5488,14 @@ void main()
 	PlayBGM( 1, "me/a5_14446", 70, 0 );
 
 	OutputLine(NULL, "　舞台は薄暗い真っ赤なライトで照らし出される。",
-		   NULL, "A dim, pure red light shines down on the stage.", Line_WaitForInput);
+		   NULL, "무대는 희미한 빨간 빛으로 비춰진다.", Line_WaitForInput);
 	OutputLine(NULL, "その中で荒川にライト。",
-		   NULL, " The light centers on 아라카와.", Line_Normal);
+		   NULL, " 아라카와에게 스포트라이트가 집중된다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0120", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「……………荒ちゃんは何も感じないかい。…夜とか。」",
-		   "<size=32><color=#f5e6d3>Kakinuma's Voice</color></size> ", "\"...............You don't sense anything, Ara-chan? ...At night?\"", Line_Normal);
+		   "<size=32><color=#f5e6d3>Kakinuma's Voice</color></size> ", "\"...............아라쨩은 아무것도 느끼지 않니? ...밤에라던가.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5503,14 +5503,14 @@ void main()
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0980", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「感じないですッ！何にもッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"I don't sense anything! Nothing!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"느끼지 않아요! 아무것도요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0130", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「…………確かに「いる」んだよ。",
-		   "<size=32><color=#f5e6d3>Kakinuma's Voice</color></size> ", "\"............I'm positive they're there.", Line_Continue);
+		   "<size=32><color=#f5e6d3>Kakinuma's Voice</color></size> ", "\"............분명히 '있어'.", Line_Continue);
 	OutputLine(NULL, "………「いる」。」",
-		   NULL, " .........Positive.\"", Line_Normal);
+		   NULL, " ........'있어'.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5518,14 +5518,14 @@ void main()
 	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0990", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「「い」ないッ！",
-		   "<color=#5f5248>아라카와</color> ", "\"They're not there!", Line_Continue);
+		   "<color=#5f5248>아라카와</color> ", "\"없어!", Line_Continue);
 	OutputLine(NULL, "…何にも「い」ないッ！」",
-		   NULL, " ...There's nothing there!\"", Line_Normal);
+		   NULL, " ...아무것도 없어!\"", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0140", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「………近藤さんもさ。…ひと月くらい前から、そんなこと言ってたよな…。」",
-		   "<size=32><color=#f5e6d3>Kakinuma's Voice</color></size> ", "\".........Kondou-san also... said things like that, about a month before now, right...?\"", Line_Normal);
+		   "<size=32><color=#f5e6d3>Kakinuma's Voice</color></size> ", "\".........콘도 씨도 그랬지... 한 달쯤 전부터, 그런 얘기를 하고 있었어...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5538,12 +5538,12 @@ void main()
 	//Unhandled: print 22
 
 	OutputLine(NULL, "　真っ赤なライトが今度は青いライトに変わる。",
-		   NULL, "The red light changes into a blue one.", Line_Normal);
+		   NULL, "빨간 빛이 이번에는 파란 빛으로 바뀐다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkon_0000", 128, TRUE);
 	OutputLine("<color=#f5e6d3>近藤の声</color> ", "「…はは。…もちろん笑ってくれていいよ。……だがな…。…あいつは………「いる」んだよ…！」",
-		   "<color=#f5e6d3>Kondou's Voice</color> ", "\"...Haha. ...Of course you can laugh at that. ......However... ...They......... are really there...!\"", Line_Normal);
+		   "<color=#f5e6d3>Kondou's Voice</color> ", "\"...하하. ...물론 비웃어도 좋아. ......하지만 말이야... ...그 녀석은......... 정말로.... '있어'...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5556,24 +5556,24 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1000", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「「い」ないッ！…嘘っぱちだッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"They're not there! ...It's all!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"없어! ...거짓말이야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkon_0010", 128, TRUE);
 	OutputLine("<color=#f5e6d3>近藤の声</color> ", "「……いいや、「いる」。……そりゃあ目に見えないものを疑うのは簡単さ。」",
-		   "<color=#f5e6d3>Kondou's Voice</color> ", "\"......No, they are there. ......Sure, it's easy to doubt something you can't see with your own eyes.\"", Line_Normal);
+		   "<color=#f5e6d3>Kondou's Voice</color> ", "\"......아니, '있어'. ......눈에 보이지 않는 것을 의심하는 건 쉬운 일이지.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkon_0020", 128, TRUE);
 	OutputLine("<color=#f5e6d3>近藤の声</color> ", "「……だけど例え見えなかったとしてもやっぱり、……「いる」んだよ！」",
-		   "<color=#f5e6d3>Kondou's Voice</color> ", "\"......But even if you can't see them there, they're still...... they're still there!\"", Line_Normal);
+		   "<color=#f5e6d3>Kondou's Voice</color> ", "\"......하지만 비록 보이지 않더라도 결국...... '있다'는 거야!!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 55, "sprite/hara1a_11_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1010", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「わぁあああぁあぁぁああああぁあッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Waaaaaaaaaaaaaahhh!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"으아아아아아아아아아아!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5585,12 +5585,12 @@ void main()
 	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 400, TRUE );
 
 	OutputLine(NULL, "　青いライトが再び真っ赤なライトに変わる。",
-		   NULL, "The blue light changes back to red once more.", Line_Normal);
+		   NULL, "파란 빛이 다시 빨간 빛으로 바뀐다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkat_0000", 128, TRUE);
 	OutputLine("<color=#f5e6d3>加藤の声</color> ", "「…ぁああぁあぁあッ！…触るんじゃねえ！触るんじゃねぇッ！」",
-		   "<color=#f5e6d3>Katou's Voice</color> ", "\"...Aaaaaaaaah! ...Don't touch me! Don't you touch me!\"", Line_Normal);
+		   "<color=#f5e6d3>Katou's Voice</color> ", "\"...아아아아아앗! ...만지지 마! 만지지 마라고!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5598,12 +5598,12 @@ void main()
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1020", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「加藤さんッ！…落ち着いて下さいよ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Katou-san! ...Please calm down!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"카토 씨! ...진정해주세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkat_0010", 128, TRUE);
 	OutputLine("<color=#f5e6d3>加藤の声</color> ", "「…なめやがって！…どいつもこいつも俺の事を馬鹿にしてやがるッ！…ぁああぁぁあああッ！」",
-		   "<color=#f5e6d3>Katou's Voice</color> ", "\"...You're looking down on me! ...Every damn one of you keeps making fun of me! ...Aaaaaaaaaah!\"", Line_Normal);
+		   "<color=#f5e6d3>Katou's Voice</color> ", "\"...얕보이다니! ...다들 나를 바보 취급하고 있어! ...아아아아아아아앗!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5615,7 +5615,7 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkat_0020", 128, TRUE);
 	OutputLine("<color=#f5e6d3>加藤の声</color> ", "「……上等だぜ。…そのケンカ、買ってやろうじゃねえか。…てめえなんざ怖くも何ともねえんだぞ…！」",
-		   "<color=#f5e6d3>Katou's Voice</color> ", "\"......Fine by me, then. ...I'll accept that fight of yours. ...You're nothing to be afraid of at all...!\"", Line_Normal);
+		   "<color=#f5e6d3>Katou's Voice</color> ", "\"......좋아. ...그 싸움, 받아주지. ...너 같은 건 무섭지도 않아...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5623,7 +5623,7 @@ void main()
 	ModDrawCharacter(1, 55, "sprite/hara1a_07_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1030", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「誰もケンカなんか売ってないです！だから落ち着いて下さい！」",
-		   "<color=#5f5248>아라카와</color> ", "\"I'm not picking a fight with you! So please calm down!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"아무도 시비를 걸고 있는 게 아니예요! 그러니까 진정하세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5632,7 +5632,7 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkat_0030", 128, TRUE);
 	OutputLine("<color=#f5e6d3>加藤の声</color> ", "「…くらぁッ！…殺してやるッ！…俺を馬鹿にするヤツはみんな殺してやる！」",
-		   "<color=#f5e6d3>Katou's Voice</color> ", "\"...Come on! ...I'll kill you! ...I'll kill everyone who makes fun of me!\"", Line_Normal);
+		   "<color=#f5e6d3>Katou's Voice</color> ", "\"...크아앗! ...죽여 버릴 거야! ...나를 바보 취급하는 놈들은 모두 죽여 버릴 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5644,7 +5644,7 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkat_0040", 128, TRUE);
 	OutputLine("<color=#f5e6d3>加藤の声</color> ", "「……何がオヤシロさまだ。…祟りが怖くてケンカができるかぁッ！」",
-		   "<color=#f5e6d3>Katou's Voice</color> ", "\"......Screw Oyashiro-sama! ...You think I'm too scared of the curse to fight?!\"", Line_Normal);
+		   "<color=#f5e6d3>Katou's Voice</color> ", "\"......뭐가 오야시로님이야. ...저주가 무서워서 싸움같은거 할 수 없을거 같아?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5654,7 +5654,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1040", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「かか、加藤さんッ！…で、電車、来ますって…ッ！…ぁ、ぁあ…ああぁあぁああああぁああッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"K-K-Katou-san! ...T-The train is pulling in...! ...Ah, aah... aaaaaaaaaaaaaaah!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"카...카... 카토 씨! ...전철이 들어와요...! ...으, 으아... 아아아아아아아아아아아아악!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5672,11 +5672,11 @@ void main()
 
 
 	OutputLine(NULL, "　電車の入ってくる音。",
-		   NULL, "The sound of an oncoming train is heard,", Line_WaitForInput);
+		   NULL, "전철이 들어오는 소리,", Line_WaitForInput);
 	OutputLine(NULL, "ぐしゃあ！　という嫌な音。",
-		   NULL, " followed by an unpleasant splat.", Line_WaitForInput);
+		   NULL, " 철푸덕! 으깨지는 소리.", Line_WaitForInput);
 	OutputLine(NULL, "荒川を照らすライトは消え、舞台は再び青いライトで照らされる。",
-		   NULL, " The light shining on 아라카와 goes out, and the stage is once more lit by blue lights.", Line_Normal);
+		   NULL, " 아라카와를 비추던 조명이 꺼지고 무대는 다시 파란 조명으로 비춰진다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5716,34 +5716,34 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1050", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…ぁあぁああぁあッ！",
-		   "<color=#5f5248>아라카와</color> ", "\"...Aaaaaaah!", Line_Continue);
+		   "<color=#5f5248>아라카와</color> ", "\"...아아아아아아악!", Line_Continue);
 	OutputLine(NULL, "…「い」ないんだ！",
-		   NULL, " ...They don't exist!", Line_Continue);
+		   NULL, " ...없다고!", Line_Continue);
 	OutputLine(NULL, "…オヤシロさまなんて…！」",
-		   NULL, " ...Oyashiro-sama doesn't exist...!\"", Line_Normal);
+		   NULL, " ...오야시로님이라는 건...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 54, "sprite/hyos1a_09_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1340", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…嫌でしょう。…「いる」のに会えないなんて。…悔しいですよねぇ。……「いる」のに。」",
-		   "<color=#715348>요시무라</color> ", "\"...You hate it, don't you? ...Not being able to meet them when they're there. ...It's frustrating, isn't it? ......When they're right there next to you.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...싫죠? ...있는데 못 만난다니. ...억울하죠. ......있는데도.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 55, "sprite/hara1a_10_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1060", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「「い」ない！",
-		   "<color=#5f5248>아라카와</color> ", "\"They're not there!", Line_Continue);
+		   "<color=#5f5248>아라카와</color> ", "\"없어!", Line_Continue);
 	OutputLine(NULL, "「い」ない！",
-		   NULL, " They're not there!", Line_Continue);
+		   NULL, " 없어!", Line_Continue);
 	OutputLine(NULL, "「い」ないーッ！」",
-		   NULL, " They're not theeere!\"", Line_Normal);
+		   NULL, " 없다고오!\"", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1350", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…近藤さんは会いましたよ。…柿沼さんもね。」",
-		   "<color=#715348>요시무라</color> ", "\"...Kondou-san got to meet them. ...Kakinuma-san did too.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...콘도 씨는 만났어요. ...카키누마 씨도요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5753,40 +5753,40 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1070", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「嫌だ！嫌だ！嫌だッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"No! No! No!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"싫어! 싫어! 싫어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1360", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「森さんも会った。加藤さんも会った。」",
-		   "<color=#715348>요시무라</color> ", "\"Mori-san met them too. Katou-san, he met them also.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"모리 씨도 만났어. 카토 씨도 만났어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 55, "sprite/hara1a_11_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1080", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「もうやめてくれ！…たくさんだ！たくさんだッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Stop it already! ...That's enough! That's enough!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"이제 그만해! ...됐어요! 됐다고!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1370", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…会いたいでしょう？…会いたいはずだ。」",
-		   "<color=#715348>요시무라</color> ", "\"...You want to meet them, right? ...You should want to meet them.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...만나고 싶죠? ...만나고 싶을 거예요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 55, "sprite/hara1a_12_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1090", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「嫌だッ！嫌だッ！…助けてッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"No! No! ...Help!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"싫어! 싫어! ...도와줘!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 400, TRUE );
 
 	OutputLine(NULL, "　地べたを這いつくばりながら、どこかへ逃げようとする荒川。",
-		   NULL, "아라카와 crawls along the ground, trying to escape to anywhere else.", Line_WaitForInput);
+		   NULL, "바닥을 기어가며 어디론가 도망치려는 아라카와.", Line_WaitForInput);
 	OutputLine(NULL, "頭痛がひどく、それもままならない。",
-		   NULL, " Yet his headache is terrible, and he doesn't get very far.", Line_Normal);
+		   NULL, " 두통이 너무 심해서 그것도 여의치 않다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5797,29 +5797,29 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1380", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…なぜ拒むんです？……会えば救われるのに。」",
-		   "<color=#715348>요시무라</color> ", "\"...Why do you refuse him? ......If you met him, you'd be saved, right?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...왜 거부하시나요? ......만나면 구원받을 수 있는데.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1100", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ぁああぁぁああッ！……やだ！…やだ…ッ…！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Aaaaaaah! ......No! ...No...! ...!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"아아아아악! ......아니야! ...아니야...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1390", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「……いい歳した大人が、そんなに怖がる事はないじゃあないですか…。…みっともない。」",
-		   "<color=#715348>요시무라</color> ", "\"......You shouldn't be so frightened when you're an adult... ...It's rather pathetic.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"......다 큰 어른이 그렇게 무서워할 필요는 없잖아요... ...보기 흉하게.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	OutputLine(NULL, "　荒川は舞台中央で腰をぬかし、がたがた震えるだけ。",
-		   NULL, "아라카와's legs give out at center stage, and he just keeps shuddering.", Line_Normal);
+		   NULL, "아라카와는 무대 중앙에서 허리를 꺾고 덜덜 떤다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	ModDrawCharacter(6, 54, "sprite/hyos1a_13_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1400", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「……あれ、…ひょっとして失禁しました…？……恥ずかしいなぁ…。」",
-		   "<color=#715348>요시무라</color> ", "\"......Huh? ...Did you wet yourself, by chance...? ......How embarrassing...\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"......어라? ...혹시 지렸나요...? ......창피하네요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5852,11 +5852,11 @@ void main()
 	//;舞台、すぅっと暗くなる。
 
 	OutputLine(NULL, "　ライトに照らされる荒川。",
-		   NULL, "The light shines on 아라카와.", Line_WaitForInput);
+		   NULL, "아라카와를 비추는 라이트.", Line_WaitForInput);
 	OutputLine(NULL, "無表情な魅音・梨花・利根川・星野・岡野登場。",
-		   NULL, " An expressionless 미온, 리카, 토네가와, Hoshino, and Okano enter the scene.", Line_WaitForInput);
+		   NULL, " 무표정의 미온, 리카, 토네가와, 호시노, 오카노 등장.", Line_WaitForInput);
 	OutputLine(NULL, "ゆっくりと遠巻きに荒川を囲む。",
-		   NULL, " They slowly surround 아라카와 at a distance.", Line_Normal);
+		   NULL, " 천천히 아라카와를 둘러싼다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5866,19 +5866,19 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1110", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……、な…何だよお前ら…！」",
-		   "<color=#5f5248>아라카와</color> ", "\"......Wha... What's up with all of you...?!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"......뭐... 뭐야 너희들...?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1410", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「市立柳川小学校に通われましたね。…３年生の時でしたか？」",
-		   "<color=#715348>요시무라</color> ", "\"You used to go to Yanagawa Municipal Elementary, didn't you? ...It happened in third grade, right?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"시립 야나가와 초등학교에 다녔죠? ...3학년 때였나요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 54, "sprite/hyos1a_04_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1420", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…運悪く帰宅の途中で便意をもよおしてしまったあなたは、茂みでこっそりと用を足してしまう事にしました。」",
-		   "<color=#715348>요시무라</color> ", "\"...You were unfortunate enough to feel the call of nature on your way home from school, so you decided to take care of it in the bushes in secret.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...운없게도 귀가하는 길에 변의를 느끼게 된 당신은 덤불에서 몰래 용무를 보고 말았습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5895,21 +5895,21 @@ void main()
 
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0120", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「おい！荒川、野グソしてんぜ、野グソーッ！」",
-		   "<color=#574f58>Okano</color> ", "\"Hey! 아라카와's shitting outside! He's shitting outside!\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"야! 아라카와가 저기서 똥싸는데! 똥싼다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 55, "sprite/hara1a_10_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1120", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「なッ！なんだよお前らーッ！…お前らだってトイレが近くになかったらするだろッ！？」",
-		   "<color=#5f5248>아라카와</color> ", "\"Wha?! What's with you all?! ...You'd all do it too if there wasn't a bathroom nearby!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"뭐! 너희들 뭐야?! ...너희들도 화장실이 급하면 할거잖아!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 56, "sprite/hton1a_04_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 400, TRUE );
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0670", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「しないよ！普通はしない。」",
-		   "<color=#ccaa95>토네가와</color> ", "\"I wouldn't! I generally wouldn't.\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"안 해! 정상인이면 안 해.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5917,7 +5917,7 @@ void main()
 	ModDrawCharacter(1, 52, "sprite/hri2a_05_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0930", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「絶対お手洗いを探すわ。」",
-		   "<color=#6972c1>리카</color> ", "\"I'd definitely go look for a bathroom.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"나같으면 꼭 화장실을 찾을거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5925,7 +5925,7 @@ void main()
 	ModDrawCharacter(3, 58, "sprite/hhos1a_09_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0100", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「外でするなんて…。下劣！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"Doing it outside is just... gross!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"노상방분이라니... 더러워!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -5933,7 +5933,7 @@ void main()
 	ModDrawCharacter(1, 53, "sprite/hmi2a_02_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1300", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あ！こっち来たよこっち来たよ！野グソマーン！」",
-		   "<color=#5ec69a>미온</color> ", "\"Ah! He's coming over here, he's coming over here! It's Shitman!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"야! 여기로 온다! 여기로 온다! 야생 똥싸개다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	DisableWindow();
@@ -5943,7 +5943,7 @@ void main()
 	PlayBGM( 1, "me/lgsk_warai", 30, 0 );
 
 	OutputLine(NULL, "　吉村・荒川以外は大笑い。",
-		   NULL, "All but 요시무라 and 아라카와 are laughing loudly.", Line_Normal);
+		   NULL, "요시무라와 아라카와를 제외한 모두는 웃음을 터뜨렸다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5953,27 +5953,27 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1430", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「野グソマンはヒット作でしたねぇ。…とにかく流行った。４年、５年、６年生、学年、クラスが変わってもあだ名はそれだ。」",
-		   "<color=#715348>요시무라</color> ", "\"Shitman was a big hit, wasn't it? ...It became pretty popular. So that became your nickname even when you changed grades and classes, all throughout fourth, fifth, and sixth grade.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"야생 똥싸개는 히트작이었네요. ...정말 유행했어요. 4학년, 5학년, 6학년, 학년, 반이 바뀌어도 별명은 그거였어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1440", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「このあだ名を命名してくれた少女は平山　優子さん。…あなたは恨みましたよね。」",
-		   "<color=#715348>요시무라</color> ", "\"The one who gave you that nickname was a young girl named Hirayama Yuuko-san. ...You hated her, didn't you?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"이 별명을 지어준 소녀는 히라야마 유코 씨. ...당신은 그녀를 원망했죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1450", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…この子がこんなあだ名さえ付けなければこんなひどい目に遭うことはなかった。」",
-		   "<color=#715348>요시무라</color> ", "\"...If that girl hadn't given you that nickname, then you wouldn't have suffered such awful treatment.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...이 여자애가 이런 별명을 붙이지 않았다면 이렇게 끔찍한 일을 겪지는 않았을 건데요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	//;quake 2,1000
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1460", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…殴りかかりましたね。",
-		   "<color=#715348>요시무라</color> ", "\"...So you beat her, didn't you?", Line_Continue);
+		   "<color=#715348>요시무라</color> ", "\"...때렸죠", Line_Continue);
 	OutputLine(NULL, "箒の柄で何度も何度も！",
-		   NULL, " Over and over again with a broomstick!", Line_Continue);
+		   NULL, " 빗자루 대로 몇 번이고!", Line_Continue);
 	OutputLine(NULL, "泣いても叩き続けた。」",
-		   NULL, " You kept beating her even after she started crying.\"", Line_Normal);
+		   NULL, " 울어도 계속 때렸죠.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -6000,7 +6000,7 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0110", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「荒川君ッ！女の子を叩くなんて最低よッ！？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"Hey, 아라카와-kun! Hitting a girl, that's real low!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"아라카와 군! 여자애를 때리다니 최악이야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6008,9 +6008,9 @@ void main()
 	ShakeScreen( 4, 6, 20, 50, 1, );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1310", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「わぁあぁあああああーん！",
-		   "<color=#5ec69a>미온</color> ", "\"Waaaaaaaaaaahhn!", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"으아아아아아아앙!", Line_Continue);
 	OutputLine(NULL, "荒川がぶったー！」",
-		   NULL, " 아라카와 hit me!\"", Line_Normal);
+		   NULL, " 아라카와 군이 때렸어!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -6019,7 +6019,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0940", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「最低男！」",
-		   "<color=#6972c1>리카</color> ", "\"Scumbag!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"나쁜놈!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6030,14 +6030,14 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0680", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「女なんかにマジになんなよなぁ！」",
-		   "<color=#ccaa95>토네가와</color> ", "\"There's no reason to do that to a girl!\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"여자 따위에게 진심이 되지 마라고!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 59, "sprite/hoka1a_04_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0130", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「なぁ荒川。先生には内緒で教えてくれよな。…お前、平山の事、好きなのか？うん？」",
-		   "<color=#574f58>Okano</color> ", "\"Hey, 아라카와. You can tell me, your teacher, in secret. ...Do you like Hirayama? Hmm?\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"저기, 아라카와. 선생님은 몰라도 되니까 알려줘. ...너 히라야마 좋아하지? 응?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6048,7 +6048,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1130", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ぅおおおぉおおぉおおおおおッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Rrrrrrrrrrrrrrrrrrrrrrrrgh!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"우오오오오오오오오오오오!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	//;（吠えて威嚇する。）@
@@ -6059,7 +6059,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1470", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「中学校でも野グソマンは大流行だ。…会った事もない初対面の人間に好奇の眼差しで見られるの、…苦痛ですよねぇ。」",
-		   "<color=#715348>요시무라</color> ", "\"Even in middle school, Shitman was all the rage. ...It hurt... when people you had never even met before looked at you with curiosity, didn't it?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"중학교에서도 야생 똥싸게는 대유행이었죠. ...만난 적도 없는 처음 보는 사람에게 호기심 가득한 눈빛으로 쳐다보이는 건, 고통스럽죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6068,21 +6068,21 @@ void main()
 	ModDrawCharacter(1, 52, "sprite/hri2a_14_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 400, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0950", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「あいつ？…噂の野グソ男。」",
-		   "<color=#6972c1>리카</color> ", "\"Him? ...The one everyone calls Shitman?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"그 녀석? ...소문의 야생 똥싸개?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_06_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0120", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「近付かない方がいいって！…なんか臭うらしーよぅ！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"You should stay away from him! ...I hear he stinks!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"가까이 가지 않는 게 좋다고! ...뭔가 냄새가 난다고 하더라고!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 53, "sprite/hmi2a_03_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1320", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あははははは！不潔不潔不潔ーッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Ahahahahaha! Gross, gross, gross!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"아하하하하하하! 더러워더러워더러워!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6095,7 +6095,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1140", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「うるせえよッ！あれ１回きりだよッ！うるせえなぁッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Shut up! I only did it the one time! Now shut up about it!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"닥쳐! 한 번뿐이었어! 시끄러워!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6103,12 +6103,12 @@ void main()
 	DrawScene( "black", 400 );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1480", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「苦難の義務教育もようやく終わり、いよいよ高校生として新しいスタートを切りました。」",
-		   "<color=#715348>요시무라</color> ", "\"Your hardship of mandatory education finally came to an end, and at long last, you were able to make a new start in high school.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"고생스러운 의무 교육도 드디어 끝나고, 이제야 고등학생으로서 새로운 시작을 했습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1490", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「同学年に同じ中学の出身は１人もなく、あなたは胸をなで下ろした。」",
-		   "<color=#715348>요시무라</color> ", "\"You heaved a sigh of relief when you saw there wasn't a single person from your middle school in the same grade as you.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"동급생 중에 같은 중학교 출신이 하나도 없어, 안도의 한숨을 내쉬었습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6121,7 +6121,7 @@ void main()
 
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0140", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「………あのさぁ！…お前って、…野グソマン？」",
-		   "<color=#574f58>Okano</color> ", "\".........Hey there! ...Are you... Shitman?\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\".........저기! ...너... 야생 똥싸개?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6130,7 +6130,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1150", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「えッ！……ええッ！？」",
-		   "<color=#5f5248>아라카와</color> ", "\"Huh?! ......Huhh?!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"어?! ......뭐라고?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6153,7 +6153,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1500", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「どこから伝わったのかは今でも判りません。でも、…不幸にもどこかで誰かが聞きつけてしまったんですなぁ。」",
-		   "<color=#715348>요시무라</color> ", "\"Even now, you have no idea how that name got passed from school to school. But... unfortunately for you, someone heard that name somewhere.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"누가 어디서 얘기했는지 아직도 알 수 없지만, 안타깝게도 누군가 듣게 된 것 같네요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6162,9 +6162,9 @@ void main()
 	PlayBGM( 1, "me/lgsk_warai", 10, 0 );
 
 	OutputLine(NULL, "　吉村・荒川以外は笑い続けている。",
-		   NULL, "All but 요시무라 and 아라카와 continue to laugh.", Line_WaitForInput);
+		   NULL, "요시무라와 아라카와를 제외한 모두는 계속 웃고 있다.", Line_WaitForInput);
 	OutputLine(NULL, "荒川は傘を握りしめながらよろよろと立ち上がる。",
-		   NULL, " 아라카와 clenches his umbrella and stands up, still wobbling.", Line_Normal);
+		   NULL, " 아라카와는 우산을 꽉 쥐고 힘겹게 일어선다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -6173,21 +6173,21 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1160", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「うるせえうるせえうるせえよッ！…黙れよ！黙んねえと殺すぞッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Shut up, shut up, shut up! ...Be quiet! If you don't shut up, I'll kill you!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"닥쳐, 닥쳐, 닥쳐! ...입 닥쳐! 닥치지 않으면 죽여버릴거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1510", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「女の子を殴ればすぐ悪者扱いされる。あなたは歯を食いしばって耐えた。」",
-		   "<color=#715348>요시무라</color> ", "\"If you hit a girl, however, you'd quickly be treated as a villain. So you gritted your teeth and endured it.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"여자를 때리면 바로 나쁜 놈 취급을 받는다. 그래서 당신은 이를 악물고 견뎠죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	PlaySE( 0, "a5_10315", 70, 64 );
 	ShakeScreen( 0, 6, 100, 3, 33, );
 
-	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1170", 128, TRUE);
+	ModPlayVoiceLS(4, 55, "p3/s26/55/tara_1170", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「馬鹿野郎ッ！女だからって容赦しねえぞッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Dumbass! I won't go easy on you just because you're a woman!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"멍청아! 여자라고 용서하지 않을 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 
@@ -6200,14 +6200,14 @@ void main()
 	ShakeScreen( 4, 6, 20, 50, 1, );
 
 	OutputLine(NULL, "　傘を振り回しながら魅音・梨花に歩み寄る荒川。",
-		   NULL, "아라카와 steps toward 미온 and 리카, swinging his umbrella around.", Line_WaitForInput);
+		   NULL, "우산을 휘두르며 미온과 리카에게 다가가는 아라카와.", Line_WaitForInput);
 	OutputLine(NULL, "２人は笑い転げながら後退る。",
-		   NULL, " They both back off, laughing all the while.", Line_Normal);
+		   NULL, " 두 사람은 웃음을 터뜨리며 뒤로 물러선다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1520", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「男の子を殴ればすぐ仕返しされる。あなたは歯を食いしばって耐えた。」",
-		   "<color=#715348>요시무라</color> ", "\"If you hit a guy, then they quickly fought back. So you gritted your teeth and endured it.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"남자를 때리면 바로 보복당해 맞고 만다. 당신은 이를 악물고 참았다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6216,7 +6216,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1180", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ふざけるなッ！殺してやる！誰だろうと殺してやるッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Fuck off! I'll kill you! I don't care who you are, I'll kill you!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"까불지마! 죽여버릴거야! 다 죽여버릴거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6230,23 +6230,23 @@ void main()
 	ShakeScreen( 4, 6, 20, 50, 1, );
 
 	OutputLine(NULL, "　傘を振り回しながら利根川・星野・岡野に歩み寄る荒川。",
-		   NULL, "아라카와 steps toward 토네가와, Hoshino, and Okano, swinging his umbrella around.", Line_WaitForInput);
+		   NULL, "우산을 휘두르며 토네가와, 호시노, 오카노에게 다가가는 아라카와.", Line_WaitForInput);
 	OutputLine(NULL, "３人も笑いながら後退る。",
-		   NULL, " All three back off, laughing as they do.", Line_Normal);
+		   NULL, " 세 사람은 웃으면서 뒤로 물러난다.", Line_Normal);
 	ClearMessage();
 
 	ChangeVolumeOfBGM( 1, 70, 100 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悔しがりながら舞台中央で傘を振り回す荒川。",
-		   NULL, "아라카와 remains center stage, swinging his umbrella around in frustration.", Line_WaitForInput);
+		   NULL, "아라카와는 무대 중앙에서 우산을 휘두르며 분풀이를 한다.", Line_WaitForInput);
 	OutputLine(NULL, "５人はなおも大笑い。",
-		   NULL, " The other five all laugh even harder.", Line_Normal);
+		   NULL, " 5인들은 여전히 웃음을 참지 못한다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1190", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「殺してやる殺してやるッ！皆殺しだぁッ！糞どもめぇッ！…わぁあああぁあぁああぁあああああッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"I'll kill you! I'll kill you! I'll kill you all! You shitheads! ...Waaaaaaaaaaaaaaaaaaah!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"죽여버릴거야! 죽여버릴거야! 다 죽일거야! 개새끼들아! ...와아아아아아아아아아아앗!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6258,12 +6258,12 @@ void main()
 	DrawScene( "black", 400 );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1530", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「苦しいでしょう。辛いでしょう！…求めたくないですか？…救いが！」",
-		   "<color=#715348>요시무라</color> ", "\"It must have been painful. It must have been tough! ...So wouldn't you want to seek it? ...Your salvation!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"힘들지 않나요? 고통스럽지 않나요? ...원하지 않나요? ...구원을!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1540", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…求めたいはずだ！…そうでしょうッ！」",
-		   "<color=#715348>요시무라</color> ", "\"...Of course you'd want it! ...Yes, you definitely would!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...원하지 않을 수가 없잖아요! ...그렇죠!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6273,36 +6273,36 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1200", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「俺を馬鹿にするヤツは皆殺しだぁッ！…をおおぉおおぉおおおおおッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"I'll kill everyone who makes fun of me! ...Rrrrrrrrrrrrrrrrrrgh!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"나를 우습게 여기는 놈은 죽일거야! ...으아아아아아아아앗!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	PlayBGM( 1, "me/koware_wind", 70, 0 );
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1550", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…会いたく、…なってきませんか。……ふっふふふ！」",
-		   "<color=#715348>요시무라</color> ", "\"...Do you want... to meet them now? ......Fufufufu!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...만나고... 싶어지지 않나요? ......후후후후!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1210", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「誰にだよッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Meet who?!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"누구한테야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1560", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…近藤さんも柿沼さんも！…たくさん辛い事があった。でも解放されたんです。…森さんも加藤さんもね！」",
-		   "<color=#715348>요시무라</color> ", "\"...You know, both Kondou-san and Kakinuma-san... they went through plenty of hard times too. But they're free now. ...Same with Mori-san and Katou-san!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...콘도 씨도 카키누마 씨도!... 많은 힘든 일이 있었습니다. 하지만 해방됐어요. ...모리 씨도 카토 씨도요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 55, "sprite/hara1a_07_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1220", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「へ！…へへへ！……そーかよ…！…そーゆうわけかよ…ッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Heh! ...Hehehe! ......That so...?! ...So that's how it is...!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"헤! ...헤헤헤! ......그래...! ...그런 거였어...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1570", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…会いたいでしょう？…会いたいでしょう！」",
-		   "<color=#715348>요시무라</color> ", "\"...You want to meet them, right? ...You want to meet them, right?!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...만나고 싶지 않아요? ...만나고 싶죠?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6314,32 +6314,32 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1230", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「来やがれよ。…俺を馬鹿にするヤツはぶっ殺してやるッ！…なにが祟りだ！オヤシロさまが何だってんだッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Bring their ass to me. ...I'll kill everyone who makes fun of me! ...Screw the curse! So what about this Oyashiro-sama crap?!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"와보라고 해. ...나를 바보 취급하는 놈은 죽여버릴 거야! ...무슨 저주! 오야시로님이 뭐 어쨌다고!!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1240", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「あっはっはっはっはっ！会ってやろうじゃねえかッ！…みんなみんなぶっ殺してやるッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"Hahahahahaha! I'll go ahead and meet them, then! ...And I'll kill every last one of them!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"아하하하하하! 만나줄게! ...모두 다 죽여버릴 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1580", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「会いたい？……会いたい。……会いたい！？」",
-		   "<color=#715348>요시무라</color> ", "\"You want to meet them? ......You want to meet them. ......You want to meet them?!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"만나고 싶어? ......만나고 싶다. ......만나고 싶어?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1590", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「……っはっはっはっは！あーっはっはっはっはっはっはッ！」",
-		   "<color=#715348>요시무라</color> ", "\"......Hahahaha! Ahhhahahahahaha!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"......하하하하하! 아하하하하하하하하!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1600", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…言いましたねぇ？…会いたい？…はっはっはっはっはっは！」",
-		   "<color=#715348>요시무라</color> ", "\"...You said it, didn't you? ...You want to meet them? ...Hahahahahaha!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...말했죠? ...만나고 싶다? ...하하하하하하하하!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1610", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「会わせてあげましょうとも。……オヤシロさまに……ッ！」",
-		   "<color=#715348>요시무라</color> ", "\"Then I'll help you meet them. ......I'll help you meet Oyashiro-sama......!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"만나게 해 드리죠. ......오야시로님과......!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
