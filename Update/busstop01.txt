@@ -8250,9 +8250,9 @@ void main()
 	Wait( 2000 );
 
 	OutputLine(NULL, "　星野と岡野がぬっと現れる。",
-		   NULL, "Hoshino and Okano suddenly appear.", Line_WaitForInput);
+		   NULL, "호시노와 오카노가 갑작스럽게 나타난다.", Line_WaitForInput);
 	OutputLine(NULL, "続いて新田を先頭に保土田・織田が入ってくる。",
-		   NULL, " Hotoda and Oda appear as well, following behind Nitta.", Line_Normal);
+		   NULL, " 그 다음으로 닛타를 앞세워 호토다와 오다가 들어온다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -8263,47 +8263,47 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花は魅音の前に立ち、魅音をかばう。",
-		   NULL, "리카 stands in front of 미온, shielding her.", Line_Normal);
+		   NULL, "리카는 미온 앞에 서서 미온을 지킨다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	ModDrawCharacter(3, 57, "sprite/hnit1a_04_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0020", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「逃がされては困ります。梨花さん。」",
-		   "<color=#6b493e>Nitta</color> ", "\"We can't have you running away on us, 리카-san.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"도망치게 둘 순 없습니다. 리카 씨.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 52, "sprite/hri2a_05_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1390", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「………来ないで。」",
-		   "<color=#6972c1>리카</color> ", "\".........Stay back.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\".........다가오지 마.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_06_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2160", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…警察の人ですよね…？…何の用でしょうね…。」",
-		   "<color=#5ec69a>미온</color> ", "\"...You're the police, right...? ...What do you need...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...경찰분이시죠...? ...무슨 일로 으로 오셨나요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 52, "sprite/hri2a_12_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1400", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…こいつらは…警察なんかじゃないわ…。」",
-		   "<color=#6972c1>리카</color> ", "\"...These men... are not police...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...이 사람들은... 경찰이 아니야...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 57, "sprite/hnit1a_02_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0030", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「おぉ…。…お初にお目にかかります。あなたが園崎　魅音さんですね…？」",
-		   "<color=#6b493e>Nitta</color> ", "\"Ohh... ...Pleasure to meet you. You must be 미온 Sonozaki-san, right...?\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"오... ...처음 뵙겠습니다. 당신이 소노자키 미온 씨군요....?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2170", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「えぇ、はい、どーも…。」",
-		   "<color=#5ec69a>미온</color> ", "\"Uhh, yes. Hello...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"어, 네. 안녕하세요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8312,35 +8312,35 @@ void main()
 	DrawSceneWithMask( "background/hina_bus_01", "effect/left", 0, 0, 300 );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0160", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「係長。…すでに末期症状です。刺激しないように注意して下さい。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"Chief. ...She's already at the terminal stage. Please take care not to agitate her.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"과장님. ...이미 말기 증상입니다. 자극하지 않도록 주의해 주세요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 57, "sprite/hnit1a_01_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 400, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0040", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「自己紹介しましょう。…私は新田　博昭と申します。厚生省保険医療局感染症対策課に勤務しています。…こっちは岡野君。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Allow me to introduce myself. ...I'm Hiroaki Nitta. I work in the Infectious Diseases Control Division of the Ministry of Health's Service Bureau. ...This is Okano-kun.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"자기소개를 하겠습니다. ...저는 닛타 히로아키라고 합니다. 후생성 보험의료국 감염병 대책과에서 일하고 있습니다. ...이쪽은 오카노 군입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 59, "sprite/hoka1a_02_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 400, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0170", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「岡野です。同じく感染症対策課に勤務しています。…先程は警察と名乗りましたが、嘘でした。申し訳ありません。」",
-		   "<color=#574f58>Okano</color> ", "\"I'm Okano. I work in the same Infectious Diseases Control Division. ...I know we introduced ourselves as police before, but that was false. I apologize.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"오카노입니다. 저도 같은 감염병 대책과에서 근무하고 있습니다. ...앞서 경찰이라고 말씀드렸지만, 그건 거짓말이었습니다. 사과드립니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(4, 60, "sprite/hoda1a_02_", "0", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 60, "ps3/s26/60/toda_0030", 128, TRUE);
 	OutputLine("<color=#646570>織田</color> ", "「同じく感染症対策課の織田です。」",
-		   "<color=#646570>Oda</color> ", "\"I'm Oda, also from the same Infectious Diseases Control Division.\"", Line_Normal);
+		   "<color=#646570>Oda</color> ", "\"저도 감염병 대응과에서 근무하는 오다입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(5, 61, "sprite/hhot1a_04_", "2", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0020", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「同じく保土田です。よろしく。」",
-		   "<color=#e99348>Hotoda</color> ", "\"Hotoda, with the same. Nice to meet you.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"호토다입니다. 잘 부탁드립니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8354,7 +8354,7 @@ void main()
 	ModDrawCharacter(2, 57, "sprite/hnit1a_04_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 400, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0050", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「星野主任は国立予防衛生研究所、寄生虫部からの出向です。今回の件のスペシャリストとして派遣されています。」",
-		   "<color=#6b493e>닛타</color> ", "\"호시노 주임은 국립 예방위생연구소, 기생충부에서 파견되셨습니다. 이번 사건의 전문가로서 파견되었습니다.\"", Line_Normal);
+		   "<color=#6b493e>닛타</color> ", "\"호시노 주임은 국립 예방위생연구소 기생충부에서 파견된 분입니다. 이번 사건의 전문가로서 파견되었습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8365,14 +8365,14 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2180", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…はぁ…。……何か今日はお役人のオンパレードですねぇ…。…建設省に厚生省。文部省とか大蔵省も来ますかねぇ？」",
-		   "<color=#5ec69a>미온</color> ", "\"...Okay... ......We're sure seeing a parade of government officials today, huh... ...First the Ministry of Construction, now the Ministry of Health. Are the Ministry of Education and the Ministry of Finance coming too?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...하아... ......오늘따라 공무원 퍼레이드네요... ...건설성에 후생성. 문부성이나 재무성도 올까요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 57, "sprite/hnit1a_01_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0060", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「それは来ません。…ご安心を。」",
-		   "<color=#6b493e>Nitta</color> ", "\"They won't be coming. ...Rest assured.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"그런 곳에서는 오지 않습니다. ....안심하세요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8381,7 +8381,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1410", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……帰って！……魅音は渡さない。」",
-		   "<color=#6972c1>리카</color> ", "\"......Go home! ......I'm not handing 미온 over.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......돌아가! ......미온은 절대로 넘기지 않아.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8389,49 +8389,49 @@ void main()
 
 	ModPlayVoiceLS(4, 60, "ps3/s26/60/toda_0040", 128, TRUE);
 	OutputLine("<color=#646570>織田</color> ", "「梨花さん。…今さらそれは困ります。」",
-		   "<color=#646570>Oda</color> ", "\"리카-san. ...That's not an option at this point.\"", Line_Normal);
+		   "<color=#646570>Oda</color> ", "\"리카 씨. ...이제 와서 그런 말씀은 곤란합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_06_", "0", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2190", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…な、なんかいやーな雰囲気なんですけど…。…なんすか？私に何かご用ですか…？」",
-		   "<color=#5ec69a>미온</color> ", "\"...I-I'm getting kind of a bad feeling here... ...But, what's going on? Do you need me for something...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...어, 어째서인지 기분 나쁜 분위기네요... ...뭐죠? 저한테 무슨 용건이라도 있나요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 57, "sprite/hnit1a_02_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0070", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「おぉ、それはもちろんです。魅音さんにぜひご協力いただきたい事がありまして、…職員一同で出向かせてもらいました。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Oh, of course we do. We would love to have your cooperation, 미온-san... That's why we've brought all of our staff here.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"아, 그건 물론입니다. 미온 씨의 협력을 꼭 부탁드리고 싶은 일이 있어서... 직원 전원이 찾아뵙게 되었습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0080", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…無礼の程はお許し下さい。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...Please pardon our earlier rudeness.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...무례했던 점, 용서해 주십시오.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_02_", "2", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2200", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「な、…なんかＶＩＰ待遇って感じっすよねぇ…。…はは！なんか悪い気しないなー！」",
-		   "<color=#5ec69a>미온</color> ", "\"I... I feel like I'm getting the VIP treatment here... ...Haha! It doesn't feel that bad, though!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"어... 어쩐지 VIP 대우 받는 느낌이네요... ...하하! 나쁘지 않은 기분이네요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(4, 61, "sprite/hhot1a_04_", "2", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0030", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「…もちろんそうですとも。園崎さんには今後、最高の待遇で当らせていただきます。」",
-		   "<color=#e99348>Hotoda</color> ", "\"...Well, of course you are. We'll be providing you with the best possible living conditions, Sonozaki-san.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"...물론이죠, 소노자키 씨께는 앞으로 최상의 대우를 해드릴 예정입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_03_", "1", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2210", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ははッ！",
-		   "<color=#5ec69a>미온</color> ", "\"Haha!", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"하하!", Line_Continue);
 	OutputLine(NULL, "やったね！",
-		   NULL, " Hooray!", Line_WaitForInput);
+		   NULL, " 좋았어!", Line_WaitForInput);
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_04_", "0", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
@@ -8440,25 +8440,25 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2211", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "………なんて言う訳ないじゃん。",
-		   "<color=#5ec69a>미온</color> ", " .........Did you really think I'd say that?", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", " .........그런 말 할 리가 없잖아.", Line_Continue);
 	OutputLine(NULL, "バーカ。",
-		   NULL, " Idiots.", Line_Continue);
+		   NULL, " 바보.", Line_Continue);
 	OutputLine(NULL, "……理由もなくうまい話が来るわけないでしょー。」",
-		   NULL, " ......There's no way such a sweet deal would come without strings attached.\"", Line_Normal);
+		   NULL, " ......이유도 없이 좋은 일이 올 리가 없잖아요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	ModDrawCharacter(2, 57, "sprite/hnit1a_04_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0090", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「仰る通りです。ですが理由はあります。…今からその理由を申し上げますので、どうか冷静にお聞き下さい。」",
-		   "<color=#6b493e>Nitta</color> ", "\"You would be correct. Though there is a reason for it. ...I'll explain that reason to you now, so please listen calmly.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"말씀하신 대로입니다. 그 이유는 있습니다. ...지금부터 그 이유를 설명드릴 테니, 진정하고 들어주시기 바랍니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 57, "sprite/hnit1a_05_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0100", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…少々その、信じ難い話ですからね。……星野さん。お願いします。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...It will be slightly difficult to believe, you see. ......Hoshino-san. Would you please?\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...약간, 믿기 어려운 이야기이긴 합니다. ......호시노 씨. 부탁드립니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8470,28 +8470,28 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0180", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「雛見沢の方ですからご存知ですね？…オヤシロさまの祟りの話は。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"Since you're from Hinamizawa, you must already know, right? ...About Oyashiro-sama's curse?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"히나미자와 출신이시니 알고 계시겠죠? ...오야시로님의 저주에 관한 이야기요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_05_", "0", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2220", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……すみません。…オヤシロさまの話はパスしたいんですけど…。」",
-		   "<color=#5ec69a>미온</color> ", "\"......I'm sorry. ...I'd rather pass on talking about Oyashiro-sama again...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......죄송합니다. ...오야시로님에 대한 이야기는 패스하고 싶은데요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 57, "sprite/hnit1a_02_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0110", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「時間は取らせませんよ。」",
-		   "<color=#6b493e>Nitta</color> ", "\"We won't take much of your time.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"시간은 끌지 않겠습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(5, 58, "sprite/hhos1a_05_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0190", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…結論から申し上げますと、…オヤシロさまの祟りは実在します。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...To start from the conclusion... Oyashiro-sama's curse does indeed exist.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...결론부터 말씀드리면... 오야시로님의 저주는 실제로 존재합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8499,7 +8499,7 @@ void main()
 	ModDrawCharacter(5, 58, "sprite/hhos1a_03_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0200", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…先程、建設省の職員が悶死したのをご覧になったでしょう。あれがまさにそうです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...You witnessed the agonizing death of the man from the Ministry of Construction a few moments ago, right? That was a result of the curse.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...방금 전에 건설성 직원이 고통스럽게 죽는 걸 보셨죠. 그게 바로 그것입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8508,14 +8508,14 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2230", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…そんなッ！……じゃあ吉村は…何者なんですか！？…あいつは…ッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"...No way! ......Then what on earth... was 요시무라?! ...He was...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...말도 안 돼! ......그럼 요시무라는... 대체 누구인 거야?! ...저 녀석은...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(4, 59, "sprite/hoka1a_04_", "2", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0180", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「吉村満は本人の申請通り、ただのフリーライターです。」",
-		   "<color=#574f58>Okano</color> ", "\"Mitsuru 요시무라 was an ordinary freelance writer, just as he said.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"요시무라 미츠루는 본인이 말한대로, 그저 프리랜서 기자일 뿐입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8523,51 +8523,51 @@ void main()
 	ShakeScreen( 0, 6, 100, 2, 50, );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2240", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「そんな訳ないでしょッ！？…あいつが荒川さんを殺して！」",
-		   "<color=#5ec69a>미온</color> ", "\"That can't be true. ...He killed 아라카와-san!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"그럴 리 없잖아요?! ...그 녀석이 아라카와 씨를 죽였어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2250", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…通り魔殺人だって！…あいつが自分がやったって、自分で言ったんですよッ！？」",
-		   "<color=#5ec69a>미온</color> ", "\"...He was the slasher! ...He himself said that he was the one who did it?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...무차별 살인이라고요! ...그 녀석이 자기가 한 일이라고, 직접 말했다고요?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	ModDrawCharacter(4, 59, "sprite/hoka1a_03_", "0", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0190", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「通り魔殺人は嘘です。部外者を連れ出す為に用意した我々の嘘です。」",
-		   "<color=#574f58>Okano</color> ", "\"We lied about there being a slasher. That was a lie we used in order to lead the outsiders away.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"무차별 살인은 거짓말입니다. 외부인을 끌어내기 위해 우리가 준비한 거짓말입니다..\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_07_", "2", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2260", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「えぇッ！？…だって吉村がそうだって自分で…ッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Huhh?! ...But 요시무라 himself said that he...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"뭐라고요?! ...그런데 요시무라가 직접 그렇다고...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(4, 59, "sprite/hoka1a_05_", "2", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0200", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「吉村は何もしていません。誰も殺してなんかない。」",
-		   "<color=#574f58>Okano</color> ", "\"요시무라 hasn't done anything. He hasn't killed anyone.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"요시무라는 아무 일도 저지른 적이 없습니다. 누구도 죽인 적 없어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 53, "sprite/hmi2a_14_", "2", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2270", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「でも現に私が殺されかけたんですよッ！？あいつの変な力でお腹の中を掻き回されてッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"But I was nearly killed myself?! He used some kind of strange power to stir up the insides of my stomach!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"그치만 사실 저는 살해당할 뻔 했어요?! 그 녀석은 이상한 힘으로 제 배 안을 휘젓기도 했어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0120", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「冷静に冷静に。…最後までお聞きになって下さい。星野さん。続けて下さい。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Stay calm, stay calm. ...Please let us finish speaking. Hoshino-san, please continue.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"차분히 차분히. ...끝까지 들어주세요. 호시노 씨. 계속해 주세요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(5, 58, "sprite/hhos1a_07_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0210", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「祟りが実在すると申しましたが、当然、この祟りにも正体があります。……虫です。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"I mentioned that the curse does exist, but naturally that means there's a real cause behind the curse. ...It's a bug.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"저주가 실제로 존재한다고 말씀드렸지만, 당연히 이 저주에도 진짜 정체가 있습니다. ...그건 바로 벌레입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8576,7 +8576,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2280", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「虫ぃ！？」",
-		   "<color=#5ec69a>미온</color> ", "\"A bug?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"벌레?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8586,54 +8586,54 @@ void main()
 	//;ld l,hos_d6,80
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0220", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「極めて珍しい虫で、我々は「ヒナミザワアリ」と呼んでいます。…アリに姿が似ているんですよ。生態はまったく異なりますが。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"It's an extremely rare bug, and we've taken to calling it the Hinamizawa Ant. ...It resembles an ant in its appearance. Though its behavior is completely different.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"매우 희귀한 벌레로, 우리는 이를 '히나미자와개미'라고 부릅니다. ...모양이 개미와 비슷하지만 생태는 완전히 다릅니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld l,hos_d7,80
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0230", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「ヒナミザワアリは…信じられない事ですが脳に寄生します。寄生経路は今でもはっきりしません。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"The Hinamizawa Ant... as unbelievable as it may sound, is a parasite that inhabits the brain. How it enters its hosts is still unclear to us at present.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"히나미자와개미는... 믿기 어렵지만 뇌에 기생합니다. 기생 경로는 아직도 명확히 밝혀지지 않았습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0240", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…無論、治療法も確立していない奇病です。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Of course this is also a rare infection, for which no treatment has been established.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...물론, 아직 치료법이 개발되지 않은 희귀병입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,nit_d1,80
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0130", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「あぁ、あんまり想像しない方がいいですよ。…脳味噌の溝の部分に極小のアリがびっしり住み着いてるなんて気持ち悪いでしょう…？」",
-		   "<color=#6b493e>Nitta</color> ", "\"Yeah, you shouldn't try too hard to think about it. ...It's disturbing enough to think that a minuscule ant is living packed in tight in the folds of the brain, right...?\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"아, 너무 자세히 상상하지 않는 게 좋아요. ...뇌의 주름진 부분에 아주 작은 개미들이 바글바글 산다고 상상하면 기분 나빠지죠...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0250", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「特殊な環境下でしか生きられず、雛見沢以外の土地では長生きできません。…つまり雛見沢土着の虫なのです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"This organism can only live in a unique environment, and outside of Hinamizawa, it doesn't live for very long. ...Which makes the bug endemic to Hinamizawa.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"특수한 환경에서만 생존할 수 있고, 히나미자와가 아닌 다른 땅에서는 오래 살 수 없습니다. ...즉, 히나미자와 토착종입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2290", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…あの、…そのナントカアリって……私の脳にも住み着いてるんですか…？」",
-		   "<color=#5ec69a>미온</color> ", "\"...Umm... So is this ant or whatever... living inside of my brain as well...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...저기... 그 뭐시기개미가... 제 뇌에도 살고 있는 건가요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0260", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「はい。……でも怖がる事はありません。雛見沢一帯の住民の９割は寄生されています。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"Yes. ......But there's nothing to fear. Approximately 90% of the residents in Hinamizawa are hosts to it.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"네. ......하지만 두려워할 필요는 없습니다. 히나미자와 일대 주민의 90%가 그 기생충에 감염됬습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0270", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…でも日常生活を営む上で支障はないでしょう？…立派な共生なんです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Yet despite that, no one's lives seem to be particularly impeded by it, right? ...It's quite symbiotic.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...그런데 일상생활에 지장이 없다면 문제 없겠죠? ...멋진 공생 관계네요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2300", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「で、でも気持ちよくないですよ！…頭の中に…変な虫が住んでるなんて！」",
-		   "<color=#5ec69a>미온</color> ", "\"B-But that's still creepy! ...To think there's... some weird bug living in my head!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"하-하지만 기분 나쁘잖아요! ...이상한 벌레가 살고 있다니까요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0280", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「人間の体もひとつの宇宙ですよ。全てを否定はできません。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"The human body is a universe of its own. We can't just eject whatever we don't like about it.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"인간의 몸도 하나의 우주라고 할 수 있죠. 모든 것을 부정할 수는 없어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8644,28 +8644,28 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0140", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「星野さん。脱線してます。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Hoshino-san, you're getting sidetracked.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"호시노 씨, 본론에서 벗어나고 계십니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 58, "sprite/hhos1a_04_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0290", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…失礼。…そしてこのアリには親虫がいます。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Pardon me. ...So, this ant of course has a queen.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...실례. ...그리고 이 개미에는 여왕이 있습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 58, "sprite/hhos1a_01_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0300", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…アリたちは親虫から遠く離されると、…つまり寄生された人間が雛見沢を遠く離れると、…狂い出すのです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Now, if these ants grow too far separated from their queen ...In other words, if the host human goes too far away from Hinamizawa... then they go insane.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...개미들은 여왕로부터 멀어지면 ...즉, 기생당한 사람이 히나미자와를 멀리 떠나면... 미쳐버리게 됩니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 61, "sprite/hhot1a_01_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0040", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「様々な脳内物質をでたらめに分泌し、宿主の人間の情緒を不安定にします。」",
-		   "<color=#e99348>Hotoda</color> ", "\"They start secreting various neurochemicals at random, causing the host's emotions to become unstable.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"다양한 뇌내 화학물질을 무작위로 분비해, 숙주인 사람의 정서를 불안정하게 만듭니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8673,7 +8673,7 @@ void main()
 	ModDrawCharacter(3, 61, "sprite/hhot1a_02_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0050", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「被害妄想を肥大させ、自分は誰かに監視されている、誰かに命を狙われている、と言った感情を膨らませて行きます。」",
-		   "<color=#e99348>Hotoda</color> ", "\"This leads to the growth of a persecution complex, with the host believing that someone is watching over them, or that someone is after their life, and those emotions grow even stronger.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"피해 망상을 과도하게 키워서, 자신이 누군가에게 감시받고 있으며, 누군가가 자신의 목숨을 노리고 있다는 느낌을 부풀려 갑니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8684,7 +8684,7 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0310", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「最後には幻覚を見、幻聴を聞き、…視界に入る全てが自分の命を狙っているように感じます。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"Ultimately, they begin seeing and hearing hallucinations... so that eventually it feels like everything that enters their vision is after their life.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"결국에는 환각을 보고, 환청을 듣게 되며, 눈에 보이는 모든 것이 자신을 죽이려고 하는 것처럼 느껴지게 됩니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 
@@ -8692,26 +8692,26 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0320", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…この時、惨劇が起こるのです。…自宅であれば家族を殺し、職場であれば同僚を殺そうとする。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...That's when tragedy strikes. ...If they're home, they try to kill their families, and if they're at work, they try to kill their colleagues.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...이때 비극이 일어납니다. ...집이라면 가족을, 직장이라면 동료를 죽이려고 하죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,hos_d5,80
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0330", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「末期には自分の体内に異物が蠢いているように感じられるそうです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"In the terminal stages, they've claimed to feel like some foreign substance is crawling around inside of their body.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"말기가 되면 자기 몸 안에서 뭔가가 기어다니는 것처럼 느껴진다고 합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0340", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…それらが喉元に込み上げて来るように感じ、…犠牲者たちは喉を掻きむしって死ぬのです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Then they feel that sensation climbing up their esophagus... and the victims then scratch their throats until they die.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...그들은 무언가가 목구멍까지 올라오는 것을 느끼고... 희생자들은 목을 긁어대다가 죽게 됩니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 
 	//;ld l,nit_d1,22
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0150", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…恐ろしいでしょう？…ですが雛見沢に住んでいる限り安全なのです。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...Terrifying, isn't it? ...However, it's perfectly safe so long as they live in Hinamizawa.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...무서운 이야기죠? ...하지만 히나미자와에 거주하는 한 안전합니다..\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8724,21 +8724,21 @@ void main()
 	DrawScene( "background/hina_bus_02", 400 );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0350", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「どれくらいの期間、どれくらいの距離を離れればアリが狂い出すのか。…これは個人差が激しく一概には言えません。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"How long does it take to start? How far can the host go before the ant goes crazy? ...Those have varied greatly between individual cases, so we can't make any broad generalizations, unfortunately.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"얼마나 오랜 기간, 얼마나 먼 거리를 떨어져야 그 개미들이 미쳐 날뛰는지는... 개인차가 커서 일률적으로 말하기 어렵습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 58, "sprite/hhos1a_03_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0360", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「極端な例では雛見沢を離れた初日で発症した例がある。…もちろん何年も雛見沢を離れても発症しない人もいます。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"In one extreme case, they developed symptoms on the first day after leaving Hinamizawa. ...But of course, there's also a case where the person lived outside of Hinamizawa for many years before displaying any symptoms.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"극단적인 사례로는 히나미자와를 떠난 바로 그날 증상이 나타난 경우도 있습니다. ...물론 몇 년 동안 히나미자와를 떠나 있어도 전혀 증상이 나타나지 않는 사람들도 있습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_09_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2310", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…あのー……その気持ち悪い話と私が…どう関係あるんです…？」",
-		   "<color=#5ec69a>미온</color> ", "\"...Umm...... so how does all this creepy stuff... have anything to do with me...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...저기요...... 그 섬뜩한 이야기와 제가... 어떤 연관이 있는 건가요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8746,7 +8746,7 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0160", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「１匹だけいる親虫。…これの宿主が彼女。…梨花さんなんですよ。」",
-		   "<color=#6b493e>Nitta</color> ", "\"There only exists one queen. ...And its host is this woman right here, 리카-san.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"단 하나뿐인 여왕... 그 숙주가 바로 그녀, 리카 씨입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8759,7 +8759,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2320", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「はぁ……！？」",
-		   "<color=#5ec69a>미온</color> ", "\"Huh......?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"뭐라......?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8767,14 +8767,14 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1420", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……私が近くにいると…頭が痛くならないでしょ？……変なものを見たり、聞いたりってこともないでしょ…？」",
-		   "<color=#6972c1>리카</color> ", "\"......When I'm nearby... your head doesn't hurt, right? ......You don't see strange things, and you don't hear strange things, do you...?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......내가 곁에 있으면... 머리가 아프지 않지? ......이상한 것을 보거나 듣는 일도 없지...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_06_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2330", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……え……、…あの……。」",
-		   "<color=#5ec69a>미온</color> ", "\"......Huh...... ...Umm......\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......어...... ...저기......\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8783,14 +8783,14 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0370", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…もしも！…梨花さんに何かがあって、親虫が死んでしまったら。…どうなると思います？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...So, if! ...If something were to happen to 리카-san, and the queen were to die... what do you believe would happen?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...만일! ...리카 씨에게 무슨 일이 생기고, 여왕이 죽어버리면... 어떻게 될 것 같나요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 58, "sprite/hhos1a_02_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0380", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「……雛見沢一帯に住む数万人のアリの宿主たちは一斉に…発症するんですよ。…町中の人間が一斉に…！……恐ろしい大惨事になるでしょう。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"......Every single one of the tens of thousands of hosts to the ant living in Hinamizawa... would all develop symptoms at once. ...Every single person in town, all at once...! ......It would lead to an unfathomable tragedy.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"......히나미자와 일대에 사는 수만 명의 개미의 숙주들이 일제히...  발병하게 됩니다. ...마을 사람들이 모두 동시에...! ......끔찍한 대참사가 일어날 거예요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8798,7 +8798,7 @@ void main()
 	ModDrawCharacter(1, 59, "sprite/hoka1a_02_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0210", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「町中の人間が殺し合う…地獄のような光景になります。」",
-		   "<color=#574f58>Okano</color> ", "\"The people of this city would begin killing each other... like an image straight out of hell.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"마을 주민들이 서로 죽고 죽이는... 지옥같은 광경이 펼쳐.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8807,14 +8807,14 @@ void main()
 
 	ModPlayVoiceLS(4, 60, "ps3/s26/60/toda_0050", 128, TRUE);
 	OutputLine("<color=#646570>織田</color> ", "「…ですから我々は梨花さんの身の安全には最高の注意を払っています。…梨花さんにもしもの事があれば一大事です。」",
-		   "<color=#646570>Oda</color> ", "\"...However, we are placing the greatest of cautions in securing 리카-san's safety. ...If something were to happen to 리카-san, it would be terrible.\"", Line_Normal);
+		   "<color=#646570>Oda</color> ", "\"...따라서 우리는 리카 씨의 안전에 최대한의 주의를 기울이고 있습니다. ...리카 씨에게 만약의 일이라도 일어나면 큰일입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_08_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2340", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…へ、…ぇー……。…梨花さんて…すごいんだぁ…。…へぇー……。」",
-		   "<color=#5ec69a>미온</color> ", "\"...Wow... huh...... ...리카-san's... amazing, huh... ...Wow......\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...헤... 에...... ...리카 씨... 대단하구나, 헤... \"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8825,25 +8825,25 @@ void main()
 	//;ld l,nit_d3,22
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0170", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「ここで困った問題が２つ発生しました。…ひとつはご存知の通り、雛見沢のダム計画です。」",
-		   "<color=#6b493e>Nitta</color> ", "\"So now here come along two unfortunate problems. ...The one is the Hinamizawa Dam Project that you already know about.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"여기서 두 가지 곤란한 문제가 발생했습니다. ...아시다시피 그 중 하나는 히나미자와 댐 계획입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld r,hos_d5,22
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0390", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「親虫は雛見沢という極めて限られた環境でしか生きられません。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"The queen can only live within the limited environment of Hinamizawa.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"여왕은 극히 한정된 장소인 히나미자와에서만 살 수 있습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,hos_d8,80
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0400", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…雛見沢がダム湖に沈めば、親虫の生きられる唯一の環境を破壊する事になる！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...If Hinamizawa is submerged under a dam, then the queen won't have anywhere she can survive!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...히나미자와가 댐 호수에 잠기면, 여왕이 살 수 있는 유일한 장소를 파괴하게 된다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld l,nit_d1,80
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0180", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「この問題は上層部が対応中です。近日中にダム計画は撤回されるでしょう。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Our upper brass are currently taking measures to handle that problem. The Dam Project will probably be rescinded in a few days.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"이 문제는 상층부가 대응하고 있습니다. 조만간 댐 계획은 철회될 겁니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8854,7 +8854,7 @@ void main()
 	DrawScene( "background/hina_bus_01", 400 );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0190", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「もうひとつが問題なのです。…梨花さんは生まれつき体が弱く、親虫の寄生に耐えられないんですよ。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Then there's the other problem. ...리카-san was born with a poor constitution, and she can't stand hosting the queen.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"또 다른 문제가 있습니다. ...리카 씨는 선천적으로 몸이 약해, 여왕의 기생에 견딜 수 없습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8862,35 +8862,35 @@ void main()
 	ModDrawCharacter(1, 57, "sprite/hnit1a_05_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0200", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…このままでは梨花さんは数年を待たずに衰弱死してしまうでしょう。…これは大変な事です。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...If nothing is done, then 리카-san will grow debilitated within the next few years, and die. ...That will have the consequences we've already described.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...이대로라면 리카 씨는 몇 년 후에 쇠약사로 죽게 될 겁니다. ...이건 매우 심각한 일입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_02_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0410", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「親虫を健康な肉体に移殖する必要があるんです。幸いに手術は容易です。…ですが親虫の適応できる宿主が難しい。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"The queen needs to be transplanted into a healthy body. Fortunately, the surgery for that is quite simple. ...However, it's more difficult finding a suitable host for the queen.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"여왕을 건강한 신체로 이식해야 할 필요가 있습니다. 다행히 수술은 간단합니다. ...하지만 여왕이 적응할 수 있는 숙주를 찾는 게 어렵죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_05_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0420", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…数万人に一人いるかいないかの適合者を探さなくてはならないのです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...We have to find the one person who may or not exist within the tens of thousands of hosts.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...수만 명 중에 한 명 있을까 말까한 적합자를 찾아야 합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 53, "sprite/hmi2a_09_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2350", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「………あのー…ひょっとして……それが……。」",
-		   "<color=#5ec69a>미온</color> ", "\".........Umm... are you telling me...... that I'm......\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\".........저기... 혹시...... 그게......\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 57, "sprite/hnit1a_02_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0210", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…あなたです。園崎さん。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...That's you, Sonozaki-san.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...당신입니다, 소노자키 씨.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8898,7 +8898,7 @@ void main()
 	ModDrawCharacter(2, 61, "sprite/hhot1a_07_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0060", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「あなたが適合者だと確定できたのはつい最近です。…ですがあなたは…すでに発症していた。」",
-		   "<color=#e99348>Hotoda</color> ", "\"We only recently identified that you were a suitable host. ...However... you're already displaying symptoms.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"당신이 적합자라는 걸 최근에 확정할 수 있었습니다. ...하지만 당신은... 이미 증상이 나타나고 있었습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8907,7 +8907,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2360", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「発症！？」",
-		   "<color=#5ec69a>미온</color> ", "\"Symptoms?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"증상?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8917,21 +8917,21 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1430", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…遊びに行ったでしょう？東京に…！……あなたは運悪く…その時発症してしまったのよ…ッ！」",
-		   "<color=#6972c1>리카</color> ", "\"...You left to go have fun, right? In Tokyo...! ......Unfortunately... you began displaying symptoms back then...!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...놀러 갔었지? 도쿄에...! ......너는 안타깝게도... 그 때 증상이 나타났어...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_03_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0430", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「頭がガンガンするでしょう？…夜、眠れないでしょう？…梨花さんが近くにいないと…奇怪な体験をするでしょう？」",
-		   "<color=#ffedab>Hoshino</color> ", "\"Your head starts pounding, right? ...You can't sleep at night, right? ...When 리카-san isn't close by......you go through bizarre experiences, don't you?\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"머리가 깨질 듯이 아프죠? ...밤에 잠을 못 이루죠? ...리카 씨가 옆에 없으면......이상한 경험을 하게 되죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_06_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0440", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「……あなたはもう末期なんです。…現にあなたはさっき！…自分の喉を掻きむしろうとした…！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"......You are already at the terminal stages. ...Case in point, just now! ...You were trying to scratch out your own throat...!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"......당신은 이미 말기입니다. ...사실 당신은 방금 전에! ...자신의 목을 긁으려고 했어요...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8944,7 +8944,7 @@ void main()
 	//;ld c,mio_D15a,22
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2370", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……奇怪な体験って……じゃあ……吉村が襲ってきたのは……。」",
-		   "<color=#5ec69a>미온</color> ", "\"......Bizarre experiences...... Then...... the man 요시무라 assaulted......\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......이상한 경험이라니...... 그럼...... 요시무라가 공격해 온 건......\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8960,7 +8960,7 @@ void main()
 
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0070", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「…吉村が奇怪な行動を取ったような…幻覚を見ただけなの。…吉村は何もしてない。…あなたがひとりで、…暴れ出しただけなのよ。」",
-		   "<color=#e99348>Hotoda</color> ", "\"...You just saw a hallucination of 요시무라... behaving bizarrely. ...요시무라 hasn't done anything. ...You just went wild... all on your own.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"...요시무라가 이상한 행동을 한 것처럼... 그저 환각을 본 것일 뿐이야. ...요시무라는 아무것도 하지 않았어. ...네가 혼자서... 날뛰기 시작한 거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8973,7 +8973,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2380", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……そんな…ッ！？……じゃあ……おかしいのは……私なのッ！？…梨花さん！？」",
-		   "<color=#5ec69a>미온</color> ", "\"......No way...?! ......Then......I'm the one...... who's crazy?! ...리카-san?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......그럴리가...?! ......그럼......이상한 건...... 나야?! ...리카 씨?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8984,7 +8984,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1440", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……だから…。……東京なんかに行っちゃだめって…言ったのに…！」",
-		   "<color=#6972c1>리카</color> ", "\"......This is why... ......I told you that you shouldn't go to Tokyo...!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......그래서... ......도쿄 같은 데 가면 안 된다고...말했잖아!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8992,14 +8992,14 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2390", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……私……おかしくなって……死んじゃうんですか？…そんな……そんな……！」",
-		   "<color=#5ec69a>미온</color> ", "\"......Am I...... going to go crazy...... and die too? ...No way...... No way......!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......저... 이상해져서...... 죽게 되는 건가요? 그런 일이... 그럴 수는......!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_06_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1450", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「大丈夫。私と一緒にいれば平気なの！…私はずーっと魅音の側にいるわ。だから大丈夫！」",
-		   "<color=#6972c1>리카</color> ", "\"You're alright. As long as you're with me, you're fine! ...I'll stay beside you forever. So you'll be alright!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"괜찮아. 나랑 같이 있으면 문제 없어! ...나는 계속 미온 옆에 있을게. 그러니까 괜찮아!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9007,7 +9007,7 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0450", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「お風呂やお手洗いまで一緒に行けるわけじゃないでしょう？…一生二人で寄り添って生きていくなんて不可能よ。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"You can't go with her to the bathroom, or follow her into the tub when she bathes, right? ...It's impossible for you two to live your entire lives clinging to each other.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"욕실이나 화장실까지 같이 갈 수는 없잖아요? ...평생을 둘이서 붙어 살아간다는 건 불가능해.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9017,7 +9017,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2400", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「死ぬんですか私！…死ぬんですかッ！？」",
-		   "<color=#5ec69a>미온</color> ", "\"Am I going to die then?! ...Am I going to die?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"저 죽는 건가요?! ...죽는 건가요?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9025,14 +9025,14 @@ void main()
 	ModDrawCharacter(1, 61, "sprite/hhot1a_03_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0080", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「このままなら死にます！…でも親虫の移殖を受ければ助かります！」",
-		   "<color=#e99348>Hotoda</color> ", "\"At this rate, you will! ...But if we transplant the queen, we can save you!\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"이대로라면 죽습니다! ...하지만 여왕을 이식받으면 살 수 있어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(4, 58, "sprite/hhos1a_04_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0460", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…梨花さんも親虫を摘出されれば、衰弱する事もない。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...리카-san won't grow increasingly debilitated anymore either once we extract the queen.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...리카 씨도 여왕을 제거하면, 쇠약해지지 않습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9040,28 +9040,28 @@ void main()
 	ModDrawCharacter(1, 57, "sprite/hnit1a_01_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0220", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「梨花さんから魅音さんに親虫を移殖すれば、…２人とも助かるんです。」",
-		   "<color=#6b493e>Nitta</color> ", "\"So once we transplant the queen from 리카-san into you... both of you will be saved.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"리카 씨에서 미온 씨로 여왕을 이식하면... 두 사람 모두 살 수 있어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_09_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2410", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……ホントにそれで……助かるんですね…！？」",
-		   "<color=#5ec69a>미온</color> ", "\"......Can you really save me...... by doing that...?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......정말로 그렇게 하면...... 살 수 있는 거예요...?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 57, "sprite/hnit1a_02_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0230", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「助かります。」",
-		   "<color=#6b493e>Nitta</color> ", "\"We can save you.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"살 수 있습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_14_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2420", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……梨花さん。」",
-		   "<color=#5ec69a>미온</color> ", "\"......리카-san?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......리카 씨?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9083,14 +9083,14 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1460", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…言いくるめられちゃ駄目。…こいつらはあなたを人間として扱う気なんか最初からない。」",
-		   "<color=#6972c1>리카</color> ", "\"...Don't let them hoodwink you. ...These people were never planning to treat you like a human being.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...속으면 안 돼. ...이들은 처음부터 너를 사람으로 대할 생각이 전혀 없어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 61, "sprite/hhot1a_04_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0090", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「そんな事はありませんよ。あなたの協力がなければ雛見沢の数万人の人々が犠牲になるんです。それをどうして粗末に扱えましょう。」",
-		   "<color=#e99348>Hotoda</color> ", "\"That's not true. Without your cooperation, tens of thousands of people in Hinamizawa will fall victim to this bug. So why would we treat you without care?\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"그런 일은 절대 없어요. 당신이 협력하지 않으면 히나미자와의 수만 명이 희생될 거예요. 그걸 어떻게 함부로 다룰 수 있겠습니까?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9098,56 +9098,56 @@ void main()
 	ModDrawCharacter(1, 52, "sprite/hri2a_12_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1470", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「耳を貸しちゃ駄目。…………よく思い出して。…今日、私と一緒に学校をさぼって遊びに行ったでしょ？…あなた、その事を誰かに言った？」",
-		   "<color=#6972c1>리카</color> ", "\"Don't listen to them. ............Think back. ...You skipped school with me today to come play around, right? ...Did you say anything about that to anyone else?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"귀 기울이지 마. ............잘 생각해봐. ...오늘, 나랑 같이 학교 빼먹고 놀러 갔지? ...너, 그 일을 누군가에게 말했어?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 53, "sprite/hmi2a_08_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2430", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……学校さぼるってわざわざ公言する訳、ないじゃないですか。」",
-		   "<color=#5ec69a>미온</color> ", "\"......Why would I ever make a point of publicly declaring that I was skipping school?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......학교를 빼먹는다고 굳이 알릴 이유가 없잖아요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_09_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1480", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…つまり、…今日のあなたの動向を知る者はひとりもいない、って事よね。」",
-		   "<color=#6972c1>리카</color> ", "\"...Which means... that no one knows what you've been doing today, right?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...그러니까... 오늘 너가 어디에 있었는지 아는 사람은 아무도 없다는 거네.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 53, "sprite/hmi2a_09_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2440", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……そりゃそうですよ。…誰にも言ってないんですから。」",
-		   "<color=#5ec69a>미온</color> ", "\"......Well, sure. ...I didn't tell anyone, after all.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......당연하죠. ...아무한테도 말 안 했으니까요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_10_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1490", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……今日、あなたが着てきてくれたその服。…私がリクエストしたのよね。」",
-		   "<color=#6972c1>리카</color> ", "\"......Those clothes you're wearing today. ...I asked you to wear them, right?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......오늘 네가 입고 온 그 옷. ...내가 부탁한 거였지.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 53, "sprite/hmi2a_01_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2450", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…梨花さんがこの服が一番可愛いって言ってくれたから、わざわざ着てきたんじゃないですか。」",
-		   "<color=#5ec69a>미온</color> ", "\"...You told me I looked cutest in this outfit, so I made a point of wearing it for you.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...리카 씨가 이 옷이 제일 예쁘다고 말해줘서, 그래서 일부러 입고 온 거잖아요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_12_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1500", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…つまり、…今日のあなたの服装は事前に把握されていた、って事よね。」",
-		   "<color=#6972c1>리카</color> ", "\"...Which means... the outfit you'd be wearing today was known beforehand, right?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...즉... 오늘 네가 입을 옷을 미리 알고 있었다는 거네.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 53, "sprite/hmi2a_08_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2460", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……そりゃそうですよ。…梨花さんのリクエストなんですから。」",
-		   "<color=#5ec69a>미온</color> ", "\"......Well, sure. ...You asked me to wear it.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......그럼요. ...리카 씨가 부탁한 거니까요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9158,25 +9158,25 @@ void main()
 	//;ld r,rik_D3a,80
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1510", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……あなた学校で、いつもいつも東京に引っ越したい、逃げ出したいって話してたわよね。…何人くらいの人に言った？」",
-		   "<color=#6972c1>리카</color> ", "\"......When you're at school, you're always, always talking about wanting to escape from here and move to Tokyo, right? ...How many people have you said that to?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......너 학교에서 항상 도쿄로 이사 가고 싶다, 도망치고 싶다고 얘기했잖아. ...몇 명한테 그 얘기를 했어?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld l,mio_D9a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2470", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……いちいち覚えてないですよ。会う度に言ってましたからね。」",
-		   "<color=#5ec69a>미온</color> ", "\"......I don't remember every time I brought it up. I say it to everyone I met.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......일일이 기억하고 있지 않아요. 만날 때마다 말했으니까요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld r,rik_D1a,80
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1520", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…つまり、…あなたが東京に過度に憧れてる事は誰もが知っている事実って事よね。」",
-		   "<color=#6972c1>리카</color> ", "\"...Which means... it's a known fact that everyone knew you held an excessive admiration for Tokyo, right?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...결국... 네가 도쿄를 지나치게 동경하고 있다는 건 누구나 아는 사실이란 거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld r,mio_D8a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2480", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「梨花さん、…何の話なんですか？それとこれとどーゆう関係が…。」",
-		   "<color=#5ec69a>미온</color> ", "\"리카-san... what are you talking about? How is any of that related to this...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"리카 씨... 무슨 얘긴가요? 이게 무슨 관련이...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9189,7 +9189,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1530", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…今朝の９時にね、あなたの貯金、全額引き出されてるのよ。…偽造カードで、あなたと同じ服を着たそっくりの子によって。」",
-		   "<color=#6972c1>리카</color> ", "\"...At nine this morning, all the money in your bank account was withdrawn. ...A girl who looks like you, dressed up in that same outfit, did it with a forged card.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...오늘 아침 9시에, 너의 예금이 전부 인출됐어. ...위조된 카드로, 너와 같은 옷을 입은 똑닮은 아이가 했어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9199,7 +9199,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2490", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「えぇッ！？…何ですかそれッ！…だって暗証番号が！」",
-		   "<color=#5ec69a>미온</color> ", "\"Huh?! ...What did you say?! ...But my PIN number!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"뭐라고요?! ...그게 무슨 소리에요?! ...비밀번호가 있는데!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9208,7 +9208,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1540", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……あなた私に教えてくれたでしょ。…誕生日が暗証番号だ、って。」",
-		   "<color=#6972c1>리카</color> ", "\"......You told me before, didn't you? ...That your PIN number was your birthday.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......네가 나한테 말했잖아. ...생일이 비밀번호라고.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9218,7 +9218,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2500", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「だ、誰ですか！？私のお金盗った人ーッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"W-Who?! Who stole my money?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"누, 누구예요?! 제 돈 훔친 사람은요?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9226,7 +9226,7 @@ void main()
 	ModDrawCharacter(1, 52, "portrait/hri2a_12_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1550", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…あなたよ。…郵便局の防犯カメラにはあなたそっくりの子が映ってる。」",
-		   "<color=#6972c1>리카</color> ", "\"...You did. ...Someone looking just like you is what's been recorded on the post office's security cameras.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...너야. ...우체국의 보안 카메라에 너와 똑 닮은 아이가 찍혔어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9235,15 +9235,15 @@ void main()
 	PlayBGM( 1, "me/a5_14446", 70, 0 );
 
 	OutputLine(NULL, "　何が何やら判らなくなって、よろよろと梨花から離れる魅音、舞台中央へ。",
-		   NULL, "미온 can't understand any of what's going on, and she totters away from 리카 toward the center of the stage.", Line_WaitForInput);
+		   NULL, "무슨 일인지 이해하지 못해, 비틀거리며 리카로부터 멀어져 가는 미온이 무대 중앙으로 향한다.", Line_WaitForInput);
 	OutputLine(NULL, "また頭痛が始まる。",
-		   NULL, " Then her head begins to ache once more.", Line_Normal);
+		   NULL, " 머리가 다시 아프기 시작한다.", Line_Normal);
 	ClearMessage();
 
 	//;ld l,mio_D14a,22
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2510", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「痛たた…。……頭、……痛い……。」",
-		   "<color=#5ec69a>미온</color> ", "\"Owww... ......My head...... hurts......\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"아파... ......머리가...... 아파......\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9256,14 +9256,14 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1560", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「東京行きの新幹線の中でね。…あなたそっくりの子が切符をなくしたって言って大騒ぎするの。」",
-		   "<color=#6972c1>리카</color> ", "\"On the bullet train heading into Tokyo... there was someone looking just like you who, claiming to have lost her ticket, caused a big commotion about it.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"도쿄행 신칸센 안에서, 너를 꼭 닮은 아이가 표를 잃어버렸다고 큰 소란을 피웠어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "portrait/hri2a_09_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1570", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…結局、切符は見つかるんだけどね、…車掌はその子の印象を強く持ったわ。」",
-		   "<color=#6972c1>리카</color> ", "\"...In the end, the ticket was found... but that girl left a strong impression on the conductor.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...결국 표는 찾았지만... 차장은 그 아이의 인상을 강하게 기억했어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9273,19 +9273,19 @@ void main()
 	ModDrawCharacter(1, 52, "portrait/hri2a_10_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1580", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…東京ではね。何カ所かの交番にあなたそっくりの子が現れるのよ。…財布を落としたって大騒ぎしてね。」",
-		   "<color=#6972c1>리카</color> ", "\"...So then in Tokyo, someone looking just like you appeared at several different police boxes. ...She made a big fuss about losing her wallet.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...도쿄에서는 여러 경찰서에 너를 꼭 닮은 아이가 나타나서 지갑을 잃어버렸다며 큰 소란을 피워.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "portrait/hri2a_12_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1590", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…住所氏名を聞こうとすると逃げちゃうのよ。」",
-		   "<color=#6972c1>리카</color> ", "\"...But each time, she ran away when they tried to ask for her address.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...주소나 이름을 물어보려고 하면 도망가버렸어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1600", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……お巡りさんは家出少女じゃないかと怪しんでね。……今頃は周辺の交番にあなたの特徴を書いたＦＡＸが回っているわ。」",
-		   "<color=#6972c1>리카</color> ", "\"......The officers all suspect that she was a girl running away from home. ......So right about now, the officers in the area are circulating a fax with your description on it.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......경찰은 가출한 소녀가 아닐까 의심하고 있어. ......지금쯤이면 주변 지역 파출소에 너의 특징을 적은 팩스가 돌고 있을 거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9293,7 +9293,7 @@ void main()
 	ModDrawCharacter(2, 53, "portrait/hmi2a_09_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 300, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2520", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……何で……そんな事を……？」",
-		   "<color=#5ec69a>미온</color> ", "\"......Why...... is all that happening......?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......왜...... 그런 일을......?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9301,14 +9301,14 @@ void main()
 	ModDrawCharacter(1, 52, "portrait/hri2a_09_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1610", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…園崎　魅音は学校へは行かず、貯金を全て引き出し新幹線に乗って東京に消えた。」",
-		   "<color=#6972c1>리카</color> ", "\"...Instead of going to school, 미온 Sonozaki withdrew her savings and boarded the bullet train to Tokyo where she disappeared.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...소노자키 미온은 학교에 가지 않고 모든 저축금을 인출한 뒤 신칸센을 타고 도쿄로 사라졌다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "portrait/hri2a_12_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1620", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…そういう事になってるのよ。…あなた中学の時、家出で補導歴もあるしね…。」",
-		   "<color=#6972c1>리카</color> ", "\"...That's how the story is going to be. ...You have a previous record of running away from home in middle school too, after all...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...그렇게 되어 있는 거야. ...너 중학교 때 가출해서 보호받은 이력도 있으니까...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9316,11 +9316,11 @@ void main()
 	ModDrawCharacter(2, 53, "portrait/hmi2a_09_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 300, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2530", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……バカなこと言わないで下さいよ…。",
-		   "<color=#5ec69a>미온</color> ", "\"......Please stop saying these ridiculous things...", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"......바보 같은 소리 하지 말아주세요...", Line_Continue);
 	OutputLine(NULL, "…私は東京なんかじゃなく、…ここにいるんですよ？",
-		   NULL, " ...I'm not in Tokyo... I'm right here.", Line_Continue);
+		   NULL, " ...저는 도쿄 같은 데 있는 게 아니라... 여기에 있어요?", Line_Continue);
 	OutputLine("<color=#5ec69a>魅音</color> ", "……ぅぅう……。」",
-		   "<color=#5ec69a>미온</color> ", " ......Nnngh......!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", " ......으으으......!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9335,28 +9335,28 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1630", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…気付いてよ。…これは罠なのよッ！……あなたを誘拐する為の巧妙な罠！」",
-		   "<color=#6972c1>리카</color> ", "\"...Piece it together. ...This is a trap! ......It's a clever trap to kidnap you!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...깨달아줘. ...이건 함정이야! ......너를 납치하기 위한 교묘한 함정이야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 52, "sprite/hri2a_06_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1640", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…こいつらは最初からあなたを人間扱いする気なんかない！…あなたの脳味噌にしか興味がないのよッ！あなたは…研究材料にされるだけッ！」",
-		   "<color=#6972c1>리카</color> ", "\"...These people were never planning to treat you like a human being! ...They're only interested in your brain! You'll... only be used as their guinea pig!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...이 녀석들은 처음부터 너를 인간 취급 생각이 없어! ...녀석들은 너의 뇌에만 관심이 있어! 너는... 실험체로만 취급될 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2540", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…う……嘘だ…ッ！",
-		   "<color=#5ec69a>미온</color> ", "\"...Ngh...... Lies...!", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"...으...... 거짓말이야...!", Line_Continue);
 	OutputLine(NULL, "……ぅぅ…嘘だ…ッ！」",
-		   NULL, " ......nnngh... Lies...!\"", Line_Normal);
+		   NULL, " ......으으... 거짓말...!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	ModDrawCharacter(2, 52, "sprite/hri2a_05_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1650", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…こいつらは厚生省なんて名乗ってるけど、実際の所属は違う。…こいつらは国家、」",
-		   "<color=#6972c1>리카</color> ", "\"...These people claim they're from the Ministry of Health, but they're actually with a different organization! ...These people are from the National P-\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...이들은 후생성이라고 하지만, 실제로는 다른 곳에 속해 있어. 이들은 국가...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	//;@（新田がセリフを遮る）
@@ -9376,9 +9376,9 @@ void main()
 	//CallScriptSection( "util", "RainOn" );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0240", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「結構ッ！",
-		   "<color=#6b493e>Nitta</color> ", "\"Enough!", Line_Continue);
+		   "<color=#6b493e>Nitta</color> ", "\"그만!", Line_Continue);
 	OutputLine(NULL, "梨花さんの態度は判りました。少々態度を変えさせてもらいます。」",
-		   NULL, " We understand your attitude on this, 리카-san. So we'll change our attitude as well.\"", Line_Normal);
+		   NULL, " 리카 씨의 태도는 알겠습니다. 조금 태도를 바꾸도록 하겠습니다.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9388,7 +9388,7 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0250", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「……園崎さん。全て梨花さんの言う通りなんですよ。我々はあなたの脳味噌にしか興味がない。」",
-		   "<color=#6b493e>Nitta</color> ", "\"......Sonozaki-san. Everything 리카-san told you is true. We're only interested in your brain.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"......소노자키 씨, 리카 씨가 말한 모든 것이 사실입니다. 우리는 당신의 뇌에만 관심이 있습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9397,16 +9397,16 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2550", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ちッ…近寄るなッ！",
-		   "<color=#5ec69a>미온</color> ", "\"...Sta... Stay back!", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"...다... 다가오지 마!", Line_Continue);
 	OutputLine(NULL, "……がぁ…ああぁあ…ッ…！」",
-		   NULL, " ......Gaah... Aaaaagh...! ...!\"", Line_Normal);
+		   NULL, " ......으으... 아아아...! ...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 58, "sprite/hhos1a_06_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0470", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…辛いでしょう？手術すれば楽になるわ。…さぁ！…私たちを受け入れてッ！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...It hurts, doesn't it? If you have the surgery, it'll stop. ...Now! ...Come with us!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...고통스럽죠? 수술을 받으면 고통에서 벗어날 수 있어요, 자! 어서 같이 가시죠!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	ShakeScreen( 0, 6, 100, 2, 50, );
@@ -9414,7 +9414,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2560", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…嫌ぁあぁあぁ…ッ、…研究材料にされるなんて嫌…ッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"...Noooooooo...! ...I don't want to be a guinea pig...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...싫어어어어...! ...연구 재료가 되는 건 절대 싫어...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9424,7 +9424,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1660", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…魅音ッ！私から離れないで！…症状が進んでしまう！」",
-		   "<color=#6972c1>리카</color> ", "\"...미온! Stay beside me! ...Or your symptoms will advance even further!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...미온! 나한테서 떨어지지 마! ...증상이 더 심해질 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9433,14 +9433,14 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0260", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「梨花さんが誘拐劇の重要な役割を率先して果たした事をお忘れなくッ！」",
-		   "<color=#6b493e>Nitta</color> ", "\"Don't you forget, 리카-san here also voluntarily played an important role in this abduction plan!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"리카 씨가 납치 사건에서 중요한 역할을 주도적으로 해낸 걸 잊지 마세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 60, "sprite/hoda1a_03_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 60, "ps3/s26/60/toda_0060", 128, TRUE);
 	OutputLine("<color=#646570>織田</color> ", "「むしろ今回の作戦を提案したのは彼女の方です！」",
-		   "<color=#646570>Oda</color> ", "\"Why in fact, she's the one who proposed this very operation!\"", Line_Normal);
+		   "<color=#646570>Oda</color> ", "\"사실 이번 작전을 제안한 건 그녀였습니다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9451,21 +9451,21 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2570", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……梨花さんがッ！？……嘘…だッ…！」",
-		   "<color=#5ec69a>미온</color> ", "\"......리카-san did?! ......You're... lying...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......리카 씨가?! ......거짓... 말...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 61, "sprite/hhot1a_06_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0100", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「梨花さんは親虫の負担に耐えきれなくなってね。…誰かに親虫を移殖できないかって提案したの。」",
-		   "<color=#e99348>Hotoda</color> ", "\"리카-san couldn't bear the burden of hosting the queen anymore. ...So she's the one who proposed trying to transplant it into someone else.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"리카는 여왕의 부담을 더 이상 견디지 못하고, 누군가에게 여왕을 이식할 수 있는 방법이 없을까 제안했어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 59, "sprite/hoka1a_04_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0220", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「…調査の結果！…あなたが適合者だと言う事がわかりました。」",
-		   "<color=#574f58>Okano</color> ", "\"...And, after our investigation! ...We learned that you were a compatible host.\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"...조사 결과! ...당신이 적합자라는 것이 밝혀졌습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9473,14 +9473,14 @@ void main()
 	ModDrawCharacter(3, 60, "sprite/hoda1a_03_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 60, "ps3/s26/60/toda_0070", 128, TRUE);
 	OutputLine("<color=#646570>織田</color> ", "「しかし誘拐の前段階として、あなたと梨花さんが接触しても不自然でないよう、…友人関係を結んでおく必要があった。」",
-		   "<color=#646570>Oda</color> ", "\"However, to first set up this abduction, 리카-san needed to build a friendship with you... so that it wouldn't seem unnatural for you two to be together.\"", Line_Normal);
+		   "<color=#646570>Oda</color> ", "\"하지만 납치를 진행하기 전에, 당신과 리카 씨가 접촉해도 이상해 보이지 않도록... 친구 사이로 만들어 둘 필요가 있었습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 61, "sprite/hhot1a_04_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0110", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「でもその努力は必要なかった。あなたから梨花さんに接触してくれたから。」",
-		   "<color=#e99348>Hotoda</color> ", "\"But there was no need to spend any effort on that. Because as it turned out, you were the one who approached her first.\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"하지만 그런 노력은 필요 없었어. 당신이 먼저 리카 씨에게 다가왔으니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9493,7 +9493,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2580", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……こ…いつら…！…何言ってやがる…！？…ぅうぅ…ッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"......You... people...! ...What the hell are you saying...?! ...Nnnngh...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......이... 녀석들...! ...무슨 소리를 하는 거야...?! ...으으...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9507,7 +9507,7 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0270", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「園崎さんと梨花さんが友人になったのは、偶然ではない。作為的なものなんだよ。」",
-		   "<color=#6b493e>Nitta</color> ", "\"It was no coincidence that you and 리카-san became friends. It was intentional.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"소노자키 씨와 리카 씨가 친구가 된 건, 우연이 아닙니다. 모두 계획된 일이었습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9516,19 +9516,19 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1670", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「それは違うッ！」",
-		   "<color=#6972c1>리카</color> ", "\"No it wasn't!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"그건 틀렸어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 52, "sprite/hri2a_11_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1680", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…出会いは…偶然じゃなかったかも知れない…ッ！……でも…本当に魅音の事が好きになったのッ！」",
-		   "<color=#6972c1>리카</color> ", "\"...Maybe... maybe it wasn't coincidence that we met...! ......But... I really came to like you, 미온!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...우리의 만남이 우연이 아니었을 수도 있어...! 하지만...진심으로 미온을 좋아하게 됐어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1690", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……魅音の笑い顔を見るだけで…どれだけ救われた事か…ッ！」",
-		   "<color=#6972c1>리카</color> ", "\"......Just seeing your smile... it saved me...!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......미온이 웃는 모습만 보는 것만으로... 얼마나 많이 구원받았는지...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9538,14 +9538,14 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0280", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「梨花さんの世迷い言に耳を貸す必要はない！」",
-		   "<color=#6b493e>Nitta</color> ", "\"There's no need for you to listen to 리카-san's nonsense!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"리카 씨의 헛소리에 귀 기울일 필요 없어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 57, "sprite/hnit1a_01_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0290", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…死にたくなかったら我々に従うことだ。協力的な態度さえとってくれれば、我々も君を好意的に扱うことを約束する！」",
-		   "<color=#6b493e>Nitta</color> ", "\"...If you don't want to die, then follow our directions. So long as you remain cooperative, we promise to treat you favorably too!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...죽고 싶지 않으면 우리의 말을 들어. 협조적인 태도를 취해 준다면, 우리도 너를 호의적으로 대해 줄 것을 약속한다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9554,7 +9554,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1700", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「こいつらに付いて行ってはだめッ！…魅音ッ！」",
-		   "<color=#6972c1>리카</color> ", "\"You can't go with them! ...미온!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"이 녀석들을 따라가면 안 돼! ...미온!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9566,27 +9566,27 @@ void main()
 	//;ld c,mio_D15a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2590", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ぁああぁあ…ッ！",
-		   "<color=#5ec69a>미온</color> ", "\"...Aaaaaaagh...!", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"...아아아아아...!", Line_Continue);
 	OutputLine(NULL, "……うるせえよ…頭が…がんがんするってぇのに…ッ！」",
-		   NULL, " ......Shut up...! I told you... my head is pounding...!\"", Line_Normal);
+		   NULL, " ......시끄러워...! 머리가... 깨질 것 같아...!\"", Line_Normal);
 	ClearMessage();
 
 	//;ld r,nit_d5,80
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0300", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「さぁ、園崎さん！…あなたも助かり、梨花さんも助かるんだ。どこにためらう理由があります！？」",
-		   "<color=#6b493e>Nitta</color> ", "\"Come, Sonozaki-san! ... We can save both you and 리카-san. What reason is there to hesitate?!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"자, 소노자키 씨! 당신도 구할 수 있고, 리카 씨도 구할 수 있어요. 망설일 이유가 어디에 있습니까!?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,mio_D14a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2600", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ぁあぁ…ッ、……痛いよ…！…痛いッ！…助けて…ッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"...Aaagh...! ......It hurts...! ...It hurts! ...Save me...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...으으...! ......너무 아파...! ...아파! ...도와줘...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld r,hos_d4a,22
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0480", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…末期症状です！……確保して下さい！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...She's in terminal condition! ......Secure her now!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...말기 증상입니다! ......확보하세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld l,rik_D6a,80
@@ -9607,12 +9607,12 @@ void main()
 	StopAllSound();
 
 	OutputLine(NULL, "　魅音を捕らえようと男たちが飛び掛かろうとした瞬間、",
-		   NULL, "The moment the men spring forth to capture 미온,", Line_WaitForInput);
+		   NULL, "미온을 붙잡으려고 남자들이 달려들려는 순간,", Line_WaitForInput);
 	OutputLine(NULL, "梨花が魅音を捕らえ、その首筋にどこからか取り出した刃物を当てる。",
-		   NULL, " 리카 grabs hold of 미온 and puts a knife she drew from somewhere against 미온's throat.", Line_Normal);
+		   NULL, " 리카가 미온을 붙잡고, 어디선가 꺼낸 칼을 그녀의 목에 대었다.", Line_Normal);
 	ClearMessage();
 	OutputLine(NULL, "　その途端、男たちは一斉に銃を抜く。",
-		   NULL, "The moment she does, the men simultaneously draw their guns.", Line_Normal);
+		   NULL, "그 순간, 남자들이 일제히 총을 겨우었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9628,59 +9628,59 @@ void main()
 	PlayBGM( 0, "bgm1/otonasi", 70, 0 );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2610", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…梨花…さん…？」",
-		   "<color=#5ec69a>미온</color> ", "\"...리카...san...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...리카...씨...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1720", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「私たちを解放してッ！……さもないと魅音を殺すわよッ！」",
-		   "<color=#6972c1>리카</color> ", "\"Let us go! ......If you don't, then I'll kill 미온!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"우리를 풀어줘! ......그렇지 않으면 미온을 죽일 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0310", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「なッ、馬鹿な真似はやめろッ！」",
-		   "<color=#6b493e>Nitta</color> ", "\"D-Don't do anything foolish!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"이봐, 바보 같은 짓은 그만둬!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1730", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「そう。…私は馬鹿だった。」",
-		   "<color=#6972c1>리카</color> ", "\"Yes. ...I was a fool.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"그래. 나는 바보였어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1740", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…毎晩、嫌な夢にうなされ、…衰弱していく自分。…プライバシーもなく…こいつらの研究材料として弄ばれる日々。」",
-		   "<color=#6972c1>리카</color> ", "\"...Every night I was haunted by bad dreams... feeling myself grow more and more debilitated. ...I spent every day without privacy... used as a guinea pig by these people.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...매일 밤 악몽에 시달리며 점점 약해지는 나. ...프라이버시도 없이 녀석들의 연구 대상으로 매일 조종당하는 삶.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1750", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…嫌だった。…抜け出したかったの。」",
-		   "<color=#6972c1>리카</color> ", "\"...I hated it. ...I wanted out.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...싫었어. ...벗어나고 싶었어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1760", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…適合者が見つかった時、…これで苦しみから解放されると思った。…私はその時、あなたをこいつらの生贄に差し出す事に同意した。」",
-		   "<color=#6972c1>리카</color> ", "\"...When they found someone compatible... I thought I could finally be free of this suffering. ...That was when I agreed to hand you over as a sacrifice.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...적합한 사람을 찾았을 때, 이제 고통에서 벗어날 수 있을 거라고 생각했어. ...나는 그때, 너를 녀석들의 제물로 내놓는 것에 동의했어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1770", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……でも間違ってた…！……魅音は適合者なんかじゃない！生贄なんかじゃない！……私のたったひとりの……親友なんだもん…ッ！」",
-		   "<color=#6972c1>리카</color> ", "\"......But I was wrong...! ......You weren't just someone compatible! You weren't some sacrifice! ......You were my one and only...... my very best friend...!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......하지만 틀렸어...! ......미온은 적합자가 아냐! 제물이 아니야! ......그저 나의 유일한...... 진정한 친구야...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2620", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「………梨花さ…ん……。」",
-		   "<color=#5ec69a>미온</color> ", "\"......리카-sa... n......\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......리카...씨......\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1780", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…あなたの事を親友なんて呼ぶ資格は……あなたに会った時からなかったの！…ごめんッ！…ごめんねッ！」",
-		   "<color=#6972c1>리카</color> ", "\"...Though I have no right to call you my best friend...... I never did, from the moment we met! ...I'm sorry! ...I'm so sorry!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...너를 내 친구라고 부를 자격이...... 너를 만났을 때부터 없었어! ...미안해! ...정말 미안해!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	DrawScene( "scene/617b", 400 );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2630", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……そんなこと……ないよ……、……梨花さんは…親友だよ…。」",
-		   "<color=#5ec69a>미온</color> ", "\"......That's not...... true...... ......리카-san... you really are my best friend...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......그렇지...... 않아요...... ......리카 씨는... 제 친구예요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9692,27 +9692,27 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0320", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「園崎さん！冷静になって考えて下さい！あなたが梨花さんと心中すれば雛見沢一帯の数万人も道連れになるのですッ！」",
-		   "<color=#6b493e>Nitta</color> ", "\"Sonozaki-san! Please think about this logically! If you and 리카-san commit suicide together, then you're dragging the tens of thousands of people living in Hinamizawa down with you!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"소노자키 씨! 냉정하게 생각해 보세요! 당신이 리카 씨와 함께 죽으면 히나미자와 일대의 수만 명도 함께 죽게 되는 거예요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0330", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「……手術を受け入れれば！…あなたたちが助かるだけじゃない！…その数万人も助かるのですッ！」",
-		   "<color=#6b493e>Nitta</color> ", "\"......You have to have the surgery! ...The surgery won't just save you two! ...It'll save tens of thousands of lives!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"......수술을 받으면 ...당신들만 구하는 것이 아닙니다! ...마을 주민 수만 명도 구하는 겁니다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2640", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……いいじゃないですか…手術…。…梨花さんだって助かるんですよ…？」",
-		   "<color=#5ec69a>미온</color> ", "\"......I'll have the surgery... then... ...That'll save 리카-san too, right...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......수술 받을 테니까... ...리카 씨도 살 수 있는거죠...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1800", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…魅音。あいつらの言う事に騙されては駄目。……よく考えて。…あいつらはどうしてオヤシロさまに寄生されないの？」",
-		   "<color=#6972c1>리카</color> ", "\"...미온. Don't let them fool you. ......Think about it. ...Why aren't they hosts to Oyashiro-sama?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...미온. 저 녀석들의 말에 속지 마. ......잘 생각해봐. ...저 사람들은 왜 오야시로님에게 희생되지 않는 건가?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1810", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…あいつらはね、…とっくに…治療薬を開発してるのよ。……なのにどうして研究したがると思う？」",
-		   "<color=#6972c1>리카</color> ", "\"...Because they... they've already developed a cure. ......So why do you think they want to research it further?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...녀석들은... 이미... 치료제를 개발하고 있어. ......그런데 왜 연구를 하려고 하는 거라고 생각해?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9722,33 +9722,33 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1820", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……あいつらはね、……治療以外の目的の為に……研究を……！」",
-		   "<color=#6972c1>리카</color> ", "\"......Those people...... they're conducting their research to develop more than just a cure......!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......녀석들은...... 치료가 아닌 다른 목적으로... 연구를 해......!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,nit_d3,80
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0340", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…滅多な事は言わないでもらいましょう。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...Could you not speak such slander?\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...말도 안 되는 소리는 자제해 주세요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0350", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…梨花さんの言っておられる行為は国際法でいかなる研究も開発も禁じられています。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...The kinds of research and development that you're suggesting are banned under international law.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...리카 씨가 언급하신 그건 국제법에서 모든 연구와 개발을 금지하고 있습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0360", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…我が国は国連加盟の法治国家ですよ。…そんな真似はしません。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...Our nation is a constitutional state and a member of the UN. ...We would never do such a thing.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...우리나라는 UN에 가입된 법치 국가입니다. ...그런 일은 절대 하지 않습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1830", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…親虫は私が飼うわ！…私が死ぬまでの２～３年間で、寄生されてる人みんなを治療できるはずよ！」",
-		   "<color=#6972c1>리카</color> ", "\"...I'll keep hosting the queen! ...You should be able to cure everyone hosting this bug in the two or three years left before I die!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...여왕은 내가 맡겠어! ...내가 죽기 전 까지 2~3년 안에, 감염당한 모든 사람들을 치료할 수 있을 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0370", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「…ですから治療薬はないんですよ。」",
-		   "<color=#6b493e>Nitta</color> ", "\"...We told you, we have no cure yet.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"...치료제는 아직 없다고 말했잖아요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9757,7 +9757,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1840", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「魅音を治してッ！…治せるくせにッ！…治さないなら殺すわよッ！」",
-		   "<color=#6972c1>리카</color> ", "\"Cure 미온! ...I know you can cure her! ...If you won't cure her, then I'll kill her!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"미온을 치료해! ...치료할 수 있으면서! ...치료하지 않으면 죽여버릴 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9772,31 +9772,31 @@ void main()
 	//;ld l,mio_D14a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2650", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「があぁあぁあぁあッ！…ああぁあああッ！…痛いッ！……痛いよッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Gaaaaaaaaah! ...Aaaaaaaaagh! ...It hurts! ......It hurts!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"아아악! ...아아아아앗! ...아파! ......진짜 아파!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,rik_D6a,80
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1850", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「大丈夫！…私が助けてあげるッ！しっかりッ！」",
-		   "<color=#6972c1>리카</color> ", "\"Don't worry! ...I'll save you! Hang in there!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"괜찮아! 내가 도와줄게! 힘내!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld r,nit_d1,80
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0380", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「治すには手術しかありません。」",
-		   "<color=#6b493e>Nitta</color> ", "\"The only cure for her is the surgery.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"치료하려면 수술밖에 방법이 없어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld l,mio_D7a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2660", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「た……助けて……梨花…さんッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Sa...... Save me...... 리카...san!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"도...... 도와줘...... 리카...씨!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,rik_D5a,80
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1860", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「薬をッ！魅音を治して！…お願いッ！」",
-		   "<color=#6972c1>리카</color> ", "\"Give me the cure! Cure 미온! ...Please!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"약을! 미온을 치료해줘! ...부탁이야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9806,20 +9806,20 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0490", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…もう園崎さんは持ちません。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Sonozaki-san won't last much longer.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...소노자키 씨는 이미 더 이상 버티지 못합니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 57, "sprite/hnit1a_05_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0390", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「……織田君。",
-		   "<color=#6b493e>Nitta</color> ", "\"......Oda-kun.", Line_WaitForInput);
+		   "<color=#6b493e>Nitta</color> ", "\"......오다 군.", Line_WaitForInput);
 	DisableWindow();
 	ModDrawCharacter(3, 57, "sprite/hnit1a_04_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0391", 128, TRUE);
 	OutputLine(NULL, "…外すな。」",
-		   NULL, " ...Don't miss.\"", Line_Normal);
+		   NULL, " ...놓치지 마.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9829,17 +9829,17 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1870", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…私を撃つつもりッ！？」",
-		   "<color=#6972c1>리카</color> ", "\"...You're planning to shoot me?!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...날 쏠 생각이야?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0500", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「死後１２時間、遺体の脳内でアリが生存する事は確認済みです。」",
-		   "<color=#ffedab>Hoshino</color> ", "\"We've already confirmed the ants can survive in the brain of a corpse for twelve hours postmortem.\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"사망 후 12시간 동안 시신의 뇌 속에서 개미가 생존 한다는 것이 확인되었습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0400", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「どの道、親虫さえ取り出せば、知り過ぎた人間だ。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Either way, once we extract the queen from you, you're just a girl who knows too much.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"어떤 경우든, 여왕만 꺼내면, 너는 너무 많은 것을 알고 있는 사람일 뿐이지.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9848,7 +9848,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1880", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…人でなしぃッ！」",
-		   "<color=#6972c1>리카</color> ", "\"...You monster!\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...쓰레기같은 녀석!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9889,9 +9889,9 @@ void main()
 	ShakeScreen( 2, 6,  100 , 2, 50, );
 
 	OutputLine(NULL, "　狙いを定めた織田の拳銃が火を噴く。",
-		   NULL, "Oda takes careful aim, and then light flashes from his handgun.", Line_WaitForInput);
+		   NULL, "오다가 조준한 권총이 발사된다.", Line_WaitForInput);
 	OutputLine(NULL, "胸を撃ち抜かれ一撃で絶命する梨花。",
-		   NULL, " 리카 meets her end with a single shot straight through her chest.", Line_Normal);
+		   NULL, " 가슴을 총알이 관통해 한 방에 즉사하는 리카.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9899,7 +9899,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2670", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「わああぁあぁあぁあっぁあぁあッ！？……梨花さん！？梨花さん！？」",
-		   "<color=#5ec69a>미온</color> ", "\"Waaaaaaaaaaaaaahhhh?! ......리카-san?! 리카-san?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"우와와아아아아아앗?! ......리카 씨?! 리카 씨?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9908,7 +9908,7 @@ void main()
 	DrawSceneWithMask( "background/hina_bus_01", "effect/right", 0, 0, 300 );
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0410", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「捕らえろ。手術は急を要するぞ。」",
-		   "<color=#6b493e>Nitta</color> ", "\"Capture her. We have to conduct the surgery immediately.\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"붙잡아. 수술이 급하니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9945,9 +9945,9 @@ void main()
 	PlayBGM( 0, "bgm1/tsukisanbika", 100, 0 );
 
 	OutputLine(NULL, "　魅音、すばやく梨花の刃物をひったくり身構える。",
-		   NULL, "미온 nimbly snatches the knife away from 리카 and readies herself.", Line_WaitForInput);
+		   NULL, "미온은 빠르게 리카의 칼을 빼앗아 자세를 잡는다.", Line_WaitForInput);
 	OutputLine(NULL, "男たちは一斉に銃を向ける。",
-		   NULL, " The men all aim their guns at her.", Line_Normal);
+		   NULL, " 남자들이 일제히 총을 겨눈다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9961,21 +9961,21 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0420", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「撃つなッ！」",
-		   "<color=#6b493e>Nitta</color> ", "\"Don't shoot!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"쏘지 마!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_05_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2680", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…梨花さん！？…梨花さん！？……梨花…さ…ん……ぐぐ…ッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"...리카-san?! ...리카-san?! ......리카...sa...n...... gggghn...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...리카 씨?! ...리카 씨?! ......리카...씨...... 흑흑...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(3, 61, "sprite/hhot1a_05_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0120", 128, TRUE);
 	OutputLine("<color=#e99348>保土田</color> ", "「さぁ手術をッ！…もう時間がないのよ！」",
-		   "<color=#e99348>Hotoda</color> ", "\"Now, the surgery! ...We don't have any time to waste!\"", Line_Normal);
+		   "<color=#e99348>Hotoda</color> ", "\"자, 수술을! ...더 이상 시간이 없어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9985,7 +9985,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2690", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…梨花さんを……殺したなあぁああッ！？」",
-		   "<color=#5ec69a>미온</color> ", "\"...You... killed 리카-saaaaaaaaan?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...리카 씨를...... 죽인 거야야야야?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -9993,7 +9993,7 @@ void main()
 	ModDrawCharacter(1, 58, "sprite/hhos1a_09_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0510", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…落ち着いて園崎さん！…私たちは誰も殺してないわよッ！？…それが幻覚なのよッ！…末期症状なのよッ！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Calm down, Sonozaki-san! ...We haven't killed anyone! ...You're hallucinating! ...You're in a terminal condition right now!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...진정하세요, 소노자키씨! ...우리는 아무도 죽이지 않았어요!? ...그건 환각이에요! ...말기 증상이에요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10007,7 +10007,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2700", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「う…そだ…ッ！…お前らが…こ……殺したんだッ！…殺してやるッ！…殺してやるッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"You... lie...! ...You all... ki...... killed her! ...I'll kill you! ...I'll kill you!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"거... 거짓말...! ...너희들이... 주...... 죽였어! ...죽여버릴 거야! ...죽여버릴 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10017,7 +10017,7 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0430", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「冷静に冷静に！…全て幻覚だッ！…ナイフを捨てろッ！」",
-		   "<color=#6b493e>Nitta</color> ", "\"Calm down! Calm down! ...That's all a hallucination! ...Drop the knife!\"", Line_Normal);
+		   "<color=#6b493e>Nitta</color> ", "\"진정해! 진정해! ...그건 다 환각이야! ...칼을 버려!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10030,7 +10030,7 @@ void main()
 	//;ld r,mio_D15a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2710", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…黙れ黙れぇッ！…殺してやる殺してやるッ！…うがぁあぁあぁああッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"...Be quiet, be quiet! ...I'll kill you, I'll kill you all! ...Ughaaaaaaaaaagh!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...닥쳐, 닥쳐! ...죽여버릴 거야, 다 죽여버릴 거야! ...으아아아아앗!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10040,14 +10040,14 @@ void main()
 	ShakeScreen( 0, 6, 100, 2, 50, );
 
 	OutputLine(NULL, "　魅音、織田に飛びつき腹部に刃物を突きたてる。",
-		   NULL, "미온 leaps at Oda and shoves her knife into his stomach.", Line_WaitForInput);
+		   NULL, "미온, 오다에게 달려들어 칼로 그의 배를 찌른다.", Line_WaitForInput);
 	OutputLine(NULL, "織田はその場にうずくまる。",
-		   NULL, " Oda falls and curls up on the spot.", Line_Normal);
+		   NULL, " 오다는 그 자리에 주저앉는다", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0230", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「き、…貴様…ッ！」",
-		   "<color=#574f58>Okano</color> ", "\"Wh...Why you...!\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"이...이 자식이...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10060,20 +10060,20 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2720", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「殺してやるぞ殺してやるぞッ！",
-		   "<color=#5ec69a>미온</color> ", "\"I'll kill you, I'll kill you!", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"죽여버릴 거야, 죽여버릴 거야!", Line_Continue);
 	OutputLine(NULL, "…梨花さんを殺したヤツらは皆殺しにしてやるッ！",
-		   NULL, " ...I'll kill everyone who killed 리카-san!", Line_Continue);
+		   NULL, " ...리카 씨를 죽인 녀석들은 모두 죽여버릴거야!", Line_Continue);
 	OutputLine(NULL, "…おおおぉぉおおおおおッ！」",
-		   NULL, " ...Hoooooooooooooooh!\"", Line_Normal);
+		   NULL, " ...아아아아아아아아악!\"", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0440", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「落ち着け！",
-		   "<color=#6b493e>Nitta</color> ", "\"Calm down!", Line_Continue);
+		   "<color=#6b493e>Nitta</color> ", "\"진정해!", Line_Continue);
 	OutputLine(NULL, "落ち着くんだッ！",
-		   NULL, " Calm down now!", Line_Continue);
+		   NULL, " 진정하는 거야!", Line_Continue);
 	OutputLine(NULL, "…園崎君！",
-		   NULL, " ...Sonozaki-kun!", Line_Continue);
+		   NULL, " ...소노자키 군!", Line_Continue);
 	OutputLine(NULL, "………ッ！」",
 		   NULL, " .........!\"", Line_Normal);
 	ClearMessage();
@@ -10092,12 +10092,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音に飛びつかれ刺される。",
-		   NULL, "미온 leaps forward and stabs him.", Line_Normal);
+		   NULL, "미온이 달려들며 칼을 찌른다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0240", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「この野郎ッ！」",
-		   "<color=#574f58>Okano</color> ", "\"You bitch!\"", Line_Normal);
+		   "<color=#574f58>Okano</color> ", "\"이 새끼가!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10109,18 +10109,18 @@ void main()
 	ShakeScreen( 0, 6, 100, 2, 50, );
 
 	OutputLine(NULL, "　魅音に後ろから掴みかかる岡野。",
-		   NULL, "Okano grabs hold of 미온 from behind.", Line_WaitForInput);
+		   NULL, "오키노가 뒤에서 미온을 붙잡아 챈다.", Line_WaitForInput);
 	OutputLine(NULL, "揉み合いの途中で魅音のナイフが首に入る。",
-		   NULL, " During their grapple, 미온's knife pierces his neck.", Line_WaitForInput);
+		   NULL, " 몸싸움 도중 미온의 칼이 목에 박힌다.", Line_WaitForInput);
 	OutputLine(NULL, "喉を押さえ倒れる岡野。",
-		   NULL, " Okano falls back, clutching his throat.", Line_Normal);
+		   NULL, " 목을 움켜쥔 채 쓰러지는 오카노.", Line_Normal);
 	ClearMessage();
 	//CallScriptSection( "util", "RainOn" );
 
 	OutputLine(NULL, "　保土田は悲鳴をあげて逃げようとする。",
-		   NULL, "Hotoda screams and tries to flee.", Line_WaitForInput);
+		   NULL, "호토다가 비명을 지르며 도망치려고 한다.", Line_WaitForInput);
 	OutputLine(NULL, "それを魅音は捕まえ背中に刃を突きたてる。",
-		   NULL, " Yet 미온 catches her and shoves her blade into her back.", Line_Normal);
+		   NULL, " 미온이 그녀를 붙잡아 등에 칼을 꽂는다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10134,19 +10134,19 @@ void main()
 	ShakeScreen( 0, 6, 100, 2, 50, );
 
 	OutputLine(NULL, "　星野は床にへたり込み震えている。",
-		   NULL, "Hoshino then falls to the ground, trembling.", Line_Normal);
+		   NULL, "호시노는 바닥에 주저앉아 떨고 있다.", Line_Normal);
 	ClearMessage();
 
 	//;ld r,mio_D15,22
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2730", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「があぁああぁああッ！",
-		   "<color=#5ec69a>미온</color> ", "\"Gaaaaaaaagh!", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"가아아아아아아!", Line_Continue);
 	OutputLine(NULL, "…梨花さんを殺したのは誰だッ！",
-		   NULL, " ...Who was the one that killed 리카-san?!", Line_Continue);
+		   NULL, " ...리카 씨를 죽인 건 누구야!", Line_Continue);
 	OutputLine(NULL, "…畜生畜生畜生ッ！",
-		   NULL, " ...Dammit, dammit, dammit!", Line_Continue);
+		   NULL, " ...이 개새끼들아!", Line_Continue);
 	OutputLine(NULL, "…殺してやる殺してやる殺してやるッ！」",
-		   NULL, " ...I'll kill you, I'll kill you, I'll kill you!\"", Line_Normal);
+		   NULL, " ...죽여버릴거야 죽여버릴거야 죽여버릴거야!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10155,7 +10155,7 @@ void main()
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0520", 128, TRUE);
 	OutputLine("<color=#ffedab>星野</color> ", "「…園崎さん！　…落ち着いて！私たちは何もしてないわ！　本当よ！…あなたが…幻覚を見てひとりで暴れてるだけなのよ！…落ち着いてッ！」",
-		   "<color=#ffedab>Hoshino</color> ", "\"...Sonozaki-san! ...Calm down! We haven't done anything! Honest! ...You're... just hallucinating! You're being violent for no reason! ...Calm down!\"", Line_Normal);
+		   "<color=#ffedab>Hoshino</color> ", "\"...소노자키 씨! ...진정하세요! 우리는 아무것도 한 게 없어요! 진짜예요! ...당신이... 환각을 보고 혼자서 날뛰고 있는 거예요! 진정하세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10164,7 +10164,7 @@ void main()
 	ShakeScreen( 2, 6, 100, 2, 50, );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2740", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「うるせぇよ…！…梨花さんを返せよッ！…おああぁぁああぁあッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Shut up...! ...Give me back 리카-san! ...Hoaaaaaaaaaaagh!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"시끄러워...! ...리카 씨를 살려내! ...아아아악!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10176,16 +10176,16 @@ void main()
 	ShakeScreen( 4, 9, 20, 15, 3, );
 
 	OutputLine(NULL, "　星野に飛び掛かり腹部を深々と刺す。",
-		   NULL, "She springs onto Hoshino and stabs the knife deep into her stomach.", Line_Normal);
+		   NULL, "호시노에게 달려들어 배를 깊게 찌른다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "black", 400 );
 
 	OutputLine(NULL, "　…累々と転がる屍。",
-		   NULL, "...Corpses are piled up all around her.", Line_WaitForInput);
+		   NULL, "...곳곳에 널브러진 시체들.", Line_WaitForInput);
 	OutputLine(NULL, "…土砂降りの雨と肩で息をする魅音の荒い息。",
-		   NULL, " ...The sound of heavy rain is accompanied by 미온's heaving breathing as her shoulders shudder with each breath.", Line_Normal);
+		   NULL, " ...퍼붓는 비와 미온이 어깨로 헐떡이며 내쉬는 거친 숨.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10200,7 +10200,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　我に返り、梨花にゆっくりと近付く。",
-		   NULL, "She regains her senses and slowly approaches 리카.", Line_Normal);
+		   NULL, "정신을 차리고 천천히 리카에게 다가간다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10213,13 +10213,13 @@ void main()
 	//;ld c,mio_D7a,22
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2750", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…梨花さん…。……梨花さん…！…起きて下さいよぅ…！…そろそろ帰りましょうよぅ……。」",
-		   "<color=#5ec69a>미온</color> ", "\"...리카-san... ......리카-san...! ...Please wake up...! ...It's time for us to go home......\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...리카 씨... ......리카 씨...! ...제발 일어나 주세요...! ...이제 집에 가자고요......\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,mio_D15a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2760", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ぎゃああぁあぁあぁぁああああぁああああッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Gyaaaaaaaaaaaaaaaaaaaaaaaah!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"아아아아아아아아아아아아아아아아아아아아!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10238,25 +10238,25 @@ void main()
 
 
 	OutputLine(NULL, "　舞台は真っ赤なライトで照らされる。",
-		   NULL, "A bright red light shines down on the stage.", Line_WaitForInput);
+		   NULL, "무대는 새빨간 불빛으로 비춰진다.", Line_WaitForInput);
 	OutputLine(NULL, "泣いて絶叫する魅音。",
-		   NULL, " 미온 weeps and screams.", Line_Normal);
+		   NULL, " 울부짖으며 절규하는 미온.", Line_Normal);
 	ClearMessage();
 
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0000", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……可哀相に。……辛いでしょう。」",
-		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......Poor thing. ......It must have been tough.\"", Line_Normal);
+		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......가여운 것. ......고통스럽겠지.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2770", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「梨花さん！…梨花さん！…嘘だぁあぁああああッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"리카-san! ...리카-san! ...It's all a lieeeeeeee!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"리카 씨! ...리카 씨! ...거짓말이야야야야야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0010", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……ねぇ、魅音さん。……今度こそ、…私が解放してあげましょう。」",
-		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......Hey, 미온-san. ......This time... I'll free you.\"", Line_Normal);
+		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......저기, 미온 씨. ......이번엔 제가... 당신을 해방시켜 드리죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10267,22 +10267,22 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2780", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「梨花さんに会わせてッ！……会わせてよぅッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Let me see 리카-san! ......Let me see her!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"리카 씨를 만나게 해줘요! ......만나게 해주세요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0020", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……会いたい…？…会いたいですか？…会いたい。……ふっふふふ！…いいでしょう。…会わせてあげましょう。」",
-		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......You want to meet them...? ...You want to meet them, do you? ...You want to meet them. ......Fufufufu! ...Very well. ...Then I'll help you.\"", Line_Normal);
+		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......만나고 싶은 거야...? 만나고 싶어? ...만나고 싶구나. ......후후후후! ...좋아. ...만나게 해줄게.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0030", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……近藤さんも、柿沼さんも。……森さんも加藤さんも。…そして荒川君も会いました。」",
-		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......Kondou-san and Kakinuma-san both. ......Mori-san and Katou-san too. ...아라카와-kun met them all.\"", Line_Normal);
+		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......콘도 씨도, 카키누마 씨도...... 모리 씨랑 카토 씨도... 그리고 아라카와 군도 만났어.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0040", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……あなたにも…会わせてあげましょうとも。」",
-		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......Now you too... shall meet them, of course.\"", Line_Normal);
+		   "<color=#f5e6d3><size=32>Oyashiro-sama</size></color> ", "\"......당신도... 만나게 해드리죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10291,7 +10291,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2790", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「会わせてよ！…会わせてよッ！……梨花さぁあああぁあああんッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Let me see her! ...Let me see her! ......리카-saaaaaaaaaaaann!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"만나게 해줘! ...만나게 해줘! ......리카 씨이이이이이이!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10310,22 +10310,22 @@ void main()
 	PlayBGM( 1, "me/ame2", 70, 0 );
 
 	OutputLine(NULL, "　おおきな雷鳴。",
-		   NULL, "There's a loud crack of thunder.", Line_WaitForInput);
+		   NULL, "큰 천둥 소리.", Line_WaitForInput);
 	OutputLine(NULL, "舞台フラッシュして暗転。",
-		   NULL, " The stage flashes bright, then goes dark.", Line_WaitForInput);
+		   NULL, " 무대가 번쩍이며 어둠에 휩싸인다.", Line_WaitForInput);
 	OutputLine(NULL, "雨の音だけがしとしと続く。",
-		   NULL, " Only the gentle sound of rain continues.", Line_WaitForInput);
+		   NULL, " 비 소리만이 조용히 계속된다.", Line_WaitForInput);
 	OutputLine(NULL, "長い沈黙。",
-		   NULL, " A long silence follows.", Line_Normal);
+		   NULL, " 긴 침묵.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　徐々に明るくなる。",
-		   NULL, "Steadily the stage grows lit.", Line_WaitForInput);
+		   NULL, "무대가 서서히 밝아진다.", Line_WaitForInput);
 	OutputLine(NULL, "魅音と梨花しかいない。",
-		   NULL, " Only 미온 and 리카 are present.", Line_WaitForInput);
+		   NULL, " 미온과 리카만이 그곳에 있다.", Line_WaitForInput);
 	OutputLine(NULL, "魅音は梨花の膝に頭を預け眠っている。",
-		   NULL, " 미온 is sleeping with her head in 리카's lap.", Line_Normal);
+		   NULL, " 미온은 리카의 무릎에 머리를 기대고 잠들어 있다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//CallScriptSection( "util", "RainOff" );
@@ -10335,12 +10335,12 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1890", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……起きちゃった…？」",
-		   "<color=#6972c1>리카</color> ", "\"......Are you awake now...?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......깨어났어...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2800", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……ん、……んん、……頭……痛い…。」",
-		   "<color=#5ec69a>미온</color> ", "\"......Nnh...... Nnnh...... My head...... hurts...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......으...... 으으...... 머리...... 아파...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10349,19 +10349,19 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1900", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…まだ薬が効いて来ない？…もう少し寝てていいのに。」",
-		   "<color=#6972c1>리카</color> ", "\"...The medicine still isn't working yet? ...You can sleep a little longer, you know.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...약이 아직 듣지 않았나봐? ...조금 더 자도 되는데.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2810", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……梨花さん…？……梨花さんなんですよね…？」",
-		   "<color=#5ec69a>미온</color> ", "\"......리카-san...? ......리카-san, it is you, right...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......리카 씨...? ......리카 씨 맞죠...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "portrait/hri2a_08_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1910", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…他の誰に見える…？」",
-		   "<color=#6972c1>리카</color> ", "\"...Do I look like someone else...?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...다른 사람으로 보여...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10371,35 +10371,35 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2820", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「梨花さん…。……梨花さん！……梨花さんッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"리카-san... ......리카-san! ......리카-san!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"리카 씨... ......리카 씨! ......리카 씨!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 
 	OutputLine(NULL, "　梨花に抱きつく魅音。",
-		   NULL, "미온 clings to 리카.", Line_WaitForInput);
+		   NULL, "미온이 리카에게 안긴다.", Line_WaitForInput);
 	OutputLine(NULL, "梨花は一瞬面食らうが、やさしく抱きしめる。",
-		   NULL, " 리카 is confused for a moment, then gently hugs her back.", Line_Normal);
+		   NULL, " 리카는 순간 당황했지만, 부드럽게 안아준다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2830", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「本当に梨花さんなんですよね！…梨花さんなんですよね！？…わぁあぁあああああッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"It's really you, right?! ...You're 리카-san, right?! ...Waaaaaaaaaah!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"정말 리카 씨 맞죠! 리카 씨 맞죠!?! ...와아아아아아아!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1920", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……私はここよ。…ここにいるわ。…悲しい夢を見たの…？」",
-		   "<color=#6972c1>리카</color> ", "\"......I'm here. ...I'm right here. ...Did you have a sad dream...?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......나 여기 있어. 여기에 있어. 슬픈 꿈을 꾼 거야...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;ld c,mio_D8a,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2840", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……ぅぅ、……わぁああぁあああああぁあああッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"......Nnh...... Waaaaaaaaaaaaaaaaaaaaaaaaaaaaah!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"......으으... 와아아아아아아아아!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	//;（号泣）
 
 	OutputLine(NULL, "　慈しむ表情で魅音を抱きしめる梨花。",
-		   NULL, "리카 hugs 미온 with an affectionate expression.", Line_Normal);
+		   NULL, "미온을 애정 어린 표정으로 안아주는 리카.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10410,28 +10410,28 @@ void main()
 	//;bgm1 205
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1930", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「………落ち着いた…？」",
-		   "<color=#6972c1>리카</color> ", "\".........Have you settled down now...?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\".........진정했어...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_08_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2850", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「はは、はははは、……はい。……どーもすみません…。…ははは…。」",
-		   "<color=#5ec69a>미온</color> ", "\"Haha, hahahaha...... Yes. ......I'm sorry about that... ...Hahaha...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"하하, 하하하하...... 네. ......정말 죄송합니다... ...하하하...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 	ModDrawCharacter(1, 52, "sprite/hri2a_14_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1940", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…ねぇ魅音。……あなたを起こすの、…悪いと思ってね。…バスを１本、見送っちゃったの。」",
-		   "<color=#6972c1>리카</color> ", "\"...Hey, 미온. ......I felt bad... about waking you up. ...So we missed the bus that passed by.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...저기 미온. ......너를 깨운 게... 조금 미안해. ...버스 한 대, 놓쳐버렸거든.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_07_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2860", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「えぇー！？…そんじゃ次のバスはいつ来るんですかぁ！？」",
-		   "<color=#5ec69a>미온</color> ", "\"Whaaa?! ...But then when is the next bus coming here?!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"어라?! ...그럼 다음 버스는 언제 오는 건가요?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10439,21 +10439,21 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1950", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…もう待つの嫌でしょ？……ねぇ。…歩いて行かない？…近道を通って行けばそんなに時間はかからないと思うの。」",
-		   "<color=#6972c1>리카</color> ", "\"...You don't want to wait anymore, right? ......So hey. ...Why don't we walk? ...If we take a shortcut, it shouldn't take that long.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...이제 기다리는 게 싫지? ......어때. ...걸어갈래? ...지름길로 가면 그렇게 시간이 많이 걸리지 않을 거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_05_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2870", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…って、私たち傘ないですよ。…降りは幾分、弱くなったようですけど…。」",
-		   "<color=#5ec69a>미온</color> ", "\"...But wait, we don't have an umbrella. ...Though it looks like the rain let up a lot...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...근데 우리 우산 없잖아요. ...비는 좀 그친 것 같긴 한데...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_12_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1960", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……私と雨の中を歩くの、…嫌い…？」",
-		   "<color=#6972c1>리카</color> ", "\"......You don't want to walk through the rain... with me...?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......나랑 비를 맞으며 걷는 거... 싫어...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10462,14 +10462,14 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2880", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「とんでもないッ！…梨花さんの為なら例え火の中、水の中ー！いいでしょー！お伴申し上げますわーん！」",
-		   "<color=#5ec69a>미온</color> ", "\"Of course I do! ...I'd go through fire or water for you, 리카-san! Alright then! Allow me to accompany you!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"허튼소리 마세요! ...리카 씨를 위해서라면 불 속이든 물 속이든! 좋아요! 함께하겠습니다!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_04_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1970", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……本当にいいの…？……傘がないから、…ずぶ濡れになるわよ。」",
-		   "<color=#6972c1>리카</color> ", "\"......Are you really sure...? ......Without an umbrella... we'll both end up soaked.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......정말 괜찮은 거야...? ......우산이 없어서... 흠뻑 젖을 거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10478,28 +10478,28 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2890", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「勿論！」",
-		   "<color=#5ec69a>미온</color> ", "\"Of course I'm sure!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"물론이죠!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_02_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1980", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「泥だらけになるわよ。」",
-		   "<color=#6972c1>리카</color> ", "\"You'll get covered in mud.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"진흙투성이가 될 거야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(2, 53, "sprite/hmi2a_02_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2900", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「覚悟の上です！」",
-		   "<color=#5ec69a>미온</color> ", "\"I'm prepared for that!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"각오는 되어 있어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
 	ModDrawCharacter(1, 52, "sprite/hri2a_14_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1990", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…風邪をひくかもね。」",
-		   "<color=#6972c1>리카</color> ", "\"...You might catch a cold.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...감기 걸릴지도 몰라.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10511,7 +10511,7 @@ void main()
 	//;ld r,mio_D4,80
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2910", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「雨ですからーッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"Well, it is raining!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"비가 오니까요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10519,7 +10519,7 @@ void main()
 	PlayBGM( 0, "bgm1/zenmou_cast-act2-", 70, 0 );
 
 	OutputLine(NULL, "　立ち上がる２人。",
-		   NULL, "Both of them stand there for a moment.", Line_Normal);
+		   NULL, "일어서는 두 사람.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10530,17 +10530,17 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_2000", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…私がずっと側に居てあげるから。…離れないでね。」",
-		   "<color=#6972c1>리카</color> ", "\"...I'll stay with you forever. ...So don't leave me, okay?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...나는 계속 곁에 있어 줄게. ...떨어지지 말아줘.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2920", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あぁん！離れないどころか密着してたいですわーん！」",
-		   "<color=#5ec69a>미온</color> ", "\"Ahhn! I'd never leave you! I'd rather cling to you instead!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"아앗! 떨어질 생각 없어요, 오히려 딱 붙어있고 싶어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_2010", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……うん。…それでいいわ。……行きましょ。」",
-		   "<color=#6972c1>리카</color> ", "\"......Yeah. ...That's good. ......Let's go.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......그래. ...그것도 좋네. ......가자.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10554,9 +10554,9 @@ void main()
 
 
 	OutputLine(NULL, "　魅音の肩を抱きながら歩き出す梨花。",
-		   NULL, "리카 starts walking, still holding 미온's shoulder.", Line_WaitForInput);
+		   NULL, "리카가 미온의 어깨를 감싸안으며 걷기 시작한다.", Line_WaitForInput);
 	OutputLine(NULL, "魅音はどきどきして緊張している。",
-		   NULL, " 미온 is nervous and her heart is racing.", Line_Normal);
+		   NULL, " 미온은 두근거리며 긴장하고 있다.", Line_Normal);
 	ClearMessage();
 
 	//;cl c,0
@@ -10568,7 +10568,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2930", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ど……どうしたんすか梨花さん。……何かいつもと雰囲気違う…。」",
-		   "<color=#5ec69a>미온</color> ", "\"...Wha...... What's gotten into you, 리카-san? ......You're not acting like your usual self...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...왜...... 왜 그러세요, 리카 씨? ......뭔가 평소와 분위기가 다르네요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	//;mcl r,0
@@ -10576,7 +10576,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_2020", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……行きましょう。……二人ならどこへだって行ける…。」",
-		   "<color=#6972c1>리카</color> ", "\"......Let's go. ......Together, we can go anywhere we like...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......가자. ......우리 둘이라면 어디든 갈 수 있어...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10586,34 +10586,34 @@ void main()
 	DrawScene( "black", 2000 );
 
 	OutputLine(NULL, "　舞台、徐々に暗転。",
-		   NULL, "The stage gradually fades to black.", Line_Normal);
+		   NULL, "무대가 점점 어두워진다..", Line_Normal);
 	ClearMessage();
 	//;しばらくして流行りっぽい曲が流れ始める。\
 
 	OutputLine(NULL, "　しばらくしてピーピーという無線の呼び出し音。",
-		   NULL, "After a moment, there's a beep signaling a radio call.", Line_Normal);
+		   NULL, "잠시 후, 삐삐거리는 무전기 소리가 들린다.", Line_Normal);
 	ClearMessage();
 	//;カチリと音がすると曲が止まる。\
 
 
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0250", 128, TRUE);
 	OutputLine("<color=#f5e6d3>岡野の声</color> ", "「３号車です。」",
-		   "<color=#f5e6d3>Okano's Voice</color> ", "\"This is car number three.\"", Line_Normal);
+		   "<color=#f5e6d3>Okano's Voice</color> ", "\"여기는 3호차.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0130", 128, TRUE);
 	OutputLine("<color=#f5e6d3>保土田の声</color> ", "「…本部より待機中の全車へ。…目標はバスに乗車せず。繰り返す。目標はバスに乗車せず。」",
-		   "<color=#f5e6d3>Hotoda's Voice</color> ", "\"...Headquarter to all cars on standby. ...The target did not board the bus. Repeat. The target did not board the bus.\"", Line_Normal);
+		   "<color=#f5e6d3>Hotoda's Voice</color> ", "\"...본부에서 대기중인 모든 차에. ...목표는 버스에 타지 않았다. 반복한다. 목표는 버스에 타지 않았다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 60, "ps3/s26/60/toda_0080", 128, TRUE);
 	OutputLine("<color=#f5e6d3>織田の声</color> ", "「偵察班より本部へ！…停留所、もぬけのからです。失探しました。」",
-		   "<color=#f5e6d3>Oda's Voice</color> ", "\"Recon team to headquarters! ...The bus stop is completely empty. We've lost visual!\"", Line_Normal);
+		   "<color=#f5e6d3>Oda's Voice</color> ", "\"정찰반에서 본부로! ...정류장은 비어 있습니다. 놓쳤습니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0450", 128, TRUE);
 	OutputLine("<color=#f5e6d3>新田の声</color> ", "「……街道を全て封鎖しろ。…繰り返す、街道を全て封鎖。…市内へ逃がすなッ！…生かしたまま捕らえろッ！」",
-		   "<color=#f5e6d3>Nitta's Voice</color> ", "\"......Seal off all the main roads. ...Repeat, seal off all the main roads. ...Don't let them escape to the city! ...Capture them alive!\"", Line_Normal);
+		   "<color=#f5e6d3>Nitta's Voice</color> ", "\"......모든 거리를 봉쇄하라. ...반복한다, 모든 거리를 봉쇄하라. ...시내로 탈출하지 못하게 막아! ...생포해라!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
