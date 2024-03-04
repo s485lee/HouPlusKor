@@ -1385,7 +1385,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0190", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ダムは環境破壊の根源ですよねー！ねーッ！？ひぃいいいいいー！」",
-		   "<color=#5f5248>아라카와</color> ", "\"댐은 환경 파괴의 근원이죠, 그렇죠! 그렇죠!? "히이이이이익!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"댐은 환경 파괴의 근원이죠, 그렇죠! 그렇죠!? 히이이이이익!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
