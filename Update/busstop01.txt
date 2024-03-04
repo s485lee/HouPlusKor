@@ -3529,27 +3529,27 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0010", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「…ここんトコ、寝苦しくてなぁ…。なかなか眠れないんだよ。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"...요즘들어... 잠자기가 힘들어... 좀처럼 잠이 오지 않아.\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"...요즘들어... 잠자기가 힘들어... 좀처럼 잠이 오지 않아.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0620", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「は！…はははは！…沼さん、やめて下さいよ！…沼さんの所にまで現れるんですかー！？例のアレ。」",
-		   "<color=#5f5248>아라카와</color> ", "\"하! ...하하하하! ...누마 씨, 농담도 그만! ...누마 씨에게까지 나타나는 건가요?! 그 뭐시기요.\"", Line_Normal);
+			"<color=#5f5248>아라카와</color> ", "\"하! ...하하하하! ...누마 씨, 농담도 그만! ...누마 씨에게까지 나타나는 건가요?! 그 뭐시기요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0020", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「……………荒ちゃんは何も感じないかい。…夜とか。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"...............아라쨩은 아무것도 느끼지 않니? ...밤에라던가?\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"...............아라쨩은 아무것도 느끼지 않니? ...밤에라던가?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0630", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「夜に感じるって、…ははは！何かやらしー話ですねー！」",
-		   "<color=#5f5248>아라카와</color> ", "\"밤에 느낀다니, ...하하하! 뭔가 야한 이야기네요!\"", Line_Normal);
+			"<color=#5f5248>아라카와</color> ", "\"밤에 느낀다니, ...하하하! 뭔가 야한 이야기네요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0030", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「…………確かに「いる」んだよ。",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"............확실히 '있다'고.", Line_Continue);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"............확실히 '있다'고.", Line_Continue);
 	OutputLine(NULL, "………「いる」。」",
 		   NULL, " .........'있어'.\"", Line_Normal);
 	ClearMessage();
@@ -3557,57 +3557,57 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0040", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「………気になって灯を付けるんだ。…だけど部屋には女房と子供しかいない。当り前だよな。…………でもやっぱり「いる」んだよ。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"......뭔가 해서 불을 키면. ...방에는 아내와 자식밖에 없어. 당연하지. .........그런데도 역시 '있어'.\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"......뭔가 해서 불을 키면. ...방에는 아내와 자식밖에 없어. 당연하지. .........그런데도 역시 '있어'.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0640", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…沼さん勘弁して下さいよ…。…いるいるいるいるって、…何がいるって言うんです？」",
-		   "<color=#5f5248>아라카와</color> ", "\"...누마 씨, 농담도 그만해주세요... ...있다있다있다있다라니... 뭐가 있다는 거죠?\"", Line_Normal);
+			"<color=#5f5248>아라카와</color> ", "\"...누마 씨, 농담도 그만해주세요... ...있다있다있다있다라니... 뭐가 있다는 거죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0050", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「………近藤さんもさ。…ひと月くらい前から、そんなこと言ってたよな…。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\".........콘도 씨도 그랬어... 한 달 정도 전부터, 그런 얘기를 했지...\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\".........콘도 씨도 그랬어... 한 달 정도 전부터, 그런 얘기를 했지...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0650", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「近藤さんは、ほらちょっと！…なんていうのか…そういう所がありましたし…。」",
-		   "<color=#5f5248>아라카와</color> ", "\"콘도 씨는 뭐, 조금... 어떻게 말해야 하나... 그런 면이 있었으니까요...\"", Line_Normal);
+			"<color=#5f5248>아라카와</color> ", "\"콘도 씨는 뭐, 조금... 어떻게 말해야 하나... 그런 면이 있었으니까요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0060", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「……近藤さんの所にもさ、……俺の所と同じヤツが……「いた」のかもな。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"......콘도 씨의 집에도, 내 집에도 같은 녀석이... '있었'을지도 몰라.\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"......콘도 씨의 집에도, 내 집에도 같은 녀석이... '있었'을지도 몰라.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0660", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「……やめましょうよ。近藤さんの話は！」",
-		   "<color=#5f5248>아라카와</color> ", "\"......그만하죠. 콘도 씨 얘기는!\"", Line_Normal);
+			"<color=#5f5248>아라카와</color> ", "\"......그만하죠. 콘도 씨 얘기는!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0070", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「…わかるよ。……多分、近藤さんが「いる」って言ってたヤツが…あいつなんだよ。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"...알았어. ......아마도, 콘도 씨가 '있다'고 말했던 그게... 그 녀석이야.\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"...알았어. ......아마도, 콘도 씨가 '있다'고 말했던 그게... 그 녀석이야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0080", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「…あいつは間違いなく「いる」んだ。…日が経つごとに、強く感じられるようになる。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"...그 녀석은 분명히 '있다'. ...날이 갈수록, 더 강하게 느껴진다.\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"...그 녀석은 분명히 '있다'. ...날이 갈수록, 더 강하게 느껴진다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0670", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「もうやめませんか。この話。…面白くないですよ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"이제 그만하죠. 이 얘기는요. ...재미 없어요!\"", Line_Normal);
+			"<color=#5f5248>아라카와</color> ", "\"이제 그만하죠. 이 얘기는요. ...재미 없어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0090", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「…あぁ！　…やめようか。……でもな、…日増しに気配を強く感じるようになるんだよ。本当だぜ？」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\"...아아! ...그만하자. ......하지만 말이야...날이 갈수록 기척을 더 세게 느껴지게 된다고. 진짜야?\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"...아아! ...그만하자. ......하지만 말이야...날이 갈수록 기척을 더 세게 느껴지게 된다고. 진짜야?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0100", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「………瞼をふっと開ければ、…そこに立ってるんじゃないか、ってくらいに。」",
-		    "<color=#f5e6d3>카키누마의 목소리</color> ", "\".........눈을 슬쩍 뜨면 ...거기에 서 있지 않을까, 정도로 말이야.\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\".........눈을 슬쩍 뜨면 ...거기에 서 있지 않을까, 정도로 말이야.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10246,7 +10246,7 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0000", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……可哀相に。……辛いでしょう。」",
-		   "<color=#f5e6d3>오야시로님</color>  ", "\"......가여운 것. ......고통스럽겠지.\"", Line_Normal);
+		   "<color=#f5e6d3>오야시로님</color> ", "\"......가여운 것. ......고통스럽겠지.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2770", 128, TRUE);
@@ -10256,7 +10256,7 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0010", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……ねぇ、魅音さん。……今度こそ、…私が解放してあげましょう。」",
-		   "<color=#f5e6d3>오야시로님</color>  ", "\"......저기, 미온 씨. ......이번엔 제가... 당신을 해방시켜 드리죠.\"", Line_Normal);
+		   "<color=#f5e6d3>오야시로님</color> ", "\"......저기, 미온 씨. ......이번엔 제가... 당신을 해방시켜 드리죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10272,7 +10272,7 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0020", 128, TRUE);
 	OutputLine("<color=#f5e6d3>オヤシロさま</color> ", "「……会いたい…？…会いたいですか？…会いたい。……ふっふふふ！…いいでしょう。…会わせてあげましょう。」",
-		   "<color=#f5e6d3>오야시로님</color>  ", "\"......만나고 싶은 거야...? 만나고 싶어? ...만나고 싶구나. ......후후후후! ...좋아. ...만나게 해줄게.\"", Line_Normal);
+		   "<color=#f5e6d3>오야시로님</color> ", "\"......만나고 싶은 거야...? 만나고 싶어? ...만나고 싶구나. ......후후후후! ...좋아. ...만나게 해줄게.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/toya_0030", 128, TRUE);
