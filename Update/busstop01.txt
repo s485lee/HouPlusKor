@@ -84,7 +84,7 @@ void main()
 	OutputLine(NULL, "　某地方の山奥。",
 		   NULL, "어느 지방의 깊은 산골,", Line_WaitForInput);
 	OutputLine(NULL, "村の外れのバスの停留所「雛見沢（ひなみざわ）停留所」",
-		   NULL, " 마을 외곽의 버스 정류장 '히나미자와 정류소'.", Line_Normal);
+		   NULL, " 마을 외곽의 버스 정류소 '히나미자와 정류소'.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -160,7 +160,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0010", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…でもすごい降りね。…やむといいんだけど。」",
-		   "<color=#6972c1>리카</color> ", "\"그래도 정말 많이 오네. ...그치면 좋겠는데.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"그래도 정말 많이 오네... 그치면 좋겠는데.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -208,7 +208,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0030", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…はしゃぎ過ぎだってば。…大丈夫？」",
-		   "<color=#6972c1>리카</color> ", "\"...너무 들떴다니까 ...괜찮아?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"너무 들떴다니까... 괜찮아?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -216,7 +216,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0050", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「あーげほんげほん！…ははは！すんません。」",
-		   "<color=#5ec69a>미온</color> ", "\"아, 크흠, 크흠! ...하하하! 죄송해요.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"아, 크흠, 크흠! 하하하...! 죄송해요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -226,7 +226,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0040", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「でも、…喜んでくれてよかった。こんなに楽しんでもらえるなんて思わなかったわ。」",
-		   "<color=#6972c1>리카</color> ", "\"그래도, ...기뻐해 줘서 다행이야. 이렇게 즐거워할 줄은 몰랐거든.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"그래도, 기뻐해 줘서 다행이야... 이렇게 즐거워할 줄은 몰랐거든.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -266,12 +266,12 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0060", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…私は魅音の事をうるさいなんて思った事はないわよ。…いつもの騒がしいあなたが好きよ。」",
-		   "<color=#6972c1>리카</color> ", "\"...나는 미온이 시끄럽다고 생각한 적 없어. ...항상 소란스러운 네가 좋아.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"나는 미온이 시끄럽다고 생각한 적 없어... 항상 소란스러운 네가 좋아.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0090", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…ははは！…だから梨花さんの方から遊びに行こうって誘ってくれた時、ものすごく嬉しかったんですよ。」",
-		   "<color=#5ec69a>미온</color> ", "\"...하하하! ...그래서 리카 씨가 먼저 놀러 가자고 했을 때, 정말로 기뻤어요.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"하하하! ...그래서 리카 씨가 먼저 놀러 가자고 했을 때, 정말로 기뻤어요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -360,7 +360,7 @@ void main()
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ひょっとしてコクられちゃうのかな！？",
 		   "<color=#5ec69a>미온</color> ", "\"혹시 고백받는 건가!?", Line_Continue);
 	OutputLine(NULL, "なんてーッ！",
-		   NULL, " 뭐 그런!", Line_Continue);
+		   NULL, " 뭐라아!", Line_Continue);
 	OutputLine(NULL, "いつしか二人は友情からもう一歩上の感情へステップアーップ！！」",
 		   NULL, " 어느새 두 사람은 우정에서 한 걸음 더 나아가 더 높은 감정으로 스텝 업!!\"", Line_Normal);
 	ClearMessage();
@@ -405,27 +405,27 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0110", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……越えなくて結構よ。……結構だったら。」",
-		   "<color=#6972c1>리카</color> ", "\"...넘지 않아도 돼. ...됐다니까.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"넘지 않아도 돼... 됐다니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0180", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…こんな辺鄙な所ですからねぇ…。次のバスは１時間も先ですよねぇ…？」",
-		   "<color=#5ec69a>미온</color> ", "\"...이렇게 외진 곳이니까요... 다음 버스는 1시간도 더 있어야 오죠...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"이렇게 외진 곳이니까요... 다음 버스는 1시간도 더 있어야 오죠...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0120", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…しかも今日は雨だからね…。」",
-		   "<color=#6972c1>리카</color> ", "\"...게다가 오늘은 비도 오고 있으니까...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"게다가 오늘은 비도 오고 있으니까...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0190", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…しかもこの停留所、滅多に人の来ない寂しーい所なんですよねぇ。」",
-		   "<color=#5ec69a>미온</color> ", "\"...거기에 이 정류장은 사람이 드물게 오는 쓸쓸한 곳이거든요.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"거기에 이 정류장은 사람이 드물게 오는 쓸쓸한 곳이거든요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0130", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…しかも今日は雨だからね…。」",
-		   "<color=#6972c1>리카</color> ", "\"...게다가 오늘은 비도 오고 있으니까...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"게다가 오늘은 비도 오고 있으니까...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -439,12 +439,12 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0140", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…しかも今日は雨だからね…。」",
-		   "<color=#6972c1>리카</color> ", "\"...게다가 오늘은 비도 오고 있으니까...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"게다가 오늘은 비도 오고 있으니까...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0210", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…雨ですからぁ…ッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"...비가 오니까요...!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"비가 오니까요...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -510,7 +510,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0010", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「？？……ははは！いやいや、仰る通りですね。…荒川君、次のバスは何時に来るんだい？」",
-		   "<color=#ccaa95>토네가와</color> ", "\"어라? 하하하! 아닙니다, 말씀하신 것 처럼 이군요. ...아라카와 군, 다음 버스는 몇 시에 오지?\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"어라? 하하하! 아닙니다, 말씀하신 것 처럼 이군요... 아라카와 군, 다음 버스는 몇 시에 오지?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -518,7 +518,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0010", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「えー…小一時間は来ないですね。ついさっき行っちゃったばかりみたいです。…こんな大雨の中で１時間もバス待ちとはついてないですよ。」",
-		   "<color=#5f5248>아라카와</color> ", "\"어디... 아마 한 시간 정도는 오지 않을 거예요. 방금 전에 떠난 것 같네요. ...이런 폭우 속에서 한 시간이나 버스를 기다려야 한다니, 운도 없네요.\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"어디... 아마 한 시간 정도는 오지 않을 거예요. 방금 전에 떠난 것 같네요... 이런 폭우 속에서 한 시간이나 버스를 기다려야 한다니, 운도 없네요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -542,7 +542,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0020", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…？？…私ら、何かしましたかね…？」",
-		   "<color=#5f5248>아라카와</color> ", "\"...어? ...저희, 무슨 일이라도 한 걸까요...?\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"어...? 저희, 무슨 일이라도 한 걸까요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -550,7 +550,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0020", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…ここしばらくフロ入ってないからなぁ。…臭うかな…？」",
-		   "<color=#ccaa95>토네가와</color> ", "\"...요 머칠 동안 목욕을 안 하기도 했으니까. ...냄새 나려나...?\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"요 머칠 동안 목욕을 안 하기도 했으니까... 냄새 나려나...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -570,9 +570,9 @@ void main()
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ちきしょー！",
 		   "<color=#5ec69a>미온</color> ", "\"젠장!", Line_Continue);
 	OutputLine(NULL, "…隙見てあいつらスマキにするっすー。",
-		   NULL, " ...기회 봐서 저 녀석들, 때려 눕히겠습니다!", Line_Continue);
+		   NULL, " 기회 봐서 저 녀석들, 때려 눕히겠습니다!", Line_Continue);
 	OutputLine(NULL, "…梨花さん、続きはその後ってことで。」",
-		   NULL, " ...리카 씨, 이이서는 나중에 하는 걸로.\"", Line_Normal);
+		   NULL, " 리카 씨, 이이서는 나중에 하는 걸로.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -581,7 +581,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0160", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……そうねぇ。……本当にやったらいいわよ。……許してあ・げ・る。」",
-		   "<color=#6972c1>리카</color> ", "\"......그래. ......정말로 할 수 있다면 좋겠네. ......용 서 해 줄 께.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"......그래. 정말로 할 수 있다면 좋겠네... 용 서 해 줄 께.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -600,7 +600,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0030", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「……お嬢さん方、…やっぱり臭うかい…？」",
-		   "<color=#ccaa95>토네가와</color> ", "\"...아가씨분들, ...역시 냄새나나요?\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"...아가씨분들, 역시 냄새나나요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -624,7 +624,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0170", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…そんなに臭う？…私、わかんないけど。」",
-		   "<color=#6972c1>리카</color> ", "\"...그렇게 냄새나나? ...나는 잘 모르겠는데.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"그렇게 냄새나나...? 나는 잘 모르겠는데.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -640,7 +640,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0040", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ね！？男にだって身だしなみは必要なんですよぅ！…あーもー！」",
-		   "<color=#5f5248>아라카와</color> ", "\"그쵸!? 남자라도 몸단장은 필요한 거예요! ...아, 진짜!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"그쵸!? 남자라도 몸단장은 필요한 거예요! 아... 진짜!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -648,7 +648,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0040", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「ここ今度から気をつけるよ。…だけどあの子が言うほど臭ったりはしないだろう！？」",
-		   "<color=#ccaa95>토네가와</color> ", "\"다음부턴 주의하도록 할게. ...하지만 저 아이가 말하는 것처럼 냄새가 심히진 않지?!\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"다음부턴 주의하도록 할게... 하지만 저 아이가 말하는 것처럼 냄새가 심히진 않지?!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -727,7 +727,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0200", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…気にしないで下さい。…この子、ちょっとオカシイんです。」",
-		   "<color=#6972c1>리카</color> ", "\"...신경 쓰지 마세요....이 아이, 살짝 이상하거든요.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"신경 쓰지 마세요... 이 아이, 살짝 이상하거든요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -741,7 +741,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0290", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「……り…梨花さん…、…すっげぇ痛いんですけど。……このお腹の中には私と梨花さんの赤ちゃんがいるんですよー…？」",
-		   "<color=#5ec69a>미온</color> ", "\"...리…리카씨... ...정말 아프거든요. ......이 배 속에는 저와 리카씨의 아기가 있다구요...?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"리…리카씨... 정말 아프거든요...... 이 배 속에는 저와 리카씨의 아기가 있다구요...?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -757,7 +757,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0210", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…赤ちゃんの産めない体になりたい？」",
-		   "<color=#6972c1>리카</color> ", "\"...아기 낳을 수 없는 몸이 되고 싶어?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"아기 낳을 수 없는 몸이 되고 싶어?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0300", 128, TRUE);
@@ -772,7 +772,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0060", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「……何だか、とっても仲良しさんみたいだねぇ。…お友達ですか？」",
-		   "<color=#ccaa95>토네가와</color> ", "\"...왠지 정말 사이좋은 것 같군요... 친구분이신가요?\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"왠지 정말 사이좋은 것 같군요... 친구분이신가요?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -809,7 +809,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0220", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「お友達です。…私は梨花。古手　梨花。…この子は魅音。…園崎　魅音。」",
-		   "<color=#6972c1>리카</color> ", "\"친구입니다. ...저는 리카. 후루데 리카. ...이 아이는 미온. ...소노자키 미온.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"친구입니다. 저는 리카. 후루데 리카. 이 아이는 미온. 소노자키 미온.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -834,7 +834,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0230", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「……荒川さんはご趣味とご職業は何ですか？」",
-		   "<color=#6972c1>리카</color> ", "\"...아라카와 씨는 취미와 직업이 어떻게 되시죠?\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"아라카와 씨는 취미와 직업이 어떻게 되시죠?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -858,7 +858,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0240", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…建設省。……河川局の方ですね？…ダム計画の。」",
-		   "<color=#6972c1>리카</color> ", "\"...건설청. ...하천국 쪽이죠? ...댐 계획의.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"건설청... 하천국 쪽이죠? 댐 계획의...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -866,7 +866,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0080", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「え？…えぇ、まぁ…！」",
-		   "<color=#5f5248>아라카와</color> ", "\"예? ...네, 뭐...!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"예? 네... 뭐...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -882,7 +882,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0320", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…へー、梨花さんよくわかりますねぇ。",
-		   "<color=#5ec69a>미온</color> ", "\"...헤-, 리카 씨 잘 아시네요.", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"헤-, 리카 씨 잘 아시네요.", Line_Continue);
 	OutputLine(NULL, "…いわゆるあれですかー？",
 		   NULL, " ...이른바 그건가요?,", Line_Continue);
 	OutputLine(NULL, "「簡単な推理だよワトソン君」ってヤツー！」",
@@ -897,7 +897,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0250", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…推理も何も。…そんな格好して歩いてるのはダム計画の関係者だけよ。」",
-		   "<color=#6972c1>리카</color> ", "\"...추리도 뭐도 아니야. ...그런 복장을 하고 다니는 건 댐 계획 관계자뿐이니까.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"추리도 뭐도 아니야... 그런 복장을 하고 다니는 건 댐 계획 관계자뿐이니까.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -967,7 +967,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0120", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「…これは手厳しい。」（利根川、手を引っ込める）",
-		   "<color=#ccaa95>토네가와</color> ", "\"...이건 좀 심하네요.\" (토네가와, 손을 거두며)", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"이건 좀 심하네요...\" (토네가와, 손을 거두며)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -984,7 +984,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0100", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…これは手厳しい。」（荒川、手を引っ込める）",
-		   "<color=#5f5248>아라카와</color> ", "\"......이건 좀 심하네요.\" (아라카와, 손을 거두며)", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"이건 좀 심하네요...\" (아라카와, 손을 거두며)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -993,7 +993,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0340", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…へっへっへー…！」（苦笑いしながら握手を待つ魅音）",
-		   "<color=#5ec69a>미온</color> ", "\"...헤헤헤..!\" (쓴웃음을 지으며 악수를 기다리는 미온)", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"헤헤헤...!\" (쓴웃음을 지으며 악수를 기다리는 미온)", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1304,7 +1304,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0170", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「…ちと違うんじゃないですかねぇ…。」",
-		   "<color=#5f5248>아라카와</color> ", "\"...좀 다른 게 아닐까요...\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"좀 다른 게 아닐까요...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1369,7 +1369,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0180", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「いいい、いやぁ！僕は最初っからダムは反対だったんですよーッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"아..아..아니요! 저는 처음에는 댐 건설을 반대했어요!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"아-아-아-아니요! 저는 처음에는 댐 건설을 반대했어요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1513,7 +1513,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0460", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…えーとえぇーと…！……深川弁当にイカ飯弁当ー…。…なんちてー…。」",
-		   "<color=#5ec69a>미온</color> ", "\"...그러니까, 그래서...! ...후쿠가와 도시락에 오징어밥 도시락... 이라던지...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...그러니까, 그래서...! 후쿠가와 도시락에 오징어밥 도시락... 이라던지...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1876,7 +1876,7 @@ void main()
 	OutputLine(NULL, "　舞台は真っ暗のまま。",
 		   NULL, "무대는 암전된 채로", Line_WaitForInput);
 	OutputLine(NULL, "無線の声が聞こえる。",
-		   NULL, " 무전 소리가 들린다.", Line_Normal);
+		   NULL, " 무전기에서 목소리가 들린다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 61, "ps3/s26/61/thot_0000", 128, TRUE);
@@ -1924,7 +1924,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0010", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「これじゃ傘をさしてもささなくても同じだよ。いやーっはっはっはっは！……うへぇ…パンツの中までぐっしょりだよ…。…見るかい？」",
-		   "<color=#715348>요시무라</color> ", "\"이래서야 우산을 써도 안 써도 마찬가지네. 이야, 하하하하! ......으아아... 팬티까지 흠뻑 젖었어... ...볼래?\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"이래서야 우산을 써도 안 써도 마찬가지네. 이야, 하하하하! 으아아... 팬티까지 흠뻑 젖었어... ...볼래?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -2361,7 +2361,7 @@ void main()
 	ChangeVolumeOfBGM( 1, 50, 2000 );
 
 	OutputLine(NULL, "　落雷の音。",
-		   NULL, "번개 소리.", Line_WaitForInput);
+		   NULL, "낙뢰 소리.", Line_WaitForInput);
 	OutputLine(NULL, "徐々に舞台明るくなる。",
 		   NULL, " 점점 무대가 밝아진다.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音、遠くなっていく。",
@@ -4476,9 +4476,9 @@ void main()
 	DrawScene( "background/hina_bus_01", 400 );
 
 	OutputLine(NULL, "　遠雷。",
-		   NULL, "멀리서 들리는 천둥.", Line_WaitForInput);
+		   NULL, "멀리서 들리는 천둥소리.", Line_WaitForInput);
 	OutputLine(NULL, "雨の音。",
-		   NULL, " 비 소리.", Line_WaitForInput);
+		   NULL, " 빗소리.", Line_WaitForInput);
 	OutputLine(NULL, "長い沈黙。",
 		   NULL, " 긴 시간동안의 침묵.", Line_WaitForInput);
 	OutputLine(NULL, "魅音の顔は笑顔を装いながらも青白い。",
@@ -6059,7 +6059,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1470", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「中学校でも野グソマンは大流行だ。…会った事もない初対面の人間に好奇の眼差しで見られるの、…苦痛ですよねぇ。」",
-		   "<color=#715348>요시무라</color> ", "\"중학교에서도 야생 똥싸게는 대유행이었죠. ...만난 적도 없는 처음 보는 사람에게 호기심 가득한 눈빛으로 쳐다보이는 건, 고통스럽죠.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"중학교에서도 야생 똥싸개는 대유행이었죠. ...만난 적도 없는 처음 보는 사람에게 호기심 가득한 눈빛으로 쳐다보이는 건, 고통스럽죠.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
