@@ -1690,7 +1690,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0160", 128, TRUE);
 	OutputLine(NULL, "「また何か情報でもわかったのか。」",
-		   NULL, "\"Have you learned something new?\"", Line_Normal);
+		   NULL, "\"또 뭔가 정보라도 알아낸 거야?\"", Line_Normal);
 	ClearMessage();
 
 
@@ -1714,7 +1714,7 @@ void main()
 	OutputLine(NULL, "その噂話すらも満足に疎通できない状態だった。",
 		   NULL, "그런 입소문조차도 제대로 전달되지 않는 상황이었다.", Line_Normal);
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterT yping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfter Typing); }
 	OutputLine(NULL, "　だが幸いなことに、この村にはアマチュア無線の愛好家が少なくなかった。",
 		   NULL, "그러나 다행히, 이 마을에는 아마추어 무선을 좋아하는 사람들이 꽤 있었다.", Line_WaitForInput);
 	OutputLine(NULL, "彼らはそれを使い、連絡を取り合っていたのである。",
