@@ -2116,10 +2116,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9015", 128, TRUE);
 	OutputLine(NULL, "「きゃああぁああぁああぁあ？！？！",
-		   NULL, "\"Kyaaaaaaaah?!?!", Line_WaitForInput);
+		   NULL, "\"꺄아아아아아아아아아악?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9016", 128, TRUE);
 	OutputLine(NULL, "　け、圭一くん？！」",
-		   NULL, " K-Keiichi-kun?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 케, 케이이치 군?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2128,10 +2128,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9077", 128, TRUE);
 	OutputLine(NULL, "「おおっと、レナ。",
-		   NULL, "\"Whoa there, Rena.", Line_WaitForInput);
+		   NULL, "\"오오, 레나.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9078", 128, TRUE);
 	OutputLine(NULL, "悪いな、大人しくしてろよ？　すぐ済むからな……？」",
-		   NULL, " Sorry, but be good for me, okay? It'll all be over soon...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 미안해, 조용히 있어? 금방 끝날 거야...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2157,7 +2157,7 @@ void main()
 	DrawSceneWithMask( "white", "effect/up", 0, 0, 300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自由になった右手を……、圭一はゆっくりとレナの胸元に……。",
-		   NULL, "Then I'll use my free right hand... to reach for her chest...", Line_Normal);
+		   NULL, "자유롭게 된 오른손을... 케이이치는 천천히 손을 레나의 가슴 부분으로...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask( "black", "effect/down", 0, 0, 1300 );

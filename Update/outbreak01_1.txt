@@ -1714,7 +1714,7 @@ void main()
 	OutputLine(NULL, "その噂話すらも満足に疎通できない状態だった。",
 		   NULL, "그런 입소문조차도 제대로 전달되지 않는 상황이었다.", Line_Normal);
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfter Typing); }
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが幸いなことに、この村にはアマチュア無線の愛好家が少なくなかった。",
 		   NULL, "그러나 다행히, 이 마을에는 아마추어 무선을 좋아하는 사람들이 꽤 있었다.", Line_WaitForInput);
 	OutputLine(NULL, "彼らはそれを使い、連絡を取り合っていたのである。",
@@ -1810,7 +1810,7 @@ void main()
 	OutputLine(NULL, "そのデマを払拭する方法は古手梨花の無事な姿を村人が見ることしかない。",
 		   NULL, " 그 소문을 지우는 방법은 마을 사람들이 후루데 리카가 무사한 모습을 직접 보는 것밖에 없다.", Line_WaitForInput);
 	OutputLine(NULL, "だがそれは叶えられず、",
-		   NULL, " T그러나 그것은 이뤄지지 않았고, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그러나 그것은 이뤄지지 않았고, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さらに村人の不安感を掻き立てることになっていた…。",
 		   NULL, "한층 더 마을 사람들의 불안감을 부추기게 되었다...", Line_Normal);
@@ -1975,7 +1975,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0270", 128, TRUE);
 	OutputLine(NULL, "……そういう連中が、今回の『オヤシロさまの祟り』を沙都子のせいだと言い出してるみたいなんだ。」",
-		   NULL, "그런 사람들이, 이번 "오야시로님의 저주"를 사토코 때문이라고 말하기 시작한 것 같아.\"", Line_Normal);
+		   NULL, "그런 사람들이, 이번 '오야시로님의 저주'를 사토코 때문이라고 말하기 시작한 것 같아.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2101,27 +2101,27 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が言うには、",
-		   NULL, "According to 미온,", Line_Continue);
+		   NULL, "미온이 말하길,", Line_Continue);
 	OutputLine(NULL, "沙都子はすでにウィルスに感染しているという噂がまことしやかに囁かれているという。",
-		   NULL, " the rumors that Satoko was already infected with the virus are being spread as though they're true.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 사토코가 이미 바이러스에 감염되었다는 소문이 진실인 것처럼 퍼지고 있다고 한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今の雛見沢は、口コミという原始的通信手段で支配されている。",
-		   NULL, "Word of mouth, that primitive means of communication, was all Hinamizawa had.", Line_WaitForInput);
+		   NULL, "지금의 히나미자와는 입소문이라는 원시적인 통신 수단으로 지배되고 있다.", Line_WaitForInput);
 	OutputLine(NULL, "この通信法はあまりにデマが紛れ込みやすい。",
-		   NULL, " It was easy for rumors to work their way into such communication. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 이런 통신 방식은 유언비어가 너무 쉽게 퍼진다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "集団心理がそうだと決め込んだある種の思い込みを、尾ひれを付けて拡大し既成事実にしてしまう。",
-		   NULL, "And because of mass psychology, people convince themselves those statements are true, embellishing them even farther until they become established fact.", Line_Normal);
+		   NULL, "집단심리가 그렇다고 결정한 일종의 믿음을 부풀려서 사실로 만들어 버린다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そうなれば、真実と無関係に沙都子は感染者ということになってしまう。",
-		   NULL, "At that point, the truth won't matter. Satoko will effectively become one of the infected.", Line_WaitForInput);
+		   NULL, "그렇게 되면, 진실과 무관하게 사토코는 감염자가 되어 버린다.", Line_WaitForInput);
 	OutputLine(NULL, "そうなれば、沙都子を引き取った家も同じ扱いだ…。",
-		   NULL, " Once that happens, whichever home takes her in will face the same treatment...", Line_Normal);
+		   NULL, " 그렇게 되면, 사토코를 데려간 집도 같은 취급을 받게 된다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2129,22 +2129,22 @@ void main()
 	DrawScene( "background/so1", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　言うまでもなく、",
-		   NULL, "It went without saying,", Line_Continue);
+		   NULL, "말할 것도 없이,", Line_Continue);
 	OutputLine(NULL, "魅音の園崎家は当初から沙都子の北条家と仲が悪い。",
-		   NULL, " but 미온's home, the Sonozaki family, were already on bad terms with Satoko and the Houjou family.", Line_WaitForInput);
+		   NULL, " 미온의 소노자키가는 처음부터 사토코의 호죠가와 사이가 나쁘다.", Line_WaitForInput);
 	OutputLine(NULL, "……その魅音の家が沙都子を匿うというのは非常に難しいことだろう。",
-		   NULL, " ......It would be extremely difficult for 미온's family to shelter Satoko.", Line_Normal);
+		   NULL, " ......미온의 집에 사토코를 숨긴다는 것은 매우 어렵겠지.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "background/ma1", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺の家ならどうか。",
-		   NULL, "What about my family?", Line_WaitForInput);
+		   NULL, "내 집이라면 어떨까.", Line_WaitForInput);
 	OutputLine(NULL, "……お袋は理解してくれそうだが、",
-		   NULL, " ......My mother would probably understand,", Line_Continue);
+		   NULL, " ......어머니는 이해해 주실 것 같지만,", Line_Continue);
 	OutputLine(NULL, "偏執的なまでに未だ外部との接触を嫌う親父の理解を得られるとは到底思えなかった。",
-		   NULL, " but considering the fact my father is still obstinately refusing to expose himself to the outdoors, I couldn't imagine him taking Satoko in.", Line_Normal);
+		   NULL, " 외부와의 접촉을 매우 꺼리는 아버지의 이해를 얻을 수 있을 거라고는 전혀 생각되지 않는다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2165,28 +2165,28 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0150", 128, TRUE);
 	OutputLine(NULL, "「……うん。みんなの家じゃどうせ無理だろうってのはわかってるよ。だから、もし沙都子ちゃんを匿おうってことになったら、レナの家で匿うよ。……大丈夫。お父さんには文句なんか言わせないから。」",
-		   NULL, "\"......Yeah. I know it's impossible for your families. So if we do end up sheltering Satoko-chan, I'll shelter her in my home. ......Don't worry. I won't let my father voice any objections.\"", Line_Normal);
+		   NULL, "\"......응. 모두의 집에서는 어차피 무리일 거라는 건 알고 있어. 그래서, 만약 사토코쨩을 숨겨서 데려오게 되면 레나의 집에서 숨겨주는 걸로 할 거야. ......괜찮아. 아버지가 뭐라고 하지는 못하게 할 테니까.\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よくは知らないが、",
-		   NULL, "I had no idea why,", Line_Continue);
+		   NULL, "잘은 모르겠지만,", Line_Continue);
 	OutputLine(NULL, "レナは家の家計を握っていて、",
-		   NULL, " but 레나 held control of her family's finances,", Line_WaitForInput);
+		   NULL, " 레나가 집안의 재정을 관리하고 있어서,", Line_WaitForInput);
 	OutputLine(NULL, "本気になれば父親にもぎゃふんと言わせることができるらしい。",
-		   NULL, " so if she got serious, she could make her father give in.", Line_Normal);
+		   NULL, " 진심이 되면 아버지라고 하더라도 찍소리 못하게 만들 수가 있는 것 같았다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　胸を張ってウチも大丈夫だと言えない自分が悲しかったし、",
-		   NULL, "It made me sad that I couldn't stick my chest out and say my family could too,", Line_Continue);
+		   NULL, "가슴을 펴고 우리 집도 괜찮다고 말할 수 없는 나 자신이 슬펐고,", Line_Continue);
 	OutputLine(NULL, "どうせそうだろうと見下されていたことも悔しかったが、どうにもならない。",
-		   NULL, " and I hated that she just assumed it wasn't possible, but I couldn't do anything about that. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 어차피 그럴 거라고 거라고 짐작당한 것도 분했지만, 어쩔 수 없다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それに、今は下らないプライドは必要なかった。",
-		   NULL, "...It's not like that pride would matter in this situation.", Line_Normal);
+		   NULL, "...게다가, 지금은 쓸모없는 자존심따윈 필요 없다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2196,7 +2196,7 @@ void main()
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0240", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「わかった。沙都子と接触できたら、レナの家へ行くよう伝えよう。いや、むしろ何とか沙都子と接触をして、こちらへ呼びたいくらいだな。……魅音の話を聞く限り、沙都子のいる町会周りはどうもヤバそうだからな…。」",
-		   NULL, "\"All right. If we can make contact with Satoko, we'll tell her to head to 레나's home. I wish I could reach out to her myself, but... ...From what you've told us, 미온, it sounds like the area around Satoko's house is dangerous...\"", Line_Normal);
+		   NULL, "\"알았어. 사토코와 만날 수 있다면, 레나의 집으로 가라고 전하자. 아니, 오히려 어떻게든 사토코와 만나서, 여기로 부르고 싶을 정도야. ......미온의 이야기를 들어보니, 사토코가 있는 구역은 아무래도 위험한 것 같으니까...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2204,23 +2204,23 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0310", 128, TRUE);
 	OutputLine(NULL, "「あっちは信心深くて過激な神社部の幹部が多いからね……。でね、……実は、沙都子だけの問題じゃないんだよ。………場合によっては、…圭ちゃんやレナも危ないかもしれないんだよ。」",
-		   NULL, "\"That's because there's a lot of strong believers who live around there... But... to be honest, Satoko's not the only problem. .........Depending how it goes... both of you two could be in trouble too.\"", Line_Normal);
+		   NULL, "\"거기는 신앙심 깊고 과격한 신사 쪽의 간부들이 많으니까... 그리고, ......사실은, 사토코만의 문제가 아니야. .........상황에 따라서는, 케이쨩이나 레나도 위험할지도 몰라.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音の目がさらに鋭くなり、",
-		   NULL, "미온's eyes grew even sharper,", Line_Continue);
+		   NULL, "미온의 눈빛이 더욱 날카로워지며,", Line_Continue);
 	OutputLine(NULL, "俺とレナを見比べる。",
-		   NULL, " looking back and forth between me and 레나.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 나와 레나를 번갈아 보았다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その目線の冷たさは、沙都子の心配をしながらも、",
-		   NULL, "Even though she was worried about Satoko, the chill in her gaze", Line_Continue);
+		   NULL, "그 시선의 차가움은 사토코를 걱정하면서도,", Line_Continue);
 	OutputLine(NULL, "自分だけは蚊帳の外だと思い込んできた浅ましさを、引き裂くものだった。",
-		   NULL, " was enough to shred the naive thought that at least we would be safe.", Line_Normal);
+		   NULL, " 자신만큼은 안전하다고 생각해 온 비겁함을 찢어버리는 것이었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2237,41 +2237,41 @@ void main()
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0320", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「先日も話したよね。例のウィルスが雛見沢土着のものかもしれないって噂。その話がね、だいぶ信憑性を帯びてきててね。古来から村人全員が感染してたんじゃないかって言うんだよ。」",
-		   NULL, "\"I mentioned this the other day, right? The rumors that this virus might be indigenous to Hinamizawa. Those rumors are starting to gain a lot of traction. Some are even saying every villager's probably been infected for hundreds of years.\"", Line_Normal);
+		   NULL, "\"얼마 전에도 이야기했잖아. 그 바이러스가 히나미자와 토착일지도 모른다는 소문. 그 이야기가 꽤 신빙성을 얻어가고 있어. 옛날부터 마을 사람 모두가 감염되어 있었을지도 모른다고 해.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0250", 128, TRUE);
 	OutputLine(NULL, "「だから、それじゃおかしいだろ…！　だったら昔から連日死者が出てなきゃならないぞ！」",
-		   NULL, "\"But that's just crazy...! If that were true, then people would've been dying every day way back when!\"", Line_Normal);
+		   NULL, "\"그러면, 그건 이상하잖아...! 그랬다면 예전부터 매일 사망자가 나와야 할 텐데!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0330", 128, TRUE);
 	OutputLine(NULL, "「それでその、…そうだと言ってる連中の言い分が面白いんだよ…。そのウィルスは、この村の中にいる限りは安定していて無害だって言うんだよ。",
-		   NULL, "\"Well, umm... the ones insisting on that argument have an interesting idea... They're saying that the virus remains stable and harmless so long as you stay in the village. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그래서, 그렇다고 얘기하는 사람들의 말이 재미있는 거야... 그 바이러스는, 이 마을 안에 있으면 안정되어 있고 무해하다고 해. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0340", 128, TRUE);
 	OutputLine(NULL, "さらに言うと、この村にずっとずっと長く住み続けている一族には、生まれつきの免疫みたいなものがあって大丈夫だって話らしいんだよ。」",
-		   NULL, "They go even further, arguing that the families who have lived in this village for many, many years are all born with an immunity that keeps them safe.\"", Line_Normal);
+		   NULL, "다른 말로는, 이 마을에 오래오래 살아온 있는 가문에게는, 선천적으로 면역 같은 것이 있어 괜찮다고 이야기하는 것 같아.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0260", 128, TRUE);
 	OutputLine(NULL, "「…さっぱりわからねぇぞ。つまり何だ。……まさか、例えば他所から引っ越してきた俺やレナは、その免疫がないからとか言い出すんじゃないだろうな。」",
-		   NULL, "\"...I don't get it. So what? ......Are you telling me they're saying that people like 레나 and I, who moved here from outside, are a risk because we don't have that immunity?\"", Line_Normal);
+		   NULL, "\"...전혀 모르겠어. 그러니까 무슨 말이야. ......설마, 다른 곳에서 이사 온 나나 레나 같은 경우는, 그 면역이 없어서 문제라고 얘기하는 건 아니겠지.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0350", 128, TRUE);
 	OutputLine(NULL, "「まさにそれだよ！　近年、雛見沢に引っ越してきた人間のせいで、そのウィルスの調和が崩れて、……その、村人全員のウィルスがおかしくなって、……えぇっと、……うぅん、」",
-		   NULL, "\"That's exactly it! They're saying our harmony or whatever with the virus is collapsing because of the people moving into Hinamizawa... and umm, that's making the virus go crazy in everyone... Uhh... Nah.\"", Line_Normal);
+		   NULL, "\"바로 그거야! 최근에 히나미자와로 이사 온 사람들 때문에 그 바이러스의 균형가 깨져서, 그, 마을 사람 모두의 바이러스가 이상해지고, 그리고... 음,\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0160", 128, TRUE);
 	OutputLine(NULL, "「…まさか、魅ぃちゃんまでそのとんでもない話を信じてるわけないよね…？」",
-		   NULL, "\"...You're not telling us you believe such an outrageous idea too, are you, Mii-chan?\"", Line_Normal);
+		   NULL, "\"...혹시, 미이짱도 그런 말도 안 되는 이야기를 믿고 있는 건 아니지...?\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2286,7 +2286,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0360", 128, TRUE);
 	OutputLine(NULL, "「もちろんだよ！　こんな訳のわかんない話が通用するわけない！！　でも、…なぜかみんな信じてるんだよ！！　私も訳がわかんない！！」",
-		   NULL, "\"Of course not! There's no way I'd fall for anything that sounds that crazy!! But... for some reason everyone else believes it!! I don't get it at all!!\"", Line_Normal);
+		   NULL, "\"당연하지! 이런 말도 안 되는 이야기가 통할 리가 없잖아!! 그런데, ...왠지 모두가 믿고 있어!! 나도 이유를 모르겠어!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2294,7 +2294,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0370", 128, TRUE);
 	OutputLine(NULL, "「普段だったら絶対こんな馬鹿な話は誰も信じないのに！　なぜかここ数日、妙な話やデマが当り前のように通用して飛び交ってる！」",
-		   NULL, "\"Normally no one would ever believe such stupid nonsense! But these past few days, those weird ideas and rumors are being passed around like they're just common sense!\"", Line_Normal);
+		   NULL, "\"평소라면 절대 이런 바보같은 이야기를 아무도 믿지 않을 텐데!  왠지 최근 며칠간, 이상한 이야기나 소문이 마치 당연한 것처럼 퍼지고 있어!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2304,23 +2304,23 @@ void main()
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0380", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「私は初日からずっと無線を聞いてるんだけど、最近の村人はどんどんおかしくなってるんだよ…！　異常な生活で心の緊張がとかトラウマがとか、そんな甘っちょろいレベルじゃない！」",
-		   NULL, "\"I've been listening on the radio since the very first day, but lately, the villagers are believing weirder and weirder stuff...! I don't know if it's mental stress or trauma or whatever, but calling it that is optimistic at this point!\"", Line_Normal);
+		   NULL, "\"나는 첫날부터 계속 무선을 듣고 있었지만, 최근 마을사람들이 점점 이상해져 가...!  비정상적인 생활로 인한 마음의 긴장이나 트라우마 같은 건, 그런 가벼운 수준이 아니야!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0390", 128, TRUE);
 	OutputLine(NULL, "「明らかに嘘だろうデマだろうと思うことが当り前のように横行し、それを誰も覆せない！　誰かがそれを否定すると、感染者扱いをされそうになる！」",
-		   NULL, "\"These lies and rumors are running rampant, but no one is doing anything to stop them! If anyone tries, they could be treated as one of the infected too!\"", Line_Normal);
+		   NULL, "\"분명히 거짓말이거나 소문일 거라고 생각하는 이야기가 마치 당연한 것처럼 돌아다니고, 아무도 그것을 뒤집을 수 없어! 누군가 그것을 부정하면, 감염자 취급을 당할 것 거야!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0400", 128, TRUE);
 	OutputLine(NULL, "「すっごく気持ち悪いことになってるんだよ！",
-		   NULL, "\"It's getting really awful around here!", Line_Continue);
+		   NULL, "\"정말 상황이 나쁘게 진행되고 있어!", Line_Continue);
 	OutputLine(NULL, "　何かが変！！",
-		   NULL, " Something's not right with people!!", Line_Continue);
+		   NULL, " 뭔가 이상해!!", Line_Continue);
 	OutputLine(NULL, "だから用心して！」",
-		   NULL, " So watch yourselves!\"", Line_Normal);
+		   NULL, " 그러니까 조심해!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2332,36 +2332,36 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その魅音の必死な形相に、俺とレナは絶句する。",
-		   NULL, "레나 and I were both left speechless by 미온's desperation.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그 미온의 필사적인 모습에, 나와 레나는 말문이 막혔다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼女が傍受したという無線を、",
-		   NULL, "It was clearly a good thing", Line_Continue);
+		   NULL, "그녀가 도청했다는 무선을,", Line_Continue);
 	OutputLine(NULL, "俺たちは耳にすることができなくてさぞ幸運だったに違いない。",
-		   NULL, " that we weren't able to listen to what she's picked up over the radio.", Line_Normal);
+		   NULL, " 우리가 들을 수 없었던 것은 분명 큰 행운이었을 것이다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　異常環境に置かれ、",
-		   NULL, "Thrust into these abnormal circumstances,", Line_Continue);
+		   NULL, "비정상적인 환경에 처하고,", Line_Continue);
 	OutputLine(NULL, "頂点にまで達したフラストレーションと信仰を基礎にする不安感と恐怖は次々にデマを生み出し、",
-		   NULL, " their frustration had reached its peak, and that along with anxieties and fears founded on faith were producing new rumors one after another, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 정점에 달한 좌절감과 신앙을 기반으로 하는 불안감과 공포가 차례대로 소문을 만들어내고, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "生贄に誰かを担ぎ上げることでしか払拭できない段階に至りつつあるのだ…。",
-		   NULL, "and it was steadily approaching the point where someone would have to be sacrificed in order to clear those rumors away.", Line_Normal);
+		   NULL, "제물로 누군가를 올려놓음으로써만 해소될 수 있는 단계에 이르고 있다는 것이다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "background/outb_gr1", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音の形相を見る限り、",
-		   NULL, "Judging from 미온's expression,", Line_Continue);
+		   NULL, "미온의 표정을 보건대,", Line_Continue);
 	OutputLine(NULL, "それは今や致命的なレベルに至りつつあるようだった。",
-		   NULL, " we were already approaching that critical moment.", Line_Normal);
+		   NULL, " 그것은 이제 돌이킬 수 없는 수준에 이르고 있는 것 같았다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2371,14 +2371,14 @@ void main()
 	Wait( 500 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…………その時、俺は初めて知る。",
-		   NULL, "............That was the moment I first realized it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "............그 때, 나는 처음으로 알았다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺たちが話している姿を見る村人の眼差しに、明らかに悪意が含まれていることを。",
-		   NULL, "That there was clear hostility in the looks the villagers gave us as we talked to each other.", Line_Normal);
+		   NULL, "우리가 이야기하는 모습을 보는 마을 사람들의 시선에 분명한 악의가 담겨 있음을.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2386,9 +2386,9 @@ void main()
 	ModDrawCharacter(1, 2, "sprite/re2a_okoru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは俺の気のせいではないらしい。",
-		   NULL, "Apparently it wasn't just my imagination, either.", Line_WaitForInput);
+		   NULL, "그것은 나의 기분 탓만은 아닌 것 같았다.", Line_WaitForInput);
 	OutputLine(NULL, "レナもまたその気配を敏感に感じ取る。",
-		   NULL, " 레나 was quick to pick up on that too.", Line_Normal);
+		   NULL, " 레나도 또한 그 분위기를 눈치챘다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2396,7 +2396,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0170", 128, TRUE);
 	OutputLine(NULL, "「…………………圭一くん。…用心しよ。」",
-		   NULL, "\".....................케이이치-kun. ...Protect yourself, okay?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\".....................케이이치군. ...조심하자.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2406,7 +2406,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0270", 128, TRUE);
 	OutputLine(NULL, "「そ、…そうだな。下らないデマのせいで疑われるのは気に入らねぇが、李下に冠ってこともあるしな…。」",
-		   NULL, "\"Y-Yeah. I don't like being distrusted just because of stupid rumors, but it's best not to fuel the fire...\"", Line_Normal);
+		   NULL, "\"그, ...그래. 시시한 소문 같은 걸로 의심받는 건 싫지만, 의심받을 만한 행동을 피해야 한다는 말도 있고...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2415,7 +2415,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0410", 128, TRUE);
 	OutputLine(NULL, "「…うん。レナも圭ちゃんも無用の外出は避けた方がいいと思う。あと、くれぐれもひとりで外出しないように。家のシャッターは締め切ってね。」",
-		   NULL, "\"...Yeah. 레나, Kei-chan, you two should avoid going outside unless you have to. Also, make sure you don't go out alone. And seal your home up tight.\"", Line_Normal);
+		   NULL, "\"...응. 레나도, 케이짱도 불필요한 외출은 피하는 게 좋다고 생각해. 그리고 되도록 혼자서 외출하지 않도록 해. 집 문단속도 잘 하고.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2423,15 +2423,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0420", 128, TRUE);
 	OutputLine(NULL, "「……心無いことを言ってくる人があっても、どんなに悔しくても買い言葉を返さないこと。……いいね…？」",
-		   NULL, "\"......If anyone says anything inconsiderate, don't provoke them. No matter how frustrating. ...Got it...?\"", Line_Normal);
+		   NULL, "\"......무심코 상처 주는 말을 하는 사람이 있더라도, 아무리 분하더라도 상대의 말을 그대로 받아치지 않을 것. ...알겠지...?\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今や、時折感じられる悪意の眼差しは、",
-		   NULL, "The hostile looks I felt from time to time", Line_Continue);
+		   NULL, "지금, 때때로 느껴지는 악의적인 눈빛은,", Line_Continue);
 	OutputLine(NULL, "すでに気のせいでは済まされるものではない。",
-		   NULL, " were too much to pretend I just imagined them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 이미 기분 탓으로는 넘길 수 없는 것이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2439,9 +2439,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　外部との交流を断ち数百年を経た村の呪わしき習慣は、",
-		   NULL, "The accursed customs of a village that had avoided contact with outsiders for centuries", Line_Continue);
+		   NULL, "외부와의 교류를 끊고 수백 년을 거처 온 마을의 저주스러운 관습은,", Line_Continue);
 	OutputLine(NULL, "ほんの数年の文明開化ごときでは払拭できないということなのだ…。",
-		   NULL, " weren't about to be brushed away by a scant few years of civilization...", Line_Normal);
+		   NULL, " 겨우 몇 년의 문명 개화 정도로는 씻어낼 수 없다는 것이다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2451,9 +2451,9 @@ void main()
 	ModDrawCharacter(1, 2, "sprite/re2a_okoru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺とレナは、",
-		   NULL, "레나 and I", Line_Continue);
+		   NULL, "나와 레나는,", Line_Continue);
 	OutputLine(NULL, "表情を堅くしながら魅音の忠告に頷くしかなかった…。",
-		   NULL, " could only nod in acknowledgment of 미온's warning, the tense looks clear on our faces...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 표정을 굳히며 미온의 충고에 고개를 끄덕일 수밖에 없었다...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2482,13 +2482,13 @@ void main()
 	PlayBGM( 1, "me/taip", 50, 0 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　　　58本総一エ−３４号",
-		   NULL, "Showa 58 HQ, General Affairs Division, Section 1, E-34", Line_ContinueAfterTyping);
+		   NULL, "58권 1-A-34호", Line_ContinueAfterTyping);
 	Wait( 500 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll(NULL, "", Line_Normal); ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　　　昭和５８年７月７日",
-		   NULL, "　　　　　　　　　　　　        July 7th, 1983", Line_ContinueAfterTyping);
+		   NULL, "　　　　　　　　　　　　        쇼와 58년 7월 7일", Line_ContinueAfterTyping);
 	Wait( 800 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll(NULL, "", Line_Normal); ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2496,7 +2496,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢地区災害派遣本部長",
-		   NULL, "Director of Disaster Relief, Hinamizawa Region", GetGlobalFlag(GLinemodeSp));
+		   NULL, "히나미자와 지구 재해 파견 본부장", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2504,53 +2504,53 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　撤収命令（緊急）",
-		   NULL, "　　　　　　　　Evacuation Orders (Emergency)　　　　", GetGlobalFlag(GLinemodeSp));
+		   NULL, "　　　　　　　　철수 명령(긴급)　　　　", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　災害派遣本部長は、直ちに災害派遣部隊を緊急撤収せよ。",
-		   NULL, "The director of disaster relief is to evacuate the disaster relief units immediately.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "재난 파견 본부장은, 즉시 재난 파견 부대를 긴급 철수하라.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただし撤収に当たっては、国立感染症研究所の指示に従うこと。",
-		   NULL, "During evacuation, units are to follow the directions of the National Institute of Infectious Diseases.", Line_Normal);
+		   NULL, "단, 철수 시에는 국립 감염병 연구소의 지시에 따를 것.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　　記",
-		   NULL, "　　　　　　　　　　　Notes:", GetGlobalFlag(GLinemodeSp));
+		   NULL, "　　　　　　　　　　　기록", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "１．命令",
-		   NULL, "1. Orders", GetGlobalFlag(GLinemodeSp));
+		   NULL, "1. 지시사항", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　災害派遣部隊を国立感染症研究所の定める方法により、",
-		   NULL, "The disaster relief units will follow the directions of the National Institute of Infectious Diseases,", Line_WaitForInput);
+		   NULL, "재난 파견 부대를 국립 감염병 연구소의 정한 방법에 의해,", Line_WaitForInput);
 	OutputLine(NULL, "隔離地域外の指定された地域へ撤収させること。",
-		   NULL, " and evacuate to the designated zone outside the quarantine.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 격리 지역 외 지정된 지역으로 철수시킬 것.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "２．理由",
-		   NULL, "2. Reason", GetGlobalFlag(GLinemodeSp));
+		   NULL, "2. 이유", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　隊員４名の定時採血よりη１７３型ウィルスの陽性反応が検出された。",
-		   NULL, "The routine blood tests detected a positive reaction for the Type-η173 virus in four squad members.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "부대원 4명의 정기 채혈로부터 η173형 바이러스의 양성 반응이 검출되었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2558,7 +2558,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　災害派遣部隊の現防疫装備では当該ウィルスに対して効果を持たないことが明らかとなった為。",
-		   NULL, "This proves that the disaster relief units' current equipment is ineffective at preventing infection.", Line_Normal);
+		   NULL, "재난 파견 부대의 현 방역 장비는 해당 바이러스에 대해 효과가 없음이 명확해졌음.", Line_Normal);
 	ClearMessage();
 
 
@@ -2578,13 +2578,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　　　58本総一エ−３５号",
-		   NULL, "Showa 58 HQ, General Affairs Division, Section 1, E-35", Line_ContinueAfterTyping);
+		   NULL, "58권 1-A-34호", Line_ContinueAfterTyping);
 	Wait( 500 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll(NULL, "", Line_Normal); ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　　　昭和５８年７月７日",
-		   NULL, "　　　　　　　　　　　　        July 7th, 1983", Line_ContinueAfterTyping);
+		   NULL, "　　　　　　　　　　　　        쇼와 58년 7월 7일", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll(NULL, "", Line_Normal); ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2592,41 +2592,41 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "第７３８装備実験中隊長",
-		   NULL, "Commander of the 738th Equipment Test Company", GetGlobalFlag(GLinemodeSp));
+		   NULL, "제738 장비 실험 중대장", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　出動命令（緊急）",
-		   NULL, "　　　　　　　　Dispatch Orders (Emergency)", GetGlobalFlag(GLinemodeSp));
+		   NULL, "　　　　　　　　출동명령 (긴급)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　第７３８装備実験中隊は、",
-		   NULL, "The 738th Equipment Test Company", Line_Continue);
+		   NULL, "제738 장비 실험 중대는,", Line_Continue);
 	OutputLine(NULL, "第１３種防疫戦装備にて直ちに雛見沢地区災害派遣本部長の指示する作戦地へ出動すること。",
-		   NULL, " is to deploy immediately with version 13 disease prevention equipment under the command of the Director of Disaster Relief, Hinamizawa Region.", Line_Normal);
+		   NULL, " 제13종 방역 전투 장비로 즉시 히나미자와 지구 재해 파견 본부장이 지시하는 작전 지역으로 출동할 것.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　記",
-		   NULL, "　　　　　　　　　　Notes:", GetGlobalFlag(GLinemodeSp));
+		   NULL, "　　　　　　　　　　기록", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "１．命令",
-		   NULL, "1. Orders", GetGlobalFlag(GLinemodeSp));
+		   NULL, "1. 명령", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　第７３８装備実験中隊を、本日付で雛見沢地区災害派遣本部長の指揮下に編入する。",
-		   NULL, "As of today, the 738th Equipment Test Company will be placed under the command of the Director of Disaster Relief, Hinamizawa Region.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "제738 장비 실험 중대를 오늘부로 히나미자와 지구 재해 파견 본부장의 지휘 아래 편입한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2634,31 +2634,31 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　実験中隊は本部長の指示する作戦地へ直ちに出動すること。",
-		   NULL, "The Test Company shall follow the Director's orders and deploy on site immediately.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "실험 중대는 본부장이 지시하는 작전지로 즉시 출동할 것.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "２．任務",
-		   NULL, "2. Mission", GetGlobalFlag(GLinemodeSp));
+		   NULL, "2. 임무", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　隔離地域の治安維持活動。",
-		   NULL, "Peacekeeping in the quarantine zone.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "격리 지역의 치안 유지 활동.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "３．備考",
-		   NULL, "3. Remarks", GetGlobalFlag(GLinemodeSp));
+		   NULL, "3. 비고", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　別紙規定に従い実弾射撃が許可される。",
-		   NULL, "Discharge of firearms will be authorized under the enclosed conditions.", Line_Normal);
+		   NULL, "별지 규정에 따라 실탄 사격이 허가된다.", Line_Normal);
 	ClearMessage();
 
 	StopBGM( 2 );
@@ -2681,7 +2681,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　　　　昭和５８年７月６日",
-		   NULL, "　　　　　　　　　　　　July 6th, 1983", Line_ContinueAfterTyping);
+		   NULL, "　　　　　　　　　　　　쇼와 58년 7월 6일", Line_ContinueAfterTyping);
 	Wait( 500 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll(NULL, "", Line_Normal); ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
@@ -2689,12 +2689,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "アルファベットプロジェクト理事会",
-		   NULL, "Alphabet Project Board of Directors", Line_ContinueAfterTyping);
+		   NULL, "알파벳 프로젝트 이사회", Line_ContinueAfterTyping);
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll(NULL, "", Line_Normal); ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "雛見沢地区生物災害対策本部長",
-		   NULL, "Director of Disaster Relief, Hinamizawa Region", GetGlobalFlag(GLinemodeSp));
+		   NULL, "히나미자와 지구 생물재해 대책 본부장", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2704,17 +2704,17 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　η１７３型ウィルスについて",
-		   NULL, "　　　　Regarding the η173 Virus:", Line_Normal);
+		   NULL, "　　　　η173형 바이러스에 대하여", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本件ウィルスは、丙種脳寄生型ウィルスに区分されるものです。",
-		   NULL, "This virus has been classified as a Category C neuroparasitic virus.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "해당 바이러스는, 병종뇌기생형 바이러스로 분류됩니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ここで、丙種脳寄生型（以下丙種）についてご説明いたします。",
-		   NULL, "What follows is an explanation of its properties.", Line_Normal);
+		   NULL, "여기서, 병종뇌기생형(이하 병종)에 대해 설명하겠습니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2722,32 +2722,32 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　丙種は、人体の脳に寄生するウィルスの中でも非常に親和性が高く、",
-		   NULL, "Of all the viruses that infect the human nervous system, this one demonstrates extremely strong compatibility with mankind. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "병종은, 인체의 뇌에 기생하는 바이러스 중에서도 매우 친화성이 높고, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また症状が特定しにくい為、近代までその存在が確認されていませんでした。",
-		   NULL, "Also, due to the difficulty in identifying symptoms in the infected, its existence was not confirmed until the modern age.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "또한 증상이 특정하기 어려워, 근대까지 그 존재가 확인되지 않았습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　1948年から行なわれた国連の非公式調査では、人類の99％以上がこの丙種を脳内に寄生させているとしています。",
-		   NULL, "According to an unofficial investigation conducted by the UN in 1948, over 99% of the human species contains this parasitic virus within their brain. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "1948년부터 실시된 UN의 비공식 조사에서는, 인류의 99% 이상이 이 병종을 뇌 내에 기생시키고 있다고 합니다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また、その存在は人類の起源にまで遡る可能性が指摘されています。",
-		   NULL, "Furthermore, it has been pointed out that it is likely this virus has been with humanity from the beginning.", Line_Normal);
+		   NULL, "또한, 그 존재는 인류의 기원에 이르기까지 거슬러 올라갈 수 있다고 보여지고 있습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　上記でも申し上げましたように、丙種は人体に非常に馴染み、",
-		   NULL, "As that all suggests, this virus is extremely well integrated into the human body,", Line_Continue);
+		   NULL, "위에서도 말씀드렸듯이, 병종은 인체와 매우 친숙해져,", Line_Continue);
 	OutputLine(NULL, "宿主がその寄生を意識することはありません。",
-		   NULL, " and the host is unaware of the parasite.", Line_WaitForInput);
+		   NULL, " 숙주가 그 기생을 의식하지 못합니다.", Line_WaitForInput);
 	OutputLine(NULL, "ですので、今日一般でもよく知られるような、",
-		   NULL, " This makes the virus very similar to other microbes within the human body, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그러므로, 오늘날 일반적으로 잘 알려져 있는, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "大腸菌などの体内微生物と同じようなものと考えてよいでしょう。",
-		   NULL, "such as Escherichia coli, which is commonly known of today.", Line_Normal);
+		   NULL, "대장균 등의 체내 미생물과 같은 것으로 간주해도 좋을 것입니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2756,27 +2756,27 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ただ問題なのは、",
-		   NULL, "However, the problem with this virus", Line_Continue);
+		   NULL, "그러나 문제가 되는 것은,", Line_Continue);
 	OutputLine(NULL, "丙種は宿主の脳に対してある種の干渉を行う可能性が指摘されている点です。",
-		   NULL, " is that we have identified the possibility of this virus interfering with the host's brain functions.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 병종은 숙주의 뇌에 대해서 어떤 종류의 간섭을 할수 있다는 가능성이 있다는 부분입니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　丙種は、同じウィルスを寄生した宿主にはより友好的になり、",
-		   NULL, "This virus makes its hosts amiable to other hosts of the same strain,", Line_Continue);
+		   NULL, "병종은 같은 바이러스에 기생된 숙주에게는 더욱 우호적이 되며,", Line_Continue);
 	OutputLine(NULL, "異なる種類の丙種ウィルスに寄生した宿主には敵対的になるよう誘導すると言われています。",
-		   NULL, " and it directs its host to be antagonistic toward hosts of different strains.", Line_Normal);
+		   NULL, " 다른 종류의 병종 바이러스가 기생한 숙주에는 적대하도록 유도한다고 알려지고 있습니다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　国連調査の結果、丙種に区分されるウィルスは数百種にも及び、",
-		   NULL, "The UN investigation has discovered several hundred strains that would be classified under this virus,", Line_Continue);
+		   NULL, "UN의 조사 결과, 병종으로 분류되는 바이러스는 수백 종에 이르며,", Line_Continue);
 	OutputLine(NULL, "その分布図は奇しくも、今日の国境地図、",
-		   NULL, " and another shocking fact was uncovered as well: ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그 분포도는 우연히도 오늘날의 국경 지도와, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "宗教分布図と一致するという驚愕すべき事実を判明させました。",
-		   NULL, "The distribution map of these strains, oddly enough, matches up with present-day national borders and religious distributions.", Line_Normal);
+		   NULL, "종교 분포도와 일치한다는 놀라운 사실을 발견하였습니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2786,10 +2786,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、それぞれの丙種には人格・行動の基礎にも深く関与していると言われ、",
-		   NULL, "Furthermore, it is suspected that each strain of this virus is deeply involved in shaping the foundation of its host's behavior and personality. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "또한, 각 병종은 인격과 행동의 기초에도 깊이 관여하고 있다고 알려져 있으며, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "各国人の人種固有と言われてきたいくつかの傾向は寄生する丙種の個性によって生み出されているとすら考えられています。",
-		   NULL, "So the theory stands that the unique traits of this parasitic virus are responsible for several tendencies generally attributed to race or nationality.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "각국 사람들의 인종 고유로 여겨져 온 몇 가지 경향이 기생하는 병종의 특성에 의해 생겨난 것으로 여겨지고 있습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2797,11 +2797,11 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、",
-		   NULL, "In other words,", Line_Continue);
+		   NULL, "즉,", Line_Continue);
 	OutputLine(NULL, "各国・各人種の文化や性格等、社会的生活の規範は全て、",
-		   NULL, " this virus is theorized to be indirectly responsible", Line_Continue);
+		   NULL, " 각국, 각 인종의 문화나 성격 등, 사회적 생활의 규범은 모두,", Line_Continue);
 	OutputLine(NULL, "丙種の間接誘導によって作られていると考えられるのです。",
-		   NULL, " for all patterns within societies, personalities, and the cultures of different ethnicities and nations.", Line_Normal);
+		   NULL, " 병종의 간접 유도에 의해 만들어졌다고 생각됩니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2809,23 +2809,23 @@ void main()
 	DrawScene( "background/file", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　丙種の存在を世界で最初に発見したのは、ナチス政権化のドイツ人医師で、",
-		   NULL, "The first to uncover the existence of this virus was a German doctor within the Nazi administration,", Line_Continue);
+		   NULL, "병종의 존재를 세계에서 처음 발견한 것은 나치 정권 하의 독일인 의사였으며,", Line_Continue);
 	OutputLine(NULL, "この発見を元に特定の人種への虐殺が主導されたと言われています。",
-		   NULL, " and it is theorized that this discovery led to the administration's massacre of particular peoples.", Line_Normal);
+		   NULL, " 이 발견을 기반으로 특정 인종에 대한 학살이 주도되었다고 알려져 있습니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "background/mati12", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　国連の丙種秘密調査委員会は、",
-		   NULL, "The UN's secret investigation committee", Line_Continue);
+		   NULL, "유엔의 병종 비밀 조사 위원회는,", Line_Continue);
 	OutputLine(NULL, "丙種が人類の最も唾棄すべき大罪のいくつかを間接的に主導している可能性を指摘し、",
-		   NULL, " has identified the possibility that this virus has indirectly led humanity to commit its most heinous atrocities,", Line_Continue);
+		   NULL, " 병종이 인류의 가장 멸시받아야 할 큰 죄 중 일부를 간접적으로 주도하고 있을 가능성을 지적하고,", Line_Continue);
 	OutputLine(NULL, "丙種の撲滅を掲げましたが、",
-		   NULL, " and they called for the extermination of this virus, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 병종의 박멸을 내걸었지만, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その目標は民族浄化の引き金になりかねないという声が上がり委員会は混乱。",
-		   NULL, "that call being held back by the fear that such an objective could trigger ethnic cleansing.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그 목표가 인종 청소의 방아쇠가 될 수 있다는 의견이 제기되어 위원회는 혼란에 빠졌습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2833,18 +2833,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その末、1955年に丙種の研究を永遠に禁じ、",
-		   NULL, "As a result, all research on the virus was perpetually prohibited in 1955,", Line_Continue);
+		   NULL, "결국, 1955년에 병종의 연구를 영구적으로 금지하고,", Line_Continue);
 	OutputLine(NULL, "その研究記録を永遠に破棄するという採択がなされました。",
-		   NULL, " and they elected to discard the records of that research.", Line_Normal);
+		   NULL, " 그 연구 기록을 영구히 파기하기로 결정되었습니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "effect/aka2", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、人類は丙種の寄生を永遠に受け入れ、",
-		   NULL, "This meant humanity would perpetually embrace this parasite,", Line_Continue);
+		   NULL, "즉, 인류는 병종의 기생을 영원히 받아들이고,", Line_Continue);
 	OutputLine(NULL, "その存在を知ること自体をも永遠に禁じたのです。",
-		   NULL, " and prohibit the further discovery of its existence as well.", Line_Normal);
+		   NULL, " 그 존재를 아는 것 자체를 영구적으로 금지한 것입니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2855,26 +2855,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ではありますが、",
-		   NULL, "However,", Line_Continue);
+		   NULL, "그럼에도 불구하고,", Line_Continue);
 	OutputLine(NULL, "各国は秘密裏に独自で丙種の研究を進めていると言われています。",
-		   NULL, " several countries continued to research the virus on their own in secret.", Line_WaitForInput);
+		   NULL, " 각국이 비밀리에 독자적으로 병종의 연구를 진행하고 있다고 알려져 있습니다.", Line_WaitForInput);
 	OutputLine(NULL, "研究交流はないため、各国の研究水準については不明です。",
-		   NULL, " Since there has been no exchange of information between these, the state of the research in other nations is unknown. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 연구 교류가 없기 때문에, 각국의 연구 수준에 대해서는 알 수 없습니다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "我が国でも1960年代後半から、一部の医大グループ間で秘密の研究会が発足して研究を再開。",
-		   NULL, "Here in Japan, a research team was founded in secret by a group of medical schools in the late 1960s.", Line_Continue);
+		   NULL, "일본에서도 1960년대 후반부터 일부 의대 그룹 간에 비밀 연구회가 발족하여 연구가 재개되었습니다.", Line_Continue);
 	OutputLine(NULL, "それが今日の研究の母体となっています。",
-		   NULL, " Their research is the foundation for these current studies.", Line_Normal);
+		   NULL, " 그것이 오늘날의 연구의 기반이 되고 있습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　米国は今回の事件の原因が丙種によるものであることを嗅ぎ付け、",
-		   NULL, "America has caught wind that this virus is the cause of the most recent incident,", Line_Continue);
+		   NULL, "미국은 이번 사건의 원인이 병종에 의한 것임을 알아채고,", Line_Continue);
 	OutputLine(NULL, "研究を横取りする気でいます。",
-		   NULL, " and they will be planning to steal our research. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 연구를 가로채려는 의도가 있습니다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "米国の救援の名を借りた研究搾取には断じて応じるべきではありません。",
-		   NULL, "We must not respond to their attempts to claim that research, disguised as offers of aid.", Line_Normal);
+		   NULL, "미국의 구호 명목으로 이루어지는 연구 착취에는 결코 응해선 안 됩니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2883,21 +2883,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、この度のη１７３型は、",
-		   NULL, "Furthermore, amongst the strains of this virus,", Line_Continue);
+		   NULL, "또한, 이번의 η173형은,", Line_Continue);
 	OutputLine(NULL, "丙種の中でも非常に劇的な症状を示す稀なものです。",
-		   NULL, " strain η173 is a rare variety, which displays extremely dramatic symptoms.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 병종 중에서도 매우 극적인 증상을 나타내는 희귀한 경우입니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　すでに申し上げておりますように、",
-		   NULL, "As I have already explained,", Line_Continue);
+		   NULL, "이미 말씀드렸듯이,", Line_Continue);
 	OutputLine(NULL, "本来、丙種は非常に穏やかに人体に馴染むものですが、",
-		   NULL, " traditionally this virus is extremely compatible with the human body and is totally unnoticeable, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 원래, 병종은 매우 온화하게 인체에 친숙해지는 것이지만, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "η１７３型は感染から数十日以内に、劇的な人格変容を発症させます。",
-		   NULL, "yet the η173 strain causes dramatic alterations to personality within several days of infection.", Line_Normal);
+		   NULL, "η173형은 감염 후 수십 일 이내에 극적인 인격 변화를 유발합니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
