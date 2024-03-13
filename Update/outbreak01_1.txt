@@ -4619,7 +4619,7 @@ void main()
 		   NULL, "\"......사,", Line_Continue);
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "…人を殺すってことはね、",
-		   NULL, " ...사람을 죽이나는 건,", Line_Continue);
+		   NULL, " ...사람을 죽인다는 건,", Line_Continue);
 	OutputLine(NULL, "自分も殺されることを覚悟するってことだよ！",
 		   NULL, " 자신도 죽을 각오를 한다는 거야!", Line_Continue);
 	OutputLine(NULL, "　甘えるんじゃないッ！！」",
@@ -4637,22 +4637,22 @@ void main()
 	//;cl_a 22
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まるで、",
-		   NULL, "It was almost like", Line_Continue);
+		   NULL, "마치,", Line_Continue);
 	OutputLine(NULL, "その言葉は俺に対して言われたかのようだった。",
-		   NULL, " those words were meant for me.", Line_Normal);
+		   NULL, " 그 말은 내게 하는 말처럼 들렸다.", Line_Normal);
 	ClearMessage();
 
 	//;ld l,kei_5,22
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…多分、レナから見たら、",
-		   NULL, "...From 레나's perspective,", Line_Continue);
+		   NULL, "...아마 레나가 보기에는,", Line_Continue);
 	OutputLine(NULL, "俺の表情はこの緊急事態をまるで理解していない平和ボケが浮かんでいたに違いないのだ。",
-		   NULL, " I probably looked like I was still too accustomed to peace to understand the emergency we faced.", Line_Normal);
+		   NULL, " 나는 이 긴급사태를 전혀 이해지 못하는 바보 같은 표정을 하고 있던 것이 분명하다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、レナが振り返り鋭く叫ぶ！！",
-		   NULL, "But that was when 레나 turned and shouted--", Line_Normal);
+		   NULL, "그 때, 레나가 돌아서서 크게 외쳤다!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4666,9 +4666,9 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0220", 128, TRUE);
 	OutputLine(NULL, "「そっちの男、",
-		   NULL, "\"That man's", Line_Continue);
+		   NULL, "\"거기 남자,", Line_Continue);
 	OutputLine(NULL, "生きてるよ！！」",
-		   NULL, " still alive!!\"", Line_Normal);
+		   NULL, " 살아있어!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4677,10 +4677,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0350", 128, TRUE);
 	OutputLine(NULL, "「…え、",
-		   NULL, "\"...Huh?", Line_Continue);
+		   NULL, "\"...어,", Line_Continue);
 	Wait( 500 );
 	OutputLine(NULL, "……ぁッ、」",
-		   NULL, " ......Oh!\"", Line_Continue);
+		   NULL, " ......앗!\"", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_Continue); }
