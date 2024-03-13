@@ -4512,16 +4512,16 @@ void main()
 	//;cl l,22
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは信じられないような、",
-		   NULL, "The moment was unbelievable", Line_Continue);
+		   NULL, "그걸 본 걸 믿을 수 없어서, ", Line_Continue);
 	OutputLine(NULL, "それでいて呆気ない光景。",
-		   NULL, " and all too short.", Line_WaitForInput);
+		   NULL, " 멍하게 있을 수 밖에 없었다.", Line_WaitForInput);
 
 	//;ld c,ren_14c,80
 	OutputLine(NULL, "さらにレナはもう一人いた男に対し、大きな鉈を軽々と振り上げ、",
-		   NULL, " 레나 easily brandished her huge hatchet at another man", Line_ContinueAfterTyping);
+		   NULL, " 게다가 레나는 거기 있던 또 다른 남자에게, 가볍게 들어 올린 큰 나대를,", Line_ContinueAfterTyping);
 
 	OutputLine(NULL, "凄まじい投擲で投げつける！",
-		   NULL, " and threw it at him with tremendous force!", Line_Normal);
+		   NULL, " 엄청난 속도로 내던졌다!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlaySE( 0, "a5_10315", 70, 64 );
@@ -4542,11 +4542,11 @@ void main()
 	//;br
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは月の明かりに銀色の反射を閃かせながら飛んで男の顔面に叩き込まれる。",
-		   NULL, "A silver glint of moonlight flashed off the blade as it soared into the man's face.", Line_WaitForInput);
+		   NULL, "나대는 달빛에 은색으로 반짝이며 날아가 남자의 얼굴에 꽂혔다.", Line_WaitForInput);
 	OutputLine(NULL, "小さなドス黒い飛沫を散らしながら。",
-		   NULL, " The man let out a short cry", Line_Continue);
+		   NULL, " 작고 검은 물보라를 튀기며.", Line_Continue);
 	OutputLine(NULL, "男が短い悲鳴をあげる。",
-		   NULL, " as a small, dark spray spewed from his head.", Line_Normal);
+		   NULL, " 남자가 짧은 비명을 지른다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4555,9 +4555,9 @@ void main()
 	DrawSceneWithMask( "background/ma2", "effect/right", 0, 0, 300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺の脳には、何をするんだレナ！という、通常時の社会モラルから紡がれる言葉と、",
-		   NULL, "My understanding of typical social morals made my brain want to shout, \"What are you doing, 레나?!\"", Line_WaitForInput);
+		   NULL, "내 머릿속에는, '레나, 무슨 짓이야!'라고 하는, 평소의 사회 도덕에서 비롯된 말과,", Line_WaitForInput);
 	OutputLine(NULL, "…レナにここまでの反撃をさせるに値するどれほどの脅威だったのかということを探る２つが入り混じった。",
-		   NULL, " ...but I also wanted to know who was such a threat that they warranted this reaction.", Line_Normal);
+		   NULL, " ...레나가 이렇게까지 반격을 하다니 얼마나 큰 위협이었는지 궁금해하는 두 가지 생각이 뒤엉켰다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4583,9 +4583,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナは顔面に鉈を受けてのた打ち回っている男に歩み寄ると乱暴に鉈を引き抜き、",
-		   NULL, "Once 레나 reached the man stumbling around with her hatchet in his face, she roughly yanked it out,", Line_Continue);
+		   NULL, "레나는 얼굴에 나대가 박혀 고통스러워하면서 몸부림치는 남자에게 다가가 거칠게 도끼를 뽑아내고,", Line_Continue);
 	OutputLine(NULL, "何度も何度も頭部に鉈の肉厚の刃を叩き込む。",
-		   NULL, " then slammed the long hatchet into his head over and over.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 몇 번이고 몇 번이고 머리에 나대의 두꺼운 칼날을 내려쳤다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4596,9 +4596,9 @@ void main()
 	ShakeScreen( 2, 12,  100 , 4, 25, );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "男は、何度かやめてやめてと言葉を吐いたが、",
-		   NULL, "The man begged repeatedly for her to stop,", Line_Continue);
+		   NULL, "남자는 몇 번이나 멈춰달라고 말했지만,", Line_Continue);
 	OutputLine(NULL, "レナはまったく耳を貸さなかった。",
-		   NULL, " but 레나 didn't listen to him at all.", Line_Normal);
+		   NULL, " 레나는 전혀 귀를 기울이지 않았다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4606,9 +4606,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして動かなくなったのを見届けた後、",
-		   NULL, "Once she confirmed he wasn't moving anymore,", Line_WaitForInput);
+		   NULL, "그리고, 남자가 움직이지 않게 된 것을 확인한 후,", Line_WaitForInput);
 	OutputLine(NULL, "言い放つ。",
-		   NULL, " she spoke.", Line_Normal);
+		   NULL, " 입을 연다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4616,14 +4616,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0215", 128, TRUE);
 	OutputLine(NULL, "「……ひ、",
-		   NULL, "\"......Ki", Line_Continue);
+		   NULL, "\"......사,", Line_Continue);
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "…人を殺すってことはね、",
-		   NULL, " ...Killing someone,", Line_Continue);
+		   NULL, " ...사람을 죽이나는 건,", Line_Continue);
 	OutputLine(NULL, "自分も殺されることを覚悟するってことだよ！",
-		   NULL, " means that you're ready to be killed in return!", Line_Continue);
+		   NULL, " 자신도 죽을 각오를 한다는 거야!", Line_Continue);
 	OutputLine(NULL, "　甘えるんじゃないッ！！」",
-		   NULL, " So don't take it lightly!!\"", Line_Continue);
+		   NULL, " 너무 쉽게 생각하지 마!!\"", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
 
