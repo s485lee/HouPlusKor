@@ -4265,7 +4265,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナはそれを一喝すると、魅音を玄関に運び込んで床に寝かせる。",
-		   NULL, "레나가 딱 잘라 말한 다음, 미온을 현관으로 옮겨 바닥에 눕힌다.", Line_WaitForInput);
+		   NULL, "레나가 딱 잘라 말한 그 후, 레나는 미온을 현관으로 옮겨 바닥에 눕힌다.", Line_WaitForInput);
 	OutputLine(NULL, "魅音は左肩に大怪我をしていて服を血で真っ赤に染めていた。",
 		   NULL, " 미온은 왼쪽 어깨에 큰 상처를 입어 옷이 피로 빨갛게 물들었다.", Line_Normal);
 	ClearMessage();
