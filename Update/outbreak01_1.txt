@@ -4690,17 +4690,17 @@ void main()
 	//;se2v 103,50
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "　最初にレナが倒した男、",
-		   NULL, "The man 레나 first defeated--", Line_Continue);
+		   NULL, "레나가 처음에 쓰러트린 남자가, ", Line_Continue);
 	OutputLine(NULL, "…つまり、家の玄関に銃を放った男が額を押さえながら立ち上がろうとしている。",
-		   NULL, " the man that fired a gun at our front door--was clutching his forehead and trying to stand.", Line_Normal);
+		   NULL, " 그러니까, 집 현관에 총을 쏜 남자가 이마를 붙잡고 일어서려고 하고 있다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれだけの大怪我を負わせたならもう許してもいいのでは…。",
-		   NULL, "He was already injured so badly we could probably let him go...", Line_Continue);
+		   NULL, "저 정도로 큰 부상을 입힌 이상 이제 봐줘도 괜찮지 않을까...", Line_Continue);
 	OutputLine(NULL, "そう思うのは俺の平和ボケのせいなのか。",
-		   NULL, " but that thought was probably just me clinging to peace.", Line_Normal);
+		   NULL, " 아니면, 내가 그렇게 생각하는 건 내가 아직 정신을 차리지 못한 탓일까.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4713,12 +4713,12 @@ void main()
 	DisplayWindow();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…レナはまったくそうは思わなかった。",
-		   NULL, "...레나 didn't have that thought at all.", Line_WaitForInput);
+		   NULL, "...레나는 전혀 그렇게 생각하지 않았다.", Line_WaitForInput);
 	OutputLine(NULL, "男は片手で額を押さえ、もう片手には未だ猟銃を持っている！",
-		   NULL, " The man was holding his head with one hand, but his other was still holding his hunting rifle! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 남자는 한 손으로 이마를 누르고, 다른 한 손에는 여전히 엽총을 쥐고 있다! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　銃の引き金を引く力があるならば、この男の脅威は未だ拭われていない…！！",
-		   NULL, "The threat this man posed wasn't dealt with if he could still pull the trigger on his gun...!!", Line_Normal);
+		   NULL, "방아쇠를 당길 힘이 있다면, 이 남자의 위협은 아직 사라지지 않았다...!!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4730,7 +4730,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0230", 128, TRUE);
 	OutputLine(NULL, "「うらああああああああぁああぁッ！！！」",
-		   NULL, "\"Uraaaaaaaaaaah!!!\"", Line_Normal);
+		   NULL, "\"우아아아아아아아아아아아아아아앗!!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4741,7 +4741,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　再び、肉厚の鉄塊が振るわれた。",
-		   NULL, "The thick lump of metal swung into him once more.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "다시 한번, 두꺼운 철판이 휘둘러졌다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
@@ -4767,40 +4767,40 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それは今度こそ男の頭部を叩き割る。",
-		   NULL, "This time, the man's head cracked open.", Line_Normal);
+		   NULL, "그것은 확실히 남자의 머리를 가격해 깨뜨렸다.", Line_Normal);
 	ClearMessage();
 
 
 	//;ld c,ren_10c,22
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　キッとレナが振り返り睨む。",
-		   NULL, "레나 turned back and glared.", Line_WaitForInput);
+		   NULL, "레나가 휙하고 돌아보며 노려본다.", Line_WaitForInput);
 	OutputLine(NULL, "それは俺に向けたもの。",
-		   NULL, " Glared at me.", Line_WaitForInput);
+		   NULL, " 그것은 나에게 향한 것.", Line_WaitForInput);
 	OutputLine(NULL, "……この男に近いのはレナではなく俺だった。",
-		   NULL, " ......I was closest to that man, not 레나.", Line_WaitForInput);
+		   NULL, " ......이 남자에게 가까운 사람은 레나가 아니라 나였다.", Line_WaitForInput);
 	OutputLine(NULL, "レナは、俺にその男を打ち倒せと言ったつもりだったのだ。",
-		   NULL, " 레나 had shouted so I could take him down.", Line_WaitForInput);
+		   NULL, " 레나는 나에게 그 남자를 제압하라고 말하려 했다.", Line_WaitForInput);
 	OutputLine(NULL, "それを俺がぼんやりしていたからレナが襲ったのだ。",
-		   NULL, " Yet I stood there spacing out, so 레나 attacked him.", Line_Normal);
+		   NULL, " 하지만, 나는 멍하니 있었기 때문에 레나가 쓰러트린 것이다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　相手は銃だった。",
-		   NULL, "He'd had a gun.", Line_WaitForInput);
+		   NULL, "상대는 총을 가지고 있었다.", Line_WaitForInput);
 	OutputLine(NULL, "相手が素早かったら、レナの位置からは何もできなかった。",
-		   NULL, " If he had been quicker, 레나 couldn't have done anything from her position.", Line_WaitForInput);
+		   NULL, " 상대가 빨랐다면, 레나가 있는 곳에서는 아무것도 할 수 없었을 것이다.", Line_WaitForInput);
 	OutputLine(NULL, "だから俺に託したのに、",
-		   NULL, " That's why she entrusted him to me,", Line_Continue);
+		   NULL, " 그래서 그녀가 나에게 맡긴 건데,", Line_Continue);
 	OutputLine(NULL, "俺は事態を未だ飲み込めてなくてぼんやりしていた…。",
-		   NULL, " but I just stood there blankly, still unable to grasp the situation...", Line_Normal);
+		   NULL, " 나는 아직 상황을 제대로 파악하지 못하고 멍하니 있었다...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが、その険しい表情からわかるから、",
-		   NULL, "Her stern expression made me realize that,", Line_Continue);
+		   NULL, "그것을, 그녀의 날카로운 표정에서 알 수 있기 때문에,", Line_Continue);
 	OutputLine(NULL, "咄嗟に謝ってしまう。",
-		   NULL, " so I immediately apologized.", Line_Normal);
+		   NULL, " 나는 순간적으로 사과하고 말았다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4808,7 +4808,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0360", 128, TRUE);
 	OutputLine(NULL, "「ご、………ごめん……！」",
-		   NULL, "\"S......Sorry......!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"미.......미안......!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4817,7 +4817,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0240", 128, TRUE);
 	OutputLine(NULL, "「いいよ！　それより早く！」",
-		   NULL, "\"It's fine! Just hurry!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"괜찮아! 그보다 빨리!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4828,7 +4828,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナは男の頭部から鉈を引き抜き、もう片手で猟銃を拾う。",
-		   NULL, "레나 yanked her hatchet out of the man's head and picked up his gun with her other hand.", Line_Normal);
+		   NULL, "레나는 남자의 머리에서 도끼를 뽑아내고, 다른 한 손으로 엽총을 주워 들었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4836,7 +4836,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0250", 128, TRUE);
 	OutputLine(NULL, "「銃はね、たとえ撃てなくても相手を怯ませることができる。」",
-		   NULL, "\"Even if you don't shoot, a gun can still be used to frighten opponents.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"총은, 쏠 수 없더라도 상대를 위협할 수 있어.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4845,10 +4845,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0370", 128, TRUE);
 	OutputLine(NULL, "「ぅ、",
-		   NULL, "\"Urk.", Line_Continue);
+		   NULL, "\"윽,", Line_Continue);
 	Wait( 500 );
 	OutputLine(NULL, "………そ、そうだな…。」",
-		   NULL, " ......R-Right...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......그, 그래...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4857,20 +4857,20 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0260", 128, TRUE);
 	OutputLine(NULL, "「それより、早く逃げる準備を！！」",
-		   NULL, "\"That's fine, just hurry up and get ready to run!!\"", Line_Normal);
+		   NULL, "\"그보다, 빨리 도망칠 준비를 해!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	ModDrawCharacter(1, 1, "sprite/kei5_komaru_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…え、魅音の手紙には明日と書いてなかったっけ…？",
-		   NULL, "...Huh? Didn't 미온 say she'd come tomorrow in the letter she wrote...?", Line_WaitForInput);
+		   NULL, "...어라? 미온의 편지에는 내일이라고 쓰여 있지 않았나...?", Line_WaitForInput);
 
 	PlaySE( 1, "a5_10316", 50, 64 );
 	ShakeScreen( 0, 12, 100, 10, 10, );
 
 	OutputLine(NULL, "　そんな平和ボケはもうたくさんだッ！",
-		   NULL, " There goes my false sense of security!", Line_Normal);
+		   NULL, " 그런 상황파악 못하는 짓은 벌써 할 만큼 했다!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4881,7 +4881,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0380", 128, TRUE);
 	OutputLine(NULL, "「あ、…あぁ！！　でも教えてくれ、一体何があったんだ？！」",
-		   NULL, "\"Oh... Yeah!! But tell me, what on earth happened?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"으... 응!! 그래도 알려줘, 도대체 무슨 일이 있었던 거야?!"\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4889,7 +4889,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナと玄関に駆け戻りながら聞く。",
-		   NULL, "I asked 레나 as we ran back to my front door.", Line_Normal);
+		   NULL, "레나와 함께 현관으로 달려가면서 물었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4902,7 +4902,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0270", 128, TRUE);
 	OutputLine(NULL, "「…圭一くんのところにも手紙が来たでしょ？　魅ぃちゃんは私の家にも同じ手紙を持ってきた。」",
-		   NULL, "\"...You got a letter from her too, right 케이이치-kun? Mii-chan brought the same letter over to my house.\"", Line_Normal);
+		   NULL, "\"...케이이치 군한테도 편지가 왔잖아? 미이쨩은 우리 집에도 같은 편지를 가져왔어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4927,7 +4927,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0280", 128, TRUE);
 	OutputLine(NULL, "「そこで夜回りの自警団に見付かって撃たれたんだよ！　魅ぃちゃんが何かしたわけじゃない。　ただレナに手紙を持ってきただけなのに撃たれた…！」",
-		   NULL, "\"That was when the neighborhood watch discovered her and shot her! Mii-chan hadn't done anything to them. All she did was deliver a letter to me and they shot her...!\"", Line_Normal);
+		   NULL, "\"거기서 밤 순찰을 하던 자경단에 발견되어 총을 맞은 거야! 미이쨩은 아무것도 하지 않았어. 그저 레나에게 편지를 가져다준 것뿐인데 총에 쏘였어...!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4938,15 +4938,15 @@ void main()
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0290", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「…竜宮家は感染患者だから、そこに接触するのは感染者の仲間だって勝手に決め付けられて、一方的に撃たれた！！　魅ぃちゃんが彼らに対し何かしたわけじゃないのに、構わずに撃たれたッ！！」",
-		   NULL, "\"...They said the Ryuugus were infected, and anyone interacting with them was an ally of the infected, but they decided that all on their own, and they shot her for it!! Mii-chan hadn't done anything to them, but they didn't care and they shot her anyway!!\"", Line_Normal);
+		   NULL, "\"...류구가는 감염되어서, 그 가족과 접촉하는 건 감염자의 동료라고 함부로 단정 지어져서, 일방적으로 쏘였어!! 미이쨩이 그 사람들에게 아무런 짓도 하지 않았는데, 그런 건 신경쓰지도 않고 총을 쏜 거야!!"\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナの目は怒りと悲しみでいっぱいになって、涙をぼろぼろと零していた。",
-		   NULL, "레나's eyes were full of anger and sadness as tears spilled down her cheeks.", Line_WaitForInput);
+		   NULL, "레나의 눈은 분노와 슬픔으로 가득 차서, 눈물이 주르륵 흘러내렸다.", Line_WaitForInput);
 	OutputLine(NULL, "そんな激情のレナに掛けられる言葉などない…。",
-		   NULL, " There wasn't anything I could say to her while she was possessed by those powerful emotions...", Line_Normal);
+		   NULL, " 그렇게 감정이 치밀어 오른 레나에게 할 수 있는 말이란 없다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
