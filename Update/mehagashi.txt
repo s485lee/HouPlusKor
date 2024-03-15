@@ -44,31 +44,31 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　祭具殿。",
-		   NULL, "The ritual storehouse.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "제구전.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　蝉時雨の中、それは古手神社の中に、ひっそりと建つ、異様な雰囲気を放つ建物。",
-		   NULL, "It was a building with a strange air about it that stood quietly within the Furude shrine, surrounded by the noise of crying cicadas.", Line_Normal);
+		   NULL, "그곳은 매미소리가 한창인 후루데 신사 안에서 쥐죽은 듯이 세워진 묘한 분위기의 건물.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢の伝承の中でもっとも凄惨な催し、綿流しを司る重要な祭具の数々が収められているという。",
-		   NULL, "The storehouse was said to contain the many important ritual tools used to perform the Watanagashi ceremony, the most ghastly of rituals in all of Hinamizawa's legends.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "히나미자와의 전승 중에서 가장 잔혹한 행사, 와타나가시에서 사용하는 중요한 제사 도구를 많이 보관하고 있다고 한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　当然、その内部には、古手家の人間か、特別な祭事に際し人手が必要な時のみ、御三家の一部の人間しか立ち入ることは出来ない。",
-		   NULL, "So naturally, only members of the Furude family were allowed inside, or if extra hands were needed for a special ritual, then members of the Three Families were allowed as well.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "당연히 그 내부는 후루데 가의 사람, 아니면 특별한 제사로 일손이 필요할 때 3대 가문의 일부 사람들만 들어갈 수 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり。",
-		   NULL, "Which all meant...", Line_WaitForInput);
+		   NULL, "즉.", Line_WaitForInput);
 	OutputLine(NULL, "……日常の掃除は、古手家の人間、即ち、梨花がひとりでやるしかない訳だ。",
-		   NULL, " ...that the routine cleaning had to be done solely by Rika, the only remaining member of the Furude family.", Line_Normal);
+		   NULL, " ...일일 청소는 후루데 가의 사람, 다시 말해 리카 혼자서 해야하는 일이다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -82,12 +82,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今日は祭具殿の掃除をする日。",
-		   NULL, "Today was one such cleaning day.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "오늘은 제구전 청소하는 날.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　面倒臭がり屋の梨花は、人目のないところでは露骨にそれがわかる表情を浮かべながら、祭具殿に向かっている。",
-		   NULL, "Rika hated putting in effort, and since no one was around to see, she let her disgust show plainly on her face as she headed for the ritual storehouse.", Line_Normal);
+		   NULL, "게으름뱅이 리카는 인기척이 없는 길에서 노골적으로 귀찮은 티를 내며 제구전으로 가고 있다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -97,7 +97,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9000", 128, TRUE);
 	OutputLine(NULL, "「祭具殿なんて、年に何度も使わないのに、どうしてこうもマメに掃除をしなきゃならないのよ」",
-		   NULL, "\"We only use the ritual storehouse a few times a year, so why does it have to be cleaned so often?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"제구전은 1년에 몇 번 쓰지도 않는데 왜 이렇게 부지런히 청소해야 하는 거야\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -108,10 +108,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9000", 128, TRUE);
 	OutputLine(NULL, "「あうあうー！",
-		   NULL, "\"Au, auu!", Line_WaitForInput);
+		   NULL, "\"아우아우─!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9001", 128, TRUE);
 	OutputLine(NULL, "　それはオヤシロさまに対して不敬なのですよー！」",
-		   NULL, " That's disrespectful toward Oyashiro-sama!\"", Line_Normal);
+		   NULL, " 그런 말은 오야시로 님께 불경한 발언이에요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【梨花】
@@ -121,13 +121,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9001", 128, TRUE);
 	OutputLine(NULL, "「うわ。",
-		   NULL, "\"Uwah.", Line_WaitForInput);
+		   NULL, "\"우왓.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9002", 128, TRUE);
 	OutputLine(NULL, "何だ、いたの。",
-		   NULL, " What, you were here?", Line_WaitForInput);
+		   NULL, " 뭐야, 있었잖아.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9003", 128, TRUE);
 	OutputLine(NULL, "いるなら、アンタ、自分で掃除をしなさいよ」",
-		   NULL, " If you're here, then clean it yourself.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 있으면 네가 직접 청소하라고.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -137,10 +137,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9002", 128, TRUE);
 	OutputLine(NULL, "「それは出来ませんのですよ。",
-		   NULL, "\"I can't do that.", Line_WaitForInput);
+		   NULL, "\"그럴 수는 없는 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9003", 128, TRUE);
 	OutputLine(NULL, "古手家の巫女が代々、お掃除をすると、太古の昔から決められているのです」",
-		   NULL, " It's been the rule since ancient times that in every generation the cleaning has to be done by the priestesses of the Furude family.\"", Line_Normal);
+		   NULL, " 옛부터 후루데 가문의 무녀가 대를 이어가며 청소하기로 정해진 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -150,10 +150,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9004", 128, TRUE);
 	OutputLine(NULL, "「しかし、僕も鬼ではありませんのです。",
-		   NULL, "\"Still, I am no demon.", Line_WaitForInput);
+		   NULL, "\"하지만 저도 모질지는 않는 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9005", 128, TRUE);
 	OutputLine(NULL, "シューをお供えしてくれたら、特別に今日は許してあげてもよいのです」",
-		   NULL, " If you offered me some cream puffs, then I could make a special allowance for today.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 슈크림을 공양한다면 오늘은 특별히 봐주는 거에요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -163,10 +163,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9004", 128, TRUE);
 	OutputLine(NULL, "「カチーン。",
-		   NULL, "\"Snap.", Line_WaitForInput);
+		   NULL, "\"빠직.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9005", 128, TRUE);
 	OutputLine(NULL, "アンタにそう言われると、隅々まで徹底的に掃除して、意地でもシュークリームを備えたくなくなるわ……」",
-		   NULL, " Hearing you say that makes me want to clean every inch thoroughly and deny you cream puffs out of spite...\"", Line_Normal);
+		   NULL, " 네가 그렇게 말하니까 오기를 부려서라도 구석구석 꼼꼼하게 청소해서 슈크림을 공양하고 싶지 않는걸...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -174,13 +174,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9006", 128, TRUE);
 	OutputLine(NULL, "「梨花は天邪鬼なのですよ。",
-		   NULL, "\"You're such a contrarian.", Line_WaitForInput);
+		   NULL, "\"리카는 심술쟁이에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9007", 128, TRUE);
 	OutputLine(NULL, "そういう生き方だと、後々、絶対に苦労しますです。",
-		   NULL, " If you live your life like that, you'll definitely suffer in the long run.", Line_WaitForInput);
+		   NULL, " 그런 생활 태도를 고집하면 나중에 반드시 고생할 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9008", 128, TRUE);
 	OutputLine(NULL, "あう。",
-		   NULL, " Au.", Line_WaitForInput);
+		   NULL, " 아우.", Line_WaitForInput);
 	DisableWindow();
 	//;【羽入】
 	FadeBustshot( 4, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -188,10 +188,10 @@ void main()
 	ModDrawCharacterWithFiltering(5, 12, "sprite/ha1_odoroki_", "2", "effect/left", 0, 240, 0, FALSE, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9009", 128, TRUE);
 	OutputLine(NULL, "おっと。",
-		   NULL, " Wait.", Line_WaitForInput);
+		   NULL, " 아차.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9010", 128, TRUE);
 	OutputLine(NULL, "そんな話をしに僕はやってきたのではないのです！」",
-		   NULL, " That wasn't what I came here to tell you!\"", Line_Normal);
+		   NULL, " 저는 그 얘길 하러 온게 아니에요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -199,10 +199,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9011", 128, TRUE);
 	OutputLine(NULL, "「梨花。",
-		   NULL, "\"Rika.", Line_WaitForInput);
+		   NULL, "\"리카.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9012", 128, TRUE);
 	OutputLine(NULL, "今日は祭具殿のお掃除はしなくて大丈夫です」",
-		   NULL, " You don't have to clean the ritual storehouse today.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 오늘 제구전 청소는 안해도 돼요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -211,10 +211,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9006", 128, TRUE);
 	OutputLine(NULL, "「は？",
-		   NULL, "\"Huh?", Line_WaitForInput);
+		   NULL, "\"뭐?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9007", 128, TRUE);
 	OutputLine(NULL, "　人のこと、不敬だの天邪鬼だの散々言っておいて？」",
-		   NULL, " After calling me disrespectful and contrarian?\"", Line_Normal);
+		   NULL, " 누굴 불경하다느니 심술쟁이라느니 욕은 다 해놓고선?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -222,13 +222,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9013", 128, TRUE);
 	OutputLine(NULL, "「そして、僕は今日、ちょっと忙しいのです。",
-		   NULL, "\"Also, I'll be a little busy today.", Line_WaitForInput);
+		   NULL, "\"그리고 저는 오늘 좀 바쁠 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9014", 128, TRUE);
 	OutputLine(NULL, "ちょっと面倒事が起こってしまったのです。",
-		   NULL, " There's been a bit of trouble.", Line_WaitForInput);
+		   NULL, " 조금 번잡한 일이 생겼어요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9015", 128, TRUE);
 	OutputLine(NULL, "今日はそれに掛かりきりになるので、梨花の相手をしてる暇はないのです」",
-		   NULL, " I'll be preoccupied with that today, so I won't have time to entertain you.\"", Line_Normal);
+		   NULL, " 오늘은 그 일에 매진 중이라 리카를 상대할 시간이 없는 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlaySE( 0, "a1_16258", 70, 64 );
@@ -236,7 +236,7 @@ void main()
 	Wait( 200 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花の神経をゴリゴリと逆なでにしながら、羽入はドロンと姿を消す。",
-		   NULL, "Hanyuu faded away, having grated against Rika's nerves.", Line_Normal);
+		   NULL, "리카의 신경을 이리저리 건드리더니 하뉴는 펑하고 모습을 감춘다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;■BGM１秒でフェードアウト
@@ -248,31 +248,31 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9008", 128, TRUE);
 	OutputLine(NULL, "「……腹立つわね。",
-		   NULL, "\"...That's irritating.", Line_WaitForInput);
+		   NULL, "\"...열받네.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9009", 128, TRUE);
 	OutputLine(NULL, "あそこまで言われると、ゴリゴリ掃除して、隅の隅までワックスがけまでしたくなるわ。",
-		   NULL, " Hearing her say all that makes me want to thoroughly clean every corner and wax it all as well.", Line_WaitForInput);
+		   NULL, " 그런 말까지 들으면 박박 청소하고 구석구석 왁싱까지 하고 싶어지잖아.", Line_WaitForInput);
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacter(3, 5, "sprite/ri2_komaru_a2_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9010", 128, TRUE);
 	OutputLine(NULL, "さっさと済ませてしまおうかしら。",
-		   NULL, " I guess I'll get it finished quickly. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 얼른 끝내버릴까. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9011", 128, TRUE);
 	OutputLine(NULL, "今日はお昼に、部活のみんなとプールに遊びに行くしね」",
-		   NULL, "I'm planning to go play at the pool with everyone from club this afternoon.\"", Line_Normal);
+		   NULL, "오늘은 점심에 부활동 친구들과 수영장에 놀러가야 하니까.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;br
 	DrawScene( "black", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入に今日は掃除をしなくていいと言われたせいで、むしろ掃除をする気になった梨花は、祭具殿に入り、掃除道具を広げる。",
-		   NULL, "Hearing Hanyuu say she didn't have to clean today made Rika want to do it more, so she entered the ritual storehouse and spread out her cleaning tools.", Line_Normal);
+		   NULL, "오늘은 청소를 안해도 된다는 하뉴의 말에, 도리어 청소할 마음이 생긴 리카는 제구전으로 들어가 청소도구를 펼친다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さて、始めようかしら。",
-		   NULL, "Now, where to start?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그럼, 시작해볼까.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -280,7 +280,7 @@ void main()
 	DrawScene( "background/saiguden_03", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まずは不気味な拷問道具、もとい、祭具に積もった埃をはたきで落として……。",
-		   NULL, "First she'd brush away the dust built up on the creepy torture devices - that is, the ritual tools.", Line_Normal);
+		   NULL, "우선 섬뜩한 고문 도구, 가 아니라 제사 도구에 쌓인 먼지를 쓸어내고 털어내고...", Line_Normal);
 	ClearMessage();
 
 	//;■ME停止
@@ -300,14 +300,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　とある祭具の上に、ちょこんと鎮座するかのように、",
-		   NULL, "There were several unfamiliar pouches there...", Line_WaitForInput);
+		   NULL, "한 제사 도구 위에 툭하고 자리잡은 듯,", Line_WaitForInput);
 	OutputLine(NULL, "……見慣れない巾着袋が、いくつか乗せられていた。",
-		   NULL, " resting atop the ritual tools like they were being enshrined.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 낯선 주머니 몇 개가 올려져 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まるで、体操服袋のようなそれは、明らかに、前回、ここを訪れた時にはなかったものだ。",
-		   NULL, "They were like bags for gym clothes, but they clearly hadn't been around the last time Rika went in here.", Line_Normal);
+		   NULL, "마치 체육복 가방처럼 생긴 주머니는 분명 예전에 왔을 때는 없었던 물건이다.", Line_Normal);
 	ClearMessage();
 
 	//;【梨花】
@@ -315,10 +315,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9013", 128, TRUE);
 	OutputLine(NULL, "「何かしら。",
-		   NULL, "\"What are these?", Line_WaitForInput);
+		   NULL, "\"뭘까.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9014", 128, TRUE);
 	OutputLine(NULL, "……また、祭具殿に封印された不思議な魔法のお宝だったりするのかしら」",
-		   NULL, " ...I wonder if they're some strange magic treasure sealed away in the ritual storehouse?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...또 제구전에 봉인된 신비한 마법 보물이라도 있는 걸까\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -328,12 +328,12 @@ void main()
 	DrawSceneWithMask( "black", "effect/up", 0, 0, 300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花は躊躇なくひとつを取り、中を開ける。",
-		   NULL, "Rika took one without hesitation and opened it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "리카는 주저없이 주머니 하나를 들고는 안을 열어본다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこには畳まれた水着と、小さな古文書のようなものが入っていた……。",
-		   NULL, "Folded up inside was a swimsuit and something resembling a small, ancient scroll...", Line_Normal);
+		   NULL, "거기에는 포개진 수영복과 작은 고문서 같은게 들어 있었다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -356,14 +356,14 @@ void main()
 	DrawScene( "background/sora", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　興宮の市民プールは、外まで子供たちの楽しそうな声が溢れている。",
-		   NULL, "The voices of children playing around reached some distance from the Okinomiya Public Pool.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "오키노미야 시립 수영장에는 밖에서까지 아이들의 신나는 목소리가 울려넘친다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
 	DrawSceneWithMask( "background/cit_4a", "effect/left", 0, 0, 300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　部活メンバーたちの自転車が、次々に駐輪場に飛び込んでくる。",
-		   NULL, "The club members' bicycles all flew into the pool's parking lot one after another.", Line_Normal);
+		   NULL, "부활동 멤버들의 자전거가 순서대로 주차장에 들이닥친다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -371,10 +371,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9000", 128, TRUE);
 	OutputLine(NULL, "「よっしゃー！！",
-		   NULL, "\"Aw yeah!!!", Line_WaitForInput);
+		   NULL, "\"아싸아!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9001", 128, TRUE);
 	OutputLine(NULL, "　イッチバーン！！」",
-		   NULL, " First one here!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 1등이다!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -383,13 +383,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9000", 128, TRUE);
 	OutputLine(NULL, "「くぅぅ！！",
-		   NULL, "\"Khhh!!!", Line_WaitForInput);
+		   NULL, "\"크으으!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9001", 128, TRUE);
 	OutputLine(NULL, "　鼻の差で競り負けましたわぁ！",
-		   NULL, " I only lost by a hair!", Line_WaitForInput);
+		   NULL, " 간발의 차이로 지고 말았사와요!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9002", 128, TRUE);
 	OutputLine(NULL, "　でも、私が二着ですのよ～！！」",
-		   NULL, " But I was still here second!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 하지만, 제가 2등이에요~!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -398,18 +398,18 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9000", 128, TRUE);
 	OutputLine(NULL, "「いいや、ちょっと待って。",
-		   NULL, "\"Now hold on a moment.", Line_WaitForInput);
+		   NULL, "\"아니 잠깐만.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9001", 128, TRUE);
 	OutputLine(NULL, "審議ランプが点灯だね！",
-		   NULL, " The inquiry lamp lit up on this one!", Line_WaitForInput);
+		   NULL, " 심의 램프 켜졌거든!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9002", 128, TRUE);
 	OutputLine(NULL, "　沙都子はさっき、私の進路妨害をしたからね！",
-		   NULL, " Satoko, a moment ago you obstructed me!", Line_WaitForInput);
+		   NULL, " 사토코는 아까 나한테 진로방해 했으니까!", Line_WaitForInput);
 	DisableWindow();
 	ModDrawCharacter(3, 3, "sprite/me2_akuwarai_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9003", 128, TRUE);
 	OutputLine(NULL, "　降着処分でおじさんが二着だね～！」",
-		   NULL, " That's earned you a demotion, putting me in second!\"", Line_Normal);
+		   NULL, " 순위변경으로 아저씨가 2등이야~!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【梨花】
@@ -418,10 +418,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9015", 128, TRUE);
 	OutputLine(NULL, "「勝馬投票券は、勝馬が確定するまで、お捨てにならないようにお願い致します。",
-		   NULL, "\"Please don't throw away your betting slips until the winning horse has been decided.", Line_WaitForInput);
+		   NULL, "\"승마투표권은 우승마가 확정될 때까지 버리지 말아주세요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9016", 128, TRUE);
 	OutputLine(NULL, "にぱ～♪」",
-		   NULL, " Nipah~♪\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 니파~♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -431,7 +431,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9000", 128, TRUE);
 	OutputLine(NULL, "「どうして梨花ちゃんはそういうのを知っているのかな、かな……」",
-		   NULL, "\"How do you know about that, Rika-chan? How...?\"", Line_Normal);
+		   NULL, "\"리카쨩 그런 건 어떻게 알고 있는 걸 까나, 까나...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -440,13 +440,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9002", 128, TRUE);
 	OutputLine(NULL, "「はははは！",
-		   NULL, "\"Hahahaha!", Line_WaitForInput);
+		   NULL, "\"하하하하!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9003", 128, TRUE);
 	OutputLine(NULL, "　でも、部活メンバーみんなでプールなんて楽しみだぜ！",
-		   NULL, " Still, I'm looking forward to enjoying the pool with all our club members here!", Line_WaitForInput);
+		   NULL, " 그래도 부활동 멤버랑 다같이 수영장이라니 기대된다!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9004", 128, TRUE);
 	OutputLine(NULL, "　でも大丈夫か？　このプール、大爆発でも起こして、なくなっちまうんじゃねぇのか？」",
-		   NULL, " Will everything be okay, though? This pool won't explode or disappear, will it?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 근데 괜찮겠어? 여기 수영장, 대폭발 일으키다가 지워지는 거 아냐?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【レナ】
@@ -454,17 +454,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9001", 128, TRUE);
 	OutputLine(NULL, "「う～ん、ここを舞台に、魅ぃちゃんがおかしな部活をやろうと言い出さない限りは、ね♪」",
-		   NULL, "\"Hmm, not unless Mii-chan says we should do some fun club activity here. Right?♪\"", Line_Normal);
+		   NULL, "\"음~, 미이쨩이 여기를 무대로 이상한 부활동을 하자는 말만 안한다, 면♪\"", Line_Normal);
 	ClearMessage();
 	//;【沙都子】
 	//;ld c,sat_1,24
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9003", 128, TRUE);
 	OutputLine(NULL, "「おーっほっほっほ。",
-		   NULL, "\"Ohh ho ho ho!", Line_WaitForInput);
+		   NULL, "\"오~옷호호홋!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9004", 128, TRUE);
 	OutputLine(NULL, "まぁ、私たちが遊びに来て、無事で済むとは思えませんわね！」",
-		   NULL, " Well, it shouldn't expect to escape unharmed when we've come to play!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 뭐어, 저희들이 놀러왔는데 별일없이 끝날 거라고는 생각하지 않사와요!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【魅音】
@@ -475,10 +475,10 @@ void main()
 		   NULL, "\"No, no. Today let's just behave and enjoy the pool.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9005", 128, TRUE);
 	OutputLine(NULL, "このプール、改装工事が終わったばかりだし、工事明けには婆っちゃも来賓で呼ばれてるし。",
-		   NULL, " They only just finished remodeling this place, and my grandma got called in as a guest when they finished work on it.", Line_WaitForInput);
+		   NULL, " 아니아니, 오늘은 얌전하게 수영장에서 놀 거야. 여기 수영장이 개장공사도 이제 막 끝난데다, 할멈도 공사 직후에 내빈으로 초대받았어.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9006", 128, TRUE);
 	OutputLine(NULL, "顔は潰せないよねぇ」",
-		   NULL, " I can't make her look bad.\"", Line_Normal);
+		   NULL, " 체면 구기게 만들면 안되지.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【梨花】
@@ -487,10 +487,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9017", 128, TRUE);
 	OutputLine(NULL, "「よくわかりませんですが、ここで暴れたら魅音が怒られるということはわかりましたです。",
-		   NULL, "\"I don't quite understand, but I do get that Mion will get mad if we go wild here.", Line_WaitForInput);
+		   NULL, "\"잘은 모르겠지만 여기서 날뛰다가 미온한테 혼나는 건 알겠는 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9018", 128, TRUE);
 	OutputLine(NULL, "にぱ～♪」",
-		   NULL, " Nipah~♪\"", Line_Normal);
+		   NULL, " 니파~♪\"", Line_Normal);
 	ClearMessage();
 	//;br
 	//;bg sora_d,22
@@ -499,9 +499,9 @@ void main()
 	FadeBustshot(1, FALSE, 0, 0, 0, 0, 1000, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さっそく、男女に分かれて更衣室で着替えようという時に、",
-		   NULL, "Just before they split up by gender to change in the changing rooms,", Line_WaitForInput);
+		   NULL, "곧장 남녀로 나뉘어 탈의실에서 옷 갈아 입으려 할 때,", Line_WaitForInput);
 	OutputLine(NULL, "唐突に梨花が、威勢よく挙手する。",
-		   NULL, " Rika suddenly raised her hand.", Line_Normal);
+		   NULL, " 갑자기 리카가 힘차게 손을 든다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -513,10 +513,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9019", 128, TRUE);
 	OutputLine(NULL, "「忘れていましたです。",
-		   NULL, "\"I almost forgot.", Line_WaitForInput);
+		   NULL, "\"깜박했던 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9020", 128, TRUE);
 	OutputLine(NULL, "今日はみんなに、ちょっと変わったものを持ってきたのですよ♪」",
-		   NULL, " Today I brought something a bit unusual for everyone♪\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 오늘은 모두한테 조금 특별한 걸 갖고 온 거에요♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -525,16 +525,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9002", 128, TRUE);
 	OutputLine(NULL, "「え？",
-		   NULL, "\"Huh?", Line_WaitForInput);
+		   NULL, "\"어?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9003", 128, TRUE);
 	OutputLine(NULL, "　何だろ。",
-		   NULL, " What is it?", Line_WaitForInput);
+		   NULL, " 뭘까나.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9004", 128, TRUE);
 	OutputLine(NULL, "ビーチボール？",
-		   NULL, " A beach ball?", Line_WaitForInput);
+		   NULL, " 비치볼?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9005", 128, TRUE);
 	OutputLine(NULL, "　それとも大きなイルカの浮き輪さんかな、かな！」",
-		   NULL, " Or is it a big dolphin floaty?! Is it?!\"", Line_Normal);
+		   NULL, " 그게 아니면 커다란 돌고래 튜브일까나, 까나!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【沙都子】
@@ -542,10 +542,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9005", 128, TRUE);
 	OutputLine(NULL, "「何ですの？",
-		   NULL, "\"What?", Line_WaitForInput);
+		   NULL, "\"뭐에요?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9006", 128, TRUE);
 	OutputLine(NULL, "　その巾着袋は？」",
-		   NULL, " What are those pouches?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그 주머니는?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -554,23 +554,23 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9005", 128, TRUE);
 	OutputLine(NULL, "「何だ何だ？",
-		   NULL, "\"What's this now?", Line_WaitForInput);
+		   NULL, "\"뭔데 뭔데?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9006", 128, TRUE);
 	OutputLine(NULL, "　部活メンバーで、お揃いの水着でも着ようってのか？」",
-		   NULL, " You want us club members to wear matching swimsuits?\"", Line_Normal);
+		   NULL, " 부활동 멤버한테 커플 수영복도 있는 거야?\"", Line_Normal);
 	ClearMessage();
 
 	//;【梨花】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9021", 128, TRUE);
 	OutputLine(NULL, "「何とこれは！",
-		   NULL, "\"You'll never guess!", Line_WaitForInput);
+		   NULL, "\"이건 맙소사!", Line_WaitForInput);
 	DisableWindow();
 	PlaySE( 0, "a1_17270", 70, 64 );
 	ModDrawCharacter(1, 5, "sprite/ri2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9022", 128, TRUE);
 	OutputLine(NULL, "　祭具殿に隠されし秘宝、『モテモテの水着』なのです！」",
-		   NULL, " These are the secret treasures that were hidden in the ritual storehouse, the 'Irresistible Swimsuits'!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 제구전에 숨겨진 보물, '인기만점 수영복' 인 거에요!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -579,10 +579,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9007", 128, TRUE);
 	OutputLine(NULL, "「モテモテってどういうこと？",
-		   NULL, "\"What do you mean by 'irresistible'?", Line_WaitForInput);
+		   NULL, "\"인기만점이라니 무슨 말이야?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9008", 128, TRUE);
 	OutputLine(NULL, "　着ると、モテモテになっちゃうってこと？」",
-		   NULL, " You mean wearing them makes you popular?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 입으면, 인기가 많아진다는 거야?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -591,10 +591,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9007", 128, TRUE);
 	OutputLine(NULL, "「……おかしいな、デジャヴかな。",
-		   NULL, "\"...That's odd. Why do I have deja vu?", Line_WaitForInput);
+		   NULL, "\"...이상하네, 데쟈뷰인가.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9008", 128, TRUE);
 	OutputLine(NULL, "何故だか寒気が……」",
-		   NULL, " And why am I getting the chills...?\"", Line_Normal);
+		   NULL, " 왠지 오한이...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【レナ】
@@ -602,13 +602,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9006", 128, TRUE);
 	OutputLine(NULL, "「でも、見てみてッ。",
-		   NULL, "\"But look at this!", Line_WaitForInput);
+		   NULL, "\"근데 봐 봐.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9007", 128, TRUE);
 	OutputLine(NULL, "すっごいかぁいい水着が入ってるよぉ！",
-		   NULL, " There's a shuper kyute swimsuit inside!", Line_WaitForInput);
+		   NULL, " 엄청 기~여운 수영복이 들어 있어!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9008", 128, TRUE);
 	OutputLine(NULL, "　お～持ち帰り～！！」",
-		   NULL, " Ohh~ I'm taking it home~!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 가~져갈래~!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -617,10 +617,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9007", 128, TRUE);
 	OutputLine(NULL, "「でも、人が選んだ水着を着るのって、何だか抵抗がありますわよ？",
-		   NULL, "\"But don't you feel hesitant in wearing a swimsuit someone else chose?", Line_WaitForInput);
+		   NULL, "\"그치만 다른 사람이 고른 수영복을 입는 건 뭔가 거부감이 있는 걸요?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9008", 128, TRUE);
 	OutputLine(NULL, "　それにサイズは合いますのかしら？」",
-		   NULL, " Will it even fit?\"", Line_Normal);
+		   NULL, " 게다가 사이즈는 맞나요?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【梨花】
@@ -628,17 +628,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9023", 128, TRUE);
 	OutputLine(NULL, "「それは大丈夫です。",
-		   NULL, "\"You won't need to worry there.", Line_WaitForInput);
+		   NULL, "\"그건 괜찮아요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9024", 128, TRUE);
 	OutputLine(NULL, "着る人に合わせて、ゾウサイズからミジンコサイズまで自在に伸縮するそうなのです。",
-		   NULL, " It'll stretch to fit whoever wears it, in sizes all the way from elephant to flea. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 입는 사람에 맞춰서 코끼리 크기부터 물벼룩 크기까지 자유자재로 늘어나는 거에요. ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9025", 128, TRUE);
 	OutputLine(NULL, "そしてこれを着れば、たちまちの内に魅力が溢れ出し、異性のハートをブラックホールの如く、ぎゅんぎゅん吸い寄せちゃうのです」",
-		   NULL, "Plus, whoever wears it will immediately become overflowing with charm, drawing in the opposite sex like a black hole and winning over their hearts.\"", Line_Normal);
+		   NULL, "그리고 이걸 입으면 금세 매력이 흘러넘쳐 이성의 하트를 블랙홀처럼 슉슈슉 빨아버리는 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【魅音】
@@ -646,10 +646,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9009", 128, TRUE);
 	OutputLine(NULL, "「まぁ、おじさんの魅力は普段はセーブしてるからね。",
-		   NULL, "\"Well, I normally keep my charm in check.", Line_WaitForInput);
+		   NULL, "\"뭐어, 아저씨가 평소에는 매력을 숨겨왔는데.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9010", 128, TRUE);
 	OutputLine(NULL, "でも、たまにはリミッターを解除するのもいいかもしれないねぇ」",
-		   NULL, " But it might be good to release my limiters now and then.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 가끔은 리미트를 풀어도 괜찮겠는걸.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -658,13 +658,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9009", 128, TRUE);
 	OutputLine(NULL, "「あらあら。",
-		   NULL, "\"My, my.", Line_WaitForInput);
+		   NULL, "\"어머나.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9010", 128, TRUE);
 	OutputLine(NULL, "じゃあ、プールに来ている男性の方々の視線を釘付けにしてしまいますこと？",
-		   NULL, " You're suggesting all the men at the pool would end up staring at me?", Line_WaitForInput);
+		   NULL, " 그럼 수영장에 있는 남성분들의 시선을 이끌게 만드는 건가요?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9011", 128, TRUE);
 	OutputLine(NULL, "　ちょっぴり照れますけど、一度くらいはそういう思いもしてみたいですわねぇ！」",
-		   NULL, " That's mildly embarrassing, but I'd love to experience it at least once!\"", Line_Normal);
+		   NULL, " 좀 쑥쓰럽지만 한 번 쯤은 그런 생각도 해보고 싶었사와요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -672,7 +672,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9009", 128, TRUE);
 	OutputLine(NULL, "「ってことは、俺の場合は、プールの水着ギャルたちのハートをぎゅんぎゅん、ブラックホールしちまうってワケかぁ♪」",
-		   NULL, "\"So in my case, the hearts of all the girls in swimsuits would be drawn to me like I'm a black hole, huh♪\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그럼 나는 수영장 비키니들의 하트를 슉슈슉 블랙홀 해버리는 건가♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -681,15 +681,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9026", 128, TRUE);
 	OutputLine(NULL, "「圭一の分はないのです。",
-		   NULL, "\"I don't have one for you, Keiichi.", Line_WaitForInput);
+		   NULL, "\"케이이치 거는 없는 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9027", 128, TRUE);
 	OutputLine(NULL, "女の子４人分だけなのですよ。",
-		   NULL, " There's only four, and for women.", Line_WaitForInput);
+		   NULL, " 여성용 4벌 밖에 없는 거에요.", Line_WaitForInput);
 	DisableWindow();
 	ModDrawCharacter(1, 5, "sprite/ri2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9028", 128, TRUE);
 	OutputLine(NULL, "にぱ～♪」",
-		   NULL, " Nipah~♪\"", Line_Normal);
+		   NULL, " 니파~♪\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;br
@@ -701,7 +701,7 @@ void main()
 	FadeOutBGM( 1, 300, FALSE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　チーン。",
-		   NULL, "Ding.", Line_Normal);
+		   NULL, "땡.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	Wait( 1000 );
@@ -710,17 +710,17 @@ void main()
 	//;br
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一はトボトボと男子更衣室に入る。",
-		   NULL, "Keiichi trudged into the men's changing room.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "케이이치는 남자 탈의실로 터덜터덜 걸어간다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、元気の回復は早い。",
-		   NULL, "However, he was quick to regain his spirit.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만 금새 기운을 차린다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　少なくとも、ムンムンにフェロモンを放つ、部活メンバー女子たちの水着姿が見られることには違いないのだから。",
-		   NULL, "At the very least, he was sure to see the club members in swimsuits packed with arousing pheromones.", Line_Normal);
+		   NULL, "적어도 분명, 무더위에 페로몬을 뿜뿜 뿜어내는 부활동 여자애들의 수영복 차림을 볼 수 있을 테니까.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -732,27 +732,27 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9010", 128, TRUE);
 	OutputLine(NULL, "「いや、待てよ……。",
-		   NULL, "\"No, wait...", Line_WaitForInput);
+		   NULL, "\"아니, 잠깐만...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9011", 128, TRUE);
 	OutputLine(NULL, "こういう、ヘンテコな魔法アイテムには大抵、変なオチが付くんだよな」",
-		   NULL, " When a weird magic item is involved, that usually leads to a disastrous end, right?\"", Line_Normal);
+		   NULL, " 이런 식의 이상한 마법 아이템에는 대부분 이상한 클리셰가 딸려온다고\"", Line_Normal);
 	ClearMessage();
 	//;【圭一】
 	//;ld c,kei_1,80
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9012", 128, TRUE);
 	OutputLine(NULL, "「すごい魅力パワーを放つものの、すっごいダサイ、恥ずかしいデザインで、着ている方が恥ずかしくなってしまうとか」",
-		   NULL, "\"Like if it unleashes incredible charm, then it's either so incredibly tacky or embarrassing that it makes the wearer ashamed of it.\"", Line_Normal);
+		   NULL, "\"엄청난 매력 파워를 보여주지만, 무지 촌스럽고 창피한 디자인이라 입은 사람이 부끄러워한다던가.\"", Line_Normal);
 	ClearMessage();
 	//;【圭一】
 	//;ld c,kei_1,80
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9013", 128, TRUE);
 	OutputLine(NULL, "「そう言えば、俺のモテモテの海パン事件の時も、",
-		   NULL, "\"That reminds me, during my irresistible swimtrunks incident,", Line_WaitForInput);
+		   NULL, "\"그러고 보니 내가 인기만점 수영복 사건 때도,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9014", 128, TRUE);
 	OutputLine(NULL, "泥棒の風呂敷みたいな柄の海パンだったしなぁ……」",
-		   NULL, " the swimtrunks had the same pattern as a stereotypical thief's sack...\"", Line_Normal);
+		   NULL, " 도둑 보따리같은 무늬의 수영복였지...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -763,14 +763,14 @@ void main()
 	DrawSceneWithMask( "white", "effect/maskc", 0, 0, 1300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時。",
-		   NULL, "At that moment.", Line_WaitForInput);
+		   NULL, "그때.", Line_WaitForInput);
 	OutputLine(NULL, "眩い光が世界を呑み込む。",
-		   NULL, " Bright light filled the area.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 눈부신 빛이 사방을 집어삼킨다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何が起こっているのかわからないが、何か、この世ならざる事態に巻き込まれているらしいことだけは理解できた。",
-		   NULL, "He didn't understand what was going on, but he did realize he was caught up in something out of this world.", Line_Normal);
+		   NULL, "무슨 일이 일어난 건지는 모르겠지만 어처구니 없는 상황에 휘말렸다는 건 알 수 있었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -782,7 +782,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9015", 128, TRUE);
 	OutputLine(NULL, "「な、何だ……、これは一体……？」",
-		   NULL, "\"W-What...? What is this...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"뭐, 뭐야......, 이건 도대체...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【羽入】
@@ -791,22 +791,22 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>？？？</color>", NULL, "<color=#f5e6d3>???</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9016", 128, TRUE);
 	OutputLine(NULL, "「……聞け、人の子。",
-		   NULL, "\"...Listen, child of man.", Line_WaitForInput);
+		   NULL, "\"...들어라, 인간의 아이.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9017", 128, TRUE);
 	OutputLine(NULL, "前原圭一よ……」",
-		   NULL, " Keiichi Maebara...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 마에바라 케이이치여...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　天上の光の彼方から厳かな声が聞こえてくる。",
-		   NULL, "He heard a solemn voice coming from the light of heaven.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "천상의 빛 너머에서, 엄숙한 목소리가 들려온다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その声色だけで、神の声だと理解できる迫力があった。",
-		   NULL, "The voice was so intense he recognized it as the voice of a god.", Line_Normal);
+		   NULL, "그 음색 만으로도 신의 목소리라고 이해할만한 박력이 느껴졌다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -817,10 +817,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9016", 128, TRUE);
 	OutputLine(NULL, "「これは一体、どういうことだよ？！",
-		   NULL, "\"What on earth is going on here?!", Line_WaitForInput);
+		   NULL, "\"이게 도대체 무슨 일이지?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9017", 128, TRUE);
 	OutputLine(NULL, "　俺、何か罰当たりなことをしたか……？！」",
-		   NULL, " Have I done something blasphemous...?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 내가 무슨 벌받을 짓을 했나...?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -829,10 +829,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9018", 128, TRUE);
 	OutputLine(NULL, "「お前は何も罰当たりなことをしてはいない。",
-		   NULL, "\"You have done nothing wrong.", Line_WaitForInput);
+		   NULL, "\"너는 아무 것도 벌 받을 일을 하지 않았다.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9019", 128, TRUE);
 	OutputLine(NULL, "しかし、古手神社の巫女、梨花はとてつもない罰当たりなことをしてくれたのだ……」",
-		   NULL, " However, the priestess of the Furude Shrine, Rika, has done something absurd...\"", Line_Normal);
+		   NULL, " 허나, 후루데 신사의 무녀, 리카는 엄청나게 벌 받을 짓을 하였도다...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -841,16 +841,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9018", 128, TRUE);
 	OutputLine(NULL, "「り、梨花ちゃんが……？",
-		   NULL, "\"R-Rika-chan has...?", Line_WaitForInput);
+		   NULL, "\"리, 리카 쨩이...?", Line_WaitForInput);
 	DisableWindow();
 	//;【圭一】
 	ModDrawCharacter(4, 1, "sprite/kei7_nayamu_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9019", 128, TRUE);
 	OutputLine(NULL, "　まさか……、今日、梨花ちゃんが持ってきた、あのモテモテの水着とやらのことか……？",
-		   NULL, " Wait... Are you referring to the irresistible swimsuits she brought today...?", Line_WaitForInput);
+		   NULL, " 설마......, 오늘 리카 쨩이 가져온 그 인기만점 수영복 때문인가...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9020", 128, TRUE);
 	OutputLine(NULL, "　そういえば、祭具殿に隠されし秘宝とか言ってたような……」",
-		   NULL, " I do remember her saying they were a secret treasure from the ritual storehouse...\"", Line_Normal);
+		   NULL, " 그러고 보니 제구전에 숨겨진 보물이라고 한 거 같은데...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -858,16 +858,16 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9020", 128, TRUE);
 	OutputLine(NULL, "「まさにそれなのです。",
-		   NULL, "\"That is precisely it.", Line_WaitForInput);
+		   NULL, "\"바로 그거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9021", 128, TRUE);
 	OutputLine(NULL, "……梨花め、今日はお掃除をしなくていいと言ったのに。",
-		   NULL, " ...And after I told that Rika she didn't have to clean today, too.", Line_WaitForInput);
+		   NULL, " ...리카 이년, 오늘은 청소를 안해도 된다고 했는데.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9022", 128, TRUE);
 	OutputLine(NULL, "はぁ、まったく。",
-		   NULL, " Hahh, good grief.", Line_WaitForInput);
+		   NULL, " 하아, 정말이지.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9023", 128, TRUE);
 	OutputLine(NULL, "どうして古手の血の娘は、いつもいつもこう、天邪鬼なのか……」",
-		   NULL, " Why are the Furude women always, always such contrarians...?\"", Line_Normal);
+		   NULL, " 어째서 후루데 일족의 딸은 매번 이리도 심술쟁이인가......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -875,10 +875,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9021", 128, TRUE);
 	OutputLine(NULL, "「それで神様。",
-		   NULL, "\"So, uh, God.", Line_WaitForInput);
+		   NULL, "\"그럼 신님.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9022", 128, TRUE);
 	OutputLine(NULL, "俺とそれに何の関係があるんだ？」",
-		   NULL, " What does this have to do with me?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그게 나랑 무슨 상관인데?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -888,10 +888,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9024", 128, TRUE);
 	OutputLine(NULL, "「前原圭一。",
-		   NULL, "\"Keiichi Maebara.", Line_WaitForInput);
+		   NULL, "\"마에바라 케이이치.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9025", 128, TRUE);
 	OutputLine(NULL, "そなたには、この星を救う救世主になって欲しいのです」",
-		   NULL, " I want you to become the savior who will rescue this planet.\"", Line_Normal);
+		   NULL, " 그대가 이 별을 구할 구세주가 되었으면 해요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -899,10 +899,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9023", 128, TRUE);
 	OutputLine(NULL, "「きゅ、救世主ぅうぅ？！",
-		   NULL, "\"S-Saviorrrr?!", Line_WaitForInput);
+		   NULL, "\"구, 구세주우우우?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9024", 128, TRUE);
 	OutputLine(NULL, "　いや、年頃の男子なら、一度は妄想するシチュエーションだが、……ほ、本気で言ってるのか……？」",
-		   NULL, " I mean, every boy past a certain age has fantasized about something like that... b-but are you being serious...?\"", Line_Normal);
+		   NULL, " 아니, 내 또래 남자들이라면 한 번쯤은 상상해 볼 시츄에이션이지만...... 지, 진심으로 하는 말이야...?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -911,18 +911,18 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9026", 128, TRUE);
 	OutputLine(NULL, "「あの魔法の水着は、異なるカケラから漂着した異物なのです。",
-		   NULL, "\"Those magic swimsuits are foreign objects that drifted here from a different Fragment.", Line_WaitForInput);
+		   NULL, "\"그 마법의 수영복은 다른 조각에서 떠밀려 온 이물질인 거에요.", Line_WaitForInput);
 	DisableWindow();
 	//;【羽入】
 	DrawScene( "background/fure1", 400 );
 	//;ld c,han_1,80
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9027", 128, TRUE);
 	OutputLine(NULL, "カケラの海を渡ることはとても困難で、ましてや、意思なき物品が漂着することはさらに稀なことなのですが……。",
-		   NULL, " It's very difficult to cross the Sea of Fragments, and it's even rarer for an object with no will of its own to do so... ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 조각의 바다를 건너는 건 몹시도 어려운데, 하물며 의지가 없는 물건이 떠밀려온 일은 극히 드문 거에요... ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9028", 128, TRUE);
 	OutputLine(NULL, "あの水着は、百億の奇跡と偶然に恵まれ、このカケラに流れ着いてしまったのです」",
-		   NULL, "Yet those swimsuits were blessed with a billion miracles and good fortune to make their way here to this Fragment.\"", Line_Normal);
+		   NULL, "하지만 저 수영복은 백억의 기적과 우연을 만나 이 조각에 흘러 들어온 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -930,7 +930,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9025", 128, TRUE);
 	OutputLine(NULL, "「でも、モテモテになるってだけなんだろ？　そんなの、ラブコメ漫画によくあるような、微笑ましい程度の力じゃないのか？」",
-		   NULL, "\"Still, they just make people irresistible, right? Wouldn't that only be enough to create the kind of charming scenes often seen in romantic comedies?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"근데, 인기만점이 되는게 다잖아? 그런건 러브 코메디 만화에서 흔히 있고 훈훈하게 끝날 정도의 힘인거 아냐?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -939,19 +939,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9029", 128, TRUE);
 	OutputLine(NULL, "「力そのものはそうかもしれませんが、問題はそこではないのです」",
-		   NULL, "\"That may be true of its power alone, but that is not the problem here.\"", Line_Normal);
+		   NULL, "\"힘 자체는 그럴지도 모르지만 문제는 그게 아닌 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;bg black,22
 	DrawScene( "black", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　異なるカケラとは、異世界と呼んでいいものだ。",
-		   NULL, "Different Fragments are essentially different worlds.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "다른 조각이라는 건, 다른 세계라고 보면 된다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　時にそれは、どれほどこちらの世界と類似していても、決して相容れてはならないものであることもある……。",
-		   NULL, "Incidentally, that also means there are things which cannot coexist with this world, no matter how similar the two may be.", Line_Normal);
+		   NULL, "하지만, 아무리 이쪽 세계와 비슷하다 해도 결코 서로 교류가 이뤄져서는 안되는 것이기도 하다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;br
@@ -961,10 +961,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9030", 128, TRUE);
 	OutputLine(NULL, "「あの漂着物は、このカケラとは相容れぬ世界の物質で作られたもの。",
-		   NULL, "\"Those things that drifted here are made from materials that can't exist in this Fragment.", Line_WaitForInput);
+		   NULL, "\"그 표류물은, 이 조각과 맞지않는 세계의 물질로 만들어진 것.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9031", 128, TRUE);
 	OutputLine(NULL, "彼女たちが身に付けてからちょうど１時間後に、反応が始まるでしょう」",
-		   NULL, " Roughly one hour after those girls put them on, the reaction will begin.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그녀들이 몸에 지니고서 정확히 1시간이 지나면, 반응이 시작되겠죠.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -973,12 +973,12 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9026", 128, TRUE);
 	OutputLine(NULL, "「は、反応……？",
-		   NULL, "\"R-Reaction...?", Line_WaitForInput);
+		   NULL, "\"바, 반응...?", Line_WaitForInput);
 	DisableWindow();
 	ModDrawCharacter(2, 1, "sprite/kei7_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9027", 128, TRUE);
 	OutputLine(NULL, "　ま、まさか水着がとろ～りと溶けだすとか……♪」",
-		   NULL, " D-Do you mean the swimsuits will start melting away...♪\"", Line_Normal);
+		   NULL, " 서, 설마 수영복이 사르륵 녹아내린다던가...♪\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -991,13 +991,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9032", 128, TRUE);
 	OutputLine(NULL, "「この世界の物質と、この世界に存在してはならない物質による反応。",
-		   NULL, "\"The materials of this world will react to the material that shouldn't exist in it.", Line_WaitForInput);
+		   NULL, "\"이 세계의 물질과 이 세계에 존재해선 안되는 물질의 반응.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9033", 128, TRUE);
 	OutputLine(NULL, "対消滅。",
-		   NULL, " Mutual annihilation.", Line_WaitForInput);
+		   NULL, " 대소멸.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9034", 128, TRUE);
 	OutputLine(NULL, "……それは銀河をも生み出せる莫大なエネルギーです」",
-		   NULL, " ...That reaction will create enough energy to give birth to a new galaxy.\"", Line_Normal);
+		   NULL, " ...그건 은하도 만들어 낼 수 있는 엄청난 에너지입니다.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -1006,7 +1006,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9028", 128, TRUE);
 	OutputLine(NULL, "「それって、つまり……、地球のピンチ？」",
-		   NULL, "\"Wouldn't that mean... that the Earth's in danger?\"", Line_Continue);
+		   NULL, "\"그 말은, 즉슨...... 지구의 대위기?\"", Line_Continue);
 
 	//;■SE:ショッキングなSE
 	//;■BGM停止
@@ -1021,7 +1021,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9035", 128, TRUE);
 	OutputLine(NULL, "「人間の身で数え得る最も大きな数の分だけの地球を、粉々に粉砕して、なお有り余るほどの大爆発が起こる、ということです」",
-		   NULL, "\"It will cause an explosion that will easily shatter as many planets as a human could possibly count in one lifetime, and still have more energy left over.\"", Line_Normal);
+		   NULL, "\"인간의 셈 할 수 있는 가장 큰 숫자로 지구를 산산조각 내고도 남을 정도의 대폭발이 일어날 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -1034,14 +1034,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9029", 128, TRUE);
 	OutputLine(NULL, "「ぎ、ぎえええええぇええええええぇえッ？！？！？！」",
-		   NULL, "\"G-Geeeeeeeeeh?!?!?!\"", Line_Normal);
+		   NULL, "\"히, 히에에에에에에에에에엑?!?!?!\"", Line_Normal);
 	ClearMessage();
 
 	//;■ME:寂しい風の音、をさらに重ねる
 	PlayBGM( 2, "me/a5_14446", 70, 0 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入は、このまま１時間が経った場合、どうなるのかを見せてくれる。",
-		   NULL, "Hanyuu showed him what would happen in just one hour.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하뉴는, 이대로 1시간이 지날 경우, 어떻게 될지 보여준다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1050,11 +1050,11 @@ void main()
 	DrawScene( "background/uchu_space1", 1000 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　眩い世界は次の瞬間、宇宙に変わる。",
-		   NULL, "Keiichi was shown a vision of the planet floating in space.", Line_WaitForInput);
+		   NULL, "눈부신 세계는 다음 순간 우주로 변한다.", Line_WaitForInput);
 	OutputLine(NULL, "そして、青く輝く我らが地球が………、",
-		   NULL, " Then our blue, shining Earth...", Line_WaitForInput);
+		   NULL, " T그리고 푸르게 빛나고 있는 지구가...", Line_WaitForInput);
 	OutputLine(NULL, "大爆発ッ！！！",
-		   NULL, " exploded!!!", Line_ContinueAfterTyping);
+		   NULL, " 대폭발!!!", Line_ContinueAfterTyping);
 	PlaySE( 0, "bb", 70, 64 );
 	DrawScene( "background/uchu_space2", 0 );
 	ShakeScreen( 2, 18,  100 , 4, 25, );
@@ -1067,9 +1067,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　宇宙ロケットで逃げるとかそういう次元じゃない。",
-		   NULL, "It wasn't on the kind of scale where people could flee on a spaceship.", Line_WaitForInput);
+		   NULL, "우주 로켓으로 도망갈 수 있을까 같은 그런 문제가 아니다.", Line_WaitForInput);
 	OutputLine(NULL, "銀河単位での大爆発が起こり、地球がどうのこうのという次元の話ではないことは明白だった。",
-		   NULL, " The entire galaxy exploded, and it was clear there was nothing to be done about Earth at all.", Line_Normal);
+		   NULL, " 은하 단위 대폭발이 일어나니, 지구의 존명을 따지기에는 다른 차원의 문제였다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1086,13 +1086,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9030", 128, TRUE);
 	OutputLine(NULL, "「ちょっと待て待て！！",
-		   NULL, "\"Hold on, hold on!!!", Line_WaitForInput);
+		   NULL, "\"잠깐만 기다려 봐!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9031", 128, TRUE);
 	OutputLine(NULL, "　そんな恐ろしいものがどうして雛見沢にあるんだよ？！",
-		   NULL, " Why is something that terrifying here in Hinamizawa?!", Line_WaitForInput);
+		   NULL, " 그렇게 무서운게 어떻게 히나미자와에 있는 거야?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9032", 128, TRUE);
 	OutputLine(NULL, "　そしてどうして梨花ちゃんが持ってるんだよ？！」",
-		   NULL, " And why does Rika-chan have it?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그리고 어째서 리카쨩이 갖고 있는 건데?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1101,10 +1101,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9036", 128, TRUE);
 	OutputLine(NULL, "「昨日、偶然にもこのカケラに漂着したのです。",
-		   NULL, "\"It just happened to drift into this Fragment yesterday.", Line_WaitForInput);
+		   NULL, "\"어제, 우연히도 이 조각에 떠밀려 온 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9037", 128, TRUE);
 	OutputLine(NULL, "……今日一日を掛けて、安全に処分するつもりだったのですが」",
-		   NULL, " ...I had been planning to spend all of today safely disposing of it.\"", Line_Normal);
+		   NULL, " ...오늘 하루를 다 써가며 안전하게 처분할 생각이었지만요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -1112,10 +1112,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9033", 128, TRUE);
 	OutputLine(NULL, "「そういうのは俺にじゃなくて、梨花ちゃんに直接、言った方がいいんじゃないのか？",
-		   NULL, "\"Shouldn't you be telling that to Rika-chan directly instead of me?", Line_WaitForInput);
+		   NULL, "\"나한테 그러지 말고 리카쨩한테 직접 말하는게 좋지 않아?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9034", 128, TRUE);
 	OutputLine(NULL, "　というか、今すぐ言って、着るのをやめさせるべきじゃないのかッ？！」",
-		   NULL, " I mean, shouldn't you be telling her right now to stop them from wearing the suits?!\"", Line_Normal);
+		   NULL, " 그러니까, 지금 말해서 입지 말라고 하면 되는거 아니냐고?!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -1123,10 +1123,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9038", 128, TRUE);
 	OutputLine(NULL, "「困ったことに、あの水着の魔力には、このカケラの神である僕を拒む力もあるのです。",
-		   NULL, "\"The problem is that the magic power in those swimsuits also has the power to ward away the gods of this Fragment, like me.", Line_WaitForInput);
+		   NULL, "\"곤란하게도 그 수영복의 마력에는 이 조각의 신인 저를 거부하는 힘도 있는 거에요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9039", 128, TRUE);
 	OutputLine(NULL, "なので、水着を持っている梨花には僕の声が届かないのです」",
-		   NULL, " So my voice can't reach Rika while she has the swimsuits with her.\"", Line_Normal);
+		   NULL, " 그래서 수영복을 입은 리카에게는 제 목소리가 닿지 않는 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -1134,13 +1134,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9035", 128, TRUE);
 	OutputLine(NULL, "「な、なるほどな……！",
-		   NULL, "\"I-I see...!", Line_WaitForInput);
+		   NULL, "\"그, 그렇구나...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9036", 128, TRUE);
 	OutputLine(NULL, "　今からきっかり１時間がタイムリミットか！",
-		   NULL, " So there's a strict time limit of one hour from now!", Line_WaitForInput);
+		   NULL, " 지금부터 딱 1시간이 타임 리미트인가!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9037", 128, TRUE);
 	OutputLine(NULL, "　今がちょうど１時だから、２時までに何とかしないといけないってことか！」",
-		   NULL, " It just turned one o'clock, so I'll have to do something by two!\"", Line_Normal);
+		   NULL, " 지금이 딱 오후 1시니까 2시까지 뭐라도 해야 한다는 건가!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【羽入】
@@ -1148,10 +1148,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9040", 128, TRUE);
 	OutputLine(NULL, "「僕の力を、エントランスにあるゴミ箱の１つに込めました。",
-		   NULL, "\"I've imbued one of the trash cans at the entrance with my power.", Line_WaitForInput);
+		   NULL, "\"저의 힘을 입구에 있는 쓰레기통 중 하나에 부여했어요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9041", 128, TRUE);
 	OutputLine(NULL, "そのゴミ箱に放り込めば、無事にこのカケラの外へ送り出すことが出来ますのです」",
-		   NULL, " If you toss them into the trash can, then I can safely expel them from this Fragment.\"", Line_Normal);
+		   NULL, " 그 쓰레기통에 넣으면 무사히 이 조각들을 바깥으로 내보낼 수 있는 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1163,10 +1163,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9038", 128, TRUE);
 	OutputLine(NULL, "「了解したぜッ。",
-		   NULL, "\"Roger that.", Line_WaitForInput);
+		   NULL, "\"알았어.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9039", 128, TRUE);
 	OutputLine(NULL, "つまり、部活メンバーの４人から、地球を滅ぼす水着を引っぺがして、そのゴミ箱に放り込めばミッションコンプリートってワケだなッ！」",
-		   NULL, " Which means once I strip the four club members of the world-destroying swimsuits and toss them into the trash can, my mission will be complete!\"", Line_Normal);
+		   NULL, " 즉, 부활동 멤버 4명한테서 지구를 멸망시킬 수영복을 벗기고, 그 쓰레기통에 집어 넣으면 미션 컴플리트로군!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlaySE( 0, "a5_10315", 70, 64 );
@@ -1177,12 +1177,12 @@ void main()
 	DrawSceneWithMask( "background/p2", "effect/left", 0, 0, 300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一は意気込んで更衣室を飛び出す。",
-		   NULL, "Keiichi leapt out of the changing room with enthusiasm.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "케이이치는 마음을 다잡고는 탈의실을 뛰쳐나온다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　せっかく着た水着を、やっぱり脱いでくれなんて、簡単には聞いてもらえない話だろう。",
-		   NULL, "He knew it wouldn't be easy to convince them to take off the swimsuits they just put on.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "기왕 입은 수영복을 벗어달라니, 역시 쉽게 받아들이기 어려운 부탁일 거다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1193,13 +1193,13 @@ void main()
 	DrawScene( "black", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし今は地球の、いや銀河の命運がかかってる！",
-		   NULL, "Yet now the fate of the world, nay, the galaxy, was riding on this very thing!", Line_Normal);
+		   NULL, "하지만 지금은 지구의 아니, 은하의 운명이 걸려 있다!", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それに俺たちは、苦楽を共にし、肩を並べて死線を潜ってきた戦友だ！",
-		   NULL, "Besides, they were friends-in-arms who faced death together and shared both joys and hardships!", Line_WaitForInput);
+		   NULL, "그리고 우리는, 동고동락하며 사선을 함께 건너온 전우다!", Line_WaitForInput);
 	OutputLine(NULL, "　状況を理解して応じてくれるはずッ。",
-		   NULL, " Surely they would understand and listen!", Line_Normal);
+		   NULL, " 상황을 이해하고 받아줄 거다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1210,17 +1210,17 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9040", 128, TRUE);
 	OutputLine(NULL, "「おおい、みんなぁ！！",
-		   NULL, "\"Heeey, everyone!!!", Line_WaitForInput);
+		   NULL, "\"야야, 얘들아!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9041", 128, TRUE);
 	OutputLine(NULL, "　大変なことになったぞ、話を聞いてくれええぇえぇ！！！」",
-		   NULL, " We have big trouble! Listen to meee!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 큰일났어, 얘기 좀 들어봐아아아아!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、そんな圭一でも面食らうような異様な熱気が、プールサイドを覆っていた……。",
-		   NULL, "However, the poolside was shrouded in a strange fervor that left Keiichi taken aback...", Line_Normal);
+		   NULL, "하지만, 그런 케이이치라도 당황할 법한 이상한 열기가 수영장 사이드바를 덮고 있었다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
