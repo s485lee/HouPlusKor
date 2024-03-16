@@ -94,7 +94,7 @@ void main()
 	//;【梨花】
 	ModSetLayerFilter(1, 256, "none");
 	ModDrawCharacterWithFiltering(1, 5, "sprite/ri2_komaru_a2_", "0", "effect/left", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 2, 300, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9000", 128, TRUE);
 	OutputLine(NULL, "「祭具殿なんて、年に何度も使わないのに、どうしてこうもマメに掃除をしなきゃならないのよ」",
 		   NULL, "\"제구전은 1년에 몇 번 쓰지도 않는데 왜 이렇게 부지런히 청소해야 하는 거야\"", GetGlobalFlag(GLinemodeSp));
@@ -118,7 +118,7 @@ void main()
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );
 	ModSetLayerFilter(3, 256, "none");
 	ModDrawCharacterWithFiltering(3, 5, "sprite/ri2_majime_a1_", "2", "effect/right", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 1, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9001", 128, TRUE);
 	OutputLine(NULL, "「うわ。",
 		   NULL, "\"우왓.", Line_WaitForInput);
@@ -160,7 +160,7 @@ void main()
 	//;【梨花】
 	ModDrawCharacter(3, 5, "sprite/ri2_fuman_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	PlaySE( 0, "wav/lf164", 70, 64 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9004", 128, TRUE);
 	OutputLine(NULL, "「カチーン。",
 		   NULL, "\"빠직.", Line_WaitForInput);
@@ -208,7 +208,7 @@ void main()
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacter(3, 5, "sprite/ri2_majime_a1_", "2", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9006", 128, TRUE);
 	OutputLine(NULL, "「は？",
 		   NULL, "\"뭐?", Line_WaitForInput);
@@ -245,7 +245,7 @@ void main()
 
 	//;【梨花】
 	ModDrawCharacter(3, 5, "sprite/ri2_fuman_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9008", 128, TRUE);
 	OutputLine(NULL, "「……腹立つわね。",
 		   NULL, "\"...열받네.", Line_WaitForInput);
@@ -258,7 +258,7 @@ void main()
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9010", 128, TRUE);
 	OutputLine(NULL, "さっさと済ませてしまおうかしら。",
 		   NULL, " 얼른 끝내버릴까. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9011", 128, TRUE);
 	OutputLine(NULL, "今日はお昼に、部活のみんなとプールに遊びに行くしね」",
 		   NULL, "오늘은 점심에 부활동 친구들과 수영장에 놀러가야 하니까.\"", Line_Normal);
@@ -287,7 +287,7 @@ void main()
 
 	//;【梨花】
 	//;ld c,rik_1,24
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9012", 128, TRUE);
 	OutputLine(NULL, "「………？」",
 		   NULL, "\"......?\"", GetGlobalFlag(GLinemodeSp));
@@ -312,7 +312,7 @@ void main()
 
 	//;【梨花】
 	//;ld c,rik_1,80
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9013", 128, TRUE);
 	OutputLine(NULL, "「何かしら。",
 		   NULL, "\"뭘까.", Line_WaitForInput);
@@ -415,7 +415,7 @@ void main()
 	//;【梨花】
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );
 	ModDrawCharacter(1, 5, "sprite/ri2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9015", 128, TRUE);
 	OutputLine(NULL, "「勝馬投票券は、勝馬が確定するまで、お捨てにならないようにお願い致します。",
 		   NULL, "\"승마투표권은 우승마가 확정될 때까지 버리지 말아주세요.", Line_WaitForInput);
@@ -484,7 +484,7 @@ void main()
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 0, FALSE );
 	DrawScene( "background/p1", 400 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9017", 128, TRUE);
 	OutputLine(NULL, "「よくわかりませんですが、ここで暴れたら魅音が怒られるということはわかりましたです。",
 		   NULL, "\"잘은 모르겠지만 여기서 날뛰다가 미온한테 혼나는 건 알겠는 거에요.", Line_WaitForInput);
@@ -510,7 +510,7 @@ void main()
 	PlaySE( 0, "a1_17270", 70, 64 );
 	//;bg Mati10a,0
 	ModDrawCharacter(1, 5, "sprite/ri2_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9019", 128, TRUE);
 	OutputLine(NULL, "「忘れていましたです。",
 		   NULL, "\"깜박했던 거에요.", Line_WaitForInput);
@@ -561,7 +561,7 @@ void main()
 	ClearMessage();
 
 	//;【梨花】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9021", 128, TRUE);
 	OutputLine(NULL, "「何とこれは！",
 		   NULL, "\"이건 맙소사!", Line_WaitForInput);
@@ -625,7 +625,7 @@ void main()
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri2_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9023", 128, TRUE);
 	OutputLine(NULL, "「それは大丈夫です。",
 		   NULL, "\"그건 괜찮아요.", Line_WaitForInput);
@@ -635,7 +635,7 @@ void main()
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9025", 128, TRUE);
 	OutputLine(NULL, "そしてこれを着れば、たちまちの内に魅力が溢れ出し、異性のハートをブラックホールの如く、ぎゅんぎゅん吸い寄せちゃうのです」",
 		   NULL, "그리고 이걸 입으면 금세 매력이 흘러넘쳐 이성의 하트를 블랙홀처럼 슉슈슉 빨아버리는 거에요.\"", Line_Normal);
@@ -678,7 +678,7 @@ void main()
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri2_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9026", 128, TRUE);
 	OutputLine(NULL, "「圭一の分はないのです。",
 		   NULL, "\"케이이치 거는 없는 거에요.", Line_WaitForInput);
@@ -1279,7 +1279,7 @@ void main()
 	//;cl r,0
 	ModDrawCharacter(3, 5, "sprite/ri8_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 0, FALSE );
 	DrawScene( "background/oki_pool2", 400 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9029", 128, TRUE);
 	OutputLine(NULL, "「み～♪",
 		   NULL, "\"미~♪", Line_WaitForInput);
@@ -1562,7 +1562,7 @@ void main()
 	ModSetLayerFilter(8, 256, "none");
 	ModDrawCharacter(8, 5, "sprite/ri8_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 8, 0, FALSE );
 	DrawSceneWithMask( "background/oki_pool2", "effect/right", 0, 0, 300 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9031", 128, TRUE);
 	OutputLine(NULL, "「おや、圭一なのです♪",
 		   NULL, "\"어라, 케이이치인 거에요♪", Line_WaitForInput);
@@ -1726,7 +1726,7 @@ void main()
 	//;【梨花】
 	ModSetLayerFilter(6, 256, "none");
 	ModDrawCharacterWithFiltering(6, 5, "sprite/ri8_warai_a1_", "2", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 2, 300, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9033", 128, TRUE);
 	OutputLine(NULL, "「ならボクの、ちっとも年齢相応に育ってくれない、蕾のようなお胸も寄せてみますのですよ。",
 		   NULL, "\"그럼 조금도 나이 맞게 자라주지 않는 저의 꽃망울만한 가슴도 모아보는 거에요.", Line_WaitForInput);
@@ -1829,7 +1829,7 @@ void main()
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri8_niko_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 0, FALSE );
 	DrawSceneWithMask( "background/oki_pool1", "effect/right", 0, 0, 300 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9035", 128, TRUE);
 	OutputLine(NULL, "「この水着が地球を滅ぼす……？",
 		   NULL, "\"이 수영복이 지구를 멸망시켜요...?", Line_WaitForInput);
@@ -2584,7 +2584,7 @@ void main()
 	DisableWindow();
 	//;【詩音】
 	ModDrawCharacter(2, 6, "sprite/si6_huteki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>`시온`</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>시온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/meha/6/shion9016", 128, TRUE);
 	OutputLine(NULL, "「銀河を守る為かどうかはかなり怪しいですが。",
 		   NULL, "\"은하를 지키기 위해서일지는 제법 수상하지만요.", Line_WaitForInput);
@@ -3615,7 +3615,7 @@ void main()
 		   NULL, "\"정말이야? 시온의 기습이 먹히지 않았다고...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9124", 128, TRUE);
 	OutputLine(NULL, "しかも、今の失敗で、もう警戒モードに入っちまっただろうし……。",
-		   NULL, " A게다가 지금 실패로 이미 경계모드에 들어갔을테니...", Line_WaitForInput);
+		   NULL, " 게다가 지금 실패로 이미 경계모드에 들어갔을테니...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9125", 128, TRUE);
 	OutputLine(NULL, "マズイな、……次はどう仕掛けりゃいいんだ……」",
 		   NULL, " 위험한데, ...다음은 어떻게 해야 하지......\"", GetGlobalFlag(GLinemodeSp));
@@ -4673,7 +4673,7 @@ void main()
 		   NULL, " 저기 눈에 하트 달려있는 친위대 놈들 좀 봐!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9176", 128, TRUE);
 	OutputLine(NULL, "　梨花ちゃんの為なら死ねるって顔をしてるぞ！！」",
-		   NULL, " '리카쨩을 위해서라면 죽을 수도 있다는 표정이야!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 리카쨩을 위해서라면 죽을 수도 있다는 표정이야!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4775,7 +4775,7 @@ void main()
 	ModPlayVoiceLS(4, 6, "ps3/meha/6/shion9079", 128, TRUE);
 	ModPlayVoiceLS(5, 4, "ps3/meha/4/satoko9049", 128, TRUE);
 	OutputLine(NULL, "「「おおッ！！」」",
-		   NULL, "\"\"Yeah!!!\"\"", Line_Normal);
+		   NULL, "\"\"오오!!!\"\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4791,7 +4791,7 @@ void main()
 	DrawScene( "background/oki_pool1", 400 );
 
 	//;【親衛隊】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>Bodyguards</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>친위대</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob069000", 128, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/meha/0/mob079000", 128, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/meha/0/mob089000", 128, TRUE);
@@ -4800,21 +4800,21 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【イケメンたち】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>Hotties</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>꽃미남</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob019000", 128, TRUE);
 	OutputLine(NULL, "「さぁ、梨花さん、日焼け止めを塗ってさしあげましょう」",
 		   NULL, "\"자, 리카 씨, 선크림을 발라드리죠.\"", Line_Normal);
 	ClearMessage();
 
 	//;【イケメンたち】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>Hotties</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>꽃미남</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob029000", 128, TRUE);
 	OutputLine(NULL, "「いえいえ、それよりも私と一緒に、パラソルの下でタピオカミルクティーを如何です？」",
 		   NULL, "\"아니, 그것보단 저와 함께 파라솔 밑에서 타피오카 밀크티 어떤가요?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【イケメンたち】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>Hotties</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>꽃미남</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob039000", 128, TRUE);
 	OutputLine(NULL, "「あぁ、梨花さんのお肌が日に焼かれるなんて許せないっ。",
 		   NULL, "\"아아, 리카 씨의 피부가 햇살에 그을리다니 용납할 수 없어.", Line_WaitForInput);
@@ -4827,7 +4827,7 @@ void main()
 	//;【梨花】
 	//;mld c,rik_5,80
 	DrawScene( "background/sora", 400 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9038", 128, TRUE);
 	OutputLine(NULL, "「み～～♪",
 		   NULL, "\"미~~♪ ", Line_WaitForInput);
@@ -4866,7 +4866,7 @@ void main()
 	DrawBustshot( 4, "effect/hara", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 50, TRUE );
 	ShakeScreen( 0, 3, 100, 1, 50, );
 	//;【親衛隊】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>Bodyguards</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>친위대</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob069001", 128, TRUE);
 	OutputLine(NULL, "「むッ、何事ッ？！？！」",
 		   NULL, "\"무, 무슨 일이냐?!?!\"", Line_Normal);
@@ -4876,7 +4876,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　パカパカパン！",
-		   NULL, "Pop pop pop!", Line_ContinueAfterTyping);
+		   NULL, "콰광콰광퍼엉", Line_ContinueAfterTyping);
 	PlaySE( 0, "cracker3", 70, 64 );
 	ShakeScreen( 0, 6, 100, 2, 50, );
 	ShakeScreen( 2, 6,  100 , 2, 50, );
@@ -4885,7 +4885,7 @@ void main()
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	OutputLine(NULL, "　破裂音と共に、大勢が一斉にクシャミを始める。",
-		   NULL, " 콰광콰광퍼엉! 폭발음과 함께 여럿사람이 일제히 재채기하기 시작한다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 폭발음과 함께 여럿사람이 일제히 재채기하기 시작한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -4902,7 +4902,7 @@ void main()
 	DrawBustshot( 1, "effect/hoda", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 0, FALSE );
 	DrawScene( "background/oki_pool2", 400 );
 	//;【親衛隊】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>Bodyguards</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>친위대</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob079001", 128, TRUE);
 	OutputLine(NULL, "「敵襲ッ、敵襲ううぅう！！",
 		   NULL, "\"적습, 적스으으읍!!", Line_WaitForInput);
@@ -4914,7 +4914,7 @@ void main()
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacterWithFiltering(2, 5, "sprite/ri8_niyari_a1_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 3, 300, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9041", 128, TRUE);
 	OutputLine(NULL, "「落ち着きなさい。",
 		   NULL, "\"침착하렴.", Line_WaitForInput);
@@ -4938,7 +4938,7 @@ void main()
 	PlaySE( 1, "a5_10315", 70, 64 );
 	DrawBustshot( 3, "effect/hton", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 50, TRUE );
 	ShakeScreen( 0, 3, 100, 1, 50, );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>Hotties</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>イケメン</color>", NULL, "<color=#f5e6d3>꽃미남</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob019001", 128, TRUE);
 	OutputLine(NULL, "「さぁ、梨花さん、私たちの肉の影に！！」",
 		   NULL, "\"자, 리카 씨. 우리들을 고기방패로!!\"", Line_Normal);
@@ -5001,7 +5001,7 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si5_akuwarai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 50, TRUE );
 	ShakeScreen( 2, 6,  100 , 2, 50, );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>Bodyguards</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>친위대</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob069002", 128, TRUE);
 	ModPlayVoiceLS(5, 0, "ps3/meha/0/mob079003", 128, TRUE);
 	ModPlayVoiceLS(6, 0, "ps3/meha/0/mob089001", 128, TRUE);
@@ -5092,7 +5092,7 @@ void main()
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri8_komaru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 0, FALSE );
 	DrawScene( "background/oki_pool1", 400 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9044", 128, TRUE);
 	OutputLine(NULL, "「沙都子、何を怒っているのですか？",
 		   NULL, "\"사토코, 어째서 화가난 거에요?", Line_WaitForInput);
@@ -5113,7 +5113,7 @@ void main()
 	DisableWindow();
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri8_def_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9046", 128, TRUE);
 	OutputLine(NULL, "「何を言っているのです？？？」",
 		   NULL, "\"무슨 말을 하는 거에요???\"", Line_Normal);
@@ -5160,7 +5160,7 @@ void main()
 
 	//;【梨花】
 	//;ld l,rik_1,80
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9047", 128, TRUE);
 	OutputLine(NULL, "「沙都子の寝相も欠伸も、クセも好みも、ボクは何でもお見通しなのですよ。",
 		   NULL, "\"사토코의 잠버릇도, 하품도, 버릇도, 취향도, 저는 뭐든지 꿰뚫어보고 있는 거에요.", Line_WaitForInput);
@@ -5248,7 +5248,7 @@ void main()
 		   NULL, "\"다, 당했다...!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9185", 128, TRUE);
 	OutputLine(NULL, "　詩音、後は頼む！！",
-		   NULL, " 온, 뒷일을 부탁할게!!", Line_WaitForInput);
+		   NULL, " 시온, 뒷일을 부탁할게!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9186", 128, TRUE);
 	OutputLine(NULL, "　俺は何とか切り抜ける……！！",
 		   NULL, " 난 어떻게든 벗어날게...!!", Line_WaitForInput);
@@ -5321,7 +5321,7 @@ void main()
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri8_niyari_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 0, FALSE );
 	DrawScene( "background/oki_pool1", 400 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9049", 128, TRUE);
 	OutputLine(NULL, "「………？",
 		   NULL, "\"......?", Line_WaitForInput);
@@ -5348,7 +5348,7 @@ void main()
 	OutputLine(NULL, "　沙都子のトラップはとても危険。",
 		   NULL, "사토코의 트랩은 무척이나 위험하다.", Line_WaitForInput);
 	OutputLine(NULL, "だからこそ、トラップが発動した時、自身が巻き込まれることがないよう、常に無意識に注意している。",
-		   NULL, " 렇기 때문에 트랩이 발동했을 때 자신이 말려들지 않도록 항상 무의식적으로 주의하고 있다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그렇기 때문에 트랩이 발동했을 때 자신이 말려들지 않도록 항상 무의식적으로 주의하고 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -5377,7 +5377,7 @@ void main()
 
 	//;【梨花】
 	//;ld c,rik_1,80
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9052", 128, TRUE);
 	OutputLine(NULL, "「え？！」",
 		   NULL, "\"에?!\"", GetGlobalFlag(GLinemodeSp));
@@ -5498,7 +5498,7 @@ void main()
 	//;【梨花】
 	ModDrawCharacter(1, 5, "sprite/ri8_majime_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 0, FALSE );
 	DrawScene( "background/oki_pool1", 400 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9053", 128, TRUE);
 	OutputLine(NULL, "「そんなッ！！",
 		   NULL, "\"그런!!", Line_WaitForInput);
@@ -5515,7 +5515,7 @@ void main()
 	DrawBustshot( 5, "effect/hara", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 50, TRUE );
 	ShakeScreen( 0, 3, 100, 1, 50, );
 	//;【親衛隊】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>Bodyguards</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>親衛隊</color>", NULL, "<color=#f5e6d3>친위대</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob089003", 128, TRUE);
 	OutputLine(NULL, "「梨花さまをお救いしろおおおぉおおおぉ、梨花さまあああぁああああッ！！！」",
 		   NULL, "\"리카 님을 구해라아아아아아아아, 리카니이이이이이이이임!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -5631,12 +5631,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花は仕留めたが、まだレナを残している。",
-		   NULL, "리카는 잡았지만 아직 레나가 남아있어.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "리카는 잡았지만 아직 레나가 남아있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　頼もしい仲間も全て失ってしまった。",
-		   NULL, "든든한 동료들을 모두 잃고 말았어.", Line_WaitForInput);
+		   NULL, "든든한 동료들을 모두 잃고 말았다.", Line_WaitForInput);
 	OutputLine(NULL, "……絶望だ。",
 		   NULL, " ...절망적이야.", Line_Normal);
 	ClearMessage();
@@ -5664,7 +5664,7 @@ void main()
 	//;bg sora_d,22
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一はゴム紐付きバスタオルを用意して梨花に近付くが……、この時、初めて、……致命的な事態に気付く。",
-		   NULL, "케이이치는 고무줄이 달린 목욜타월을 들고 리카에게 다가가지만... 그때, 처음으로... 사태의 심각성을 깨닫는다.", Line_Normal);
+		   NULL, "케이이치는 고무줄이 달린 목욕타월을 들고 리카에게 다가가지만... 그때, 처음으로... 사태의 심각성을 깨닫는다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5958,7 +5958,7 @@ void main()
 	ModDrawCharacter(4, 2, "sprite/re6_bikkuri_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 200, TRUE );
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9030", 128, TRUE);
 	OutputLine(NULL, "………あ、」",
-		   NULL, " ...Ah!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...아,\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【圭一】
@@ -7213,7 +7213,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　デザートを美少女に例えて、ベロベロムシャムシャと食べる変態紳士の彼が、今この瞬間は救世主に見えた……。",
-		   NULL, "저트를 미소녀에 비유해서 할짝할짝 와구와구 먹는 변태신사인 그가, 지금 이순간은 구세주로 보였다...", Line_Normal);
+		   NULL, "디저트를 미소녀에 비유해서 할짝할짝 와구와구 먹는 변태신사인 그가, 지금 이순간은 구세주로 보였다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -7231,7 +7231,7 @@ void main()
 	ModDrawCharacter(1, 4, "sprite/sa9_akireru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 0, FALSE );
 	ModDrawCharacter(2, 5, "sprite/ri6_komaru_a2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 0, FALSE );
 	DrawScene( "background/oki_pool1", 400 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9055", 128, TRUE);
 	OutputLine(NULL, "「みー。",
 		   NULL, "\"미~.", Line_WaitForInput);
@@ -7262,7 +7262,7 @@ void main()
 
 	ModDrawCharacter(2, 5, "sprite/ri6_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	//;【梨花】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9058", 128, TRUE);
 	OutputLine(NULL, "「ところで、ボクはどうしてエンジェルモートの恰好なのですか？」",
 		   NULL, "\"그나저나, 저는 왜 엔젤모트의 옷을 입고 있는 거에요?\"", GetGlobalFlag(GLinemodeSp));
@@ -7316,7 +7316,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【梨花】
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9059", 128, TRUE);
 	OutputLine(NULL, "「羽入が言うには、プールサイドで水着美少女とジュースを飲んでいるそうですが」",
 		   NULL, "\"하뉴가 말하기로는, 풀사이드에서 수영복 미소녀와 주스를 마시고 있다는데요.\"", GetGlobalFlag(GLinemodeSp));
@@ -7407,7 +7407,7 @@ void main()
 	//;【梨花】
 	Wait( 1000 );
 	ModDrawCharacter(1, 5, "sprite/ri6_komaru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9060", 128, TRUE);
 	OutputLine(NULL, "「……みー」",
 		   NULL, "\"...미이.\"", GetGlobalFlag(GLinemodeSp));
@@ -7429,7 +7429,7 @@ void main()
 	//;【梨花】
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );
 	ModDrawCharacterWithFiltering(3, 5, "sprite/ri6_warai_a1_", "2", "effect/right", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 1, 200, TRUE );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9061", 128, TRUE);
 	OutputLine(NULL, "「こっちにはいなかったのですよ。",
 		   NULL, "\"이쪽에는 없는 거에요.", Line_WaitForInput);
