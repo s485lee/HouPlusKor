@@ -472,10 +472,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9004", 128, TRUE);
 	OutputLine(NULL, "「いやいや、今日は大人しく、フツーに遊ぶよ。",
-		   NULL, "\"No, no. Today let's just behave and enjoy the pool.", Line_WaitForInput);
+		   NULL, "\"아니아니, 오늘은 얌전하게 수영장에서 놀 거야.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9005", 128, TRUE);
 	OutputLine(NULL, "このプール、改装工事が終わったばかりだし、工事明けには婆っちゃも来賓で呼ばれてるし。",
-		   NULL, " 아니아니, 오늘은 얌전하게 수영장에서 놀 거야. 여기 수영장이 개장공사도 이제 막 끝난데다, 할멈도 공사 직후에 내빈으로 초대받았어.", Line_WaitForInput);
+		   NULL, " 여기 수영장이 개장공사도 이제 막 끝난데다, 할멈도 공사 직후에 내빈으로 초대받았어.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9006", 128, TRUE);
 	OutputLine(NULL, "顔は潰せないよねぇ」",
 		   NULL, " 체면 구기게 만들면 안되지.\"", Line_Normal);
@@ -672,7 +672,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9009", 128, TRUE);
 	OutputLine(NULL, "「ってことは、俺の場合は、プールの水着ギャルたちのハートをぎゅんぎゅん、ブラックホールしちまうってワケかぁ♪」",
-		   NULL, "\"그럼 나는 수영장 비키니들의 하트를 슉슈슉 블랙홀 해버리는 건가♪\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그럼 나는 수영장 비키니들의 하트를 슉슈슉 블랙홀처럼 끌어드리는 건가♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1052,7 +1052,7 @@ void main()
 	OutputLine(NULL, "　眩い世界は次の瞬間、宇宙に変わる。",
 		   NULL, "눈부신 세계는 다음 순간 우주로 변한다.", Line_WaitForInput);
 	OutputLine(NULL, "そして、青く輝く我らが地球が………、",
-		   NULL, " T그리고 푸르게 빛나고 있는 지구가...", Line_WaitForInput);
+		   NULL, " 그리고 푸르게 빛나고 있는 지구가...", Line_WaitForInput);
 	OutputLine(NULL, "大爆発ッ！！！",
 		   NULL, " 대폭발!!!", Line_ContinueAfterTyping);
 	PlaySE( 0, "bb", 70, 64 );
