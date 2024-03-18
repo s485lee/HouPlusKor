@@ -97,7 +97,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9000", 128, TRUE);
 	OutputLine(NULL, "「祭具殿なんて、年に何度も使わないのに、どうしてこうもマメに掃除をしなきゃならないのよ」",
-		   NULL, "\"제구전은 1년에 몇 번 쓰지도 않는데 왜 이렇게 부지런히 청소해야 하는 거야\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"제구전은 1년에 몇 번 쓰지도 않는데 왜 이렇게 부지런히 청소해야 하는 거야.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -318,7 +318,7 @@ void main()
 		   NULL, "\"뭘까.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/meha/5/rika9014", 128, TRUE);
 	OutputLine(NULL, "……また、祭具殿に封印された不思議な魔法のお宝だったりするのかしら」",
-		   NULL, " ...또 제구전에 봉인된 신비한 마법 보물이라도 있는 걸까\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...또 제구전에 봉인된 신비한 마법 보물이라도 있는 걸까.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
