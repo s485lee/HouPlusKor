@@ -40,23 +40,23 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼方に見える興宮の街からは、",
-		   NULL, "In the distant town of Okinomiya", Line_Continue);
+		   NULL, "저 멀리 보이는 오키노미야의 모습에서,", Line_Continue);
 	OutputLine(NULL, "火事のような煙があちこちから立ち上っている。",
-		   NULL, " we saw smoke rising from fires here and there.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 화재가 일어난 듯한 연기가 이곳저곳에서 피어오르고 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それらが煙り、街全体を不穏に覆っているのが一望できる。",
-		   NULL, "We had a very clear view of it as it hung ominously over the whole town.", Line_Normal);
+		   NULL, "그 연기들이 이리저리 뒤섞여 거리 전체를 불온하게 뒤덮고 있는 모습이 한 눈에 보인다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　風は時折、静寂な街に木霊する奇声や怒声、",
-		   NULL, "Occasionally the wind carried the sound", Line_Continue);
+		   NULL, "바람은 조용한 마을에 때때로 메아리치는 괴성, 비명,", Line_Continue);
 	OutputLine(NULL, "あるいは見当もつかない不気味な音を運んでくる。",
-		   NULL, " of screams, raging, and unidentifiable, these portentous noises echoing in the quiet town.", Line_Normal);
+		   NULL, " 혹은 짐작도 가지 않는 꺼림칙한 소리를 몰고 왔다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
