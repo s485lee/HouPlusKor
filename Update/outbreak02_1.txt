@@ -72,7 +72,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0770", 128, TRUE);
 	OutputLine(NULL, "「……まるで、街の断末魔が聞こえるようだよ。」",
-		   NULL, "\"......It sounds like something's dying cry.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......마치, 마을의 단말마가 들리는 것 같아.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -83,7 +83,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0600", 128, TRUE);
 	OutputLine(NULL, "「このおかしな騒ぎは雛見沢だけじゃないんだね……。」",
-		   NULL, "\"This isn't just in Hinamizawa, huh...\"", Line_Normal);
+		   NULL, "\"이 이상한 소동이 히나미자와에만 펼처진 게 아닌 거네...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -95,7 +95,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0730", 128, TRUE);
 	OutputLine(NULL, "「ウィルスがとうとう、興宮にまで広がった、……ということなのか……？」",
-		   NULL, "\"Does this mean... the virus has finally spread to Okinomiya...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"바이러스가 결국, 오키노미야에까지 퍼진 건가...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -105,7 +105,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0060", 128, TRUE);
 	OutputLine(NULL, "「…………梨花……。」",
-		   NULL, "\"............Rika......\"", Line_Normal);
+		   NULL, "\"............리카......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -113,39 +113,39 @@ void main()
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢に残ると言って、ひとり残った梨花。",
-		   NULL, "Rika had stayed behind in Hinamizawa of her own volition.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "자진해서 히나미자와에 홀로 남은 리카.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは危険ではないかと止めたが、",
-		   NULL, "We tried to stop her since it was dangerous,", Line_Continue);
+		   NULL, "우리는 그게 위험할 것 같아서 말렸지만,", Line_Continue);
 	OutputLine(NULL, "この光景を見ては、勝手の知れた雛見沢の方がまだマシかもしれない。",
-		   NULL, " but seeing this sight, maybe it really was better to stay in Hinamizawa where we knew our way around.", Line_Normal);
+		   NULL, " 이 광경을 보는 한 아직 상황을 파악할 수 있는 히나미자와 쪽이 더 안전할지도 모르겠다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "black", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　怪我をしている魅音だが、ひとまずは落ち着いているように見える。",
-		   NULL, "Mion was still injured, but for the time being she seemed stable.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "부상을 입은 미온은 우선 진정된 것처럼 보였다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、所詮は応急手当だ。",
-		   NULL, "Still, she'd only been given first-aid.", Line_Continue);
+		   NULL, "하지만 응급처치를 해놨을 뿐.", Line_Continue);
 	OutputLine(NULL, "医者に見せる必要がある。",
-		   NULL, " She still needed to see a doctor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 의사에게 보여줄 필요가 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江診療所は暴徒に荒らされ、すでに無人で、入江は消息不明だ。",
-		   NULL, "The rioters had broken into the Irie Clinic, so it was abandoned, and Irie was nowhere to be found.", Line_Normal);
+		   NULL, "이리에 진료소는 폭도에게 휩쓸려 사람도 없고, 이리에는 소식 불명이지만.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -156,7 +156,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0740", 128, TRUE);
 	OutputLine(NULL, "「とにかく、医者を見つけないとな。」",
-		   NULL, "\"Anyway, we need to find you a doctor.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"일단, 의사를 찾아봐야겠어.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -166,7 +166,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0780", 128, TRUE);
 	OutputLine(NULL, "「おじさんは平気だよ。痛いには痛いけど、だいぶ落ち着いてきた。」",
-		   NULL, "\"I'm doing fine. Sure, it hurts, but it's settled down a lot.\"", Line_Normal);
+		   NULL, "\"아저씨는 괜찮아. 아프긴 하지만 꽤 괜찮아졌어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -176,7 +176,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0610", 128, TRUE);
 	OutputLine(NULL, "「駄目。ちゃんとした手当てを受けないと、あとから膿んでくることもあるんだから。」",
-		   NULL, "\"No. If you don't get proper treatment, then it could fester later.\"", Line_Normal);
+		   NULL, "\"안 돼. 제대로 치료를 받지 않으면 나중에 문제가 생길 수도 있으니까.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -186,7 +186,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0070", 128, TRUE);
 	OutputLine(NULL, "「お医者を探す他ありませんですわ。」",
-		   NULL, "\"We'll just have to search for a doctor.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"병원을 찾을 수 밖에 없사와요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -196,7 +196,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0750", 128, TRUE);
 	OutputLine(NULL, "「この状況で、医者が開いてるとは思い難いけどな。」",
-		   NULL, "\"It's hard to imagine any doctors are open for business with things like this.\"", Line_Normal);
+		   NULL, "\"이 상황에 연 병원이 있을지는 모르지만 말야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -205,7 +205,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0790", 128, TRUE);
 	OutputLine(NULL, "「……園崎組の事務所を目指そう。母さんたちなら、きっと何とかしてくれるはず……。」",
-		   NULL, "\"......Let's head for the office of the Sonozaki Group. My mother and the others there should be able to do something...\"", Line_Normal);
+		   NULL, "\"......소노자키 조직 사무소로 가자. 엄마라면 분명 어떻게든 해줄 거야...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -214,7 +214,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0620", 128, TRUE);
 	OutputLine(NULL, "「詩ぃちゃんもそこかな。」",
-		   NULL, "\"You think Shii-chan's there too?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"시이쨩도 거기에 있으려나.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -224,7 +224,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0800", 128, TRUE);
 	OutputLine(NULL, "「こんな事態になったら、あそこが一番安全だろうからね。」",
-		   NULL, "\"Given what's happened, that's the safest place to be.\"", Line_Normal);
+		   NULL, "\"이런 사태라면 거기가 제일 안전할 테니까.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -233,7 +233,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0080", 128, TRUE);
 	OutputLine(NULL, "「……魅音さんのお母さんたちが、冷静でいてくれればいいんですけれど……。」",
-		   NULL, "\"......I just hope those people are still reasonable......\"", Line_Normal);
+		   NULL, "\"......미온 씨의 어머님이, 진정해 계셔주신다면 다행이지만요......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -242,7 +242,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0760", 128, TRUE);
 	OutputLine(NULL, "「とにかく、街の様子を見てみよう。いつまでもここにはいられない。」",
-		   NULL, "\"Anyway, let's check out the town. We can't stay up here forever.\"", Line_Normal);
+		   NULL, "\"어쨌든, 마을의 상황을 알아보자. 언제까지고 여기에 있을 순 없어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -251,7 +251,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0630", 128, TRUE);
 	OutputLine(NULL, "「……そうだね。この騒ぎが、ここだけなのか。それとも日本中にまで及ぶのか、……雛見沢じゃ何もわからない。」",
-		   NULL, "\"......Right. Is this disaster only happening here? Or has it expanded out to the rest of Japan? ......We don't know anything here in Hinamizawa.\"", Line_Normal);
+		   NULL, "\"......맞아. 이 소동이 여기에서만 일어난 건지, 아니면 일본 전체로 퍼지는 건지...... 히나미자와에선 아무것도 알 수 없어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -260,7 +260,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0090", 128, TRUE);
 	OutputLine(NULL, "「こんなのが、世界中で起こってたらなんて……。考えたくもありませんわ……。」",
-		   NULL, "\"The idea that this could be happening all over the world... I don't want to think about it......\"", Line_Normal);
+		   NULL, "\"이런 게 세계 전체에 일어난다니... 생각하기도 싫사와요......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -269,7 +269,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0810", 128, TRUE);
 	OutputLine(NULL, "「行こう。……大丈夫、自分の足で歩けるよ。」",
-		   NULL, "\"Let's go. ......I'm all right. I can walk by myself.\"", Line_Normal);
+		   NULL, "\"가자. ......괜찮아, 혼자서 걸을 수 있어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -277,38 +277,38 @@ void main()
 	DrawScene( "background/m_hi4", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　普段なら、興宮までは自転車でいく。",
-		   NULL, "Normally we'd go to Okinomiya by bicycle.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "평소라면, 오키노미야까지 자전거를 타고 간다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、雛見沢同様に興宮にも自警団気取りの暴徒がいるだろうことは想像がつく。",
-		   NULL, "But it was easy to imagine that rioters would be acting like the neighborhood watch here in Okinomiya, just like they were in Hinamizawa.", Line_Normal);
+		   NULL, "그러나, 오키노미야 또한 히나미자와랑 마찬가지로 자경단인 척하는 폭도들이 있을 거란 건 대충 상상이 간다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例のウィルス騒ぎは、雛見沢が発信源なのだ。",
-		   NULL, "The whole virus commotion originated in Hinamizawa.", Line_WaitForInput);
+		   NULL, "바이러스 사태의 첫 시작점이 바로 히나미자와다.", Line_WaitForInput);
 	OutputLine(NULL, "興宮の人間からしてみれば、雛見沢から来る人間は全て敵も同然のはずだ。",
-		   NULL, " So the people in Okinomiya should, naturally, view everyone coming from Hinamizawa as an enemy.", Line_Normal);
+		   NULL, " 오키노미야 사람들 입장에서 보면, 히나미자와에서 오는 사람은 모두 적이나 마찬가지로 보이겠지.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな連中が待ち受けているだろう普通の道では危険だと判断し、徒歩で裏道から向かうことに決める。",
-		   NULL, "We decided it was too dangerous to move on roads likely with a watch on them, so we headed there on foot using back paths instead.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그런 녀석들이 기다리고 있을 평소의 길은 위험하다고 판단해, 샛길을 직접 걸어가기로 결정하는 케이이치 일행.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山菜取りの年寄りか、野原を駆け回る雛見沢の子供たちしか知らないようなルートが、もっとも安全だろう。",
-		   NULL, "The kind of routes used by gatherers, the elderly, and the children that ran around in the fields of Hinamizawa were the safest ones.", Line_Normal);
+		   NULL, "산나물을 캐는 노인들, 그리고 들판을 뛰어다니는 히나미자와 아이들만이 알 법한 길이 가장 안전할 테지.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一たちは、興宮を目指す……。",
-		   NULL, "While Keiichi and the others headed to Okinomiya......", Line_Normal);
+		   NULL, "케이이치와 부활동 멤버들은, 오키노미야로 향해 나아간다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -316,26 +316,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　圭一の両親には、園崎家の秘密の地下道に避難してもらっている。",
-		   NULL, "Keiichi's parents had evacuated themselves to the Sonozakis' secret underground tunnels.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "케이이치의 부모님은 소노자키 가문의 비밀 지하 터널에 피난해 있는 상태다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこには多少の蓄えもあるので、しばらくは安全だろう。",
-		   NULL, "There were already some resources stored down there, so they'd be safe for a while.", Line_Normal);
+		   NULL, "보존식이나 비축해놓은 물자가 조금 있다보니 일단은 안전하다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、より安全でより医療や食料の充実した場所が必要だ。",
-		   NULL, "Still, they needed to reach a place that was even safer, one with plenty of food and medical treatment.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만 더더욱 안전하고, 의료 및 식량 사정이 보다 잘 갖춰진 장소가 필요한 건 당연지사.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そのような安全地帯が存在するかどうかを確認するのが、興宮探索の最大の目的だった……。",
-		   NULL, "Confirming whether or not such a safe space even existed was their biggest objective behind scouting out Okinomiya......", Line_Normal);
+		   NULL, "그런 안전한 곳이 있는지 없는지를 확인하는 것이 오키노미야 수색의 최대 목적이었다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -358,7 +358,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0060", 128, TRUE);
 	OutputLine(NULL, "「………死屍、累々ね。」",
-		   NULL, "\".........There's mounds of corpses.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\".........시체가 층층이 쌓여있네.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -370,22 +370,22 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0000", 128, TRUE);
 	OutputLine(NULL, "「酷い光景なのです……。」",
-		   NULL, "\"It's an awful sight......\"", Line_Normal);
+		   NULL, "\"끔찍한 광경이에요......\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　暴徒に袋叩きにされたらしい無残な骸が、",
-		   NULL, "The miserable remains of those beaten to death by the rioters", Line_Continue);
+		   NULL, "폭도에게 몰매를 맞은 것 같은 무참한 시체들이,", Line_Continue);
 	OutputLine(NULL, "時折、路肩に転がっている。",
-		   NULL, " lay here and there on the shoulders of the streets.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 하나 둘 갓길에 굴러다니고 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　溢れ出る死臭と群がるハエの群に、羽入でさえ首を小さく横に振る……。",
-		   NULL, "Even Hanyuu shook her head at the swarm of flies and the pervasive stench of death......", Line_Normal);
+		   NULL, "흘러넘치는 시체의 악취와 파리 떼가 우글거리는 모습엔, 하뉴마저 고개를 젓고 만다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -394,7 +394,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0070", 128, TRUE);
 	OutputLine(NULL, "「……でも、静かになったわね。」",
-		   NULL, "\"......But it's grown quieter.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......그래도, 조용해졌어.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -404,7 +404,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0010", 128, TRUE);
 	OutputLine(NULL, "「はい、なのです……。」",
-		   NULL, "\"Yes, it has......\"", Line_Normal);
+		   NULL, "\"네, 인 거예요......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -413,7 +413,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0080", 128, TRUE);
 	OutputLine(NULL, "「疑心暗鬼の鬼に心を許した連中は、もうあらかた殺し合って、死に絶えた頃なのかもね。」",
-		   NULL, "\"This is about the time when nearly all of those who let the demons of paranoia into their hearts die off, after trying to kill each other.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"의심암귀의 귀신에게 마음을 내 준 녀석들은 이제 대강 살육을 마치고 죽었을 타이밍일지도.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -432,21 +432,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　不気味な竜が呻くような、……あの唸るような風の音が、いつの間にか聞こえなくなっていた。",
-		   NULL, "That roaring wind that was like the ominous groan of a dragon... could no longer be heard.", Line_Normal);
+		   NULL, "섬뜩한 용이 신음하는 것 같던 그 으르렁거리는 바람소리가...... 어느새 들리지 않게 되었다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　代わって、雛見沢を包むのは死の静寂。",
-		   NULL, "All that enveloped Hinamizawa in its place was the silence of death.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "대신 히나미자와를 뒤덮은 건 죽음의 정적.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼に心を許し、殺し合いに身を委ねた者たちの叫びは、",
-		   NULL, "The screams of those who allowed the demons into their hearts and began killing each other", Line_Continue);
+		   NULL, "귀신에게 마음을 내주고, 살육에 몸을 맡긴 자들의 외마디 비명이,", Line_Continue);
 	OutputLine(NULL, "もう、聞こえない……。",
-		   NULL, " could no longer be heard either...", Line_Normal);
+		   NULL, " 이젠, 더 이상 들리지 않는다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -459,7 +459,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0030", 128, TRUE);
 	OutputLine(NULL, "「でも、用心に越したことはないのです。」",
-		   NULL, "\"But it doesn't hurt to be cautious.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그래도, 조심해서 나쁠 건 없는 거예요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -469,7 +469,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0090", 128, TRUE);
 	OutputLine(NULL, "「そうね。このおかしな世界がどうなるのか、見届けずには死ねないわ。」",
-		   NULL, "\"True. I can't die before I see how this crazy world ends.\"", Line_Normal);
+		   NULL, "\"그 말이 맞네. 이 이상한 세계가 어떻게 될지 지켜보기 전엔 못 죽어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -478,7 +478,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0040", 128, TRUE);
 	OutputLine(NULL, "「どこへ行くのですか。」",
-		   NULL, "\"Where are you going?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"어디로 가는 건가요?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -488,7 +488,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0100", 128, TRUE);
 	OutputLine(NULL, "「入江診療所の地下よ。とりあえず、今の雛見沢で一番安全なところだとは思わない？」",
-		   NULL, "\"The Irie Clinic's basement. That should be the safest place in Hinamizawa right now, don't you think?\"", Line_Normal);
+		   NULL, "\"이리에 진료소의 지하야. 일단, 지금 히나미자와에선 가장 안전한 곳이라고 생각하지 않니?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -498,16 +498,16 @@ void main()
 	DrawScene( "background/sinryou_soto1", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　地下研究区画はすでに死の静寂に包まれている。",
-		   NULL, "The underground research ward was filled with the silence of death as well.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "지하 연구 구역은 이미 죽음의 정적이 깔려 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　死体と、白い壁に走る真っ赤な飛沫の跡さえ気にならないなら、",
-		   NULL, "So as long as she didn't mind the corpses and the trails of bright red blood splatter staining the pale white walls,", Line_Continue);
+		   NULL, "하얀 벽을 달리는 새빨간 물보라 자국과 시체만 신경쓰지 않으면,", Line_Continue);
 	OutputLine(NULL, "当面は最高の場所だろう。",
-		   NULL, " it was the perfect place to hide out for a while.", Line_Normal);
+		   NULL, " 지금으로선 최선의 장소일 것이다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -520,7 +520,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0110", 128, TRUE);
 	OutputLine(NULL, "「……まだ、村の中には荒ぶってる子もいるんでしょう？」",
-		   NULL, "\"......Are there still violent ones in the village?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......아직, 마을 안에서 날뛰고 있는 놈도 있지?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -530,7 +530,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0050", 128, TRUE);
 	OutputLine(NULL, "「はい……。もうじき落ち着くとは思いますですが、まだ……。」",
-		   NULL, "\"Yes...... I think it should quiet down soon, but for now...\"", Line_Normal);
+		   NULL, "\"네...... 곧 진정될 거라고는 생각합니다만, 아직은...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -539,7 +539,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0120", 128, TRUE);
 	OutputLine(NULL, "「決まりね。ほとぼりを冷ましましょ。あそこなら、誰かの飲み物やお菓子もあるだろうし、お手洗いも綺麗だしね。」",
-		   NULL, "\"Then it's settled. Let's wait for the heat to die down. We should be able to find someone's drinks and snacks down there, plus the bathrooms are nice.\"", Line_Normal);
+		   NULL, "\"정해졌어. 마음이 좀 가라앉을 때까지 기다려 보자. 거기라면, 물이나 과자같은 것도 있을 테고, 화장실도 깨끗할 거야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -548,16 +548,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花たちは入江診療所を目指す。",
-		   NULL, "Rika and Hanyuu made their way to the Irie Clinic.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "리카와 하뉴는 이리에 진료소로 향한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あれだけの時間をかけて研究を重ねてきたのに、",
-		   NULL, "After all that time they spent researching the disease...", Line_WaitForInput);
+		   NULL, "수많은 시간을 들여 연구를 거듭해 왔으면서,", Line_WaitForInput);
 	OutputLine(NULL, "……何も手を打てなかった無能たちの巣へ。",
-		   NULL, " ...it turned out they were just a den of incompetents, unable to do anything at all.", Line_Normal);
+		   NULL, " ...아무것도 할 수 없었던 무능한 자들의 소굴로.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -582,18 +582,18 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山の中の獣道を抜け、",
-		   NULL, "They passed through animal trails in the mountains", Line_Continue);
+		   NULL, "산짐승들만 지나다니는 길을 빠져나와,", Line_Continue);
 	OutputLine(NULL, "田んぼのあぜ道を駆け抜ける。",
-		   NULL, " and through footpaths between the fields.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 논두렁길을 달려 나간다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　時に息を殺し、何者かの気配を探り、",
-		   NULL, "Sometimes they held their breath and tried to sense the presence of nearby people,", Line_Continue);
+		   NULL, "가끔은, 숨을 죽인 채 사람의 기척을 살폈고,", Line_Continue);
 	OutputLine(NULL, "時には兎のように駆け抜けた。",
-		   NULL, " while other times they ran like rabbits.", Line_Normal);
+		   NULL, " 때로는 토끼처럼 빠르게 달렸다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -601,9 +601,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、一気にガードレールを乗り越えると、",
-		   NULL, "Then once they jumped right over the guardrails...", Line_WaitForInput);
+		   NULL, "그리고, 단숨에 가드레일을 뛰어넘으니,", Line_WaitForInput);
 	OutputLine(NULL, "……そこは興宮の街だった。",
-		   NULL, " they were in Okinomiya.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 오키노미야가 그들을 맞이했다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -616,20 +616,20 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何かが焦げるような臭いが煙り、風が遠くから時折、怒号を運ぶ。",
-		   NULL, "Every now and then the wind would carry a roar from the distance, along with smoke and the smell of something burning.", Line_Normal);
+		   NULL, "무언가가 타들어가는 냄새와 함께 이따금 들리는 노성이 바람을 타고 들려왔다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　街は死んだように静まり返っているが、死んではいない。",
-		   NULL, "The town was deathly quiet, but it wasn't dead.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "시내는 마치 죽은 듯 고요하지만, 그 숨이 끊긴 것은 아니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　疑心暗鬼に心を許し、",
-		   NULL, "The rioters who allowed paranoia into their hearts", Line_Continue);
+		   NULL, "의심암귀에 마음을 빼앗기고,", Line_Continue);
 	OutputLine(NULL, "怒りに身を任せる暴徒たちから身を潜めているだけだ。",
-		   NULL, " were only lying in wait as they teemed with rage.", Line_Normal);
+		   NULL, " 분노에 몸을 맡긴 폭도들이 몸을 숨기고 있기에.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -639,7 +639,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0640", 128, TRUE);
 	OutputLine(NULL, "「……雛見沢より、危険かも。」",
-		   NULL, "\"......It might be more dangerous here than in Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......히나미자와보다, 위험할지도 몰라.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -650,7 +650,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0770", 128, TRUE);
 	OutputLine(NULL, "「同感だぜ……。嫌な予感がビンビンすらぁ……。」",
-		   NULL, "\"Agreed...... I've got nothing but bad feelings about this...\"", Line_Normal);
+		   NULL, "\"동감이야...... 기분 나쁜 예감이 팍팍 들고있어...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -659,7 +659,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0100", 128, TRUE);
 	OutputLine(NULL, "「ここも、ウィルスパニックで暴動になっているってことなんですの……？」",
-		   NULL, "\"Are there riots here because of fear about the virus as well......?\"", Line_Normal);
+		   NULL, "\"여기도 바이러스 패닉 때문에 폭동이 일어난 건가요......?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -668,7 +668,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0820", 128, TRUE);
 	OutputLine(NULL, "「これはおじさんの仮説だけど。やっぱり、これがウィルスの症状なのかもしれない。」",
-		   NULL, "\"This is just my theory, but... I think this might be a symptom of the virus, actually.\"", Line_Normal);
+		   NULL, "\"이건 아저씨의 추측이긴 한데. 아무래도, 이게 바이러스 증상일지도 몰라.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -677,7 +677,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0650", 128, TRUE);
 	OutputLine(NULL, "「そうかもしれないね。」",
-		   NULL, "\"Maybe so.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그럴지도 모르겠네.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -687,7 +687,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0110", 128, TRUE);
 	OutputLine(NULL, "「どういうことですの……？」",
-		   NULL, "\"What do you mean......?\"", Line_Normal);
+		   NULL, "\"무슨 뜻인가요......?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -696,7 +696,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0780", 128, TRUE);
 	OutputLine(NULL, "「狂犬病の、人間版みたいなもん、ってわけか……。」",
-		   NULL, "\"So it's like a human version of rabies......\"", Line_Normal);
+		   NULL, "\"인간 광견병 같은 거라는 건가......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -713,7 +713,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0830", 128, TRUE);
 	OutputLine(NULL, "「殺人ウィルスの恐怖でみんなおかしくなってるって思ってたけど、……それだけじゃ説明が付かないんだよ。」",
-		   NULL, "\"I thought everyone was going crazy out of fear of this killer virus, ......but that's not enough to explain everything.\"", Line_Normal);
+		   NULL, "\"살인 바이러스라는 공포감에 모두가 이상해져 버렸다곤 생각하지만, ......그것만으론 설명이 안 가.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -722,7 +722,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0660", 128, TRUE);
 	OutputLine(NULL, "「人を濫りに恐れ、疑い、それに振り回されてしまう病気……。」",
-		   NULL, "\"An illness that stokes unfounded fears and suspicions until the victim is driven by nothing else...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"멋대로 사람을 두려움에 사로잡히게 만들고, 의심하게 만들고, 거기에 휘둘리게 만들어버리는 병...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -733,7 +733,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0120", 128, TRUE);
 	OutputLine(NULL, "「そんな病気が、本当にありますの？　だってテレビではそんなことは一言も……。」",
-		   NULL, "\"Does a disease like that really exist? I mean, they never mentioned any of that on TV......\"", Line_Normal);
+		   NULL, "\"그런 병이 정말로 있는 건가요? 그도 그럴 게, TV에서 그런 소리는 한 마디도......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -742,7 +742,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0840", 128, TRUE);
 	OutputLine(NULL, "「テレビが常に真実を言うとは限らない。それに、その殺人ウィルスはただの勘違いの可能性だってある。」",
-		   NULL, "\"TV doesn't always tell the truth. Besides, there's a possibility the killer virus part was just a wrong guess.\"", Line_Normal);
+		   NULL, "\"TV가 늘 진실만을 말하는 건 아니야. 게다가, 그 살인 바이러스가 단순한 오해일 가능성도 있어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -752,7 +752,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0790", 128, TRUE);
 	OutputLine(NULL, "「……どっちも負けないくらい恐ろしいウィルスだってことは、間違いないさ。」",
-		   NULL, "\"......They're both equally frightening, that's for sure.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......두 가지 모두 마찬가지로 무서운 바이러스라는 건, 확실해.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -763,7 +763,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0130", 128, TRUE);
 	OutputLine(NULL, "「でも、どうして私たちは平気なんですの？」",
-		   NULL, "\"But why are we fine, then?\"", Line_Normal);
+		   NULL, "\"하지만 저흰 왜 멀쩡한 거죠?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -773,7 +773,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0670", 128, TRUE);
 	OutputLine(NULL, "「……耐性とか、あるのかもしれないね。」",
-		   NULL, "\"......Maybe we're resistant?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......내성 같은 게, 있는 걸지도 모르겠네.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -783,7 +783,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0850", 128, TRUE);
 	OutputLine(NULL, "「まぁ、症状が出てなくとも、おじさんたちが保菌者である可能性は否定できないねぇ。」",
-		   NULL, "\"Well, even if we're not showing any symptoms, we can't rule out the possibility that we're still carrying the disease.\"", Line_Normal);
+		   NULL, "\"뭐, 증상이 안 나오더라도, 우리가 보균자라는 가능성은 부정할 수 없지.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -792,7 +792,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0800", 128, TRUE);
 	OutputLine(NULL, "「いいのかよ。その俺たちがこうして街に来ちまって。」",
-		   NULL, "\"Is it really okay? For us to go into the city like this?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"괜찮은 거야? 우리들이 이렇게 시내로 와 버려도.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -802,35 +802,35 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0860", 128, TRUE);
 	OutputLine(NULL, "「問題ないでしょ。この有様を見る限りはね。」",
-		   NULL, "\"It shouldn't be a problem. Not judging by this state of affairs.\"", Line_Normal);
+		   NULL, "\"문제 없잖아. 이 꼬락서니를 보고 있는 한은 말야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "background/kamik_mati2", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　往来の無人を確かめながら、慎重に進む。",
-		   NULL, "We advanced carefully, checking to make sure the roads were clear.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "오고 가는 사람들이 없는 걸 확인하고, 신중히 나아간다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　街道は乗り捨てられた車が列を為していた。",
-		   NULL, "Abandoned cars formed lines on the city streets.", Line_Normal);
+		   NULL, "거리는 버려진 자동차들이 줄을 짓고 있었다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あちこちの交差点で衝突した車がくすぶっている。",
-		   NULL, "Some cars had crashed into each other and were still smoking at various intersections.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "교차로 이곳저곳에 부딪힌 자동차들이 연기를 내뿜고 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　歩道にも、",
-		   NULL, "Even on the sidewalks", Line_Continue);
+		   NULL, "인도에도,", Line_Continue);
 	OutputLine(NULL, "感染者を疑われて殺されたに違いない人々の無残な姿が散見された……。",
-		   NULL, " we saw the scattered remains of people murdered under suspicion of being infected......", Line_Normal);
+		   NULL, " 감염자로 의심받고 살해된 것으로 보이는 사람들의 참혹한 모습이 여기저기서 보인다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -840,7 +840,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0810", 128, TRUE);
 	OutputLine(NULL, "「詩音たちや、魅音の親たちが冷静でいてくれるといいんだけどな……。」",
-		   NULL, "\"I just hope Shion and Mion's parents are still sane......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"시온 일행이나, 미온의 부모님이 진정해 계셨으면 좋겠네......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -850,7 +850,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0870", 128, TRUE);
 	OutputLine(NULL, "「……父さんと母さんが、しっかりとみんなを律してくれてればいいんだけど。」",
-		   NULL, "\"......Mom and Dad are keeping everyone in line, I'm sure.\"", Line_Normal);
+		   NULL, "\"......아빠와 엄마가 모두를 확실히 진정시켜주면 좋을텐데 말야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -859,7 +859,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0140", 128, TRUE);
 	OutputLine(NULL, "「詩音さんは、頭に血が上りやすい方だから……。」",
-		   NULL, "\"Shion-san does have a quick temper......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"시온 씨는, 머리에 피가 쏠리기 쉬운 편이니까요......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -870,7 +870,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0680", 128, TRUE);
 	OutputLine(NULL, "「詩ぃちゃんは冷静な時とそうでない時の差が激しいからね……。私もちょっとだけ不安。」",
-		   NULL, "\"There's a huge gap between how Shii-chan acts when she's calm and when she isn't...... I'm a little worried about her.\"", Line_Normal);
+		   NULL, "\"시이쨩은 차분할 때와 그렇지 않을 때의 차이가 심하니까...... 나도 조금 걱정돼.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -881,7 +881,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0880", 128, TRUE);
 	OutputLine(NULL, "「大丈夫だよ。こういう時の母さんには、詩音はぐぅの音も出ないから。……きっと母さんたちが、みんなをしっかりまとめてくれているはず。」",
-		   NULL, "\"She'll be fine. Shion won't talk back to Mom at times like this. ......I'm sure Mom will be keeping everyone organized.\"", Line_Normal);
+		   NULL, "\"괜찮아. 이럴 때의 엄마한텐 시온은 찍소리도 못 내니까. ......분명 부모님들이 모두를 확실히 잘 이끌어 주고 있을 거야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -890,14 +890,14 @@ void main()
 	DrawScene( "background/ryoutei2_01", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢の町会も、お魎さえ元気だったなら冷静を失わなかったはずなのだ。",
-		   NULL, "If Oryou had been healthy, even the Hinamizawa town council wouldn't have lost its cool.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "히나미자와 마을회도, 오료만 건강했더라면 냉정함을 잃지 않았을 거다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　強いリーダーシップが混乱を未然に防げることを、魅音はすでに感じ取っていた。",
-		   NULL, "Mion had already gotten a taste of how strong leadership could prevent chaos ahead of time.", Line_Normal);
+		   NULL, "미온은 강한 리더십이 혼란을 미연에 막을 수 있다는 사실을 이미 알고 있었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -909,7 +909,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0890", 128, TRUE);
 	OutputLine(NULL, "「多分、このウィルスは人を不安や恐怖から攻撃に駆り立てるんだ。……だから、強いリーダーシップや連帯、信頼があれば、きっと冷静を保てると思うんだよ。」",
-		   NULL, "\"This virus probably drives people to attack others out of fear and anxiety. ......So with strong leadership, teamwork, and trust, they should be able to maintain their senses.\"", Line_Normal);
+		   NULL, "\"아마 이 바이러스는 사람들을 불안하거나 두려워하게 해서 공격적으로 만드는 거 같아. ......그래서, 강한 리더십이나 단결, 신뢰가 있으면 분명 침착함을 지킬 수 있을 거라고 생각해.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -918,7 +918,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0690", 128, TRUE);
 	OutputLine(NULL, "「ウィルス騒ぎの恐怖が助長し、……恐怖心を暴走させてしまった？」",
-		   NULL, "\"You think the virus commotion fostered fear... and their terror ran rampant?\"", Line_Normal);
+		   NULL, "\"바이러스 소동 때문에 느끼는 공포가 커져서, 그 공포심이 한계를 넘어버렸다?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -927,7 +927,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0820", 128, TRUE);
 	OutputLine(NULL, "「そう考えるとしっくり来るな。少なくとも、自衛隊が来て、しっかりやってくれてる内は、雛見沢でも変なことはなかった。」",
-		   NULL, "\"That idea feels right to me. At the very least, even Hinamizawa didn't start acting weird up until the JSDF left and stopped doing their jobs.\"", Line_Normal);
+		   NULL, "\"그리 생각하니 딱 들어맞는구만. 적어도 자위대가 와서 조치를 취해주고 있었을 땐, 히나미자와에서도 별다른 일은 없었어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -936,7 +936,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0150", 128, TRUE);
 	OutputLine(NULL, "「そうですわね。……自衛隊の方がいなくなってから、一気にみんな不安になって、おかしくなっていきましたもの……。」",
-		   NULL, "\"That is true. ......Once the JSDF left, everyone grew frightened all at once, and the world went mad......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그 말이 맞사와요. ......자위대 분들께서 없어진 뒤로부터 모두가 단번에 불안해지시고, 이상해지기 시작했는 걸요......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -946,7 +946,7 @@ void main()
 	ModDrawCharacter(4, 4, "sprite/sa2a_odoroki_a1_", "2", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子は、あっと思い出したように声を上げる。",
-		   NULL, "Satoko raised her voice to note that sudden memory.", Line_Normal);
+		   NULL, "사토코는 갑자기 앗! 하고 무언가를 떠올려낸 듯한 목소릴 낸다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -958,7 +958,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0160", 128, TRUE);
 	OutputLine(NULL, "「そう言えば、梨花も言ってましたですのっ。……心を鬼に明け渡さない、心の強さを持った人間なら大丈夫、って……。」",
-		   NULL, "\"That reminds me, Rika said something too. ......She said that people with strong hearts will be fine, since you won't hand them over to the demons.\"", Line_Normal);
+		   NULL, "\"그러고 보니 리카도 그렇게 말했었어요. ......마음을 귀신에게 내주지 않겠다, 강한 마음을 가진 인간이라면 괜찮다, 라고.\"", Line_Normal);
 	ClearMessage();
 
 	//;ld r,ren_1,80
@@ -966,7 +966,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0700", 128, TRUE);
 	OutputLine(NULL, "「梨花ちゃんがそう言ったの？」",
-		   NULL, "\"Rika-chan said that?\"", Line_Normal);
+		   NULL, "\"리카쨩이 그렇게 말했어?\"", Line_Normal);
 	ClearMessage();
 
 
@@ -975,7 +975,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0170", 128, TRUE);
 	OutputLine(NULL, "「えぇ。……私、てっきり、病は気から、みたいな意味なのかと思ってましたのですけれど……。」",
-		   NULL, "\"Yes. ...I just assumed she meant something along the lines of 'illness starts in the mind' but......\"", Line_Normal);
+		   NULL, "\"네. ......전, 틀림없이, 병은 마음먹기에 달렸다, 같은 의미라고 생각했지만요......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -989,7 +989,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0900", 128, TRUE);
 	OutputLine(NULL, "「ひょっとすると……、それは言葉通りの意味だったのかもしれないねぇ……。」",
-		   NULL, "\"Maybe there is a chance...... she meant exactly what she said...\"", Line_Normal);
+		   NULL, "\"어쩌면...... 그건 말 그대로의 의미였을지도 몰라...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -998,7 +998,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0830", 128, TRUE);
 	OutputLine(NULL, "「……俺とレナが、沙都子を助け出す為に頭に血を上らせた時。……ひょっとしたら、俺たち、ヤバかったのかもな。」",
-		   NULL, "\"......There was that moment when the blood rushed to our heads when Rena and I went to rescue Satoko. ......Maybe that was really risky for the two of us.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......나와 레나가, 사토코를 구해내기 위해 흥분했을 때 말이야. ......어쩌면, 우리, 위험했을지도 몰라.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1008,7 +1008,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0710", 128, TRUE);
 	OutputLine(NULL, "「かもね。……でも、私たちは激しく心を燃え盛らせながらも、冷静を保ってたよ。」",
-		   NULL, "\"Maybe so. But we managed to stay calm even as that fire burned strong in our hearts.\"", Line_Normal);
+		   NULL, "\"그러려나. 하지만, 우린 마음을 격렬하게 불태우면서도, 차분함을 잃지 않았어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 1, "sprite/kei2_def1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
@@ -1016,7 +1016,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0840", 128, TRUE);
 	OutputLine(NULL, "「ハートは熱く、思考はクールに。……ひょっとすると、俺たちが他の連中みたいにならずに済んだのは、普段から魅音の部活に鍛えられてたお陰かもしれないな。」",
-		   NULL, "\"Let your heart run hot, and keep your thoughts cool. ......Maybe the reason we didn't end up like the others is because we've been training ourselves for these kind of situations in Mion's club.\"", Line_Normal);
+		   NULL, "\"마음은 뜨겁게, 생각은 쿨하게. ......우리들이 다른 녀석들처럼 되지 않은 건, 평소에 미온의 부활동으로 단련된 덕분일지도 모르겠네.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1026,7 +1026,7 @@ void main()
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0910", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「冷静を保てず、激情に心を明け渡してしまうと、暴走してしまう。……それを鬼と呼んだなら、鬼ヶ淵村の昔から言い伝えられる伝承は、それを指すのかもしれないよ。」",
-		   NULL, "\"If you lose your cool and hand your heart over to primal emotions, then you go crazy. ......If you call the result of that process a demon, then it fits with the legends passed down from long ago about Onigafuchi Village.\"", Line_Normal);
+		   NULL, "\"냉정을 잃고, 격정에 마음을 빼앗기면, 폭주하고 말아. ......그걸 귀신이라고 부른다면, 오니가후치 마을 시절부터 전해져 내려오는 전승은, 그걸 가리키는 걸 수도 있어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1040,7 +1040,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0180", 128, TRUE);
 	OutputLine(NULL, "「沼から鬼が湧き出して、という話でしたかしら。」",
-		   NULL, "\"You mean that legend about demons coming up out of the swamp?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"늪에서 귀신이 솟아나온다, 같은 얘기였나요?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1052,7 +1052,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0920", 128, TRUE);
 	OutputLine(NULL, "「きっと、その昔も同じことがあったんだよ。……そして、疑心暗鬼に取り憑かれて暴走した人々が、鬼と呼ばれたに違いないよ。」",
-		   NULL, "\"I'm sure something similar to this happened long ago. ......And I'm positive the people thrown into paranoia and running around out of control were called demons.\"", Line_Normal);
+		   NULL, "\"분명 옛날에도 같은 일이 있었던 거야. ......그리고, 의심암귀에 빠져 폭주한 사람들이, 귀신이라고 불렸던 게 틀림없어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1074,7 +1074,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0720", 128, TRUE);
 	OutputLine(NULL, "「……なるほど。何となく状況が飲み込めて来たかな。」",
-		   NULL, "\"...Makes sense. I think we're getting a grasp of what's going on.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...그렇네. 무슨 일이 벌어지고 있는지 이해되기 시작했을까나.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1084,7 +1084,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0850", 128, TRUE);
 	OutputLine(NULL, "「しかし、伝承が残ってるってことは、事態は収まり、人々は生き残ったってわけだ。……なら、これは絶望じゃない。希望だ。」",
-		   NULL, "\"Still, if there were legends left about it, then that means the whole thing was settled, and people survived. ......So this isn't hopeless. We have hope.\"", Line_Normal);
+		   NULL, "\"하지만 전승이 남아있단 소리는, 사태는 진정되고 사람들은 살아남았단 뜻이야. ......그렇다면, 이건 절망이 아냐. 희망이야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 2, "sprite/re2a_def_a1_", "2", 120, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
@@ -1092,7 +1092,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0730", 128, TRUE);
 	OutputLine(NULL, "「そうだね。この騒ぎが世界を滅ぼすわけじゃない。必ず終わりがあるってことなんだから。」",
-		   NULL, "\"Right. This commotion isn't going to destroy the world. There's guaranteed to be a way to end it.\"", Line_Normal);
+		   NULL, "\"맞아. 이 사태가 세계를 멸망시킬 리 없어. 반드시 끝도 있을 테니까.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1101,7 +1101,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0190", 128, TRUE);
 	OutputLine(NULL, "「オヤシロさまが降臨して下さるのを、待つ他ないんですの……？」",
-		   NULL, "\"Is waiting for Oyashiro-sama to descend the only option we have......?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"오야시로 님이 강림해 내려오시는 걸 기다리는 수밖에 없나요......?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1112,7 +1112,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0930", 128, TRUE);
 	OutputLine(NULL, "「伝承ではそういうことになってるね。……人々には何も出来ず、オヤシロさまの降臨を待つ他なかった。」",
-		   NULL, "\"That's how it ended back then, according to the legends. ......The people were unable to do anything except wait for Oyashiro-sama's descent.\"", Line_Normal);
+		   NULL, "\"전승에선 그렇게 전해져오고 있어. ......사람들은 아무것도 할 수 없었고, 오야시로 님이 강림하는 걸 기다려야만 했다고.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1121,7 +1121,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0740", 128, TRUE);
 	OutputLine(NULL, "「……これほどの騒ぎなのに、私たちには待つことしか出来ないってこと……？」",
-		   NULL, "\"......Are you saying all we can do is wait, even with all this going on...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......이런 소동이 일어났는데, 우리는 기다리는 것밖에 못한단 거야...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1132,7 +1132,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0940", 128, TRUE);
 	OutputLine(NULL, "「伝承の通りなら、ね。」",
-		   NULL, "\"If we're to follow the legends.\"", Line_Normal);
+		   NULL, "\"전승에 따른다면, 말야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 1, "sprite/kei2_ikari2_", "2", -120, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
@@ -1143,7 +1143,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0860", 128, TRUE);
 	OutputLine(NULL, "「あぁ、まったくっ。オヤシロさまよ！　どこかにいてこの騒ぎを見てるんなら、早く降臨してこの騒ぎを終わらせてくれ！！」",
-		   NULL, "\"Yeah, come on already! Oyashiro-sama! If you're out there watching this, then make with the descent and put a stop to this!!\"", Line_Normal);
+		   NULL, "\"아으으, 진짜! 오야시로 님! 어딘가에서 이 소동을 보고 있으면, 빨리 강림해서 난장판을 끝내줘!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1170,7 +1170,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0130", 128, TRUE);
 	OutputLine(NULL, "「神様のくせに風邪を引くの？」",
-		   NULL, "\"Can Gods catch colds?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"신 주제에 감기에 걸리는 거야?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1180,7 +1180,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0070", 128, TRUE);
 	OutputLine(NULL, "「あぅあぅ。くしゃみは人間だけの特権ではないのですよ。」",
-		   NULL, "\"Au, au. Humans aren't the only ones that can sneeze, you know.\"", Line_Normal);
+		   NULL, "\"아우아우. 재채기는 사람만이 가진 특권이 아닌 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1191,22 +1191,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入江診療所の中は、暴徒たちによって荒らし尽くされていた。",
-		   NULL, "The Irie Clinic had been ransacked by rioters.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이리에 진료소 내부는, 폭도들에 의해 완전히 엉망진창이었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここに治療薬が隠されているというデマを信じた暴徒たちが、",
-		   NULL, "Believing the rumors that a cure was hidden here,", Line_Continue);
+		   NULL, "이곳에 치료약이 숨져겨 있을 거란 소문에 휩쓸린 폭도들이,", Line_Continue);
 	OutputLine(NULL, "大挙して押し寄せたのだ。",
-		   NULL, " they had swarmed it en masse.", Line_Normal);
+		   NULL, " 대거 밀어닥쳤던 것이다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、それは地上部分の話だ。",
-		   NULL, "But that only applied to the sections on the surface.", Line_WaitForInput);
+		   NULL, "하지만, 그건 지상 부분에서의 얘기.", Line_WaitForInput);
 	OutputLine(NULL, "地下の秘密研究区画にそれは及ばない。",
-		   NULL, " Their riot hadn't extended to the secret research ward underground.", Line_Normal);
+		   NULL, " 지하 비밀 연구 구역엔 폭도들이 다다르지 못했다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1218,7 +1218,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0140", 128, TRUE);
 	OutputLine(NULL, "「ここには何もないのに。……あればとっくに入江が手を打っていたわ。」",
-		   NULL, "\"There's nothing here, though. ......If Irie were around, he would've taken action long ago.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"여기엔 아무것도 없는데. ......있었다면 한참 전에 이리에가 손을 썼을 거야.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1229,7 +1229,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0080", 128, TRUE);
 	OutputLine(NULL, "「……目を背けずにはいられないのです……。」",
-		   NULL, "\"......We mustn't avert our eyes...\"", Line_Normal);
+		   NULL, "\"......사실을 외면하지 않고는 못 버티는 거예요...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1238,7 +1238,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　荒れ果てた診療所内には、幾人もの骸が転がり、ハエを集らせている。",
-		   NULL, "There were several corpses gathering flies there in the plundered clinic.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "난장판이 된 진료소 내부 여기저기에 굴러다니는, 시체들은 파리가 꼬여 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1247,7 +1247,7 @@ void main()
 	OutputLine(NULL, "　ここに治療薬があると信じ込んだ人々は、",
 		   NULL, "Those who believed in the cure", Line_Continue);
 	OutputLine(NULL, "最後には、誰かが治療薬を隠し持っていると信じ込み、殺し合ったのだろう……。",
-		   NULL, " ultimately became convinced that someone there was hiding it, and began to kill each other......", Line_Normal);
+		   NULL, " 여기에 치료약이 있으리라는 믿음이, 이윽고 누군가가 치료약을 몰래 들고 있다는 의심으로 바뀌어, 서로 죽고 죽이기를 시작한 거겠지......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1258,14 +1258,14 @@ void main()
 	//;se1v 130,50
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入は目を塞ぐが、梨花は気にすることなく、骸を踏み越えていく。",
-		   NULL, "Hanyuu covered her eyes after all, but Rika stepped over the corpses without any concern.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하뉴는 눈을 가렸지만, 리카는 신경쓰는 기색도 없이 시체를 밟고 넘어선다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その中には見知った顔もあったが、梨花は気にする様子もなかった。",
-		   NULL, "Some of the corpses were even familiar faces to her, but Rika didn't seem to care.", Line_Normal);
+		   NULL, "그중에는 낯익은 얼굴도 보였지만, 리카는 딱히 눈길을 주지 않았다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1277,28 +1277,28 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　秘密の扉を抜け、地下へ向かう。",
-		   NULL, "She passed through the secret door and headed underground.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "비밀 문을 통과해 지하로 향한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　セキュリティのある機密ドアの向こうに留まれば、",
-		   NULL, "It was far safer to stay behind the secret security door", Line_Continue);
+		   NULL, "보안 장치가 달린 비밀 문 건너편이라면,", Line_Continue);
 	OutputLine(NULL, "地上のどこよりも安全だ。",
-		   NULL, " than on the surface.", Line_Normal);
+		   NULL, " 지상의 어디보다도 안전하다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何しろ、研究員たちは全て殺し合ったか自殺したかした。",
-		   NULL, "After all, all the researchers here were either murdered or committed suicide.", Line_WaitForInput);
+		   NULL, "무엇보다, 연구원들은 모두 살육에 참여했거나 자살했거나 둘 중 하나.", Line_WaitForInput);
 	OutputLine(NULL, "完全な無人を上回る安全は、存在しないのだから……。",
-		   NULL, " There was nothing safer than a place completely devoid of others......", Line_Normal);
+		   NULL, " 완전히 사람이 없는 장소보다 더 안전한 곳은, 더 이상 존재하지 않는다......", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　セキュリティが、古手梨花であることを確認し、ドアを開ける。",
-		   NULL, "The security system confirmed it was Rika Furude, and then the door opened.", GetGlobalFlag(GLinemodeSp));
+		   NULL, 후루데 리카임을 보안 장치가 확인하고, 문이 열린다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1309,9 +1309,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それが後で閉まるのを確認すると、",
-		   NULL, "Even though her expression never changed at the sight of the corpses,", Line_Continue);
+		   NULL, "그 문이 닫히는 걸 확인하고,", Line_Continue);
 	OutputLine(NULL, "骸に顔色一つ変えなかった梨花であっても、少し安堵した。",
-		   NULL, " she heaved a sigh of relief once she confirmed the door was shut behind her.", Line_Normal);
+		   NULL, " 시체를 봐도 안색 하나 바꾸지 않던 리카조차 조금 안도하고 말았다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1324,7 +1324,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0150", 128, TRUE);
 	OutputLine(NULL, "「あとは、寝て過ごすも、誰かの溜め込んだおやつをつまみ食いするも自由ってわけだわ。何しろ、もう誰もいないのだから。」",
-		   NULL, "\"Now we can do as we please, be that sleep through this, or snack on the treats someone stored down here. There's no one else here, after all.\"", Line_Normal);
+		   NULL, "\"「이 다음은, 자면서 시간을 보내던가, 누군가가 숨겨놓은 간식을 주워먹던가 맘대로야. 어쨌든, 이제 아무도 없으니까.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1334,7 +1334,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0090", 128, TRUE);
 	OutputLine(NULL, "「これだけの惨状の中、よくもそれだけの余裕を保てるものなのです……。たくましいというか、図太いというか……。」",
-		   NULL, "\"I'm surprised you're able to stay so calm amidst that dreadful sight...... I don't know if that's you being strong, or shameless......\"", Line_Normal);
+		   NULL, "\"이런 참상 속에서, 잘도 그런 여유가 생기는 거예요...... 씩씩하다고 해야 할지, 뻔뻔하다고 해야 할지......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1343,7 +1343,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0160", 128, TRUE);
 	OutputLine(NULL, "「人の死どころか、自分の死だって、足の指を使っても数え切れないくらい経験してきたのよ。今更、どこぞの誰かの死体なんかで私が驚くと思う？」",
-		   NULL, "\"I've experienced death, even my own, more times than I can count. So why should some stranger's corpse faze me at this point?\"", Line_Normal);
+		   NULL, "\"다른 사람의 죽음은 커녕, 내 죽음마저, 발가락까지 써도 다 못 셀 만큼 경험해 왔어. 새삼스레, 누군지도 모를 시체 따위에 내가 놀랄 거라 생각해?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1352,7 +1352,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0100", 128, TRUE);
 	OutputLine(NULL, "「……はぁ。昔の梨花は、もう少し歳相応に臆病で可愛かったのに……。」",
-		   NULL, "\"......Hahh. The old Rika was cuter. She was as scared as one should be for your age......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......하아. 예전의 리카는, 좀 더 나이에 걸맞는 겁쟁이라 귀여웠는데......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1362,7 +1362,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0170", 128, TRUE);
 	OutputLine(NULL, "「今更、この私が何を怖がると？　……そうね、ならオバケでも連れて来なさいよ。そうしたら、少しは驚いてあげてもいいわよ。」",
-		   NULL, "\"What should I fear at this point? ......Well, I suppose you could summon up a ghost. I'd be a little surprised if you did that!\"", Line_Normal);
+		   NULL, "\"이제와서, 이 내가 뭘 무서워할 거라 생각해? ,,,,,,그래, 그럼 귀신이라도 데리고 와 봐. 그러면, 조금은 놀라줄 테니까.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -1380,7 +1380,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0180", 128, TRUE);
 	OutputLine(NULL, "「……え？」",
-		   NULL, "\"......Huh?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......어?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1390,26 +1390,26 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0110", 128, TRUE);
 	OutputLine(NULL, "「なっ、何ですか梨花っ、お、脅かしっこはなしなのですっ……。」",
-		   NULL, "\"W-What is it, Rika?! D-Don't start scaring me, okay...?\"", Line_Normal);
+		   NULL, "\"뭐, 뭔가요, 리카! 노, 놀래키는 거 없기에요......\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　無人のはずの地下区画で、",
-		   NULL, "The underground ward was supposed to be empty...", Line_Continue);
+		   NULL, "아무도 없을 터인 지하 구역에서,", Line_Continue);
 	OutputLine(NULL, "……今、何かが聞こえた気がしたのだ。",
-		   NULL, " but she thought she heard something just then.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...방금, 무슨 소리가 들렸다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　気のせい……？",
-		   NULL, "Was it her imagination......?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "기분 탓인가......?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　二人は顔を見合わせてから、息を殺し、耳を澄ます……。",
-		   NULL, "They both glanced at each other, held their breath, and strained their ears......", Line_Normal);
+		   NULL, "리카와 하뉴는 한차례 얼굴을 마주본 뒤, 숨을 죽이고 귀를 기울인다......", Line_Normal);
 	ClearMessage();
 	FadeOutBGM( 2, 300, FALSE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1439,7 +1439,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0190", 128, TRUE);
 	OutputLine(NULL, "「……聞こえる……、わよね……？」",
-		   NULL, "\"......You hear that...... right......?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......들리는...... 거지......?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1452,7 +1452,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0120", 128, TRUE);
 	OutputLine(NULL, "「オ、オバケなのですか？！」",
-		   NULL, "\"I-Is it a ghost?!\"", Line_Normal);
+		   NULL, "\"귀, 귀신인 건가요?!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1462,7 +1462,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0200", 128, TRUE);
 	OutputLine(NULL, "「……半分オバケみたいなあんたが怯えてどうすんのよ。しかしこれは、何の音……？」",
-		   NULL, "\"...You're practically a ghost yourself, so why are you afraid? Still, what is this sound......?\"", Line_Normal);
+		   NULL, "\"...반은 귀신인 네가 겁 먹어서 어쩌잔 거야. 그런데 이건 무슨 소리지......?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1480,15 +1480,15 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どこか遠くから、ズン……ズン……と、",
-		   NULL, "Far off in the distance there was a thnn....... thnn.....", Line_WaitForInput);
+		   NULL, "어딘가 저 멀리에서, 지익...... 지익...... 하는,", Line_WaitForInput);
 	OutputLine(NULL, "鈍い音のようなものが繰り返し聞こえるのだ。",
-		   NULL, " They could hear that dull sort of sound repeating over and over.", Line_Normal);
+		   NULL, " 날카로운 소리같은 게 반복해서 들린다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花たちは、音の正体を確かめる為、",
-		   NULL, "They both nodded to each other and strained their ears,", Line_Continue);
+		   NULL, "리카와 하뉴는 소리의 정체를 확인하기 위해,", Line_Continue);
 	OutputLine(NULL, "頷き合ってから、音の聞こえる方向に耳を澄ます……。",
-		   NULL, " trying to identify the source of the sound......", Line_Normal);
+		   NULL, " 서로를 향해 고개를 끄덕인 뒤, 소리가 들리는 방향에 귀를 기울인다......", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
