@@ -4515,42 +4515,42 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0000", 128, TRUE);
 	OutputLine(NULL, "「角の民の長、羽入……。我輩こそ、そなたに再び相見えることなど望みはせぬ也や。」",
-		   NULL, "\"Leader of the horned people, Hanyuu...... I have had no desire to meet with you once more.\"", Line_Normal);
+		   NULL, "\"뿔을 지닌 백성의 우두머리, 하뉴...... 이 몸이야말로, 그대와 다시 마주하는 건 바라지 않았음을 아시오.\"", Line_Normal);
 	ClearMessage();
 
 	//;【羽入】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0290", 128, TRUE);
 	OutputLine(NULL, "「その言葉、そのままお返しします。……あなたに、なぜに再びこうして会わねばならぬのか……。」",
-		   NULL, "\"I could return those exact same words. ......Why must I see you like this again......?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그 말을 그대로 돌려드리지요. ......당신과, 어째서 다시 이렇게 만나야 했는지......?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【梨花】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0510", 128, TRUE);
 	OutputLine(NULL, "「……らしくもなく、敵意剥き出しね。」",
-		   NULL, "\"......You aren't usually so hostile.\"", Line_Normal);
+		   NULL, "\"......너 답지 않게, 적의를 드러내네.\"", Line_Normal);
 	ClearMessage();
 
 	//;【羽入】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0300", 128, TRUE);
 	OutputLine(NULL, "「私たちの存在を認めぬ、敵です。心を許してはなりません。」",
-		   NULL, "\"We are enemies, who refuse to accept one another. You must not trust her.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"저희 존재를 인정하지 않는 적입니다. 방심해선 안됩니다.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【梨花】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0520", 128, TRUE);
 	OutputLine(NULL, "「バケモノ仲間の同族嫌悪ってわけね。」",
-		   NULL, "\"I guess you monsters hate your own kind.\"", Line_Normal);
+		   NULL, "\"괴물 동료의 동족 혐오라는 소리구나.\"", Line_Normal);
 	ClearMessage();
 
 	//;【田村】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0010", 128, TRUE);
 	OutputLine(NULL, "「我輩を角を隠せぬ鬼と同族呼ばわりとは許しがたきこと也や。身の程を弁え給え、角の民の巫女よ。」",
-		   NULL, "\"I will not permit you to call me the same as that demon not even hiding her horns. Know your place, priestess of the horned people.\"", Line_Normal);
+		   NULL, "\"이 몸을 뿔을 감추지 않는 귀신과 동족 취급이라니, 용납하기 어렵다오. 주제를 알라, 뿔을 지닌 백성의 무녀여.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -4563,14 +4563,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼女の鋭い眼光に、梨花に一度だけ頭痛が走る。",
-		   NULL, "Rika got a sudden headache from her sharp gaze.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그녀의 날카로운 눈빛에, 리카는 한 번 두통이 느껴졌다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　神通力だけでなく、冷え切った瞳には、痛みを覚えるほどの拒絶と蔑みが浮かんでいた……。",
-		   NULL, "Her hardened eyes carried not only supernatural power, but enough rejection and scorn to cause physical pain......", Line_Normal);
+		   NULL, "신비한 힘뿐만 아니라, 차가워진 눈동자에는, 아픔을 느낄 만큼의 거부감과 경멸이 서려 있었다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4578,23 +4578,23 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……思えば、梨花はこれまで常に敬われてきた。",
-		   NULL, "......Thinking back, Rika had only ever received constant respect.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......생각해 보니, 리카는 지금까지 항상 떠받들어져 왔다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　幾百の死を越え、百年を生きようとも、",
-		   NULL, "No matter how many hundreds of deaths or years she had lived through...", Line_WaitForInput);
+		   NULL, "수백 번의 죽음을 넘어, 백 년을 살았지만,", Line_WaitForInput);
 	OutputLine(NULL, "……このような眼差しを向けられたことは、ただの一度もなかったのだ。",
-		   NULL, " she had never faced down such a hostile gaze before.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 이런 시선을 받은 적은 단 한 번도 없었던 것이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを覚え、梨花は初めての感情に固唾を呑み込む……。",
-		   NULL, "Rika could only gulp hard, in the face of that......", Line_Normal);
+		   NULL, "그 점을 깨닫고, 리카는 처음으로 느끼는 감정에 마른 침을 삼킨다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4603,7 +4603,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0020", 128, TRUE);
 	OutputLine(NULL, "「羽入。……なぜ我輩が姿を現したか、わかり申すか。」",
-		   NULL, "\"Hanyuu. ......Do you understand why I have appeared before you?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"하뉴. ......어째서 이 몸이 모습을 드러냈는지, 알겠소?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【羽入】
@@ -4617,7 +4617,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0030", 128, TRUE);
 	OutputLine(NULL, "「この、眼下の惨状を何とする也や。」",
-		   NULL, "\"What do you make of this disaster below us?\"", Line_Normal);
+		   NULL, "\"이 발밑의 참상을 어찌할 것이오.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4627,16 +4627,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ゆっくりと、足元の霧が晴れていく。",
-		   NULL, "Slowly, the mist cleared beneath their feet.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "천천히, 바닥의 안개가 개어져 간다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花はようやく理解した。",
-		   NULL, "Finally Rika understood.", Line_WaitForInput);
+		   NULL, "리카는 드디어 이해했다.", Line_WaitForInput);
 	OutputLine(NULL, "ここは霧の中ではなく、雲の中だったのだ。",
-		   NULL, " They weren't inside mist, but inside a cloud.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 여기는 안개 속이 아니라, 구름 속이었던 거다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4645,22 +4645,22 @@ void main()
 	DrawSceneWithMask( "background/sky_4b", "effect/maskc", 0, 0, 1300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　眼下には、飛行機から見下ろしたかのような景色が広がっていた。",
-		   NULL, "Below them was a sight like one might see from an airplane.", Line_Normal);
+		   NULL, "발밑에는, 비행기에서 내려다 보는 것 같은 경치가 펼쳐져 있었다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　目を凝らさずとも、それが興宮の街であることがわかる……。",
-		   NULL, "Even without straining their eyes, they could tell the city of Okinomiya was below......", GetGlobalFlag(GLinemodeSp));
+		   NULL, "딱히 눈여겨보지 않더라도, 그곳이 오키노미야 인 걸 알 수 있었다......", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　街のあちこちから黒い煙があがり、",
-		   NULL, "Black smoke rose from various points in the city,", Line_Continue);
+		   NULL, "시내 이곳저곳에서 검은 연기가 피어올라와,", Line_Continue);
 	OutputLine(NULL, "それで薄暗いもやがかかっているのがわかる。",
-		   NULL, " and they could see a dark haze hanging over it.", Line_Normal);
+		   NULL, " 거무죽죽한 아지랑이가 걸쳐져 있는 게 보인다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4684,9 +4684,9 @@ void main()
 	//;wait 500
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もっとよく目を凝らせば、",
-		   NULL, "When they focused their eyes even more", Line_Continue);
+		   NULL, "더욱 자세히 살펴보면,", Line_Continue);
 	OutputLine(NULL, "通りで殺し合う、鬼に心を許した人々の姿も見ることが出来るだろう……。",
-		   NULL, " they could see the people who gave their hearts over to the demons killing each other in the streets......", Line_Normal);
+		   NULL, " 귀신에게 마음을 내준 사람들이 거리에서 서로를 죽이는 모습을 볼 수 있다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4698,7 +4698,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0040", 128, TRUE);
 	OutputLine(NULL, "「何と醜き光景か……。己が罪に震えよ。全て、そなたの民の仕業也や。恥を知り給え、角の民の長よ。」",
-		   NULL, "\"What an awful sight...... Shudder with the weight of your own sin. All of this is the work of your kind. Know shame, leader of the horned people.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"이 어찌 추악한 광경인가...... 스스로의 죄에 몸을 떠시오. 모두 그대의 백성 짓이외다. 부끄러운 줄 아시게, 뿔을 지닌 백성의 우두머리여.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4708,49 +4708,49 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0320", 128, TRUE);
 	OutputLine(NULL, "「………………っ………。」",
-		   NULL, "\"..................! .........\"", Line_Normal);
+		   NULL, "\"..................읏.........\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花たち人間の目線から見れば、悪いのは鷹野だ。",
-		   NULL, "From the perspective of humans like Rika, Takano was at fault.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "리카와 같은 인간의 시선에서 보면, 나쁜 건 타카노다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、羽入たち人ならざる者の目線から見れば、",
-		   NULL, "But from the perspective of inhuman beings like Hanyuu...", Line_WaitForInput);
+		   NULL, "하지만 하뉴처럼 인간이 아닌 자의 시선에서 보면,", Line_WaitForInput);
 	OutputLine(NULL, "……眼下の惨状は全て、羽入たちの仕業なのだ。",
-		   NULL, " the disaster below was all Hanyuu's fault.", Line_Normal);
+		   NULL, " 발밑의 참상은 모두 하뉴의 소행인 것이다.", Line_Normal);
 	ClearMessage();
 
 	//;ld l,han_7a,80
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　η１７３そのものが、羽入たち、角の民でもあるのだから。",
-		   NULL, "After all, η173 was Hanyuu. It was the horned people.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "η173 자체가 하뉴와 같은, 뿔을 지닌 백성이기도 하니까.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入は下唇を噛み締めたまま、何も言い返せない。",
-		   NULL, "Hanyuu bit her bottom lip, unable to refute her claims.", Line_Normal);
+		   NULL, "하뉴는 아무 반박도 하지 않고 아랫입술을 깨물 뿐이다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野は角の民を凶暴にする研究を重ねていた。",
-		   NULL, "Takano had conducted the research to turn the horned people ferocious.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "타카노는 뿔을 지닌 백성을 흉폭하게 만드는 연구를 거듭하고 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは羽入の責任ではない。",
-		   NULL, "Hanyuu wasn't to blame for that.", Line_WaitForInput);
+		   NULL, "그게 하뉴의 책임인 건 아니다.", Line_WaitForInput);
 	OutputLine(NULL, "しかし、さりとて人ならざる者たちが、人に罪を転嫁することなど許されないのだ。",
-		   NULL, " But that being said, these inhuman beings wouldn't allow a human to be blamed for that sin.", Line_Normal);
+		   NULL, " 그렇다고 해서, 인간이 아닌 자들이 인간에게 죄를 전가하는 건 용납받지 못하는 일이었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4762,7 +4762,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0330", 128, TRUE);
 	OutputLine(NULL, "「……その責任は、……我らの手で取ります。」",
-		   NULL, "\"......We shall take responsibility... with our own hands.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......그 책임은, ......저 스스로가 다하겠습니다.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4771,7 +4771,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0050", 128, TRUE);
 	OutputLine(NULL, "「ならぬ。それは不要也や。不浄なる角の民がこれ以上、我らの地を穢すことは許さぬものと知り給え。」",
-		   NULL, "\"You will not. That is unnecessary now. Know that your tainted horned people will not be allowed to corrupt our lands any further.\"", Line_Normal);
+		   NULL, "\"안 되오. 그럴 필요는 없소. 부정하기 짝이 없는, 뿔을 지닌 백성이 이 이상 우리 땅을 더럽히는 건 용서받지 못할 일임을 아시오.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4782,7 +4782,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0530", 128, TRUE);
 	OutputLine(NULL, "「同じバケモノ仲間のくせに、ずいぶんな言い様じゃない。」",
-		   NULL, "\"That's quite the rude statement, coming from someone who's as much of a monster.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"같은 괴물 동료인 주제에 대단한 소릴 지껄이는구나.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4791,7 +4791,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0060", 128, TRUE);
 	OutputLine(NULL, "「黙り給え。人の子の身の程を弁えよ。汚らわしき角の民の巫女の分際で。」",
-		   NULL, "\"Silence. Know your place, child of man. You are but the priestess of the tainted horned people.\"", Line_Normal);
+		   NULL, "\"그 입 다물라! 사람의 아이로서 주제를 아시게. 추잡한 뿔을 지닌 백성의 무녀 따위가.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4808,7 +4808,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0540", 128, TRUE);
 	OutputLine(NULL, "「クッ………。」",
-		   NULL, "\"Kh......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"큭......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4816,13 +4816,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　田村媛命に一瞥されると、梨花の頭が再びズキリと痛む。",
-		   NULL, "Rika's head throbbed with pain again when Tamurahime-no-Mikoto glanced at her.", Line_Normal);
+		   NULL, "타무라히메노미코토가 한 번 쏘아보자, 리카의 머리가 다시 한 번 날카로운 두통에 휩싸인다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入の同類であることは間違いないが、",
-		   NULL, "There was no doubt she was the same as Hanyuu,", Line_WaitForInput);
+		   NULL, "하뉴와 같은 종류라는 건 틀림없지만,", Line_WaitForInput);
 	OutputLine(NULL, "まったく相容れない存在であることは、もはや説明の必要もなさそうだ。",
-		   NULL, " but it was no longer even necessary to explain that the two were beings at total odds with one another.", Line_Normal);
+		   NULL, " 절대 양립할 수 없는 존재라는 건 이제 설명할 필요도 없어 보였다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4832,7 +4832,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0340", 128, TRUE);
 	OutputLine(NULL, "「あなたとは金輪際、言葉を交わしたくありません。……角の民による惨劇は、角の民の長と巫女である我らの責任で食い止めます。」",
-		   NULL, "\"I never wish to speak to you again by any means. ......I, the leader of the horned people, and my priestess shall take responsibility for ending this tragedy.\"", Line_Normal);
+		   NULL, "\"당신과 말을 나누는 건 결단코 원치 않습니다. ......뿔을 지닌 백성에 의한 참극은, 뿔을 지닌 백성의 장과 무녀인 저희가 책임지고 막겠습니다.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4845,7 +4845,7 @@ void main()
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0070", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「ならぬ。帰れ、不浄の民よ。我が民の地の災厄は、我が責任において解決する。そなたは未熟なる民を恥じて雛見沢の地に帰るがいいっ。消え給え、羽入と巫女よッ。」",
-		   NULL, "\"You will not. Go home, tainted one. I shall take responsibility for resolving the disaster brought upon my people's lands. You should return to your land of Hinamizawa and be ashamed of your immature charges! Now be gone, Hanyuu and priestess!\"", Line_Normal);
+		   NULL, "\"안 되오. 돌아가시오, 부정한 백성이여. 이 몸의 백성의 땅에서 일어난 재난은, 이 몸의 책임으로써 해결하겠소. 그대는 미숙한 백성을 부끄러이 여기고, 히나미자와의 땅으로 돌아가시게. 사라지시오, 하뉴와 무녀여!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4873,7 +4873,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　激しい衝撃が体を震わせた、と思った次の瞬間には、揺れる車の後部座席に戻っていた。",
-		   NULL, "A violent shock shook her body, and the very next moment she had returned to the back seat of the car.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "격렬한 충격이 몸을 흔들었다고 느낀 바로 그 다음 순간, 흔들리는 차의 뒷좌석에 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -4881,16 +4881,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まるで白昼夢。",
-		   NULL, "It was all like a daydream.", Line_WaitForInput);
+		   NULL, "마치 백일몽을 꾼 것 같지만.", Line_WaitForInput);
 	OutputLine(NULL, "しかし、二人には確かにあった現実。",
-		   NULL, " However, it was undoubtedly real for them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 리카와 하뉴 둘에겐 틀림없이 있었던 현실이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人ならざる者たちの、数百年、あるいは千年を越えての冷たき再会だった。",
-		   NULL, "That had been the cold reunion between inhuman beings after centuries, or possibly even millennia.", Line_Normal);
+		   NULL, "인간이 아닌 자들의 수백 년, 어쩌면 천 년만의 재회였다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4904,7 +4904,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0550", 128, TRUE);
 	OutputLine(NULL, "「……あいつは何者？」",
-		   NULL, "\"......Who on earth was that?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......그 녀석은 뭐야?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4915,7 +4915,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0350", 128, TRUE);
 	OutputLine(NULL, "「田村媛命。……僕たちが来るより前から存在し、この地を支配していた、先住民の長です。」",
-		   NULL, "\"Tamurahime-no-Mikoto. ......The leader of the previous residents, who ruled these lands before we ever arrived here.\"", Line_Normal);
+		   NULL, "\"타무라히메노미코토. ......저희가 오기 전부터 존재했으며, 이 땅을 지배했던 원주민의 우두머리예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4924,7 +4924,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0560", 128, TRUE);
 	OutputLine(NULL, "「なるほど。仲が良くなる理由はないわね。」",
-		   NULL, "\"I see. So there's no reason you'd get along, then.\"", Line_Normal);
+		   NULL, "\"과연. 사이가 좋아질 이유는 없는 거네.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -4940,15 +4940,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0360", 128, TRUE);
 	OutputLine(NULL, "「流浪の民にとって、ようやく辿り着けた大地は何にも代え難き恵みであり奇跡です。……しかし、田村はそれを冷たく拒絶したのです。」",
-		   NULL, "\"We were refugees, and it was a miracle that we finally reached this land. It was an incredible blessing to us. ...Yet we were coldly rejected by Tamura.\"", Line_Normal);
+		   NULL, "\"유랑하는 백성에게 있어, 끝끝내 도달한 대지는 무엇과도 바꿀 수 없는 축복이었으며, 기적이었어요. 하지만 타무라는 그걸 냉정하게 거절했었던 거예요.\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、祭具殿にしまわれた最も古い古文書にすら記されていない、",
-		   NULL, "That was something that had never been recorded, even in the most ancient documents within the ritual storehouse.", Line_WaitForInput);
+		   NULL, "그건 제구전에 보관되어 있는 가장 오래된 문서에도 안 적힌,", Line_WaitForInput);
 	OutputLine(NULL, "……羽入しか知らぬ本当の最古の、神話の物語だ。",
-		   NULL, " ......It was truly the oldest of myths, known only to Hanyuu.", Line_Normal);
+		   NULL, " ......하뉴만이 아는 진정한 최고（最古）의 신화 이야기였다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4960,7 +4960,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0370", 128, TRUE);
 	OutputLine(NULL, "「僕たちは、長い間、安住の地を求めて、宇宙を彷徨っていました。……そして、気の遠くなるような旅路の果てに、ようやくこの青く美しい星に辿り着いたのです。」",
-		   NULL, "\"We wandered space for a long time in search of a place to live peacefully. ......After a journey so long it could drive one mad, we finally made it to this beautiful blue planet.\"", Line_Normal);
+		   NULL, "\"저희는 오랜 세월, 안주할 수 있는 땅을 찾아 우주를 방황하고 있었어요. ......그리고 정신이 아득해질만한 여행길의 끝에서, 겨우 이 푸르고 아름다운 별에 도달한 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4971,23 +4971,23 @@ void main()
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0570", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「……あんたたちって一体、何なの？　……私はずっと思ってたわ。決してあんたたちは、神などという抽象的な存在ではない。入江たちが顕微鏡で研究できるような、はっきりと存在する何かよね？」",
-		   NULL, "\"......Just what on Earth are you people? ......I've always wondered that. You're certainly not some abstract being like a god. You're something that Irie and the others could have studied under a microscope, aren't you?\"", Line_Normal);
+		   NULL, "\"......너흰 대체 뭐야? ......계속 생각했어. 너희들은 결코 신 같은 추상적인 존재가 아냐. 이리에가 현미경으로 연구할 수 있는, 확실히 존재하는 뭔가지?\"", Line_Normal);
 	ClearMessage();
 
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢症候群の原因ウィルス。",
-		   NULL, "The cause of the Hinamizawa Syndrome was a virus.", Line_WaitForInput);
+		   NULL, "히나미자와 증후군의 원인 바이러스.", Line_WaitForInput);
 	OutputLine(NULL, "それに、意思などあるわけがない……。",
-		   NULL, " But there's no way a virus could be sentient......", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그 바이러스에 의지 같은 게 있을 리 없다......", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、恐らくは羽入を長とする角の民とやらの正体は、それなのだ。",
-		   NULL, "Yet it seemed to be the true identity of Hanyuu's horned people.", Line_Normal);
+		   NULL, "하지만 아마, 하뉴를 우두머리로 삼는 뿔을 지닌 백성인지 뭔지는 바로 그 바이러스를 말하는 걸 거다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4995,82 +4995,82 @@ void main()
 	DrawScene( "background/outb_shikenkan", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、梨花のその想像は正しい。",
-		   NULL, "Rika's guess was correct.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그리고, 리카의 그 상상은 틀리지 않았다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人間は、地球に寄生する寄生虫に過ぎない、というＳＦを聞いたこともあろう。",
-		   NULL, "Some science fiction stories have posed the idea that humanity is nothing more than a parasite upon Earth.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "인간은, 지구에 기생하는 기생충에 지나지 않는다는 SF적인 얘기를 들은 적이 있을 거다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　角の民もまた、その意味で人間と変わらない。",
-		   NULL, "So in that sense, the horned people are no different from humans.", Line_Normal);
+		   NULL, "뿔을 지닌 백성 또한 다르지 않다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人間は、地球に寄生する。",
-		   NULL, "Humans are parasites upon the Earth.", Line_WaitForInput);
+		   NULL, "인간은 지구에 기생한다.", Line_WaitForInput);
 	OutputLine(NULL, "そして彼らは、その人間の脳に寄生するのだ。",
-		   NULL, " And they are parasites upon the human brain.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그리고 뿔을 지닌 백성들은, 그 인간의 뇌에 기생하는 것이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、角の民たちにとって、",
-		   NULL, "Which means that to the horned people,", Line_Continue);
+		   NULL, "즉, 그 백성들에게 있어서,", Line_Continue);
 	OutputLine(NULL, "人間の脳は大地なのだ。",
-		   NULL, " the human brain is their land.", Line_Normal);
+		   NULL, " 인간의 뇌는 대지나 다름없다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawFilm( 2, 0xcc, 0xcc, 0xcc, 256, 0, 1000, TRUE ); //monochrome mode
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、人間が環境を破壊するようなことがあれば、",
-		   NULL, "If humanity continues to destroy the environment,", Line_Continue);
+		   NULL, "인간이 환경을 파괴하거나 하면,", Line_Continue);
 	OutputLine(NULL, "やがては地球を殺してしまい、そこに住まう者たち全てをも殺してしまうことになる。",
-		   NULL, " then eventually it will kill the Earth, and everything living upon it will die along with it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 얼마 안 있어 지구를 죽여버리게 될 거고, 그곳에 사는 사람들 모두를 죽여버리게 된다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だから、地球にやさしく、共存することが求められているのだ。",
-		   NULL, "That's why humanity must be kind to Earth and strive to live in harmony with it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그러니, 지구와 상냥히 공존할 필요가 있는 거다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、角の民も同じはず。",
-		   NULL, "The same goes for the horned people.", Line_Normal);
+		   NULL, "뿔을 지닌 백성도 마찬가지일 터.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人間と共存できなければ、彼らもまた存在できない。",
-		   NULL, "If they cannot coexist with humanity, they will cease to exist at all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "인간과 공존할 수 없으면 그들 또한 존재할 수 없다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……その意味では、雛見沢症候群は彼らによる環境破壊と言える。",
-		   NULL, "......In that analogy, Hinamizawa Syndrome is their destruction of the environment.", Line_Normal);
+		   NULL, "......그 의미에서 보면, 히나미자와 증후군은 그들에 의한 환경 파괴라고 말할 수 있다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人間が疑心暗鬼から狂乱し、",
-		   NULL, "When the human becomes paranoid and mad,", Line_Continue);
+		   NULL, "인간이 의심암귀로 인해 광란을 일으키고,", Line_Continue);
 	OutputLine(NULL, "自傷行為、もしくは乱暴行為に及び、自らを殺してしまうようなことがあれば、",
-		   NULL, " resorting to self-injury, acts of violence, or suicide,", Line_Continue);
+		   NULL, " 자해 행위, 혹은 난폭한 행위에 이르러 자기 스스로를 죽여버리고 만다면,", Line_Continue);
 	OutputLine(NULL, "角の民にとっても共倒れのはずだ。",
-		   NULL, " then the horned people die with them.", Line_Normal);
+		   NULL, " 뿔을 지닌 백성에게도 죽음을 의미하리라.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5079,31 +5079,31 @@ void main()
 	DrawScene( "background/fure2", 1000 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこまでを考え至ると、田村が捨て台詞に残した、",
-		   NULL, "Once her reasoning reached that point, Rika finally understood a bit of what Tamura had said at the end,", Line_Continue);
+		   NULL, "거기까지 생각이 미치자, 타무라가 떠나기 전에 남겼던,", Line_Continue);
 	OutputLine(NULL, "未熟なる民という言葉が少し理解できてくる。",
-		   NULL, " calling them immature.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 미숙한 백성이라는 말이 조금 이해되기 시작한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……恐らくは、あの田村媛命もまた、",
-		   NULL, "......Tamurahime-no-Mikoto was, most likely,", Line_Continue);
+		   NULL, "......아마 그 타무라히메노미코토 또한,", Line_Continue);
 	OutputLine(NULL, "人間に寄生する超常の存在の長なのだろう。",
-		   NULL, " the leader of another supernatural parasite upon humanity.", Line_Normal);
+		   NULL, " 인간에게 기생하는 초현실적 존재의 우두머리일 거다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、雛見沢症候群以外には、",
-		   NULL, "Yet aside from the Hinamizawa Syndrome,", Line_Continue);
+		   NULL, "그러나 히나미자와 증후군을 제외하고는,", Line_Continue);
 	OutputLine(NULL, "少なくとも日本では、そのような奇怪な症状は報告されていない。",
-		   NULL, " she had never heard any report of similar symptoms anywhere else in Japan.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 적어도 일본 내에서는 그런 기이한 증상이 보고된 적이 없다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、あの田村の民の一族は、人間と穏便に共生する術を身に付けているのだ。",
-		   NULL, "Which meant that Tamura's race of people had obtained a means of coexisting peacefully with humanity.", Line_Normal);
+		   NULL, "다시 말해, 그 타무라의 백성 일족은 인간과 조화롭게 공존하는 방법을 터득했다는 뜻이다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5112,27 +5112,27 @@ void main()
 	DrawScene( "background/hi1", 1000 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、羽入たち角の民は、それを身に付けるには未だ至っていない。",
-		   NULL, "However, Hanyuu's horned people had yet to obtain that same skill.", Line_WaitForInput);
+		   NULL, "하지만 하뉴네 뿔을 지닌 백성은, 그 방법을 아직 터득하지 못했다.", Line_WaitForInput);
 	OutputLine(NULL, "……だから、未熟呼ばわりをするのだろう。",
-		   NULL, " ......That's why they were declared immature.", Line_Normal);
+		   NULL, " ......그러니, 미숙하다는 소릴 듣는 거다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、こちら側からすれば反論もある。",
-		   NULL, "Still, you can argue otherwise as well.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만, 우리 입장에서 보면 반론할 거리도 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　確かに太古の昔の鬼ヶ淵村では、そのような騒ぎもあっただろう。",
-		   NULL, "Sure, there was a disaster in Onigafuchi Village back in ancient times.", Line_Normal);
+		   NULL, "틀림없이 오니가후치 마을에선 태곳적부터 이런 소동이 있었겠지.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを長い年月をかけて乗り越え、",
-		   NULL, "Yet they have spent many decades", Line_Continue);
+		   NULL, "그걸 오랜 세월을 들여 극복하고,", Line_Continue);
 	OutputLine(NULL, "独特の習慣で、発症することがないように自己管理をしてきたのだ。",
-		   NULL, " developing unique practices to control themselves and prevent any symptoms.", Line_Normal);
+		   NULL, " 특유의 관습을 통해, 발병을 방지하기 위해 자기 관리를 해왔다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5143,22 +5143,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこに、鷹野のような悪党がやってきて、",
-		   NULL, "But then a villain, Takano, came and interfered,", Line_Continue);
+		   NULL, "그때 타카노 같은 악당이 찾아와서,", Line_Continue);
 	OutputLine(NULL, "わざと、より凶暴なウィルスになるよう研究を始めてしまったのではないか。",
-		   NULL, " intentionally conducting research to turn them into a deadly virus.", Line_Normal);
+		   NULL, " 일부러 더더욱 흉폭한 바이러스가 되도록 연구를 시작해버린 건 아닐까.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今回の雛見沢の事件も、羽入たち角の民によるものではあるまい。",
-		   NULL, "This incident in Hinamizawa wasn't caused by Hanyuu or the horned people.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이번 히나미자와에서의 사건도 하뉴와 같은 뿔을 지닌 백성이 일으킨 건 아닐 거다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野たちが研究していた、角の民を凶暴にした新種のη１７３なるものが漏洩し、",
-		   NULL, "This whole commotion was caused by Takano developing η173,", Line_Continue);
+		   NULL, "타카노와 그녀의 일행이 연구하던, 뿔을 지닌 민족을 포악하게 만든 새로운 η173이 유출되었고,", Line_Continue);
 	OutputLine(NULL, "それによって起こされた騒ぎに違いないのだ。",
-		   NULL, " a new race of ferocious horned people, and spreading them elsewhere.", Line_Normal);
+		   NULL, " 그로 인해 발생한 소동이 틀림없다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5173,14 +5173,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0580", 128, TRUE);
 	OutputLine(NULL, "「あの堅物っぽいバケモノには、理解できるわけもなさそうね。」",
-		   NULL, "\"It doesn't look like that stubborn monster is capable of understanding.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그 고지식해 보이는 괴물한텐 이해시킬 수도 없을 것 같네.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【羽入】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0380", 128, TRUE);
 	OutputLine(NULL, "「あいつは人の話を聞かない、とにかく冷たい、融通の利かないヤツなのですよ。」",
-		   NULL, "\"She never listens to anyone. She's always just cold and inflexible.\"", Line_Normal);
+		   NULL, "\"그 녀석은 사람의 얘기를 듣지 않아요. 어찌됐든 냉정하고, 융통성도 없는 녀석인 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5190,7 +5190,7 @@ void main()
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0590", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「向こうから見れば、鷹野がばら蒔いたウィルスも私たちも同じものだから同罪。でもこっちから見れば、全部、鷹野のせいよ。……これだけの大惨事を引き起こしてくれたんだもの。あんにゃろうをぶん殴らなきゃ、腹が収まらないわ。」",
-		   NULL, "\"From her point of view, we're no different from the virus Takano spread, and thus equally guilty. But from our perspective, it's all Takano's fault. ......She's the one who caused this great disaster. I won't be able to calm down until I punch that woman in the face.\"", Line_Normal);
+		   NULL, "\"반대편 입장에서 보면 타카노가 뿌려댄 바이러스나 우리나 마찬가지일 테니까 똑같은 죄야. 하지만, 우리 입장에서 보면 전부 타카노 탓이고. ......이만한 대참사를 일으켜줬는걸. 그 녀석을 때려눕히지 않으면 열불이 나겠어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5199,7 +5199,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0390", 128, TRUE);
 	OutputLine(NULL, "「……田村が邪魔をしないとよいのですが。」",
-		   NULL, "\"......I just hope Tamura doesn't get in our way.\"", Line_Normal);
+		   NULL, "\"......타무라가 방해하지 않으면 좋겠는 거에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5208,9 +5208,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうやら、羽入たち角の民の土地が雛見沢だとすると、",
-		   NULL, "It would seem the land of Hinamizawa was the land of the horned people,", Line_Continue);
+		   NULL, "아무래도 하뉴네 뿔을 지닌 백성의 토지가 히나미자와라고 치면,", Line_Continue);
 	OutputLine(NULL, "それ以外の土地は全て、あの田村の民のものらしい。",
-		   NULL, " while all the other lands belonged to Tamura's people.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그 이외의 토지는 전부 그 타무라의 백성 것인 모양이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5218,16 +5218,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……田村の民って、何者……？",
-		   NULL, "......Just what is Tamura's people......?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......타무라의 백성은 대체 뭐하는 녀석들이지......?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　というか、人間に寄生する存在と同類ということは、",
-		   NULL, "Also, if she's also a human parasite...", Line_WaitForInput);
+		   NULL, "그렇다기보다, 인간에 기생하는 존재와 동류라는 말은,", Line_WaitForInput);
 	OutputLine(NULL, "……まさか、日本中の人間って………。",
-		   NULL, " does that mean everyone in Japan is......?", Line_Normal);
+		   NULL, " 설마 일본 전역의 인간이란 건......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5240,28 +5240,28 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0330", 128, TRUE);
 	OutputLine(NULL, "「そろそろ街が近付いてきたね。……何があるかわからないから、用心してね。」",
-		   NULL, "\"We're about to come up on the town. ......I don't know what we'll find here, so be careful.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"슬슬 마을이 가까워졌네. ......뭐가 있을지 모르니 조심해.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【梨花】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0600", 128, TRUE);
 	OutputLine(NULL, "「わかってますのです。オヤシロパワーで、悪い人が来ないように退けますですよ。」",
-		   NULL, "\"I know. I'll use Oyashiro's power to make sure none of the bad people come to us.\"", Line_Normal);
+		   NULL, "\"알고 있습니다예요. 오야시로 파워로, 나쁜 사람이 다가오지 못하도록 격퇴합니다예요.\"", Line_Normal);
 	ClearMessage();
 
 	//;【富竹】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0340", 128, TRUE);
 	OutputLine(NULL, "「その力を確かめずに済むのが一番だねぇ。ははは。」",
-		   NULL, "\"It'd be better if we never have to test that power of yours at all. Hahaha.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그 힘을 보지 않고 끝내는게 급선무겠는걸. 하하하.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【梨花】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0610", 128, TRUE);
 	OutputLine(NULL, "「富竹。……これだけ広い街の中から、どうやって鷹野を探し出すのですか。」",
-		   NULL, "\"Tomitake. ......How do you plan to hunt down Takano in a town this large?\"", Line_Normal);
+		   NULL, "\"「토미타케. ......이렇게나 넓은 마을 안에서 어떻게 타카노를 찾을 셈인가요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5275,21 +5275,21 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0350", 128, TRUE);
 	OutputLine(NULL, "「鷹野さんにとっても、今の興宮は危険な街のはずさ。仮に拳銃を持ちだしていたとしても、とても身を守れやしないはずさ。」",
-		   NULL, "\"Right now, Okinomiya is a dangerous town for Takano-san too. Even if she has brought a handgun along, it won't be enough to really protect her.\"", Line_Normal);
+		   NULL, "\"타카노 씨에게 있어서도 지금의 오키노미야는 위험할 거야. 권총을 갖고 나갔다 하더라도 몸을 사려야겠지.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　山狗も壊滅している。",
-		   NULL, "The Mountain Dogs were annihilated.", Line_WaitForInput);
+		   NULL, "야마이누도 궤멸된 상황이다.", Line_WaitForInput);
 	OutputLine(NULL, "今の鷹野は、か弱いひとりの女性に過ぎない。",
-		   NULL, " Right now Takano was nothing more than a lone woman.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 타카노는 지금 가녀린 한 명의 여성에 지나지 않는다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　徘徊する末期発症を起こした殺人鬼たちに襲われたら、ひとたまりもあるまい。",
-		   NULL, "She wouldn't be able to last if she was attacked by the murderers wandering around with their terminal symptoms.", Line_Normal);
+		   NULL, "길거리를 배회하는 말기 발병자 살인귀들에게 습격당하면 맥도 못 추릴 거다.", Line_Normal);
 	ClearMessage();
 
 
@@ -5298,7 +5298,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0360", 128, TRUE);
 	OutputLine(NULL, "「恐らく、避難者たちが寄り合うコロニーのようなところに身を寄せているはずさ。……まぁ、それでも探し出すのは気が遠くなる話だろうけどねぇ。梨花ちゃんの神通力で、鷹野さんを探し出すことが出来れば、一番いいんだけどねぇ、ははは。」",
-		   NULL, "\"She's probably taking shelter with a colony of evacuees. ......Well, it's still dizzying to think about hunting her down. If you're able to use your powers to uncover Takano-san, that would be perfect, hahaha.\"", Line_Normal);
+		   NULL, "\"피난한 사람들이 모인 장소 같은 곳에 분명 몸을 맡기고 있겠지. ......뭐, 그래도 찾으려 한다는 건 정신이 아찔해지는 얘기겠지만 말야. 리카쨩의 신통력으로 타카노 씨를 찾을 수 있으면 최고겠는데, 하하하.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5315,7 +5315,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0620", 128, TRUE);
 	OutputLine(NULL, "「出来るの、羽入？」",
-		   NULL, "\"Can you do it, Hanyuu?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"가능해, 하뉴?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -5325,7 +5325,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0400", 128, TRUE);
 	OutputLine(NULL, "「……出来たらもうやっていますですよ、あぅあぅ。」",
-		   NULL, "\"......If I could, I already would be. Auau.\"", Line_Normal);
+		   NULL, "\"......가능했으면 벌써 했습니다예요, 아우아우.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5335,19 +5335,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0370", 128, TRUE);
 	OutputLine(NULL, "「あるいは、何とか外部と連絡を取る手段を見つけるのもいいかもしれない。東京と連絡さえ取れれば、打てる手はいくらでもあるだろうからね。」",
-		   NULL, "\"Another possibility would be finding a means of contacting people outside of here. If we're able to contact Tokyo, then we'll have plenty of options.\"", Line_Normal);
+		   NULL, "\"아니면 어떻게든 외부와 연락을 취할 수단을 찾는게 좋을지도 몰라. 도쿄와 연락만 할 수 있으면, 대처방법 같은 건 얼마든지 있을 테니까.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹の頼もしいところは、このような緊急事態にあっても、まったく動じず、普段通りのままであることだ。",
-		   NULL, "The reassuring thing about Tomitake was that he could act like normal, completely unfazed, even in emergencies like this.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "토미타케가 믿음직스러운 부분은 역시, 이런 긴급사태에도 전혀 동요하지 않고 평소처럼 침착하다는 점이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野が与えた、新型予防薬が効果を発揮したお陰だろう。",
-		   NULL, "That was probably thanks to the effects of the new prophylactic Takano had administered.", Line_Normal);
+		   NULL, "타카노가 준 신형 예방약의 효과가 발휘한 덕분일 거다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5360,7 +5360,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0630", 128, TRUE);
 	OutputLine(NULL, "「……鷹野の考えることはわからないわ。どうして富竹を生かしたのかしら。……この状況下では、自分の最も面倒な敵になるだろうことは予想がつくはずなのに。」",
-		   NULL, "\"......I don't know what Takano's thinking. Why did she let Tomitake live? ......She should've predicted that he'd become her most difficult adversary in this situation.\"", Line_Normal);
+		   NULL, "\"......타카노의 생각을 못 읽겠네. 어째서 토미타케를 살려둔 걸까. ......이 상황에서, 자기에게 가장 성가신 적이 되리란 건 예상이 갈 텐데.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5370,14 +5370,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0410", 128, TRUE);
 	OutputLine(NULL, "「千年を生きても、まったく理解できない人間は稀にいますのです。……あいつもそういう内のひとりなのです。」",
-		   NULL, "\"Even after living a thousand years, there is still the occasional human completely beyond comprehension. ......She's one of those people.\"", Line_Normal);
+		   NULL, "\"천 년을 살아도 전혀 이해할 수 없는 인간은 드물게 있습니다예요. ......그 녀석도 그런 인간중 하나인 거예요.\"", Line_Normal);
 	ClearMessage();
 
 	//;【梨花】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0640", 128, TRUE);
 	OutputLine(NULL, "「そうね。ただひとつ確実なことは、あいつに好き放題にさせれば、この惨状は日本中、いや、世界中に広がるってことだわ。」",
-		   NULL, "\"True. The one thing we can be sure of is that if we let her have her way, then disaster will spread to all of Japan, no, all the world.\"", Line_Normal);
+		   NULL, "\"맞아. 단 하나 확실한 점은 그 녀석이 멋대로 굴게 내버려두면, 이 참상은 일본 전체, 아니, 전 세계로 퍼져나갈 거란 점이지.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5386,7 +5386,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0650", 128, TRUE);
 	OutputLine(NULL, "「そうしたら、世界中の自称神さまのバケモノがやってきてあんたを罵るわけかしら？」",
-		   NULL, "\"I wonder, if that happens will all the monsters of this world claiming to be gods come to ream you out?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그러면, 전 세계에서 신이라고 자칭하는 괴물들이 찾아와서 널 욕하려나?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -5396,7 +5396,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0420", 128, TRUE);
 	OutputLine(NULL, "「……あぅあぅあぅ。」",
-		   NULL, "\"......Auauau.\"", Line_Normal);
+		   NULL, "\"......아우아우아우.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5405,7 +5405,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0660", 128, TRUE);
 	OutputLine(NULL, "「神になりたいと妄言をのたまう鷹野。そして、あんたと同類の田村媛命。……なるほどね、これはもはや人間の世界でどうこうという問題じゃないわけだわ。」",
-		   NULL, "\"Takano was talking about wanting to become a god herself. Then there's you and that Tamurahime-no-Mikoto. ......I see. The human world doesn't have a say in this matter anymore.\"", Line_Normal);
+		   NULL, "\"신이 되고 싶다는 망언을 지껄이는 타카노. 그리고 너와 동류인 타무라히메노미코토. ......그렇구나, 이건 이미 인간의 세계에서 왈가왈부 할 수 있는 문제가 아냐.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5413,16 +5413,16 @@ void main()
 	FadeBustshot( 2, FALSE, 0, 0, 0, 0, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　恐らくこれは、",
-		   NULL, "Most likely...", Line_WaitForInput);
+		   NULL, "이건 분명...", Line_WaitForInput);
 	OutputLine(NULL, "……羽入を神と呼ぶなら、神々の世界の騒ぎなのだ。",
-		   NULL, " If Hanyuu is to be called a god, then there must be a disturbance in their world.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 하뉴를 신이라고 부른다면, 신들의 세계에서 일어난 소동인 것이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人間など、それに巻き込まれているだけに過ぎない。",
-		   NULL, "Humans have just been caught up in their mess.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "인간 따윈, 그 소동에 휘말렸을 뿐.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5430,7 +5430,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……考えれば考えるほどに、今回の事件は、自分たちにしか食い止められないのだ。",
-		   NULL, "......The more I think about it, the more I realized we're the only ones who can stop this incident.", Line_Normal);
+		   NULL, "......생각하면 생각할수록, 이번 사건을 리카가 막는 건 불가능했다.", Line_Normal);
 	ClearMessage();
 
 	CallScriptSection( "util", "EyeCatch2" );
