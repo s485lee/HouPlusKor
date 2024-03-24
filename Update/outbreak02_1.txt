@@ -2930,7 +2930,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0160", 128, TRUE);
 	OutputLine(NULL, "「そんなことオヤシロさまだってわからないのですっ。」",
-		   NULL, "\"「그런 거, 오야시로 님이라 해도 몰라요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그런 거, 오야시로 님이라 해도 몰라요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3300,7 +3300,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0050", 128, TRUE);
 	OutputLine(NULL, "「違うよ、もっと大変なことが起こるっ。鷹野さんは、雛見沢症候群を日本中に、いや、世界中にばら撒くつもりだ……！！」",
-		   NULL, "\"「그게 아냐, 더 큰 일이 일어나! 타카노 씨는 히나미자와 증후군을 일본 전체에... 아니, 전 세계에 뿌려버릴 생각이야...!!\"", Line_Normal);
+		   NULL, "\"그게 아냐, 더 큰 일이 일어나! 타카노 씨는 히나미자와 증후군을 일본 전체에... 아니, 전 세계에 뿌려버릴 생각이야...!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -3558,7 +3558,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s25/09/ntak_0080", 128, TRUE);
 	OutputLine(NULL, "「くすくす。きっと、私はこの日の為に研究をさせられていたのだわ。神は、私を選んだ。私の崇高な使命を、理解して下さった…！！」",
-		   NULL, "\"쿡쿡. 분명히 나는 이 날을 위해서 연구를 하고 있언던 거야. 신은 나를 선택했어. 나의 고귀한 임무를 이해해 주셨어...!!\"", Line_Normal);
+		   NULL, "\"쿡쿡. 분명히 나는 이 날을 위해서 연구를 하고 있었던 거야. 신은 나를 선택했어. 나의 고귀한 임무를 이해해 주셨어...!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -3581,7 +3581,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s25/09/ntak_0090", 128, TRUE);
 	OutputLine(NULL, "「悪魔なんて、酷いことを言うわねぇ。……あなたには、この神々しい姿が見えないのかしら？　まぁ、見えないわよね。凡人のあなたには。くすくすくすくす……。」",
-		   NULL, "\"「악마라니, 심한 말을 하네.. ......당신에겐 이 신성한 모습이 안 보이는 걸까? 뭐, 보일 리 없지, 평범한 당신에겐. 쿡쿡쿡쿡......\"", Line_Normal);
+		   NULL, "\"악마라니, 심한 말을 하네. ......당신에겐 이 신성한 모습이 안 보이는 걸까? 뭐, 보일 리 없지, 평범한 당신에겐. 쿡쿡쿡쿡......\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3750,7 +3750,7 @@ void main()
 	OutputLine(NULL, "「待てッ、待つんだ、鷹野さん！！　待てぇええぇええええぇ！！",
 		   NULL, "\"잠깐, 기다려! 타카노 씨!! 기다려어어어어!!", Line_Continue);
 	OutputLine(NULL, "　君は世界を滅ぼすつもりなのかッ！」",
-		   NULL, " 너는 세계를 멸망시킬 셈이야!\"", Line_ContinueAfterTyping);
+		   NULL, " 너는, 세계를 멸망시킬 셈인거야!\"", Line_ContinueAfterTyping);
 	//;quake 5,800
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -3762,7 +3762,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s25/09/ntak_0130", 128, TRUE);
 	OutputLine(NULL, "「とんでもない。……私は神の啓示を受け、人類を救済する為に行くのよ？　この、可愛い子たちを一斉に羽ばたかせるの！」",
-		   NULL, "\"그럴 리가. ......난 신의 계시를 받아 인류를 구원하러 가는 거라구?. 이 귀여운 아이들을 단번에 날려보내주는 거야!\"", Line_Normal);
+		   NULL, "\"그럴 리가. ......난 신의 계시를 받아 인류를 구원하러 가는 거라구? 이 귀여운 아이들을 단번에 날려보내주는 거야!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4139,7 +4139,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0420", 128, TRUE);
 	OutputLine(NULL, "「ボクにレディーファーストを気取るより、鷹野を捕らえ、さらなる被害を食い止める方が最優先なのです。」",
-		   NULL, "\"제게 레이디 퍼스트라고 잘난 체하기 보다는, 타카노를 붙잡고, 더욱이 생길 피해를 저지하는 게 최우선인 거예요.」\"", Line_Normal);
+		   NULL, "\"제게 레이디 퍼스트라고 잘난 체하기 보다는, 타카노를 붙잡고, 더욱이 생길 피해를 저지하는 게 최우선인 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4158,7 +4158,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0430", 128, TRUE);
 	OutputLine(NULL, "「すでに最悪の事態は起こっていますのです。ボクが死んでしまっても、これ以上、悪くはならないのですよ？」",
-		   NULL, "\"이미 최악의 사태는 일어난 거예요. 제가 죽어버려도, 더 이상 나빠지진 않을 거에요?」\"", Line_Normal);
+		   NULL, "\"이미 최악의 사태는 일어난 거예요. 제가 죽어버려도, 더 이상 나빠지진 않을 거에요?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4329,7 +4329,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0240", 128, TRUE);
 	OutputLine(NULL, "「しかし、鷹野がいう悪魔とは一体何なのでしょう……。」",
-		   NULL, "\"「하지만, 타카노가 말하는 악마라는 건 대체 뭘까요......?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"하지만, 타카노가 말하는 악마라는 건 대체 뭘까요......?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -4453,7 +4453,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0500", 128, TRUE);
 	OutputLine(NULL, "「な、何？　誰……。」",
-		   NULL, "\"「뭐, 뭐야? 누구......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"뭐, 뭐야? 누구......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -5261,7 +5261,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0610", 128, TRUE);
 	OutputLine(NULL, "「富竹。……これだけ広い街の中から、どうやって鷹野を探し出すのですか。」",
-		   NULL, "\"「토미타케. ......이렇게나 넓은 마을 안에서 어떻게 타카노를 찾을 셈인가요.\"", Line_Normal);
+		   NULL, "\"토미타케. ......이렇게나 넓은 마을 안에서 어떻게 타카노를 찾을 셈인가요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
