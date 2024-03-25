@@ -5606,7 +5606,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "気を使わせないと腕を持ち上げる魅音だが、銃による傷痕が一日二日で塞がるわけもない。",
-		   NULL, "걱정 끼치지 않으려 팔을 드는 미온이지만, 총에 의한 상처가 하루 이틀 만에 아물리가 없다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "걱정 끼치지 않으려 팔을 드는 미온이지만, 총에 맞은 상처가 하루 이틀 만에 아물리가 없다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -5657,7 +5657,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_1160", 128, TRUE);
 	OutputLine(NULL, "「ま、事務所につけばもう少しマシな治療もきっと出来るって。だからもう一踏ん張りしないとね。」",
-		   NULL, "\"뭐, 사무실에 도착하면 더 나은 치료를 받을 수 있을 거야. 그러니까 조금만 더 힘을 내자.\"", Line_Normal);
+		   NULL, "\"뭐, 사무소에 도착하면 더 나은 치료를 받을 수 있을 거야. 그러니까 조금만 더 힘을 내자.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5666,7 +5666,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_1050", 128, TRUE);
 	OutputLine(NULL, "「今は時間をかけてでも、確実に事務所に辿り着くって事だな。」",
-		   NULL, "\"지금은 시간이 좀 걸리더라도, 반드시 사무실에 도착해야 해.\"", Line_Normal);
+		   NULL, "\"지금은 시간이 좀 걸리더라도, 반드시 사무소에 도착해야 해.\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 1, 1000, FALSE );
@@ -6378,7 +6378,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_1060", 128, TRUE);
 	OutputLine(NULL, "「何とか、静かに行きたいね。賑やかな状態で駆け込めば、事務所の人たちにも迷惑を掛けちゃう。」",
-		   NULL, "\"가능하다면 조용히 가고 싶어. 소란스럽게 들어가면 사무실 사람들한테도 폐를 끼칠 테니까.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"가능하다면 조용히 가고 싶어. 소란스럽게 들어가면, 사무소 사람들한테도 폐를 끼칠 테니까.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -6394,7 +6394,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　偵察の様子からは、園崎組事務所は外部とは一切の交流を絶っているように見えた。",
-		   NULL, "정찰대로라면, 소노자키 조직 사무소는 외부와의 교류를 일절 끊고 있는 걸로 보였다..", GetGlobalFlag(GLinemodeSp));
+		   NULL, "정찰대로라면, 소노자키 조직 사무소는 외부와의 교류를 일절 끊고 있는 걸로 보였다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -6471,7 +6471,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_1260", 128, TRUE);
 	OutputLine(NULL, "「先頭は私が。……失敗時には、計画通りに迅速な撤退を。その時はおじさんを助けようなんて思わないんだよ。いいね！」",
-		   NULL, "\"선두는 내가 서겠어. ......실패했을 땐, 계획대로 신속한 후퇴야. 그땐 아저씨를 구하려는 생각은 안 하는 거야. 알겠지!」\"", Line_Normal);
+		   NULL, "\"선두는 내가 서겠어. ......실패했을 땐, 계획대로 신속한 후퇴야. 그땐 아저씨를 구하려는 생각은 안 하는 거야. 알겠지!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -7563,7 +7563,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0510", 128, TRUE);
 	OutputLine(NULL, "「面白いじゃございませんの。まさか、部活程度にはハラハラできるとは思いませんでしたのよ。」",
-		   NULL, "\"즐겁지 않나요! 설마 부활동 정도로 조마조마할 거라곤 생각하지 못했사와요.」\"", Line_Normal);
+		   NULL, "\"즐겁지 않나요! 설마 부활동 정도로 조마조마할 거라곤 생각하지 못했사와요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -7879,7 +7879,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_1320", 128, TRUE);
 	OutputLine(NULL, "「何やってんの！　まだちょっと早いでしょ！」",
-		   NULL, "\"「뭐하는 거야! 아직은 좀 빠르잖아!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"뭐하는 거야! 아직은 좀 빠르잖아!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -8002,7 +8002,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_1330", 128, TRUE);
 	OutputLine(NULL, "「そうだ。それより魅音、ヘソ踊りの約束、忘れるなよ？　采ちゃんが梯子を下ろしてくれる時にしたぞ！」",
-		   NULL, "\"「맞아. 그것보다 미온, 배꼽 내놓고 춤춘다는 약속은 잊지 말라구? 우네쨩이 사다리를 내려줬을 때 했잖아!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"맞아. 그것보다 미온, 배꼽 내놓고 춤춘다는 약속은 잊지 말라구? 우네쨩이 사다리를 내려줬을 때 했잖아!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -8064,7 +8064,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ラストスパートして、ゴールのテープを千切るだけ。",
-		   NULL, "라스트 스퍼트로 달려가서, 결승점에 있는 테이프를 찢으며 넘으면 된다.", Line_WaitForInput);
+		   NULL, "라스트 스퍼트로 달려가서, 결승점에 있는 테이프를 끊으면 된다.", Line_WaitForInput);
 	OutputLine(NULL, "そう思っていたはずだ。",
 		   NULL, " 그렇게 생각하고 있었을 터.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
