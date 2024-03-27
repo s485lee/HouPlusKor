@@ -10668,18 +10668,18 @@ void main()
 	//;wait 1000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガラスが割れる音が聞こえた、",
-		   NULL, "There was the sound of glass shattering", Line_Continue);
+		   NULL, "유리가 깨지는 소리가 들리고,", Line_Continue);
 	OutputLine(NULL, "と同時に怒号の喧騒が轟くのが聞こえた。",
-		   NULL, " followed by an angry, bellowing roar.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그와 동시에 소란스러운 목소리가 들렸다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何が起こった？！",
-		   NULL, "What happened?!", Line_WaitForInput);
+		   NULL, "뭐가 일어난 거지?!", Line_WaitForInput);
 	OutputLine(NULL, "　タイミング的に考えて、田村が何かをしたのは明白だった。",
-		   NULL, " Considering the timing, it was obvious Tamura had done something.", Line_Normal);
+		   NULL, " 타이밍으로 봐선, 타무라가 무슨 짓을 한 게 명백했다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10691,14 +10691,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、羽入と同様に、田村媛命もまた人ならざる者。",
-		   NULL, "Yet Tamurahime-no-Mikoto was an inhuman being like Hanyuu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만 하뉴와 마찬가지로 타무라히메노미코토 또한 인간이 아닌 자.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人の世に直接の干渉をすることは出来ないはず……。",
-		   NULL, "She shouldn't be able to interfere with the world of man directly......", Line_Normal);
+		   NULL, "인간 세계에 직접 간섭할 수는 없을 터......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10712,7 +10712,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0450", 128, TRUE);
 	OutputLine(NULL, "「た、鷹野さん？！」",
-		   NULL, "\"T-Takano-san?!\"", Line_Normal);
+		   NULL, "\"타, 타카노 씨?!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10724,13 +10724,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s25/09/ntak_0190", 128, TRUE);
 	OutputLine(NULL, "「ハイ、ジロウさん。やっぱりあなたとは再会できると信じてたわ。くすくす。」",
-		   NULL, "\"Hello, Jirou-san. I had faith you and I would meet again. Heehee.\"", Line_Normal);
+		   NULL, "\"네, 지로 씨. 역시 당신과는 다시 만날 수 있을 거라 믿었어요. 쿡쿡쿡.\"", Line_Normal);
 	ClearMessage();
 
 	//;ld r,tak_1,80
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鷹野は窓を破り、事務所の中に飛び込んできたのだ。",
-		   NULL, "Takano had broken through the window and flew into the office.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "창문을 깨고 사무소 안에 뛰어들어온 건 타카노였다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

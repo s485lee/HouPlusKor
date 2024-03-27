@@ -61,7 +61,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>자위대원</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/njie_0010", 128, TRUE);
 	OutputLine(NULL, "　住民の皆さんはご自宅へ待機をお願いいたします。防災無線やテレビ、ラジオ等での情報収集に努めてください。」",
-		   NULL, "주민 여러분께서는 자택에서 대기해 주실 것을 부탁드립니다. 방재 방송, TV, 라디오 등을 통해 정보를 지속 확인해 주십시오.\"", Line_Normal);
+		   NULL, "주민 여러분께서는 자택에서 대기해 주실 것을 부탁드립니다. 방재 방송, TV, 라디오 등을 통해 정보를 계속 확인해 주십시오.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>自衛隊員</color>", NULL, "<color=#f5e6d3>자위대원</color>", NULL, Line_ContinueAfterTyping); }
@@ -88,7 +88,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>アナウンサー</color>", NULL, "<color=#f5e6d3>아나운서</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nana_0000", 128, TRUE);
 	OutputLine(NULL, "「……ィルスが検出されたとのことです。これはＷＨＯ、世界保健機構が指定するウィルスの中でも最も危険な分類に入るもので…、」",
-		   NULL, "\"바이러스가 검출되었다고 합니다. 이는 WHO, 세계보건기구가 지정하는 바이러스 중에서도 가장 위험한 분류에 드는 것으로...\"", Line_Normal);
+		   NULL, "\"...바이러스가 검출되었다고 합니다. 이는 WHO, 세계보건기구가 지정하는 바이러스 중에서도 가장 위험한 분류에 드는 것으로...\"", Line_Normal);
 	ClearMessage();
 
 
@@ -133,7 +133,7 @@ void main()
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nand_0000", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「社明党の海原代表は、自衛隊の災害派遣命令に対し適切な手順が省かれた問題を指摘し、これを軍国主義へ回帰するものとして激しく非難、アジアでの一層の孤立化を招くものとして…、」",
-		   NULL, "\"사명당의 카이바라 대표는 자위대의 재난 지원 명령에서 적절한 절차가 무시된 문제를 지적하고, 이를 군국주의로의 회귀로 규정하며 강하게 비판했으며, 이로 인해 아시아에서 더욱 고립될 것이라고...\"", Line_Normal);
+		   NULL, "\"사명당의 카이바라 대표는, 자위대의 재난 지원 명령에서 적절한 절차가 무시된 문제를 지적하고, 이를 군국주의로의 회귀로 규정하며 강하게 비판했으며, 이로 인해 아시아에서 더욱 고립될 것이라고...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -191,11 +191,11 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　誰もがいつもと変わりない初夏の朝を疑わずに起床しただろう。",
-		   NULL, "누구나 평소와 다름없는 초여름의 아침을 의심 없이 맞이하며 일어났을 테다.", Line_WaitForInput);
+		   NULL, "누구나 평범한 초여름 아침이라고 생각하며 일어났을 거다.", Line_WaitForInput);
 	OutputLine(NULL, "空の青さだっていつも通りだったし、",
-		   NULL, " 하늘의 푸르름도 평소와 마찬가지였고,", Line_WaitForInput);
+		   NULL, " 하늘의 푸르름도 언제나처럼 그대로였고,", Line_WaitForInput);
 	OutputLine(NULL, "昇ってきた太陽だってそれを疑わなかったに違いない。",
-		   NULL, " 떠오르는 태양조차 그것을 의심치 않았을 것이 틀림없다.", Line_Normal);
+		   NULL, " 떠오르는 태양마저 그걸 의심치 않았을 거다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -203,12 +203,12 @@ void main()
 	DrawScene( "background/hi4", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、低空を飛びまわりスピーカーで怒鳴り続けるヘリコプターと、",
-		   NULL, "하지만, 낮은 고도를 날아다니며 스피커로 계속 소리치는 헬리콥터와,", Line_WaitForInput);
+		   NULL, "하지만, 낮게 날아다니며 스피커로 계속 소리치는 헬리콥터와,", Line_WaitForInput);
 	OutputLine(NULL, "町への幹線道路が封鎖され渋滞している光景を見て、",
 		   NULL, " 마을로 향하는 주요 도로가 봉쇄되어 정체되어 있는 광경을 보며, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "人々は今朝がこれまでの朝とはあまりに異質であることを知るのだった。",
-		   NULL, "사람들은 이 아침이 지금까지의 아침들과는 너무나 다르다는 것을 깨달았다.", Line_Normal);
+		   NULL, "사사람들은 오늘 아침이 그동안의 아침들과는 너무나 다르다는 것을 깨달았다.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -225,10 +225,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢の住民たちはその非常放送を、どこか遠くの町での出来事のように感じずにはいられなかったが、",
-		   NULL, "히나미자와 주민들은 그 긴급 방송을 마치 어디 멀리 떨어진 마을의 일처럼 여길 수 없었지만, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "히나미자와 주민들은 그 긴급 방송을, 마치 어디 멀리 떨어진 마을의 일처럼 여길 수 없었지만, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…それは紛れもなく、自分たちの住まう郷里に起こった異常事態だったのである…。",
-		   NULL, "그것은 분명히, 자신들이 살고 있는 고향에서 발생한 비정상적인 상황이었다...", Line_Normal);
+		   NULL, "...그것은 분명히, 자신들이 살고 있는 고향에서 발생한 비정상적인 상황이었다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -264,7 +264,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>케이이치의 어머니</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkmo_0000", 128, TRUE);
 	OutputLine(NULL, "「圭一！　大変よ！　あのね、雛見沢がね、悪いウィルスが見付かったとかで隔離されちゃったんですって！」",
-		   NULL, "\"케이이치! 큰일이야! 그러니까, 히나미자와에 나쁜 바이러스가 발견되었다고 해서 격리됬대!\"", Line_Normal);
+		   NULL, "\"케이이치! 큰일이야! 들어봐, 히나미자와에, 위험한 바이러스가 발견되어서 마을이 격리됐대!\"", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>케이이치의 아버지</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkfa_0000", 128, TRUE);
@@ -278,19 +278,19 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0010", 128, TRUE);
 	OutputLine(NULL, "「隔離って、……んじゃあ、町へも出られないってこと？」",
-		   NULL, "\"격리라니, ...그럼, 마을에서도 나갈 수 없다는 거야?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"격리라니, ...그럼, 마을에서 나갈 수 없다는 거야?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>케이이치의 어머니</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkmo_0010", 128, TRUE);
 	OutputLine(NULL, "「そうみたいね…。食料の援助とかはあるそうだけど…、困ったわぁ！　今日、興宮で特売があるからって、冷蔵庫はそんなに在庫がないのよ。」",
-		   NULL, "\"그런 것 같네... 식량 원조는 있다고 하지만... 큰일났네! 오늘, 오키노미야에서 특별 세일이 있다고 해서 냉장고도 거의 비어있어.\"", Line_Normal);
+		   NULL, "\"그런 것 같네... 식량 원조는 있다고 하지만... 큰일났네! 오늘, 오키노미야에서 특별 세일이 있다고 해서 냉장고도 거의 비어있는데.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>케이이치의 아버지</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkfa_0010", 128, TRUE);
 	OutputLine(NULL, "「それより、この何とかってウィルスはどういうもんなんだ…！　隔離ってくらいだから相当恐ろしいモンなんだろ？！　そのウィルスはどうなってんだ！　ウチにも感染してるってのか？！」",
-		   NULL, "\"그보다, 이 뭐라고 하는 바이러스는 어떤 거야! 격리할 정도면 상당히 위험한 거 아냐?! 그 바이러스 상황은 어떻게 되는 거야! 우리집도 감염된 거야?!\"", Line_Normal);
+		   NULL, "\"그보다, 이 뭐라고 하는 바이러스는 도대체 뭐야! 격리할 정도라니 엄청 위험한 거 아냐?! 그 바이러스 상황은 어떻게 되는 거야! 우리집도 감염된 거야?!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -329,9 +329,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…アフリカの小さな村を全滅させたというその惨状は、あまりに惨たらしく、",
-		   NULL, "...아프리카의 작은 마을을 전멸시켰다는 그 참상은, 너무나도 처참하고,", Line_WaitForInput);
+		   NULL, "...아프리카의 작은 마을을 전멸시켰다는 그 참상은, 너무나도 참혹하고,", Line_WaitForInput);
 	OutputLine(NULL, "……遺体のあまりに変わり果てた姿があまりに恐ろしかった。",
-		   NULL, " 시체의 비참하게 변해 버린 모습이 너무나도 무서웠다.", Line_Normal);
+		   NULL, " 시체의 비참하게 변해 버린 모습이 공포스러웠다.", Line_Normal);
 	ClearMessage();
 
 
@@ -340,7 +340,7 @@ void main()
 	OutputLine(NULL, "　我が身に危険が及ばない無責任な視聴者にとって、",
 		   NULL, "자신에게 위험이 닥치지 않는다는 무책임한 관점에서 보는 시청자에게는,", Line_WaitForInput);
 	OutputLine(NULL, "謎の危険なウィルスがどんな害をもたらすのか映像を見たいというのは、率直な野次馬感情だろう。",
-		   NULL, " 미지의 위험한 바이러스가 어떤 피해를 가져올지 그 영상을 보고 싶어 하는 것은, 솔직히 호기심 많은 구경꾼의 심리일 것이다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 미지의 위험한 바이러스가 어떤 피해를 가져올지 그 영상을 보고 싶어 하는 것은, 솔직히 호기심 많은 구경꾼의 심리이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -367,7 +367,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　普段のレナだったら、約束した時間を５分過ぎれば直接迎えに来る。",
-		   NULL, "평상시의 레나라면, 약속 시간을 5분이라도 넘기면 직접 마중을 나오곤 했다.", Line_WaitForInput);
+		   NULL, "평상시의 레나는, 약속 시간을 5분이라도 넘기면 직접 마중을 나오곤 했다.", Line_WaitForInput);
 	OutputLine(NULL, "…でも今朝はそれはなかった。",
 		   NULL, " ...하지만 오늘 아침에는 그렇지 않았다.", Line_Normal);
 	ClearMessage();
@@ -375,7 +375,7 @@ void main()
 	OutputLine(NULL, "　……当然だ。",
 		   NULL, "......당연하다.", Line_WaitForInput);
 	OutputLine(NULL, "きっとレナだって今頃、家族と一緒にテレビに釘付けになっているに違いない…。",
-		   NULL, " 레나도 분명 지금쯤 가족들과 함께 TV에서 눈을 떼지 못하고 있을 게 틀림없지...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 레나도 분명 지금쯤 가족들과 함께, TV에서 눈을 떼지 못하고 있을 게 분명하다...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -390,7 +390,7 @@ void main()
 	OutputLine(NULL, "　それともまさか、",
 		   NULL, "아니면 설마...", Line_WaitForInput);
 	OutputLine(NULL, "……この怪しげなウィルスにやられて苦しんでいるというのではないだろうか…。",
-		   NULL, " ...바이러스에 걸려 괴로워하고 있는 것은 아닐까...", Line_Normal);
+		   NULL, " ...이 수상한 바이러스에 걸려 고통 받고 있는 게 아닐까...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -402,7 +402,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そう思った瞬間、レナだけじゃなく、魅音や沙都子、梨花ちゃんの安否が心の底から気になった。",
-		   NULL, "그 생각이 든 순간, 레나뿐만 아니라 미온, 사토코, 리카쨩의 안부가 마음속 깊이 걱정되었다.", Line_Normal);
+		   NULL, "그 생각이 든 순간, 레나뿐만 아니라 미온, 사토코, 리카쨩의 안부가 마음속 깊이 걱정되기 시작했다.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -442,7 +442,7 @@ void main()
 	OutputLine(NULL, "　なら、直接訪問してその無事を確かめたい。",
 		   NULL, "그렇다면, 직접 찾아가서라도 무사한지 확인하고 싶다.", Line_WaitForInput);
 	OutputLine(NULL, "……だが、危険なウィルスが村の中に満ちているかもしれないというのだ。",
-		   NULL, " 하지만, 마을 안에 위험한 바이러스가 가득할지도 모른다고 한다.", Line_WaitForInput);
+		   NULL, " 하지만, 마을 안에 위험한 바이러스가 퍼져있을지 모른다고 한다.", Line_WaitForInput);
 	OutputLine(NULL, "そんな戸外へわざわざ飛び出すのは自殺行為ではないのか…？",
 		   NULL, " 그렇다면 집 밖으로 일부러 뛰쳐나오는 건 자살행위나 다름없지 않을까...?", Line_Normal);
 	ClearMessage();
@@ -470,7 +470,7 @@ void main()
 		   NULL, " 안을 들여다 보니, 상자 안에는 비닐도 뜯지 않은 덕트 테이프가 가득 들어 있었다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "親父が画材か何かに使うためにストックしていたものらしい。",
-		   NULL, "아버지가 그림의 소재 같은 것으로 사용하기 위해 비축하고 있었던 것 같다.", Line_Normal);
+		   NULL, "아버지가 그림 소재로 사용하기 위해 쌓아놓고 있었던 것 같다.", Line_Normal);
 	ClearMessage();
 
 
@@ -479,7 +479,7 @@ void main()
 	OutputLine(NULL, "　この緊急時になぜガムテープ、とは思わなかった。",
 		   NULL, "이 긴급상황에 왜 아버지가 덕트 테이프를 가져왔는지 알 수 없었다.", Line_WaitForInput);
 	OutputLine(NULL, "…すぐに何のために親父が俺を呼び出したのかを理解する。",
-		   NULL, " ...하지만, 곧바로 아버지가 왜 날 불렀는지 이해했다.", Line_Normal);
+		   NULL, " ...하지만, 곧바로 아버지가 나를 부른 이유를 깨달았다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>케이이치의 아버지</color>", NULL, Line_ContinueAfterTyping); }
@@ -519,7 +519,7 @@ void main()
 	OutputLine(NULL, "　親父が問答を許さない強い口調で怒鳴りつける。",
 		   NULL, "아버지가 대답할 여지를 주지 않는 강한 어조로 소리쳤다.", Line_WaitForInput);
 	OutputLine(NULL, "…でも、こういう事態においても比較的冷静なお袋の言い分ももっともだと思った。",
-		   NULL, " ...그래도 이런 상황 속에서도 비교적 침착한 어머니의 의견도 일리 있다고 생각했다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...그래도, 이런 상황 속에서도 비교적 침착한 어머니의 의견도 일리 있다고 생각했다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -530,7 +530,7 @@ void main()
 	OutputLine(NULL, "　埃なんかよりも遥かに微小な存在であるウィルスの侵入を、",
 		   NULL, "먼지보다도 훨씬 더 작은 바이러스가 침입하는 걸,", Line_WaitForInput);
 	OutputLine(NULL, "こんな市販の布ガムテープで目張りして回るだけで防げるなんて、迷信もいいところだ…。",
-		   NULL, " 시중에 파는 덕트 테이프로 막아서 해결할 수 있다니, 정말 미신이라고 해도 과언이 아니다...", Line_Normal);
+		   NULL, " 시중에 파는 덕트 테이프로 막아서 해결할 수 있다니, 정말 미신이라고 해도 과언이 아니지...", Line_Normal);
 	ClearMessage();
 
 
@@ -548,7 +548,7 @@ void main()
 		   NULL, " 무언가 준비를 하지 않고는 있을 수 없다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……何もせずテレビの前に居続けるより、よっぽど心が安らかでいられるに違いないのだ。",
-		   NULL, "...아무것도 안 하고 TV 앞에 계속 있는 것보다는, 조금 더 마음이 편해지지 않을까?.", Line_Normal);
+		   NULL, "...아무것도 안 하고 TV 앞에 계속 있는 것보다는, 조금 더 마음이 편해지지 않을까.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -572,7 +572,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こういう時には妙に頑固なお袋と親父の感情的な罵り合いを避けるように、",
-		   NULL, "이런 때에는 에서는 유난히 고집 센 어머니와 아버지의의 감정적인 다툼을 피해서,", Line_WaitForInput);
+		   NULL, "이런 때에는 유난히 고집 센 어머니와 아버지의의 감정적인 말다툼을 피하려고,,", Line_WaitForInput);
 	OutputLine(NULL, "俺は２階へ上がった。",
 		   NULL, " 나는 2층으로 올라갔다.", Line_Normal);
 	ClearMessage();
@@ -631,7 +631,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その雄大な光景は、昨日までの美しい伝統的建築物を連ねる雛見沢と何も変わりない。",
-		   NULL, "그 웅장한 풍경은 어제까지의 아름다운 전통 건축물들이 줄지어 있는 히나미자와와 아무것도 달라지지 않았다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그 웅장한 풍경은, 어제까지의 아름다운 전통 건축물들이 줄지어 있는 히나미자와와 조금도 달라지지 않았다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -647,7 +647,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　野良仕事をしている村人の姿を、水田の中に一人たりとも見つけることができなかった。",
-		   NULL, "밭일을 하고 있는 마을 사람의 모습을, 밭 속에서 단 한 사람도 찾을 수 없었다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "밭일을 하고 있는 마을 사람의 모습을, 밭 속에서 단 한 명도 찾을 수 없었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -680,9 +680,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはウィルスに感染するかもしれないことを恐れたのではない。",
-		   NULL, "그건 바이러스에 감염될지도 모른다는 두려움 때문이 아니었다.", Line_WaitForInput);
+		   NULL, "그건, 바이러스에 감염될지도 모른다는 두려움 때문이 아니었다.", Line_WaitForInput);
 	OutputLine(NULL, "ウィルスに感染したと思われ、村人から村八分にされることを恐れたのである。",
-		   NULL, " 바이러스에 감염됐다고 생각되어 마을 사람들로부터 외면당할 것이 두렵기 때문이다.", Line_Normal);
+		   NULL, " 바이러스에 감염됐다고 오해받아, 마을 사람들로부터 외면당할 것이 두렵기 때문이었다.", Line_Normal);
 	ClearMessage();
 
 
@@ -692,7 +692,7 @@ void main()
 	OutputLine(NULL, "　その意味においては、防疫上の効果があるかどうかを問う母親より、",
 		   NULL, "그 맥락에서 본다면, 방역 효과가 있는지를 따지는 어머니보다는,", Line_WaitForInput);
 	OutputLine(NULL, "素人思考の父親の感情的なウィルス対応策の方がずっと正しいと言えただろう。",
-		   NULL, " 아마추어적 생각으로 감정적인 바이러스 대처 방안을 내놓은 아버지의 대응책이 훨씬 옳다고 말할 수 있다.", Line_Normal);
+		   NULL, " 아마추어적 생각으로 감정적인 바이러스 대처 방안을 내놓은 아버지의 대응책이 훨씬 옳다고 할 수 있다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -703,21 +703,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村は今、静寂の恐怖に包まれている…。",
-		   NULL, "마을은 지금 정적의 공포로 뒤덮여 있다...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "마을은 지금, 정적의 공포로 휩싸여 있다...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを打ち破るのは防災無線の声と、それを掻き乱す自衛隊のヘリコプターの爆音だけ。",
-		   NULL, "그 침묵을 깨는 것은 방재 방송과, 그것을 뒤흔드는 자위대 헬리콥터의 요란한 소음뿐이다.", Line_Normal);
+		   NULL, "그 침묵을 깨는 것은 재난 방송의 소리와, 그걸 뒤덮는 자위대 헬리콥터의 요란한 소음뿐이다.", Line_Normal);
 	ClearMessage();
 
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それらはむしろ、静寂によって一層、不気味に引き立てられるのだった。",
-		   NULL, "그것들은 오히려, 정적에 의해 한층 더, 불길하게 돋보이게 되었다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그 소리들은, 오히려 정적으로 인해, 더욱 불길하게 돋보였다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -760,12 +760,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自衛隊の救援部隊が、仮設トイレを設置してくれたらしいが、",
-		   NULL, "자위대 구호 부대가 임시 화장실을 설치해 주었다는 것 같지만,", Line_WaitForInput);
+		   NULL, "자위대 구호 부대가 임시 화장실을 설치해 주었다고 들었지만,", Line_WaitForInput);
 	OutputLine(NULL, "親父は使用に強く反対していたため、前原家は水の出ない水洗トイレを使用し続けていた。",
 		   NULL, " 아버지가 사용을 강력하게 반대했기 때문에, 마에바라 가는 물이 나오지 않는 수세식 화장실을 계속 사용하고 있었다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "洗濯に使うために風呂水を残していたため、それを洗面器にすくって流せばしばらくは何とかなるわけだ。",
-		   NULL, "세탁물로 재사용하기 위해 목욕물을 매번 남겨두고 있었기 때문에, 그 물을 변기에 퍼서 흘리면 당분간은 어떻게든 된다는 것이다.", Line_Normal);
+		   NULL, "세탁물로 다시 쓰기 위해 목욕물을 매번 남겨두고 있어서, 그 물을 변기에 퍼서 흘리면 당분간은 어떻게든 된다고 한다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -773,7 +773,7 @@ void main()
 		   NULL, "아버지가 말하길, 보균자의 대변은 바이러스 덩어리와 같다고 한다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "公衆便所へ出掛けるのは感染に行くようなものと言い、家族に絶対に使わないよう言っていた。",
-		   NULL, "그렇기에 공중화장실에 가는 것은 감염되러 가는 꼴과 같다고 하면서 우리 가족에게 절대로 사용하지 말라고 했다.", Line_Normal);
+		   NULL, "그렇기에 공중화장실에 가는 것은 감염되러 가는 꼴과 같다고 하면서, 우리 가족에게 절대로 사용하지 말라고 했다.", Line_Normal);
 	ClearMessage();
 
 
@@ -782,10 +782,10 @@ void main()
 	OutputLine(NULL, "　だが風呂桶の水だってそう多くはない。",
 		   NULL, "하지만 욕조에 담긴 물도 그렇게 많지는 않다.", Line_WaitForInput);
 	OutputLine(NULL, "いつまでも水の出ない水洗トイレなど使えない。",
-		   NULL, " 계속해서 물이 나오지 않는 변기를 사용하는 것을 불가능하다. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 물이 나오지 않는 화장실을 계속 쓰는것은 불가능하다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに問題のウィルスの潜伏期間が一ヶ月以上もあることを考えれば、雛見沢の隔離がそれ以上に続くだろうことは容易に想像がつく。",
-		   NULL, "게다가 해당 바이러스의 잠복기가 한 달 이상임을 고려하면, 히나미자와의 격리가 그 이상 지속될 것이라는 건 쉽게 상상할 수 있다.", Line_Normal);
+		   NULL, "게다가 해당 바이러스의 잠복기가 한 달 이상임을 생각하면, 히나미자와의 격리가 그 이상 지속될 것이라는 건 쉽게 상상할 수 있다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -797,7 +797,7 @@ void main()
 	OutputLine(NULL, "　お袋はその隔離期間を、",
 		   NULL, "어머니는 그 격리 기간이,", Line_WaitForInput);
 	OutputLine(NULL, "軽く見積もって３ヶ月は続くだろうと見込んだ。",
-		   NULL, " 가볍게 보더라도 3개월은 지속될 것이라고 예상했다.", Line_Normal);
+		   NULL, " 대충 보더라도 3개월은 갈 것으로 예상했다.", Line_Normal);
 	ClearMessage();
 
 
@@ -813,7 +813,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今は６月末だから、…隔離が解かれるのは、９月末、下手をすれば１０月を越えるだろう。",
-		   NULL, "지금이 6월말이니까, 격리가 해제되는 것은, 9월 말, 자칫하면 10월을 넘길 것이다.", Line_Normal);
+		   NULL, "지금이 6월말이니까, 격리가 해제되는 것은, 9월 말, 자칫하면 10월을 넘긴다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -851,9 +851,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　初日こそ、家の外にはウィルスが蔓延しているという恐怖にも苛まれたが、",
-		   NULL, "첫날은 집 밖에 바이러스가 만연하고 있다는 두려움에 시달렸지만,", Line_WaitForInput);
+		   NULL, "첫날은, 집 밖에 바이러스가 만연하고 있다는 두려움에 시달렸지만,", Line_WaitForInput);
 	OutputLine(NULL, "給水車の応援や、自衛隊による救援物資の到着、",
-		   NULL, " 급수차 지원과 자위대의 구호 물품 도착, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 급수차 지원과, 자위대의 구호 물품 도착, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "医師団による集団診察が始まると、戸外にまったく出ないわけにも行かなくなった。",
 		   NULL, "의사단체의 집단 진찰이 시작되면서, 아예 밖으로 나가지 않는 것도 불가능해졌다.", Line_Normal);
@@ -863,9 +863,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　父親を初めとする一部の人間は、それでもなお戸外に出ることを拒んだが、",
-		   NULL, "아버지를 비롯한 일부 사람들은 여전히 집 밖으로 나가는 것을 거부했지만,", Line_WaitForInput);
+		   NULL, "아버지를 비롯한 일부 사람들은, 여전히 집 밖으로 나가는 것을 거부했지만,", Line_WaitForInput);
 	OutputLine(NULL, "生活のためや、医師に診察を受けて自分が感染しているという恐怖を払拭したい人間は、次第に戸外へ出るようになっていた。",
-		   NULL, " 생활을 위해, 또는 의사의 진찰을 받아 자신이 감염되었는지의 두려움을 없애고자 하는 사람들은 점점 밖으로 나오기 시작했다.", Line_Normal);
+		   NULL, " 생활을 위해, 또는 의사의 진찰을 받아 자신이 감염되었는지의 두려움을 없애고자 하는 사람들은, 점점 밖으로 나오기 시작했다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -873,14 +873,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは俺もだった。",
-		   NULL, "그것은 나도 마찬가지였다.", Line_WaitForInput);
+		   NULL, "그건 나도 마찬가지였다.", Line_WaitForInput);
 	OutputLine(NULL, "家族だけでガムテープで目張りをしてシャッターを下ろした不気味な家の中で、",
-		   NULL, " 가족끼리만 있으면서, 덕트 테이프로 창문과 문을 막은 기분 나쁜 집안에서,", Line_WaitForInput);
+		   NULL, " 가족끼리만 있으면서, 덕트 테이프로 창문과 문을 막은 분위기 나쁜 집안에서,", Line_WaitForInput);
 	OutputLine(NULL, "テレビの前で無言で過ごし続けるなんて神経が持つわけもない。",
 		   NULL, " 텔레비전 앞에서 아무 말 없이 시간을 보내는 건 정신이 견딜 수 있는 일이 아니다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それより、表に出て知り合いの安否を確かめたい気持ちの方が強かった。",
-		   NULL, "그것보다는 밖으로 나가서 친구들이 어떻게 지내는지 확인하고 싶은 마음이 더 컸다.", Line_Normal);
+		   NULL, "그것보다는, 밖으로 나가서 친구들이 어떻게 지내는지 확인하고 싶은 마음이 더 컸다.", Line_Normal);
 	ClearMessage();
 
 
@@ -888,7 +888,7 @@ void main()
 	OutputLine(NULL, "　親父は引き篭もりを決め込み、",
 		   NULL, "아버지는 집에 틀어박히기로 결심했고,", Line_WaitForInput);
 	OutputLine(NULL, "呆れたお袋は、俺と一緒に集団診察に出掛けた。",
-		   NULL, " 질려버린 어머니는 나와 함께 집단 진료을 받으러 갔다.", Line_Normal);
+		   NULL, " 질려버린 어머니는, 함께 집단 진료을 받으러 갔다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -922,13 +922,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　校庭には大勢の村人が集まり、町会の回覧板区分に従い列を作らされている。",
-		   NULL, "교정에는 많은 마을 사람들이 모여 있었고, 마을회 회람판 공지에 따라 줄을 서고 있다.", Line_Normal);
+		   NULL, "교정에는 많은 마을 사람들이 모여 있었고, 마을회 회람판 안내에 따라 줄을 서고 있다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　普段着姿の村人と、真っ白な雨合羽のようなものをすっぽりと被った医師団との対比が、",
-		   NULL, "평상복을 입은 마을 사람들과, 온몸을 하얗게 덮은 우비 같은 의복을 입은 의사들 사이의 대조가", Line_WaitForInput);
+		   NULL, "평상복을 입은 마을 사람들과, 온몸을 하얗게 덮은 우비 같은 의복을 입은 의사들 사이의 대조가,", Line_WaitForInput);
 	OutputLine(NULL, "なぜだかとても不愉快だった。",
 		   NULL, " 왠지 매우 불쾌했다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1009,7 +1009,7 @@ void main()
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0030", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「自衛隊の人の言うことを聞かないで暴走した車が、事故で電柱を倒しちゃって、それで電話線を引き千切っちゃったって噂を聞いたの。…でも別の人は、行政が関係者専用に設定を変えたので、一般市民は使用不能になってるとか言ってた。」",
-		   NULL, "\"자위대 사람의 말을 무시하고 난폭하게 달린 차가, 사고로 전봇대를 넘어뜨려, 그 때문에 전화선이 끊어졌다는 소문을 들었어. ...하지만 어떤 사람 말로는 정부가 전화를 관계자 전용으로 설정을 바꿔서 일반 시민들은 사용할 수 없게 됐다고 해.\"", Line_Normal);
+		   NULL, "\"자위대 사람의 말을 무시하고 난폭하게 달린 차가, 사고로 전봇대를 넘어뜨려, 그 때문에 전화선이 끊어졌다는 소문을 들었어. ...하지만 다른 사람 말로는, 정부가 전화를 관계자 전용으로 설정을 바꿔서, 일반 시민들은 사용할 수 없게 됐다고 해.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1074,7 +1074,7 @@ void main()
 	OutputLine(NULL, "　今さら説明するまでもなく、",
 		   NULL, "이제 와서 설명할 필요도 없지만,", Line_WaitForInput);
 	OutputLine(NULL, "雛見沢は古い慣習により、御三家と呼ばれる旧家によって統率されている。",
-		   NULL, " 히나미자와는 오래된 관습에 따라 삼대 가문 불리는 구 가문들에 의해 통솔되고 있다. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 히나미자와는 오래된 관습에 따라, 삼대 가문 불리는 구 가문들에 의해 통솔되고 있다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今やその筆頭家は魅音の園崎家だ。",
 		   NULL, "지금 그중 필두는 미온의 소노자키 가다.", GetGlobalFlag(GLinemodeSp));
@@ -1101,7 +1101,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0080", 128, TRUE);
 	OutputLine(NULL, "「魅音、ぶっちゃけた話、どうなってんだ！　そのウィルスってヤツは本当に村人全員に感染してんのか？」",
-		   NULL, "\"미온, 솔직하게 말해봐, 이건 대체 무슨 일이야! 그 바이러스는 정말 마을 사람들 전체에 감염되어 있는 거야?\"", Line_Normal);
+		   NULL, "\"미온, 솔직하게 말해봐, 어떻게 된 거야! 정말로 마을 사람들 전부가 그 바이러스에게 감염된 거야?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
