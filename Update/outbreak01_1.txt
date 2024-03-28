@@ -208,7 +208,7 @@ void main()
 		   NULL, " 마을로 향하는 주요 도로가 봉쇄되어 정체되어 있는 광경을 보며, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "人々は今朝がこれまでの朝とはあまりに異質であることを知るのだった。",
-		   NULL, "사사람들은 오늘 아침이 그동안의 아침들과는 너무나 다르다는 것을 깨달았다.", Line_Normal);
+		   NULL, "사람들은 오늘 아침이 그동안의 아침들과는 너무나 다르다는 것을 깨달았다.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -572,7 +572,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こういう時には妙に頑固なお袋と親父の感情的な罵り合いを避けるように、",
-		   NULL, "이런 때에는 유난히 고집 센 어머니와 아버지의의 감정적인 말다툼을 피하려고,,", Line_WaitForInput);
+		   NULL, "이런 때에는 유난히 고집 센 어머니와 아버지의의 감정적인 말다툼을 피하려고,", Line_WaitForInput);
 	OutputLine(NULL, "俺は２階へ上がった。",
 		   NULL, " 나는 2층으로 올라갔다.", Line_Normal);
 	ClearMessage();
@@ -1074,7 +1074,7 @@ void main()
 	OutputLine(NULL, "　今さら説明するまでもなく、",
 		   NULL, "이제 와서 설명할 필요도 없지만,", Line_WaitForInput);
 	OutputLine(NULL, "雛見沢は古い慣習により、御三家と呼ばれる旧家によって統率されている。",
-		   NULL, " 히나미자와는 오래된 관습에 따라, 삼대 가문 불리는 구 가문들에 의해 통솔되고 있다. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 히나미자와는 오래된 관습에 따라, 삼대 가문이라 불리는 구 가문들에 의해 통솔되고 있다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今やその筆頭家は魅音の園崎家だ。",
 		   NULL, "지금 그중 필두는 미온의 소노자키 가다.", GetGlobalFlag(GLinemodeSp));
