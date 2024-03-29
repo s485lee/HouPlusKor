@@ -13674,7 +13674,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　アメリカ疾病予防管理センターは、ウィルス感染症から人類を守る最前線の砦であり、同時に、世界最高の権威でもある。",
-		   NULL, "America's Centers for Disease Control and Prevention was the fortress on the frontlines protecting humanity from viral infections, and also the highest world authority on the subject.", Line_Normal);
+		   NULL, "미국 질병통제예방센터(CDC)는 바이러스 감염병으로부터 인류를 지키는 최전선의 요새이며, 동시에 세계 최고의 권위를 가지고 있다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13683,16 +13683,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その機密区画にある、脳内寄生虫研究部門にて、ウネの子らはウネウィルスと呼ばれて研究が進められていた。",
-		   NULL, "Yet in a secret ward, the neuroparasite research division, they were researching her children.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그 비밀 구역 내에 있는 뇌내 기생충 연구 부서에서는, 우네의 아이들이 우네 바이러스로 명명되어 연구가 진행되고 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　細心の注意と設備で研究が進められていたはずだったが、",
-		   NULL, "They were researching it with the greatest precautions and most modern equipment...", Line_WaitForInput);
+		   NULL, "철저한 주의와 설비를 갖추고 연구가 진행되고 있었어야 하지만,", Line_WaitForInput);
 	OutputLine(NULL, "……神の子らの拡散を、人の子の術で止められるわけもない……。",
-		   NULL, " but the techniques of mere mortals were unable to stop the spread of the children of a god......", Line_Normal);
+		   NULL, " 신의 아이들이 퍼지는 것을, 인간의 아이가 지닌 기술로 막을 수 있을 리 없다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13730,7 +13730,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　主任研究員が倒れたのは、休日のバスの中だった。",
-		   NULL, "The head researcher first collapsed on a bus on his day off.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "주임 연구원이 쓰러진 건, 휴일의 버스 안에서였다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -13754,7 +13754,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼を助けようと駆け寄った人々も次々に倒れ、運転手も意識を失った。",
-		   NULL, "People rushed to his aid one after another and collapsed as well until the driver also lost consciousness.", Line_Normal);
+		   NULL, "그를 도우려 달려온 사람들도 하나둘 쓰러지고, 운전사도 의식을 잃는다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeFilm( 400, TRUE ); //end monochrome color
@@ -13763,16 +13763,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　バスが停車中であったのは幸いだったろう。",
-		   NULL, "Fortunately the bus was already stopped.", Line_WaitForInput);
+		   NULL, "버스가 멈춰 있던 것은 다행이었지만.", Line_WaitForInput);
 	OutputLine(NULL, "……しかし、不幸中の幸いとは呼べまい。",
-		   NULL, " ......Yet that wasn't a silver lining.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......하지만, 그걸 불행 중 다행이라고 부를 순 없었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もう、ウネの子らの拡散を止める術は、人類はおろか、人ならざる者たちにもないのだから。",
-		   NULL, "Because neither humanity or even inhuman beings possessed the means to stop the spread of Une's children.", Line_Normal);
+		   NULL, "이제, 우네의 아이들이 퍼져 나가는 것을 막을 수 있는 방법은, 인류는 물론이고, 인간이 아닌 자들에게도 없었기 때문이다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13781,47 +13781,47 @@ void main()
 	FadeFilm( 0, TRUE ); //end monochrome color
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　同じことは、ロシア連邦、スヴェルドロフスク州、",
-		   NULL, "The same thing happened in Sverdlovsk Oblast, within the Russian Federation,", Line_Continue);
+		   NULL, "비슷한 일이, 러시아 연방, 스베르들로프스크주,", Line_Continue);
 	OutputLine(NULL, "エカテリンブルクの生物兵器秘密研究所でも起こった。",
-		   NULL, " right in Yekaterinburg's secret biological weapon research center.", Line_Normal);
+		   NULL, " 예카테린부르크의 생물병기 비밀 연구소에서도 일어났다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　無論、日本国、東京都新宿区の国立感染症研究所でも、",
-		   NULL, "Of course it also happened in Japan's National Institute of Infectious Diseases within Shinjuku, Tokyo,", Line_Continue);
+		   NULL, "물론, 일본, 도쿄 신주쿠의 국립 감염병 연구소에서도,", Line_Continue);
 	OutputLine(NULL, "イギリスでもフランスでも中国でも韓国でも、世界各国の研究所周辺で起こった。",
-		   NULL, " as well as in other research centers in England, France, China, Korea, and other nations too.", Line_Normal);
+		   NULL, " 영국이나 프랑스, 중국, 한국 등 세계 각국의 연구소 주변에서 일어났다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、愚かにも過剰に発達させた人類の様々な交通機関を経て……、",
-		   NULL, "And then they traveled through the transportation technology that humanity had foolishly over-developed......", Line_WaitForInput);
+		   NULL, "그리고, 인류가 어리석게도 지나치게 발전시킨 여러 교통수단을 통해......", Line_WaitForInput);
 	OutputLine(NULL, "地球全土に広がっていく……。",
-		   NULL, " spreading to all lands throughout the world......", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 지구 전체로 퍼져 나간다......", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、人類にはそれに気付く術さえなかった。",
-		   NULL, "However, humanity lacked the means to notice it at all.", Line_Normal);
+		   NULL, "하지만, 인류는 그것을 알아차릴 방법조차 없었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "background/mati12", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　最初の感染拡大から約２週間後。",
-		   NULL, "Roughly two weeks after the initial spread of infection,", Line_Continue);
+		   NULL, "처음 감염이 퍼진 후 약 2주 뒤에,", Line_Continue);
 	OutputLine(NULL, "ウネの子らが世界の隅々まで行き渡った頃、最初の症状が出た。",
-		   NULL, " when Une's children had spread throughout every corner of the globe, the first symptoms developed.", Line_Normal);
+		   NULL, " 우네의 아이들이 세계 곳곳에 널리 퍼졌을 즈음에, 최초의 증상이 나타났다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　感染者たち",
-		   NULL, "The infected", Line_Continue);
+		   NULL, "감염자들", Line_Continue);
 	OutputLine(NULL, "（この時点においては、感染者と人類は、もはや同義語とさえ言えるのだが……）は、",
-		   NULL, " (Though, at this point \"the infected\" and \"all humanity\" were synonymous......)", Line_Continue);
+		   NULL, " (이 시점에서 감염자와 인류는 거의 같은 말이라 할 수 있지만......)은,", Line_Continue);
 	OutputLine(NULL, "そこで初めて、未知の何かに感染していたことを知る。",
-		   NULL, " then learned for the very first time that they were all infected with something unknown to them.", Line_Normal);
+		   NULL, " 그때 처음으로, 알 수 없는 무언가에 감염되어 있었다는 것을 알게 되었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13865,16 +13865,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人々は、……猛烈な睡魔に襲われ、",
-		   NULL, "People were afflicted with intense drowsiness...", Line_Continue);
+		   NULL, "사람들은, 갑작스러운 맹렬한 졸음에 사로잡혀서,", Line_Continue);
 	OutputLine(NULL, "その場に崩れるように次々と眠っていった。",
-		   NULL, " and one after another they crumpled and fell asleep on the spot.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그 자리에서 하나둘씩 쓰러지듯 잠들어 간다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは、苗床。",
-		   NULL, "They had become a seed bed.", Line_Normal);
+		   NULL, "그 사람들은, 배양지이다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13892,36 +13892,36 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがては宿主の養分を全て吸い尽くし、その体を内より破って、再び種子を飛ばし、地球人類の全てを食い尽くす。",
-		   NULL, "Once they finished consuming all of the nutrients of their host, they broke out through the host's body, spread more seeds, and consumed all of humanity.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "결국 숙주의 영양분을 모조리 흡수한 뒤, 숙주의 몸 안쪽에서부터 찢어나와, 씨앗을 다시 퍼트리며, 지구상의 모든 인류를 집어삼킨다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ウネたちに人類と共生しようなどという意思はなかったのだ。",
-		   NULL, "Because Une's people had no intention of coexisting with humanity at all.", Line_Normal);
+		   NULL, "우네는 인류와 공생하려는 의도가 전혀 없었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "black", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　花壇の全てを吸い尽くし、そして次なる花壇を求めて再び宇宙に旅立っていく、",
-		   NULL, "Once they had consumed their flower bed, they would travel through space once more in search of the next.", Line_WaitForInput);
+		   NULL, "화단의 모든 것을 다 흡수하고, 다음 목표를 찾아 다시 우주로 여행을 떠나는.", Line_WaitForInput);
 	OutputLine(NULL, "呪われた種子の民……。",
-		   NULL, " An accursed people indeed......", Line_Normal);
+		   NULL, " 저주받은 종자의 백성......", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人類は、最初の感染拡大から７週間後には、その数を２０％にまで減らしていた。",
-		   NULL, "Seven weeks after the initial infection, humanity's population was reduced to 20% of its former size.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "인류의 숫자는 최초의 감염 확대에서 7주 후, 20%까지 줄어들어 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　無論、その２０％さえも確実に刈り取る。",
-		   NULL, "Of course, even that 20% was being culled as well.", Line_Normal);
+		   NULL, "물론, 나머지 20%마저도 확실히 수확되리라.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13929,34 +13929,34 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして再び、自分たちを宿せる脳を持つ生物を探し求め宇宙へ帰るのだ。",
-		   NULL, "Then they would once more return to space in search of an organism with a brain to host them.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그리고 다시금, 자신들을 잉태해줄 뇌를 가진 생물을 찾으러 우주에 돌아갈 것이다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その後、地球に残るのは、呪われた種子の民にも侵せない角の民の宿主たちだけ。",
-		   NULL, "Afterward, only the hosts of the horned people who couldn't be infected by that accursed people would remain on Earth.", Line_Normal);
+		   NULL, "우네가 떠나고 지구에 남을 건, 저주받은 종자의 백성도 침범할 수 없는 뿔을 지닌 백성들뿐.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、鷹野がη１７３を感染させた地域で、",
-		   NULL, "Which meant that only those people in this region, who Takano had infected with η173", Line_Continue);
+		   NULL, "즉, 타카노가 η173을 퍼트린 지역에서,", Line_Continue);
 	OutputLine(NULL, "心に鬼を許さなかった者だけが生き残ることになる……。",
-		   NULL, " and had not turned their hearts over to a demon managed to survive......", Line_Normal);
+		   NULL, " 귀신에게 마음을 내주지 않은 사람들만이 살아남는다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "black", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　文明社会を維持できる人数は、到底満たせまい。",
-		   NULL, "There were far too few humans remaining to maintain civilized society.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "문명 사회를 유지할 수 있는 인원수는 도저히 충족시키질 못한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やがては、完全に滅び去ることとなるだろう……。",
-		   NULL, "So eventually they too would perish completely......", Line_Normal);
+		   NULL, "머지않아, 완전히 멸망하게 되리라......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13984,7 +13984,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0710", 128, TRUE);
 	OutputLine(NULL, "「くっふふふふふふふッ、くっははっはっはっはっはっはっは……！！」",
-		   NULL, "\"Kfufufufufufufu! Khahahahahahahaha......!!\"", Line_Normal);
+		   NULL, "\"쿳후후후후후후후, 쿳핫핫핫핫핫핫핫핫핫하......!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -13995,15 +13995,15 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0720", 128, TRUE);
 	OutputLine(NULL, "「チョー愉快、",
-		   NULL, "\"Super fun!", Line_Continue);
+		   NULL, "\"정~말로 재밌네,", Line_Continue);
 	OutputLine(NULL, "チョー愉悦、",
-		   NULL, " Super happy!", Line_Continue);
+		   NULL, " 정~말로 기뻐,", Line_Continue);
 	OutputLine(NULL, "チョー最高！",
-		   NULL, " Super awesome!", Line_Continue);
+		   NULL, " 정~말로 최고야!", Line_Continue);
 	OutputLine(NULL, "　　　　チョーチョーチョーなのですよ、",
-		   NULL, " Super super duper!", Line_Continue);
+		   NULL, " 정~말 정~말 정~말로 인 거예요,", Line_Continue);
 	OutputLine(NULL, "チョーくっふふっはっはっはっはっはっはッ！！」",
-		   NULL, " Super kfufuhahahahahaha!!\"", Line_Normal);
+		   NULL, " 정~말로 쿳후훗핫핫핫핫핫핫핫핫!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -14028,7 +14028,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0870", 128, TRUE);
 	OutputLine(NULL, "「ウ、ウネ…………。」",
-		   NULL, "\"U-Une.........\"", Line_Normal);
+		   NULL, "\"우, 우네.........\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14037,7 +14037,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0730", 128, TRUE);
 	OutputLine(NULL, "「我の民は食い尽くすことだけが唯一の楽しみなのです。だって、星を全て食い潰すのチョー楽しいです！」",
-		   NULL, "\"Consuming everything is my people's only entertainment. And I mean, consuming an entire planet is super fun!\"", Line_Normal);
+		   NULL, "\"제 백성은 먹어치우는 것만이 유일한 낙인 거예요. 왜냐면, 별을 모두 먹어서 박살내는 건 정~말로 재밌으니까요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14046,7 +14046,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0740", 128, TRUE);
 	OutputLine(NULL, "「我の民が覆い尽くした以上、もう誰も我の邪魔など出来ないのです。この星の弱々しい花どもなど、我の前には熱々のコーヒーに落とした氷砂糖よりもチョー儚い！！」",
-		   NULL, "\"Once my people have consumed them all, no one will be able to get in our way. When faced with me, the weak flowers of this planet are like sugar lumps before hot coffee!!\"", Line_Normal);
+		   NULL, "\"제 백성이 모든 걸 뒤덮은 이상, 이제 당신도 제 방해는 못 하는 거예요. 이 별의 연약한 꽃들 같은 건, 제 앞에선 뜨거운 커피에 떨어트린 각사탕보다도 정~말로 덧 없어!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14057,7 +14057,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1260", 128, TRUE);
 	OutputLine(NULL, "「……やってくれるじゃない。弱々しい素振りを見せて、私たちをうまく使うなんて、上等じゃない。」",
-		   NULL, "\"......You've sure done it now. You pretended to be weak so you could use us to advance your plans. Well done.\"", Line_Normal);
+		   NULL, "\"......제법인데. 연약한 척하고 우리들을 꼴좋게 써먹다니, 대단하잖아.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14066,7 +14066,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0750", 128, TRUE);
 	OutputLine(NULL, "「田村媛命は騙せなかった。……あいつは、賢い。」",
-		   NULL, "\"I couldn't fool Tamurahime-no-Mikoto. ......She was clever.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"타무라히메노미코토는 속일 수 없었어. ......그 녀석은, 똑똑해.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -14078,7 +14078,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0260", 128, TRUE);
 	OutputLine(NULL, "「吾輩を侮るなかれ。これでも、この大和の国を統べる民の長と知り給え！」",
-		   NULL, "\"Do not underestimate me. Know that I am the leader of the people ruling over this nation of Yamato!\"", Line_Normal);
+		   NULL, "\"이 몸을 깔보지 마시오. 이래 봬도, 이 일본을 통괄하는 백성의 우두머리임을 아시게!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14091,7 +14091,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0760", 128, TRUE);
 	OutputLine(NULL, "「なれど、そこの角頭とその巫女！　お前らはチョーチョロイ！　くっふっふふふふふ！　神が愚かなら巫女も愚か！　二人まとめてチョー愚かなのです、くっふふふふふふふ！！」",
-		   NULL, "\"Yet that horn head and her priestess! You two were super easy to fool! Kfufufufufufu! When the god's a fool, so is the priestess! You two were both super dumb. Kfufufufufufufu!!\"", Line_Normal);
+		   NULL, "\"하지만, 거기있는 뿔 대가리와 그 무녀! 너희들은 정~말로 약해 빠졌어! 쿳후후후후후! 신이 어리석으면 무녀도 어리석다! 둘이 싸잡아서 정~말로 어리석은 거예요, 쿳후후후후후!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14099,18 +14099,18 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0770", 128, TRUE);
 	OutputLine(NULL, "「神も無能で巫女も無能！",
-		   NULL, "\"When the god's incompetent, so is the priestess!", Line_Continue);
+		   NULL, "\"신이 무능해서 무녀도 무능!", Line_Continue);
 	OutputLine(NULL, "　何の役にも立たず何の力も持たず、何の神通力も持たぬ役立たずの神なのです、",
-		   NULL, " You're a useless god with nothing useful to your name! No power, and no supernatural power either!", Line_Continue);
+		   NULL, " 아무 도움도 안되고, 아무 힘도 없고, 아무 신통력도 없는 쓸모없는 신인 거예요,", Line_Continue);
 	OutputLine(NULL, "チョーマヌケ！！　くっはははははははははははははははははッ！！！」",
-		   NULL, " You're a super dumbo!! Khahahahahahahahahahahahahahahahaha!!!\"", Line_Normal);
+		   NULL, " 정~말로 얼간이!! 쿳하하하하하하하하하하하하하하핫!!!\"", Line_Normal);
 	ClearMessage();
 
 	//;【梨花】
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1270", 128, TRUE);
 	OutputLine(NULL, "「……何コレ。田村より５倍くらいイラついて来たわ。」",
-		   NULL, "\"......What is this? She's ticking me off five times as much as Tamura.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......뭐야 이거. 타무라보다 5배는 짜증나.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -14121,7 +14121,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0880", 128, TRUE);
 	OutputLine(NULL, "「めっちゃ同感なのですよ……。僕たちのことを無能呼ばわりとはチョー腹が立ちますですよ……。」",
-		   NULL, "\"I really agree...... It's really annoying to hear us called incompetent.....\"", Line_Normal);
+		   NULL, "\"엄청 동감인 거예요...... 저희를 무능 취급하다니, 정~말로 화가 납니다예요.....\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14135,7 +14135,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0270", 128, TRUE);
 	OutputLine(NULL, "「まったくにもって無能と知り奉れっ、不浄の民改め間抜けの民めっ。お前など饅頭の角に頭をぶつけて死んでしまえ也！」",
-		   NULL, "\"Know that you are indeed incompetent! You are tainted people, and now foolish people! You should hit your head on a steamed bun and die!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"참으로 무능함을 아시오, 부정한 백성이라 다시 명명된 멍청한 백성들이여. 너 따윈 만두 모서리에 머리 박고 죽어버리시오!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -14148,7 +14148,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0890", 128, TRUE);
 	OutputLine(NULL, "「だって僕はウネが世界を滅ぼすなんて知らなかったのです！　僕は悪くないのです！」",
-		   NULL, "\"Well I never knew that Une was going to destroy the world! It's not my fault!\"", Line_Normal);
+		   NULL, "\"그치만 저는 우네가 세계를 멸망시킬 거라곤 몰랐던 거예요! 저는 나쁘지 않아요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14159,7 +14159,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0280", 128, TRUE);
 	OutputLine(NULL, "「異民族は全て敵と知り給え！！　なのにそなたはほいほいと！　愚かにもほどがある！！」",
-		   NULL, "\"You know that all other races are enemies!! Yet you just handed it over to her! There is a limit to how stupid one can be!!\"", Line_Normal);
+		   NULL, "\"이민족은 전부 적임을 아시게!! 그런데도 그대들은 너무 쉽게! 어리석은 것도 정도가 있소!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14172,7 +14172,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>Hanyuu</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0900", 128, TRUE);
 	OutputLine(NULL, "「あうあぅあぅ！！　なら田村がそれを教えてくれれば良かったのです！　だから田村が悪いのですッ。」",
-		   NULL, "\"Auauau!! You could've just told us that, Tamura! So it's your fault, Tamura!\"", Line_Normal);
+		   NULL, "\"아우아우아우!! 그럼 타무라가 그걸 가르쳐줬으면 된 거예요! 그러니까 타무라가 나쁜 거예요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14189,7 +14189,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#ec7bb8>田村</color>", NULL, "<color=#ec7bb8>Tamura</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 51, "ps3/s25/51/ntam_0290", 128, TRUE);
 	OutputLine(NULL, "「黙り給え、不浄の民と聞く口など持ち合わせておらぬ也！！」",
-		   NULL, "\"Be quiet! I will not listen to you tainted people!!\"", Line_Normal);
+		   NULL, "\"닥치시오, 부정한 백성과 할 말 따윈 없나니!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14200,11 +14200,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0780", 128, TRUE);
 	OutputLine(NULL, "「くっふふふふははははははは、",
-		   NULL, "\"Kfufufufuhahahahahahahaha!", Line_Continue);
+		   NULL, "\"쿳후후후후하하하하하,", Line_Continue);
 	OutputLine(NULL, "チョー愉快なのです、",
-		   NULL, " This is super fun!", Line_Continue);
+		   NULL, " 정~말로 재미있는 거예요,", Line_Continue);
 	OutputLine(NULL, "くっはははははは！！",
-		   NULL, " Khahahahahaha!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 쿳하하하하하하!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -14213,7 +14213,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0790", 128, TRUE);
 	OutputLine(NULL, "　滅びよ、青き花壇の愚かなる神々！　そして、愚かなる人間、無能なる巫女！」",
-		   NULL, "Perish, you stupid gods of this blue flower bed! Your stupid humans, your incompetent priestesses too!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "멸망해라, 푸른 화단의 어리석은 신들! 그리고, 어리석은 인간, 무능한 무녀!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -14222,9 +14222,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　高笑いするウネ。",
-		   NULL, "Une laughed loudly", Line_Continue);
+		   NULL, "소리 높여 웃는 우네.", Line_Continue);
 	OutputLine(NULL, "互いを子供レベルで罵り合う羽入と田村。",
-		   NULL, " while Hanyuu and Tamura insulted each other like children.", Line_Normal);
+		   NULL, " 꼬맹이들처럼 서로를 욕하는 하뉴와 타무라.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14235,14 +14235,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……これが人類の終焉を告げる最後の神々の喧嘩だとは、つくづく情けない。",
-		   NULL, "......It seemed quite pathetic that this was a fight between gods who had brought about the extinction of humanity.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......인류에게 종언을 고하는 마지막 신들의 싸움이 이거라니, 한심하기 짝이 없다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花は頭痛を堪えるように額に手を当てるが、今は腹立たしさの方が勝る。",
-		   NULL, "Rika placed a hand on her forehead like she was enduring a headache, but her frustration was winning at that particular moment.", Line_Normal);
+		   NULL, "리카는 두통을 참는 것처럼 이마에 손을 갖다대지만, 지금은 화나는 쪽이 먼저였다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14252,7 +14252,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1280", 128, TRUE);
 	OutputLine(NULL, "「私はね、自分のこと人間だとか思ってないし、別に世界が滅ぶとかどうでもいいの。ただどうしても許せないことはただ一つ。」",
-		   NULL, "\"Listen, I don't consider myself a human, and I don't care if our world is destroyed. But there's one thing I just can't forgive.\"", Line_Normal);
+		   NULL, "\"나는 말야, 나를 인간이라고 생각하지도 않고, 별로 세계가 멸망하든 어떻든 괜찮아. 그저 어떻게 해도 용서할 수 없는 게 딱 한 가지 있어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14261,7 +14261,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1290", 128, TRUE);
 	OutputLine(NULL, "「……この、幾百の死の山々を越えてきた古手梨花に向かって、無能呼ばわりしてくれたことよ。」",
-		   NULL, "\"......The fact you looked at me, Rika Furude, who has overcome the mountain that is hundreds of deaths, and called me incompetent.\"", Line_Normal);
+		   NULL, "\"......이, 수백을 넘는 죽음의 산들을 넘어온 후루데 리카에게, 무능이라고 불러준 일이야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14272,9 +14272,9 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1300", 128, TRUE);
 	OutputLine(NULL, "「……無能って言葉はね、",
-		   NULL, "\"......The term incompetent", Line_Continue);
+		   NULL, "\"......무능하다는 소리는,", Line_Continue);
 	OutputLine(NULL, "肝心な時に温泉行ってるような男に使うものよ…！」",
-		   NULL, " is what you use for a man who goes off to the hot spring at a critical moment...!\"", Line_Normal);
+		   NULL, " 중요한 순간에 온천에나 가 버린 남자한테 쓰는 거라고...!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14292,11 +14292,11 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0800", 128, TRUE);
 	OutputLine(NULL, "「我に立ち向かうつもりか、人の子風情が。",
-		   NULL, "\"You intend to oppose me? You, a mere child of man?", Line_Continue);
+		   NULL, "\"제게 맞설 생각인가요, 인간의 아이 주제가.", Line_Continue);
 	OutputLine(NULL, "我、チョー笑えるのです。",
-		   NULL, " That's super funny.", Line_Continue);
+		   NULL, " 저, 정~말로 웃기는 거예요.", Line_Continue);
 	OutputLine(NULL, "くっふふふふふふ！」",
-		   NULL, " Kfufufufufufu!\"", Line_Normal);
+		   NULL, " 쿳후후후후후!\"", Line_Normal);
 	ClearMessage();
 
 	DrawBustshot(5, "white", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 50, TRUE );
@@ -14305,7 +14305,7 @@ void main()
 	ShakeScreen( 0, 6, 100, 3, 33, );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　梨花はどこからともなく、ぎらりと銀色の光を見せるものを取り出す。",
-		   NULL, "Rika pulled something out of nowhere that glinted with a silver light.", Line_Normal);
+		   NULL, "리카는 어디선가 반짝이는 은색의 빛을 내는 물건을 꺼낸다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14316,7 +14316,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0810", 128, TRUE);
 	OutputLine(NULL, "「何だ、それは……？」",
-		   NULL, "\"What is that......?\"", Line_Normal);
+		   NULL, "\"뭐야, 그건......?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14326,7 +14326,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1310", 128, TRUE);
 	OutputLine(NULL, "「……知らないの？　包丁よ。調理器具よ。料理といけ好かないヤツを切り刻むのに最適な道具よ。」",
-		   NULL, "\"......Don't you know? It's a kitchen knife. A cooking tool. The perfect instrument for chopping up food... and detestable people.\"", Line_Normal);
+		   NULL, "\"......모르는 거야? 식칼이라고 해. 조리도구지. 요리재료랑 맘에 안 드는 녀석을 썰때 최적인 도구야.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14335,7 +14335,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>UNE</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0820", 128, TRUE);
 	OutputLine(NULL, "「くっふふふふふ！　我、チョー笑えるのです。人の子の道具で、この我に立ち向かうつもりなのですか。チョー笑えるです。チョーくっふっふっふっふっふ…！！」",
-		   NULL, "\"Kfufufufufu! I'm super laughing right now! How do you plan on fighting me with a tool of mankind? That's super funny. Super kfufufufufu...!!\"", Line_Normal);
+		   NULL, "\"쿳후후후후후! 저, 정~말로 웃기는데요. 인간의 아이가 만든 도구로, 이 저에게 맞서려는 건가요. 정~말로 웃겨요. 정~말로 쿳후후후후후후후후...!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
