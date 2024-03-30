@@ -738,7 +738,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「な、何ぃいいぃい、あんなところに闘場がぁあぁ！！」",
-		   NULL, "\"뭐, 뭐어어어어, 저런 곳에 전투장이이이있다아아!!\"", Line_Normal);
+		   NULL, "\"뭐, 뭐어어어어, 저런 곳에 투기장이이이있다아아!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1246,21 +1246,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ふっふっふ、日本男児を今なお鼓舞して止まないジャ○プ系の王道、■塾に、",
-		   NULL, "Heh-heh-heh. We have the kind of J_mp still encouraging Japanese boys today, _____juku...", Line_WaitForInput);
+		   NULL, "후후후, 일본 남자들을 지금도 계속해서 고무시키는 점__ 계열의 왕도, ___돌격소에,", Line_WaitForInput);
 
 	OutputLine(NULL, "時代のニーズを全て押さえアニメ界を席巻した■ーゼンメイデン！",
-		   NULL, " added to __zen Maiden, which stormed the anime world by hitting every one of this generation's needs! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 시대의 요구를 모두 잡고 애니메이션계를 휩쓴 ___젠메이든! ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして同人界のキングオブキングス、東■シリーズ！",
-		   NULL, "And now we have the doujin world's king of kings, the Tou___ series!", Line_WaitForInput);
+		   NULL, "그리고 동인계의 킹 오브 킹스, 동___시리즈!", Line_WaitForInput);
 
 	OutputLine(NULL, "　くっくっく、これら３つの超絶エッセンスを配合すればその結果はもはや必然！！",
-		   NULL, " Ku-ku-ku, by combining these three incredible essences, we are sure to get results!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 쿡쿡쿡, 이 3개의 초절정 에센스를 혼합하면 그 결과는 이미 필연!! ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　２１世紀を支配する超々作品が生まれることはもはや運命なのだー！！」",
-		   NULL, "It is now our fate to give birth to the ultimate work that will dominate the twenty-first century!!\"", Line_Continue);
+		   NULL, "21세기를 지배할 초초작품이 탄생하는 것은 이미 운명이다!!\"", Line_Continue);
 
 	OutputLineAll(NULL, "", Line_Normal);
 	ClearMessage();
@@ -1278,10 +1278,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「り、理屈はわかるにゃりんが、どの辺のエッセンスを吸い出すにゃりんか。",
-		   NULL, "\"I-I understand your logic, nyarin, but what part of the essence do we suck out, nyarin?", Line_WaitForInput);
+		   NULL, "\"이, 이론을 알겠는냐리, 어떤 부분의 에센스를 뽑아내야 하는 냐리?", Line_WaitForInput);
 
 	OutputLine(NULL, "さっきＢＴさんも言った通り、ウチのサークルではシューティングなんか作れないにゃりんよ。」",
-		   NULL, " Like BT-san said before, we can't make shooting games in our circle, nyarin.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 방금 BT씨가 말했듯이, 우리 서클에서는 슈팅 같은 건 만들 수 없다는 냐리.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1291,16 +1291,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＢＴ</color>", NULL, "<color=#f5e6d3>BT</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Meep.", Line_WaitForInput);
+		   NULL, "\"......미이.", Line_WaitForInput);
 
 	OutputLine(NULL, "東■の魅力で、シューティング以外ですか。",
-		   NULL, " Does Tou__'s appeal lie outside of the shooting genre?", Line_WaitForInput);
+		   NULL, " 동___의 매력이라면, 슈팅 이외에는 무엇일까요.", Line_WaitForInput);
 
 	OutputLine(NULL, "…やはり、類を見ない不思議な感覚の世界観、なのでしょうか…？",
-		   NULL, " ...Would it be the unprecedented feeling of a mysterious world...?", Line_WaitForInput);
+		   NULL, " ...역시, 유례를 찾을 수 없는 신비한 감각의 세계관일까요...?", Line_WaitForInput);
 
 	OutputLine(NULL, "　その辺りの評価もとても高いのですよ。」",
-		   NULL, " That's another part people love.\"", Line_Normal);
+		   NULL, " 그 부분에 대한 평가도 매우 높은 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1310,13 +1310,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うーむ！",
-		   NULL, "\"Indeed!", Line_WaitForInput);
+		   NULL, "\"으음!", Line_WaitForInput);
 
 	OutputLine(NULL, "　何でもアリのファンタジー世界ではあるが、",
-		   NULL, " It is a fantasy world where anything goes.", Line_WaitForInput);
+		   NULL, " 무엇이든 있는 판타지 세계이긴 하지만.", Line_WaitForInput);
 
 	OutputLine(NULL, "既存のいわゆる和製ＲＰＧ的世界の延長とはまったく異なる独自のあの世界観は確かに異彩を放っている！",
-		   NULL, " Its unique setting, completely different from an extension of the so-called JRPG-style worlds that already exist, certainly stands out!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 기존 소위 일본식 RPG적 세계의 연장선과는 완전히 다른, 그 독특한 세계관은 확실히 이색적이다!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
@@ -1329,7 +1329,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何しろ、巫女に",
-		   NULL, "After all, it has shrine maidens,", Line_ContinueAfterTyping);
+		   NULL, "일단, 무녀도 있고,", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "boyon", 128, 64 );
 	ShakeScreen( 2, 6,  100 , 3, 33, );
@@ -1337,35 +1337,35 @@ void main()
 
 
 	OutputLine(NULL, "メイドに",
-		   NULL, " maids,", Line_ContinueAfterTyping);
+		   NULL, " 메이드도,", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/koruku", 128, 64 );
 	ShakeScreen( 0, 6, 100, 3, 33, );
 
 
 	OutputLine(NULL, "ブレザー、",
-		   NULL, " blazers,", Line_ContinueAfterTyping);
+		   NULL, " 블레이저,", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/lf226", 128, 64 );
 	ShakeScreen( 0, 6, 100, 3, 33, );
 
 
 	OutputLine(NULL, "ゴスロリ、",
-		   NULL, " gothic lolitas,", Line_ContinueAfterTyping);
+		   NULL, " 로스로리,", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/tataku", 128, 64 );
 	ShakeScreen( 2, 9,  100 , 3, 33, );
 
 
 	OutputLine(NULL, "甘ロリ、",
-		   NULL, " sweet lolitas,", Line_ContinueAfterTyping);
+		   NULL, " 스위트한 로리,", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/lf226", 128, 64 );
 	ShakeScreen( 0, 9, 100, 3, 33, );
 
 
 	OutputLine(NULL, "しかも和ロリまで押さえてる！！",
-		   NULL, " and even Japanese lolitas in it!!", Line_ContinueAfterTyping);
+		   NULL, " 게다가 일본 스타일의 로리까지 있다!!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "daidageki-kai2", 128, 64 );
 	ShakeScreen( 2, 15,  100 , 5, 20, );
@@ -1374,7 +1374,7 @@ void main()
 
 
 	OutputLine(NULL, "　それらが全部一堂に会しても全然不自然じゃない世界観！！",
-		   NULL, " Even when they're all in one place, none of it feels unnatural in that world!!", Line_Continue);
+		   NULL, " 그 모든 것들이 모여도 전혀 부자연스럽지 않은 세계관!!", Line_Continue);
 
 	PlaySE( 0, "wav/hikaru", 128, 64 );
 
@@ -1382,7 +1382,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あぁ、Ｚ○Ｎさん、次なる新ボスにはぜひともスク水をぉおぉおぉ！！",
-		   NULL, "Ahh, Z_N, I beg of you, make one of the next new bosses wear a school swimsuit!!", Line_ContinueAfterTyping);
+		   NULL, "아, Z__N씨, 다음 신규 보스에게는 꼭 학교 수영복으으으으을!!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "bb", 128, 64 );
 	ShakeScreen( 2, 24,  100 , 8, 12, );
@@ -1390,7 +1390,7 @@ void main()
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	OutputLine(NULL, "　普通ならありえないその衣装も、幻想郷でならありえる！！",
-		   NULL, " And those outfits, normally impossible, are possible in Gensokyo!!", Line_ContinueAfterTyping);
+		   NULL, " 평범하게는 있을 수 없는 그 의상도, 환상향에서라면 가능해!!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "boyon", 128, 64 );
 	ShakeScreen( 0, 9, 100, 3, 33, );
@@ -1398,7 +1398,7 @@ void main()
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	OutputLine(NULL, "　幻想郷でなら他のキャラに混じっても問題ないッ！！",
-		   NULL, " In Gensokyo, throwing in other characters is no problem at all!!", Line_ContinueAfterTyping);
+		   NULL, " 환상향에서라면 다른 캐릭터들과 섞여도 전혀 문제가 되지 않는다!!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/tatakiwaru", 128, 64 );
 
@@ -1406,7 +1406,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あああぁ、ぜひ次の新ボスにはスク水をぉおぉぉおぉ！！」",
-		   NULL, "Ahhhh, please, make the next new boss have a school swimsuit!!\"", Line_ContinueAfterTyping);
+		   NULL, "아아아, 다음 신규 보스에게는 꼭 학교 수영복으으으으을!!\"", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 
@@ -1424,13 +1424,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＢＴ</color>", NULL, "<color=#f5e6d3>BT</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Meep.", Line_WaitForInput);
+		   NULL, "\"......미이.", Line_WaitForInput);
 
 	OutputLine(NULL, "竜騎士がひどく偏った好みでプレイしてることがわかりますのです。",
-		   NULL, " I understand that Ryukishi plays it out of his extremely biased tastes.", Line_WaitForInput);
+		   NULL, " 용기사가 매우 편향된 취향으로 플레이하고 있다는 것을 알 수 있는 거예요.", Line_WaitForInput);
 
 	OutputLine(NULL, "そんな邪な心ではエキストラが未だ解けないのも納得なのです。」",
-		   NULL, " Now I know why he still hasn't unlocked the extra stages—not with that wicked heart.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그런 사악한 마음으로는 엑스트라를 아직 클리어 할 수 없는 것도 납득이 되는 거예요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1440,22 +1440,22 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「りゅ、…竜騎士が言いたいことを要約すると、",
-		   NULL, "\"To... To sum up what Ryukishi wants to say...", Line_Continue);
+		   NULL, "\"요, ...용기사가 하고 싶은 말을 요약하자면,", Line_Continue);
 
 	PlaySE( 0, "wav/kira", 128, 64 );
 
 
 	OutputLine(NULL, "つまりこういうことにゃりんな？",
-		   NULL, " It's like this, right, nyarin?", Line_WaitForInput);
+		   NULL, " 즉, 이런 말이라는 냐리?", Line_WaitForInput);
 
 	OutputLine(NULL, "　自分好みの色々な服装が勢揃いで登場、",
-		   NULL, " We can have all kinds of outfits that suit our tastes all appear in one game,", Line_Continue);
+		   NULL, " 자신의 취향대로 다양한 옷차림이 총출동하여 등장한다,", Line_Continue);
 
 	PlaySE( 0, "boyon", 128, 64 );
 
 
 	OutputLine(NULL, "ワショーイ！！」",
-		   NULL, " yahoo!!\"", Line_Continue);
+		   NULL, " 앗싸아!!\"", Line_Continue);
 	ShakeScreen( 2, 6,  100 , 5, 20, );
 
 	OutputLineAll(NULL, "", GetGlobalFlag(GLinemodeSp));
@@ -1470,7 +1470,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ワショ〜〜イ！！」",
-		   NULL, "\"Yahoo!!\"", Line_Continue);
+		   NULL, "\"앗싸~~아!!\"", Line_Continue);
 
 	PlaySE( 0, "boyon", 128, 64 );
 	ShakeScreen( 2, 6,  100 , 5, 20, );
@@ -1487,10 +1487,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＢＴ</color>", NULL, "<color=#f5e6d3>BT</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......Meep.", Line_WaitForInput);
+		   NULL, "\"......미이.", Line_WaitForInput);
 
 	OutputLine(NULL, "東■から見習うところはもっと他にあると思うのですが…。",
-		   NULL, " I would think there are other things we could learn from Tou___, but...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 동___에서 배울 점은 더 다른 곳에 있다고 생각하는 거예요...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
@@ -1499,16 +1499,16 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＢＴ</color>", NULL, "<color=#f5e6d3>BT</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "取り合えず、竜騎士が抽出したいところはソコ、ということなのです。」",
-		   NULL, "For now, Ryukishi is referring to that when he talks about what to extract.\"", Line_Normal);
+		   NULL, "일단, 용기사가 추출하고 싶어하는 부분은 그곳, 이라는 거예요.\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「くっくくくくく、ふはーっはっはっはっは！！",
-		   NULL, "\"Ku-kukukuku, fuhah-hah-hah-hah!!", Line_WaitForInput);
+		   NULL, "\"쿡쿡쿡쿡, 후하하하하하하!!", Line_WaitForInput);
 
 	OutputLine(NULL, "　神よ恐れよ、これら３つの要素を組み合わせた時、新世紀は我が足元に平伏すのだー！！",
-		   NULL, " The gods will bow before us, for when these three elements are combined, the new world that results will bend its knee!!", Line_WaitForInput);
+		   NULL, " 신이여 두려워하라, 이 3가지 요소를 결합했을 때, 새로운 시대는 나의 발아래에 엎드릴 것이다!!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/nageru", 128, 64 );
 	Wait( 200 );
@@ -1518,7 +1518,7 @@ void main()
 
 
 	OutputLine(NULL, "　さぁ行くぞ三神合体ぃいぃいぃ！！」",
-		   NULL, " Now, go!! Triple god combination!!\"", Line_Normal);
+		   NULL, " 자, 가자, 삼신합체에에에에!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
@@ -1534,25 +1534,25 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ズゴゴゴゴゴ！！",
-		   NULL, "Zugogogogo!!", Line_Normal);
+		   NULL, "두구두구두구!!", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「な、何ぃいいぃい、あんなところに闘場がぁあぁ！！」",
-		   NULL, "\"Wh-Whaaaaaat? Why would there be a dueling ground there?!\"", Line_Normal);
+		   NULL, "\"뭐, 뭐어어어어, 저런 곳에 투기장이라니이이이?!\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「さぁ、来るがいい。",
-		   NULL, "\"Now come.", Line_WaitForInput);
+		   NULL, "\"자, 오는 게 좋다.", Line_WaitForInput);
 
 	OutputLine(NULL, "我こそは■ーゼンメイデン第１ドールが水銀■！！",
-		   NULL, " I am the one, the only Suigin___, the first doll of __zen Maiden!!", Line_WaitForInput);
+		   NULL, " 나야말로 __젠메이든 제1돌, 스이___다!!", Line_WaitForInput);
 
 	OutputLine(NULL, "　悪いことは言わぬ、何人でも束になってかかってくるがいい！」",
-		   NULL, " I shall not complain—I don't care how many of you come at me at once!\"", Line_Normal);
+		   NULL, " 악담은 하지 않겠다, 몇 명이든 뭉쳐서 도전해 보아라!\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "black", "effect/left", 0, 0, 500 );
@@ -1561,10 +1561,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「ど、どうする、誰が行く…！",
-		   NULL, "\"Wh-What do we do? Who will go...?", Line_WaitForInput);
+		   NULL, "\"어, 어떻게 하지, 누가 가지...!", Line_WaitForInput);
 
 	OutputLine(NULL, "　あの闘場では、使える技も限られてしまうだろう。」",
-		   NULL, " In that dueling ground, we can't use all our skills, can we?\"", Line_Normal);
+		   NULL, " 저 투기장에서는, 사용할 수 있는 기술도 제한될 거야.\"", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 600 );
@@ -1581,31 +1581,31 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「くっくっく、面白い。",
-		   NULL, "\"Ku ku ku, interesting.", Line_WaitForInput);
+		   NULL, "\"쿡쿡쿡, 재미있다.", Line_WaitForInput);
 
 	OutputLine(NULL, "■紅とやら、体術には自信があるようだが、貴様ではこの水銀■には勝てん！",
-		   NULL, " __ku, you seem confident in your martial arts, but you cannot prevail over me, Suigin___!", Line_WaitForInput);
+		   NULL, " __쿠이라는 건가, 무술에는 자신이 있는 것 같지만, 너로서는 이 스이___에게 이길 수 없어!", Line_WaitForInput);
 
 	OutputLine(NULL, "　このまま戦えば、呆気ない結末となるだろう。",
-		   NULL, " If we fought like this, it would only end with a boring conclusion. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 이대로 싸우면, 싱겁게 끝날 거야. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "それではせっかく戦う興がないというもの。",
-		   NULL, "And that won't awaken the fight within me.", Line_WaitForInput);
+		   NULL, "그럼 싸우는 재미가 없는 거야.", Line_WaitForInput);
 
 	OutputLine(NULL, "なのでこの水銀■、ひとつ貴様にハンデを与えてやろう！」",
-		   NULL, " Therefore, I, Suigin___, will give you one handicap!\"", Line_Normal);
+		   NULL, " 그러므로 이 스이___, 너에게 한 가지 핸디캡을 주겠다!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「な、何をやってるんだ？",
-		   NULL, "\"Wh-What's she doing?", Line_WaitForInput);
+		   NULL, "\"뭐, 뭐하는 거야?", Line_WaitForInput);
 
 	OutputLine(NULL, "　水銀■のヤツめ、自分の周りに線を引いとるぞ。",
-		   NULL, " Suigin___ is drawing a line around her.", Line_WaitForInput);
+		   NULL, " 스이___ 녀석, 자기 주변에 선을 그리고 있어.", Line_WaitForInput);
 
 	OutputLine(NULL, "まるで土俵みたいだ。」",
-		   NULL, " It's like a sumo ring.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 마치 스모 경가장 같이.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1616,59 +1616,59 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Ku-ku-ku!", Line_WaitForInput);
+		   NULL, "\"쿡쿡쿡!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/hikaru", 128, 64 );
 
 
 	OutputLine(NULL, "　この水銀■、この円の中より一歩も出ずして貴様を倒してやろう。",
-		   NULL, " I, Suigin___, will defeat the likes of you without taking a step out of this circle.", Line_WaitForInput);
+		   NULL, " 이 스이___, 이 원 안에서 한 걸음도 나가지 않고 너를 이기겠어.", Line_WaitForInput);
 
 	OutputLine(NULL, "もしこの円の中より一歩でも踏み出せば潔く負けを認め、スクール水着に着替えご奉仕罰ゲームの刑を受けてやろうではないか…！！」",
-		   NULL, " If you can force me even a step outside it, I will admit defeat, and serve you while wearing a school swimsuit...!!\"", Line_Normal);
+		   NULL, " 이 원 안에서 한 발짝이라도 나가면 깨끗이 패배를 인정하고, 학교 수영복으로 갈아입어 봉사 벌칙을 받겠다고...!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「ふ、",
-		   NULL, "\"Heh...", Line_Continue);
+		   NULL, "\"흠,", Line_Continue);
 	Wait( 500 );
 
 	OutputLine(NULL, "……その条件、",
-		   NULL, " With that condition...", Line_Continue);
+		   NULL, " 그 조건,", Line_Continue);
 	Wait( 600 );
 
 	PlaySE( 0, "wav/kyupirn", 128, 64 );
 
 
 	OutputLine(NULL, "乗ったぜ。",
-		   NULL, " I accept.", Line_WaitForInput);
+		   NULL, " 받아들이겠어.", Line_WaitForInput);
 
 	OutputLine(NULL, "ならば俺もこうしようじゃないか。」",
-		   NULL, " Why don't I do the same thing, then?\"", Line_Normal);
+		   NULL, " 그럼 나도 이렇게 하지.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「な、何ぃ？！",
-		   NULL, "\"Wh-What?!", Line_WaitForInput);
+		   NULL, "\"뭐, 뭐라?!", Line_WaitForInput);
 
 	OutputLine(NULL, "　■紅も自分の周りに円をー！！」",
-		   NULL, " __ku is drawing a line around herself, too!!\"", Line_Normal);
+		   NULL, " __쿠도 자기 주위에 원을!!\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「俺もこの円を出ずに戦う。",
-		   NULL, "\"I'll fight without leaving this circle as well.", Line_WaitForInput);
+		   NULL, "\"나도 이 원을 벗어나지 않고 싸울 거다.", Line_WaitForInput);
 
 	OutputLine(NULL, "この円から一歩でも出たら俺も負けを認め、ブルマー姿で首輪付きご奉仕をしてやるぜ。」",
-		   NULL, " If I take a step out, I'll admit defeat, and serve you in bloomers and a collar.\"", Line_Normal);
+		   NULL, " 이 원에서 한 발짝이라도 나가면 나도 패배를 인정하고, 블루머 차림에 목걸이를 하고 봉사하겠어.\"", Line_Normal);
 	ClearMessage();
 
 	SetSpeedOfMessage( TRUE, 128 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「なな、なんだってぇええぇ！！",
-		   NULL, "\"Wh-Wh-Whaaaaaaat?!", Line_Continue);
+		   NULL, "\"뭐, 뭐라고오오오?!", Line_Continue);
 
 	PlaySE( 0, "wav/daidageki", 128, 64 );
 	ShakeScreen( 2, 15,  100 , 4, 25, );
@@ -1678,18 +1678,18 @@ void main()
 
 
 	OutputLine(NULL, "　■紅ぅううぅ！！」",
-		   NULL, " __kuuuuuu!!\"", Line_Normal);
+		   NULL, " __쿠우우우!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「くっくっく！",
-		   NULL, "\"Ku ku ku!", Line_WaitForInput);
+		   NULL, "\"쿡쿡쿡!", Line_WaitForInput);
 
 	OutputLine(NULL, "　この水銀■相手に思い上がりも甚だしい！",
-		   NULL, " You're quite presumptuous to think you can take on me, Suigin___!", Line_WaitForInput);
+		   NULL, " 이 스이___ 상대로 너무 우쭐대는군!", Line_WaitForInput);
 
 	OutputLine(NULL, "　すぐに後悔することになるぞ、食らえ！！",
-		   NULL, " You'll regret that soon enough! Take this!!", Line_WaitForInput);
+		   NULL, " 곧 후회하게 될 거다, 받아라!!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/nageru", 128, 64 );
 	Wait( 200 );
@@ -1699,7 +1699,7 @@ void main()
 
 
 	OutputLine(NULL, "　蝋禅姪殿究極奥義ッ！！」",
-		   NULL, " Rou Zen Mei Den Ultimate Attack!!\"", Line_Normal);
+		   NULL, " 로젠메이든궁국기!!\"", Line_Normal);
 	ClearMessage();
 
 	//;■バトル演出を〜〜
