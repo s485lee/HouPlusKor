@@ -1351,7 +1351,7 @@ void main()
 
 
 	OutputLine(NULL, "ゴスロリ、",
-		   NULL, " 로스로리,", Line_ContinueAfterTyping);
+		   NULL, " 고스로리,", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/tataku", 128, 64 );
 	ShakeScreen( 2, 9,  100 , 3, 33, );
