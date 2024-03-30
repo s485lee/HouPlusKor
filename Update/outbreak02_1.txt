@@ -10172,7 +10172,7 @@ void main()
 	DrawScene( "black", 400 );
 	DrawScene( "background/fure2", 400 );
 
-	CallScriptSection("util", "하뉴Dance");
+	CallScriptSection("util", "HanyuuDance");
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　羽入は小躍りして喜ぶ。",
 		   NULL, "하뉴는 덩실덩실 좋아하고 있다.", Line_WaitForInput);
