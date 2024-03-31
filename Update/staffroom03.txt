@@ -33,40 +33,40 @@ void main()
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
 	ClearMessage();
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「こんにちは、竜騎士07です。",
-		   NULL, "\"Hello, Ryukishi07 here.", Line_WaitForInput);
+		   NULL, "\"안녕하세요, 용기사07입니다.", Line_WaitForInput);
 	OutputLine(NULL, "いよいよ『ひぐらし』も第６話ですねぇ！",
-		   NULL, " Higurashi's finally up to chapter six!", Line_WaitForInput);
+		   NULL, " 드디어 '쓰르라미'도 6장이네요!", Line_WaitForInput);
 	OutputLine(NULL, "　これが飛行機なら、本機は着陸態勢に入りました、シートベルトをお締めになってくださいってアナウンスが入るところですよー！」",
-		   NULL, " If we were on a plane right now, the announcer would be telling everyone to fasten their seatbelts as we prepare for landing!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 이게 비행기라면, 이제 비행기가 착륙 준비에 들어가서, 안전벨트를 매달라는 안내방송이 나올 때쯤이에요!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「シートベルトに拘束されて墜落まで逃げ場ナシとも言うにゃりね。",
-		   NULL, "\"Though once you're bound by your seatbelt, there's nowhere left to run until it crashes, nya.", Line_WaitForInput);
+		   NULL, "\"안전벨트에 묶여서 추락할 때까지 도망칠 곳이 없다고도 한다냥.", Line_WaitForInput);
 	OutputLine(NULL, "八咫桜にゃりん。」",
-		   NULL, " Yatazakura here, nya.\"", Line_Normal);
+		   NULL, " 야타자쿠라이다냥.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「まぁまぁ！",
-		   NULL, "\"Now, now!", Line_WaitForInput);
+		   NULL, "\"자, 자!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
 	OutputLine(NULL, "　ところで当サークルですが、『ひぐらし』が終わったら次は何を作りましょうねぇ？」",
-		   NULL, " By the way, what's our circle going to create once Higurashi's finished?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그런데 우리 서클, '쓰르라미'가 끝난 후에는, 다음에 무엇을 만들어볼까요?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「できるできないは別にして、アイデアは自由に出しておきたいにゃりんね。",
-		   NULL, "\"I'd like to brainstorm a few ideas ahead of time, regardless of whether or not we can do them, nya.", Line_WaitForInput);
+		   NULL, "\"할 수 있든 못 하든 상관없이, 아이디어는 자유롭게 내고 싶다냥.", Line_WaitForInput);
 	OutputLine(NULL, "では、とにかく言いたい放題で行ってみようにゃりー！」",
-		   NULL, " So for now, let's just say anything and everything we want, nya!\"", Line_Normal);
+		   NULL, " 그럼, 일단 마음껏 이야기해보는거냥!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -79,14 +79,14 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "サルでも作れる　（愛称サルじか）",
-		   NULL, "Next Work Classroom", GetGlobalFlag(GLinemodeSp));
+		   NULL, "원숭이도 만들 수 있다 (애칭 윈숭이 웍스)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 7, 6 ); }
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "次　回　作　教　室",
-		   NULL, "For Games Even Monkeys Can Make (AKA Monkey Works)", Line_ContinueAfterTyping);
+		   NULL, "차 회 작 교 실", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 
@@ -95,26 +95,26 @@ void main()
 
 	DrawSceneWithMask( "background/ke_shiryou1_02", "effect/up", 0, 0, 300 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「次回作の構想を練るにゃり。」",
-		   NULL, "\"Let's iron out some ideas for our next work, nya.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"다음 작품 구상을 짜보는 거냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うむ。」",
-		   NULL, "\"Mhmm.\"", Line_Normal);
+		   NULL, "\"으음.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「まずはジャンルを決めるにゃり。",
-		   NULL, "\"First we'll need to pick the genre, nya.", Line_WaitForInput);
+		   NULL, "\"먼저 장르를 정해보는거냥.", Line_WaitForInput);
 	OutputLine(NULL, "竜騎士さん、あんたが子どもの頃、一番面白かったゲームは何かにゃ？」",
-		   NULL, " Ryukishi-san, what game did you find the most entertaining when you were a child, nya?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 용기사 씨, 어렸을 때 가장 재미있었던 게임은 뭐인거냥?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「一番面白かった…？」",
-		   NULL, "\"The most entertaining...?\"", Line_Normal);
+		   NULL, "\"가장 재미있었던 거...?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -130,14 +130,14 @@ void main()
 
 	DrawScene( "background/ke_shiryou1_02", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「おお！",
-		   NULL, "\"Ohh!", Line_WaitForInput);
+		   NULL, "\"오오!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 
 	OutputLine(NULL, "　アレは確かに面白かったにゃり！",
-		   NULL, " That really was entertaining, nya!", Line_ContinueAfterTyping);
+		   NULL, " 그건 정말 재미있었다냥!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 12,  30 , 2, 50, );
 	Wait( 40 );
@@ -149,95 +149,95 @@ void main()
 
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "　夢・",
-		   NULL, " Dreams,", Line_ContinueAfterTyping);
+		   NULL, " 꿈,", Line_ContinueAfterTyping);
 	Wait( 300 );
 
 	PlaySE( 0, "wav/dageki", 70, 64 );
 
 	OutputLine(NULL, "冒険・",
-		   NULL, " adventure,", Line_ContinueAfterTyping);
+		   NULL, " 모험,", Line_ContinueAfterTyping);
 	Wait( 300 );
 
 	PlaySE( 0, "wav/pou", 70, 64 );
 
 	OutputLine(NULL, "ロマン・",
-		   NULL, " romance,", Line_ContinueAfterTyping);
+		   NULL, " 로맨스,", Line_ContinueAfterTyping);
 	Wait( 300 );
 
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
 	OutputLine(NULL, "メカ…。",
-		   NULL, " and mechs...", Line_ContinueAfterTyping);
+		   NULL, " 메카...", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	OutputLine(NULL, "そして出会いと別れ、友情と努力。",
-		   NULL, " Also, encounters and separation, friendship and hard work.", Line_WaitForInput);
+		   NULL, " 그리고 만남과 이별, 우정과 노력.", Line_WaitForInput);
 	OutputLine(NULL, "うむ、これはイケるにゃりよ！」",
-		   NULL, " Yeah, we can make that work, nya!\"", Line_Normal);
+		   NULL, " 음, 이건 될 거냥!\"", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ファイナルファンタジー▼…。",
-		   NULL, "Final Fantasy ▼...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "파이널 판타지 ▼...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつてスーファミで竜騎士07がやり狂ったゲームのひとつだ。",
-		   NULL, "This was a game Ryukishi07 once played like crazy on the SNES.", Line_Normal);
+		   NULL, "오래전 슈퍼패미컴에서 용기사07이 열광했던 게임 중 하나.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ストーリーは単純だが王道で馴染みやすく、変に気取ったところがないのが好印象であった。",
-		   NULL, "The story was simple, yet orthodox and easily relatable, and the lack of weird pretension left a good impression.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이야기는 단순하지만 클래식해서 친숙하고, 이상하게 꾸민 부분이 없어서 좋은 인상이었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　力を秘めたクリスタルを巡る悪と主人公たちの攻防と冒険…。",
-		   NULL, "There were adventures, and battles between the heroes and villains over the crystals and their power...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "힘을 간직한 크리스탈을 둘러싼 악과 주인공들의 공방과 모험...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、奇数作品ではお馴染みのジョブチェンジシステムはシリーズ中最高の形で昇華されていた（と筆者は信じる）。",
-		   NULL, "Also, like the other odd numbered games in the series, it featured a familiar job change system, but this one was refined into the greatest one throughout the series (or so this author believes).", GetGlobalFlag(GLinemodeSp));
+		   NULL, "또한, 홀수 작품에서 익숙한 직업 변경 시스템은 시리즈 중 최고의 형태로 승화되고 있다 (저자는 그렇게 믿습니다).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　多彩なジョブとアビリティの組み合わせが生み出した無数の戦略は、様々なボスに様々な勝ち方を提案し、クリア後も再びプレイしたくなる魅力を秘めていた…。",
-		   NULL, "There were countless strategies that could be formed by combining the abilities from various jobs, which suggested many different ways one could defeat the various bosses, so even after you beat the game, it still held a charm that made you want to play it again...", Line_Normal);
+		   NULL, "다양한 직업과 능력의 조합으로 만들어진 수많은 전략은, 여러 보스에게 다양한 승리 방법을 제안하고, 클리어 후에도 다시 플레이하고 싶게 만드는 매력이 있었다...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　当サークルのマスコットキャラの竜騎士レナが、このゲームを愛したがゆえに生み出された事実は、関係者には広く知られた事実だ…。",
-		   NULL, "It's widely known to those involved in this circle that our mascot character, Ryukishi Rena, was actually born out of love for that game...", Line_Normal);
+		   NULL, "이 서클의 마스코트 캐릭터인 용기사 레나가, 이 게임을 사랑한 탓에 탄생한 사실은, 관계자들 사이에서 널리 알려진 사실이다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "black", 400 );
 	DrawScene( "background/ke_shiryou1_02", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ＲＰＧというジャンルはキャラクターへの感情移入も高まるし、",
-		   NULL, "\"RPGs make it easier to empathize with the characters. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, "\"RPG라는 장르는 캐릭터에 대한 감정이입을 높이고, ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "コツコツ経験値を稼げば、必ず難関を突破できる努力、友情、そして勝利なところも、日本人には向いているにゃりね。」",
-		   NULL, "The way steady effort lets you earn EXP and guarantees you can clear the hurdles before you, along with the party's friendship leading to victory is really well suited to Japanese people, nya.\"", Line_Normal);
+		   NULL, "꾸준히 경험치를 쌓으면 반드시 어려움을 극복할 수 있는 노력, 우정, 그리고 승리하는 점도, 일본인에게 잘 맞는 것 같다냥.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうだろう、そうだろう！",
-		   NULL, "\"That's right, that's right!", Line_WaitForInput);
+		   NULL, "\"맞습니다, 맞습니다!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
 	OutputLine(NULL, "　次回作はＦＦ▼しかない。",
-		   NULL, " Our next work has to be FF▼!", Line_WaitForInput);
+		   NULL, " 다음 작품은 FF▼으로 해야돼.", Line_WaitForInput);
 	SetSpeedOfMessage( TRUE, 128 );
 
 	PlaySE( 0, "wav/nageru", 70, 64 );
@@ -251,7 +251,7 @@ void main()
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 
 	OutputLine(NULL, "俺たちのＦＦ▼を作るのだ！」",
-		   NULL, " We'll make our very own FF▼!\"", Line_ContinueAfterTyping);
+		   NULL, " 우리들의 FF▼를 만들자!\"", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 15,  30 , 2, 50, );
 	Wait( 40 );
@@ -266,54 +266,54 @@ void main()
 	DrawScene( "background/ke_shiryou1_02", 400 );
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「基本はＲＰＧテイストで、努力・友情・戦いのジャンプ三原則に従ったストーリー展開。",
-		   NULL, "\"Fundamentally it'll have a taste of RPG, and the plot will develop in line with Jump's three golden rules: effort, friendship, and battles.", Line_WaitForInput);
+		   NULL, "\"기본은 RPG 스타일로, 노력, 우정, 전투의 점프 세 가지 원칙을 따른 스토리 전개.", Line_WaitForInput);
 
 	PlaySE( 0, "wav/dageki", 70, 64 );
 
 	OutputLine(NULL, "ジョブの様々な組み合わせによるゲーム感覚。",
-		   NULL, " The combination of various jobs will give a real sense of gameplay.", Line_ContinueAfterTyping);
+		   NULL, " 직업의 다양한 조합으로 인한 게임 감각.", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 9,  30 , 2, 50, );
 	Wait( 40 );
 
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…うむ、実現できればなかなか良さそうにゃりん！",
-		   NULL, "...Yeah, that sounds pretty great if we can make it happen, nya!", Line_WaitForInput);
+		   NULL, "...음, 실현된다면 꽤 좋을 것 같다냥!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
 	OutputLine(NULL, "　……だが、そんなに高度なプログラムが組めるわけでもないにゃり。",
-		   NULL, " ......However, none of us can do such advanced programming work, nya. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, " ......하지만, 그런 고급 프로그래밍을 할 수 있는 것도 아니다냥. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "Ｎスクリプトで制作可能な条件が付くにゃりんよ。」",
-		   NULL, "We have to limit ourselves to something that can be created on N-Scripter, nya.\"", Line_Normal);
+		   NULL, "N스크립터로 제작 가능한 조건이 붙는 거다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawSceneWithMask( "white", "effect/left", 0, 0, 300 );
 	DrawSceneWithMask( "background/ke_shiryou1_02", "effect/left", 0, 0, 300 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「んんんん…。",
-		   NULL, "\"Hmmm...", Line_WaitForInput);
+		   NULL, "\"으으음...", Line_WaitForInput);
 	OutputLine(NULL, "ということは、…ＲＰＧテイストな物語のサウンドノベル…ということしかないなぁ。」",
-		   NULL, " Which means... we'll have to go with... a sound novel story with a taste of RPG.\"", Line_Normal);
+		   NULL, " 그 말은, ...RPG 스타일의 스토리 사운드 노벨...밖에 안 되는 거네.\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "wav/koruku", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ストーリーも練らないとダメにゃりん。",
-		   NULL, "\"We'll need to iron out the story too, nya.", Line_WaitForInput);
+		   NULL, "\"스토리도 잘 다듬어야 한다냥.", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
 	OutputLine(NULL, "クリスタルを巡る攻防は面白そうにゃりが、クリスタルはＦＦ▼の代名詞にゃりよ、この辺も考えないといかんにゃりん。",
-		   NULL, " Battles over crystals sounds interesting, nya, but the crystals are synonymous with FF▼, nya. We'll have to be careful about that, nya. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 크리스탈을 둘러싼 공방은 재미있을 재미있을거 같지만, 크리스탈은 FF▼의 상징이다냥, 이 부분도 고려해야 한다냥. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/furu", 70, 64 );
 	Wait( 200 );
@@ -321,9 +321,9 @@ void main()
 	Wait( 200 );
 	PlaySE( 0, "wav/furu", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "では竜騎士さん、あんたが今まで見た映画で、一番面白かった映画は何かにゃ？」",
-		   NULL, "So Ryukishi-san, what was the most entertaining movie out of all the ones you've seen, nya?\"", Line_ContinueAfterTyping);
+		   NULL, "그럼 용기사 씨, 지금까지 본 영화 중에서 가장 재미있었던 영화는 뭐다냥?\"", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
@@ -331,9 +331,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…んんん、一番面白かった映画…？」",
-		   NULL, "\"...Hmmmm, the most entertaining movie...?\"", Line_Normal);
+		   NULL, "\"...으으음, 가장 재미있었던 영화...?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -344,13 +344,13 @@ void main()
 	SetSpeedOfMessage( TRUE, 128 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ハリソ■・フォード主演（89年上映）",
-		   NULL, "Indiana Jones and the Last Crusade,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "해리○ 포드 주연 (1989년 개봉),", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 3, 7 ); }
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "イ■ディ・ジョーンズ　最後の聖戦",
-		   NULL, "starring Harrison Ford (aired in 1989).", Line_ContinueAfterTyping);
+		   NULL, "인○아나 존스와 최후의 성전.", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_Normal);
 
@@ -359,32 +359,32 @@ void main()
 
 	DrawScene( "background/ke_shiryou1_02", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「おお！",
-		   NULL, "\"Ohh!", Line_WaitForInput);
+		   NULL, "\"오오!", Line_WaitForInput);
 	OutputLine(NULL, "　ジェットコースタームービーと讃えられた手に汗握る展開は確かに、間を嫌う現代感覚にピッタリにゃりん！」",
-		   NULL, " That movie was hailed as a roller coaster ride, and its exciting twists and turns are perfect for the modern audience that hates downtime, nya!\"", Line_Normal);
+		   NULL, " 롤러코스터 무비라 칭송받은 손에 땀을 쥐게 하는 전개는 확실히, 텀을 싫어하는 현대 감각에 딱 맞다냥!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「中でも第３作の『最後の聖戦』は、永遠の力を秘めたキリストの聖杯を巡って、ナチス第３帝国とイ■ディが、世界を狭しと駆け巡る、壮大なアクション大活劇映画だったのだ！」",
-		   NULL, "\"Of all the ones in the series, the third one, The Last Crusade, was a magnificent action film where Indy fought the Nazis of the Third Reich over the Holy Grail and the power of immortality within, their battles spanning across the globe!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그중에서도 3편 '최후의 성전'은, 영원한 힘을 간직한 그리스도의 성배를 두고, 나치 제3제국과 인○가 전 세계를 누비며 펼치는 웅장한 액션 대활극이었다냥!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「低予算映画が流行っている昨今では、そのスケールの大きさはむしろ斬新にゃりね。」",
-		   NULL, "\"With low budget films being in style nowadays, the huge scale of it was novel, nya.\"", Line_Normal);
+		   NULL, "\"저예산 영화가 유행하는 요즘, 그 스케일의 크기가 오히려 새롭다냥.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そうだろう、そうだろう！",
-		   NULL, "\"That's right, that's right!", Line_WaitForInput);
+		   NULL, "\"맞습니다, 맞습니다!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
 	OutputLine(NULL, "　次回作はイ■ディしかない。",
-		   NULL, " Our next work has to be Indy!", Line_WaitForInput);
+		   NULL, " 다음 작품은 인○아나로 해야돼!", Line_WaitForInput);
 	SetSpeedOfMessage( TRUE, 128 );
 
 	PlaySE( 0, "wav/nageru", 70, 64 );
@@ -398,7 +398,7 @@ void main()
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 
 	OutputLine(NULL, "俺たちのイ■ディを作るのだ！」",
-		   NULL, " We'll make our very own Indy!\"", Line_ContinueAfterTyping);
+		   NULL, " 우리들의 인○아나를 만들자!\"", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 15,  30 , 2, 50, );
 	Wait( 40 );
@@ -412,31 +412,31 @@ void main()
 	DrawScene( "black", 200 );
 	DrawScene( "background/ke_shiryou1_02", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「んで、これをアレンジするわけだが、まず時代設定を現代にした方がいいにゃりね。」",
-		   NULL, "\"So, if we're going to adapt that, then first, I think we should update the setting to modern times.\"", Line_Normal);
+		   NULL, "\"그래서, 이걸 알맞게 바꾸는 건데, 우선 시대 설정을 현대로 하는 편이 좋겠네요.\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…そーすっとアレかな。",
-		   NULL, "\"...If we do that, then...", Line_WaitForInput);
+		   NULL, "\"...그러면 이런 거겠지.", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
 	OutputLine(NULL, "現代の学生たち仲良し４人組が、キリストの聖杯を巡って大冒険…。」",
-		   NULL, " We'll have four modern students going on a big adventure for the Holy Grail...\"", Line_Normal);
+		   NULL, " 사이좋은 현대의 학생 네 명이 그리스도의 성배를 둘러싼 대모험을...\"", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「いや、キリストの聖杯なんて言ったら文化庁が管轄すべきにゃり。",
-		   NULL, "\"No, the Holy Grail would fall under the Agency for Cultural Affairs' jurisdiction, nya.", Line_WaitForInput);
+		   NULL, "\"아니, 그리스도의 성배라고 하면, 문화청이 관리해야 할 것 같다냥.", Line_WaitForInput);
 	OutputLine(NULL, "バチカンとも連絡が必要だろうし、学生が触れられるようなものじゃないにゃりよ。",
-		   NULL, " They'd have to contact the Vatican too, so students would never be able to touch it, nya. ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, " 바티칸과도 협력이 필요할 테고, 학생들이 쉽게 다가갈 수 있는 게 아니다냥. ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "下手をすれば国際問題にゃりん。」",
-		   NULL, "One wrong move and it'd become an international incident, nya.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "잘못하면 국제적인 문제가 된다냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -448,29 +448,29 @@ void main()
 	Wait( 200 );
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「じゃあ主人公を文化庁の職員にしとけばいいんだ！",
-		   NULL, "\"So then we just need to make the main character an employee at the Agency for Cultural Affairs! ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, "\"그럼 주인공을 문화청 직원으로 하면 돼! ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そーすれば古代遺跡にも出入りできるし、伝説の秘宝を手にしても大丈夫だ！」",
-		   NULL, "If we do that, then they can go in and out of ancient ruins too, and they'll be able to uncover legendary treasures as well!\"", Line_Normal);
+		   NULL, "그러면 고대 유적에도 드나들 수 있고, 전설의 보물을 손에 넣어도 괜찮을 거야!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ほんで？",
-		   NULL, "\"So then what?", Line_WaitForInput);
+		   NULL, "\"그래서?", Line_WaitForInput);
 	OutputLine(NULL, "　その文化庁職員がジョブチェンジしたりしながら悪と戦うの？",
-		   NULL, " The agency employee gets a job change and fights evil?", Line_WaitForInput);
+		   NULL, " 그 문화청 직원이 전직을 하면서 악과 싸우는 거야?", Line_WaitForInput);
 
 	PlaySE( 0, "wav/koruku", 70, 64 );
 
 	OutputLine(NULL, "　ジョブチェンジって何よ。",
-		   NULL, " What's a job change here anyway?", Line_WaitForInput);
+		   NULL, " 전직이라니 뭐야.", Line_WaitForInput);
 	OutputLine(NULL, "戦士とか狩人とか黒魔道師とかになったりするにゃりか？",
-		   NULL, " Is he going to become a Warrior, Ranger, Black Mage, or something, nya? ", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+		   NULL, " 전사나 사냥꾼, 흑마법사 같은게 되는 거냥? ", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　戦士なんて呼び方、全共闘時代じゃあるまいし、今時のナウでヤングな若者には通用しないにゃりよ。」",
-		   NULL, "The term Warrior doesn't the fit the time period at all, and I don't think the young people living in the now of modern times would get it, nya.\"", Line_Normal);
+		   NULL, "전사라는 표현은 전공투 시대도 아니고, 요즘 트렌디하고 영한 젊은이들에게 통하지 않는다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -478,9 +478,9 @@ void main()
 	DrawSceneWithMask( "black", "effect/right", 0, 0, 300 );
 	DrawScene( "background/ke_shiryou1_02", 400 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…うむむむむむむ………。",
-		   NULL, "\"...Hmmmmmmm.........", Line_WaitForInput);
+		   NULL, "\"...으으으으으음.........", Line_WaitForInput);
 	DisableWindow();
 
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
@@ -488,17 +488,17 @@ void main()
 	DrawScene( "background/ke_shiryou1_02", 400 );
 
 	OutputLine(NULL, "はッ！！",
-		   NULL, " Ah!!", Line_WaitForInput);
+		   NULL, " 앗!!", Line_WaitForInput);
 	OutputLine(NULL, "　そうだ八咫桜、こういうのはどうだ！！",
-		   NULL, " I've got it, Yatazakura! How about this?!!", Line_WaitForInput);
+		   NULL, " 그래 야타자쿠라! 이런 건 어떠냐?!!", Line_WaitForInput);
 	OutputLine(NULL, "　今時のナウな世代の大好きな横文字に置き換えてしまうのだ！！",
-		   NULL, " We'll use the english characters people in this modern generation love!!", Line_WaitForInput);
+		   NULL, " 요즘 영한 세대가 좋아하는 외래어로 바꿔버리자!!", Line_WaitForInput);
 
 	PlayBGM( 0, "bgm0/3", 70, 0 );
 	PlaySE( 0, "wav/dageki", 70, 64 );
 
 	OutputLine(NULL, "　戦士はセイバー！",
-		   NULL, " For Warrior, we'll use Saber!", Line_ContinueAfterTyping);
+		   NULL, " 용사는 세이버!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 9,  100 , 1, 50, );
 
@@ -507,9 +507,9 @@ void main()
 
 	PlaySE( 0, "wav/dageki", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　狩人はアーチャーで黒魔道師はキャスター！！",
-		   NULL, "For Ranger, we'll use Archer, and for Black Mage, we'll use Caster!!", Line_ContinueAfterTyping);
+		   NULL, "사냥꾼은 아처로, 흑마법사는 캐스터로 하는 거야!!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 9, 100, 1, 50, );
 
@@ -525,7 +525,7 @@ void main()
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 
 	OutputLine(NULL, "　他にもランサーとかライダーとかバーサーカーとか色々あるのだ！！",
-		   NULL, " There's plenty of others we could use too, like Lancer, Rider, Berserker, etc.!!", Line_ContinueAfterTyping);
+		   NULL, " 그 외에도 랜서, 라이더, 버서커 등 여러 가지가 있어!!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 15, 30, 2, 50, );
 	Wait( 40 );
@@ -538,10 +538,10 @@ void main()
 	DrawScene( "effect/furiker_a", 50 );
 	PlaySE( 0, "wav/finish", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　そして手にした者の願いをかなえるという伝説の聖杯を巡って選ばれた主人公たちが様々なジョブを持つキャラクターたちを従え、終わらぬ戦いに身を投じていくのだ！！」",
-		   NULL, "So then the heroes chosen to fight over the legendary Holy Grail, which can grant the wish of anyone who obtains it, will command characters that possess one of those jobs, and throw themselves into never ending battles!!\"", Line_ContinueAfterTyping);
+		   NULL, "그리고 소유자의 소원을 이루어준다는 전설의 성배를 둘러싸고 선택받은 주인공들이 다양한 직업을 가진 캐릭터들을 거느리고, 끝나지 않는 싸움에 몸을 던지게 된다!!\"", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 15,  30 , 2, 50, );
 	Wait( 40 );
@@ -555,9 +555,9 @@ void main()
 	DrawScene( "background/ke_shiryou1_02", 400 );
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「面白い！！",
-		   NULL, "\"That sounds interesting!!", Line_ContinueAfterTyping);
+		   NULL, "\"흥미로워!!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 9, 30, 2, 50, );
 	Wait( 40 );
@@ -568,30 +568,30 @@ void main()
 	PlaySE( 0, "wav/kira", 70, 64 );
 
 	OutputLine(NULL, "　面白いにゃり竜騎士さん！",
-		   NULL, " That sounds interesting, Ryukishi-san!", Line_WaitForInput);
+		   NULL, " 재미있어 보여요, 용기사 씨!", Line_WaitForInput);
 	OutputLine(NULL, "　いったいどうしたんだ、",
-		   NULL, " How on earth did you come up with that?!", Line_ContinueAfterTyping);
+		   NULL, " 도대체 어떻게 이런걸,", Line_ContinueAfterTyping);
 	Wait( 600 );
 	OutputLine(NULL, "スバらしい！！",
-		   NULL, " It's wonderful!!", Line_WaitForInput);
+		   NULL, " 훌륭해!!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/dageki", 70, 64 );
 
 	OutputLine(NULL, "　ＦＦ▼を彷彿させるジョブ感覚にファンタジー感！",
-		   NULL, " It brings out that fantasy feel with a resemblance to FF▼'s job system! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " FF▼를 연상시키는 직업 감각과 판타지 느낌! ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　イ■ディ・ジョーンズ顔負けの伝説の秘宝を巡る目まぐるしい攻防！",
-		   NULL, "It captures the hectic, back and forth battles of Indiana Jones over some legendary treasure!", Line_ContinueAfterTyping);
+		   NULL, "인○아나 존스도 부럽지 않을 전설의 보물을 둘러싼 치열한 공방!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	OutputLine(NULL, "　しかもそれがＲＰＧでなくサウンドノベルでとは何と斬新にゃり！！！",
-		   NULL, " Plus doing it as a sound novel instead of an RPG is a novel take, nya!!!", Line_ContinueAfterTyping);
+		   NULL, " 게다가 그게 RPG가 아닌 사운드노벨이라니, 정말 혁신적이다냥!!!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/tataku", 70, 64 );
 	ShakeScreen( 2, 12,  30 , 2, 50, );
@@ -599,9 +599,9 @@ void main()
 
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも現代という舞台の中で超常的な存在が跋扈する世界観は流行最先端の伝奇ものを思わせるにゃりん！！",
-		   NULL, "Plus that worldview of the supernatural lurking everywhere in modern day society rings out with the mystery and otherworldliness that's at the leading edge of popularity now, nya!", Line_ContinueAfterTyping);
+		   NULL, "게다가 현대라는 무대 속에서 초자연적 존재들이 날뛰는 세계관은 유행의 최전선을 달리는 전기물을 연상시킨다냥!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/tatakiwaru", 70, 64 );
 	ShakeScreen( 0, 15, 30, 2, 50, );
@@ -609,9 +609,9 @@ void main()
 
 	OutputLineAll(NULL, " ", GetGlobalFlag(GLinemodeSp));
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これは同人ソフト界に壮絶なインパクトを与えるにゃり！！",
-		   NULL, "This will have a huge impact on the world of doujin games, nya!!", Line_ContinueAfterTyping);
+		   NULL, "이건 동인 게임계에 엄청난 충격을 줄 거다냥!!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 	ShakeScreen( 2, 15,  30 , 2, 50, );
@@ -621,7 +621,7 @@ void main()
 
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "　この新作は社会に大反響を巻き起こすぞッ！！」",
-		   NULL, " A title like that will reverberate throughout society!!\"", Line_ContinueAfterTyping);
+		   NULL, " 이 신작은 사회에 큰 반향을 일으킨다!!\"", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 	ShakeScreen( 2, 18,  30 , 2, 50, );
@@ -632,9 +632,9 @@ void main()
 
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「やったッ、超えたぞ『ひぐらし』を！！",
-		   NULL, "\"We did it! We've surpassed Higurashi!!", Line_WaitForInput);
+		   NULL, "\"해냈어! 쓰르라미를 넘어섰어!!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/nageru", 70, 64 );
 	Wait( 150 );
@@ -643,7 +643,7 @@ void main()
 	PlaySE( 0, "wav/nageru", 70, 64 );
 
 	OutputLine(NULL, "　やったやった、次回作はこれに決定だあああああああッ！！！」",
-		   NULL, " Yes, yes! That settles it, that's our next title noooooow!!!\"", Line_ContinueAfterTyping);
+		   NULL, " 아싸아, 다음 작품은 이걸로 확정이다아아아아아아!!!\"", Line_ContinueAfterTyping);
 	DisableWindow();
 
 	DrawScene( "effect/furiker_a", 50 );
@@ -666,48 +666,48 @@ void main()
 	DrawScene( "background/ke_shiryou1_02", 400 );
 	//;setwindow 31,16,22,16,26,26,0,2,20,1,1,#999999,0,0,640,480
 	SetSpeedOfMessage( FALSE, 0 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「よし、じゃ昨日出た素晴らしい設定を、もう少し煮詰めるにゃりん！",
-		   NULL, "\"Alright, let's take that wonderful setting we came up with and iron it out a little more, nya!", Line_WaitForInput);
+		   NULL, "\"좋아, 그럼 어제 나온 훌륭한 설정을 좀 더 다듬어보는거냥!", Line_WaitForInput);
 	OutputLine(NULL, "　まず、タイトルだがどうするにゃりか？」",
-		   NULL, " First, what should we go with for the title, nya?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 우선, 타이틀은 뭘로 할까냥?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「うむ！",
-		   NULL, "\"Yes!", Line_WaitForInput);
+		   NULL, "\"음!", Line_WaitForInput);
 	OutputLine(NULL, "　それについては今思いついた画期的なタイトルがある！」",
-		   NULL, " I have a revolutionary title that I just thought of!\"", Line_Normal);
+		   NULL, " 그에 대해서는 지금 생각난 혁신적인 타이틀이 있다!\"", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それは奇遇にゃりね。",
-		   NULL, "\"What a coincidence, nya.", Line_WaitForInput);
+		   NULL, "\"그거 참 우연이다냥.", Line_WaitForInput);
 	OutputLine(NULL, "僕も今思いついたタイトルがあるにゃりん。」",
-		   NULL, " I just thought of a title as well, nya.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 나도 지금 생각난 타이틀이 있다냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>Ryukishi07</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ほう、では同時に言ってみよう！」",
-		   NULL, "\"Oh? Then let's both say ours together!\"", Line_Normal);
+		   NULL, "\"호오, 그럼 동시에 말해보자!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "black", 50 );
 	PlaySE( 0, "wav/boyon", 70, 64 );
 	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 2, 7 ); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>・<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Ryukishi07</color> & <color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>・<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>용기사07</color> & <color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「Ｆａｔｅ／ｓ■ａｙ　ｎｉｇｈｔ」」",
-		   NULL, "\"\"Fate/s*ay night!\"\"", Line_Normal);
+		   NULL, "\"\"페이트/스○이 나이트\"\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "background/sora5", 200 );
 
 	SetSpeedOfMessage( TRUE, 128 );
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>・<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>Ryukishi07</color> & <color=#f5e6d3>Yatazakura</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>・<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>용기사07</color> & <color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「「あああああああああああーーッ？！」」",
-		   NULL, "\"\"Aaaaaaaaaaaaaaaaah?!\"\"", Line_ContinueAfterTyping);
+		   NULL, "\"\"아아아아아아아아아아아아아아?!\"\"", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 	ShakeScreen( 2, 27,  30 , 2, 50, );
