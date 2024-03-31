@@ -51,7 +51,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「素直に、作業が楽でよかったと白状するにゃり。",
-		   NULL, "\"솔직히, 작업이 편해서 좋았다고 털어놓는냐리.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"솔직히, 작업이 편해서 좋았다고 털어놓는다냥.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
@@ -60,7 +60,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こんにちは、今回は有給を取らずに済みそうな八咫桜にゃりん。」",
-		   NULL, "안녕하세요, 이번에는 무급으로 일하게 될 것 같은 야타자쿠라냐리.\"", Line_Normal);
+		   NULL, "안녕하세요, 이번에는 무급으로 일하게 될 것 같은 야타자쿠라이라냥.\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/ke_shiryou1_02", "effect/right", 0, 0, 500 );
@@ -162,10 +162,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「カレーというより闇鍋という感じにゃり。",
-		   NULL, "\"카레보다는 야미나베(불확실한 재료를 넣는 일본 요리) 같은 느낌이다냐리.", Line_WaitForInput);
+		   NULL, "\"카레보다는 야미나베(불확실한 재료를 넣는 일본 요리) 같은 느낌이다냥.", Line_WaitForInput);
 
 	OutputLine(NULL, "それに変に混ぜ物をしない方が美味ということもあるにゃりよ？」",
-		   NULL, " 그리고 이상하게 섞지 않는 편이 더 맛있다는 사실도 있다는 냐리?\"", Line_Normal);
+		   NULL, " 그리고 이상하게 섞지 않는 편이 더 맛있다는 사실도 있다는냥?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -246,10 +246,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「甘いにゃりよ…。",
-		   NULL, "\"너무 순진하다냐리...", Line_WaitForInput);
+		   NULL, "\"너무 순진하다냥...", Line_WaitForInput);
 
 	OutputLine(NULL, "どうせオチは読めてるにゃり。",
-		   NULL, " 어차피 결말은 예상할 수 있다는 냐리.", Line_WaitForInput);
+		   NULL, " 어차피 결말은 예상할 수 있다냥.", Line_WaitForInput);
 
 	OutputLine(NULL, "散々アイデアを考えた挙句、",
 		   NULL, " 수많은 아이디어를 고민해본 끝에,", Line_Continue);
@@ -270,7 +270,7 @@ void main()
 
 
 	OutputLine(NULL, "既存の有名タイトルが飛び出すオチに決まってるにゃりん。」",
-		   NULL, " 기존의 유명 타이틀이 튀어나오는 결말로 결정되어 있다냐리.\"", Line_Normal);
+		   NULL, " 기존의 유명 타이틀이 튀어나오는 결말로 결정되어 있다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -312,13 +312,13 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「言ってることがさっぱりわからないにゃりんが、",
-		   NULL, "\"무슨 말인지 전혀 모르겠냐리,", Line_WaitForInput);
+		   NULL, "\"무슨 말인지 전혀 모르겠다냥,", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kyupirn", 128, 64 );
 
 
 	OutputLine(NULL, "…早い話が、今流行っている作品を複数パクって混ぜれば、何か新しい作品が生まれるかもしれないと言いたいにゃりんか？」",
-		   NULL, " ...간단히 말해, 현재 유행하는 작품들을 여럿 베껴서 섞으면, 어쩌면 새로운 작품이 탄생할지도 모른다는 말이냐리?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...간단히 말해, 현재 유행하는 작품들을 여럿 베껴서 섞으면, 어쩌면 새로운 작품이 탄생할지도 모른다는 말이다냥?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -402,10 +402,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…カレーにショートケーキ混じってるの食ったら、唇を洗いたくもなるにゃりんよ。",
-		   NULL, "\"...카레에 쇼트케이크가 섞인 걸 먹고 나면, 입술을 씻고 싶어어지는건 당연한냐리.", Line_WaitForInput);
+		   NULL, "\"...카레에 쇼트케이크가 섞인 걸 먹고 나면, 입술을 씻고 싶어어지는건 당연하다냥.", Line_WaitForInput);
 
 	OutputLine(NULL, "でもまぁ、言いたいことはわかったにゃりん。」",
-		   NULL, " 그래도, 하고 싶은 말은 알겠다냐리.\"", Line_Normal);
+		   NULL, " 그래도, 하고 싶은 말은 알겠다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -469,10 +469,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ほほぅ、無難どころかなかなかの本命にゃりんよ！",
-		   NULL, "\"호호, 안전한 선택이라기보다는 꽤나 본격적인 선택인 냐리!", Line_WaitForInput);
+		   NULL, "\"호호, 안전한 선택이라기보다는 꽤나 본격적인 선택이다냥!", Line_WaitForInput);
 
 	OutputLine(NULL, "　ツンデレヒロインてんこ盛りは時代のニーズにもぴったりにゃりん。」",
-		   NULL, " 츤데레 히로인이 가득한 건 요즘 시대의 니즈와 딱 맞다는 냐리.\"", Line_Normal);
+		   NULL, " 츤데레 히로인이 가득한 건 요즘 시대의 니즈와 딱 맞다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -543,7 +543,7 @@ void main()
 
 
 	OutputLine(NULL, "　王道を押さえるならばやはりジャ○プ系は外せないにゃり！",
-		   NULL, " 정석을 따른다면 역시 점○계는 빼놓을 수 없다는 냐리!", Line_WaitForInput);
+		   NULL, " 정석을 따른다면 역시 점○계는 빼놓을 수 없다냥!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/furu", 128, 64 );
 	Wait( 200 );
@@ -559,7 +559,7 @@ void main()
 
 
 	OutputLine(NULL, "　ここで僕は、魁！■塾を挙げるにゃりん！！」",
-		   NULL, " 여기서 나는, 돌격! ○○훈련소를 꼽겠냐리!!\"", Line_Continue);
+		   NULL, " 여기서 나는, 돌격! ○○훈련소를 꼽겠다냥!!\"", Line_Continue);
 	ShakeScreen( 2, 18,  100 , 8, 12, );
 
 	OutputLineAll(NULL, "", Line_Normal);
@@ -637,21 +637,21 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「甘いにゃりん！",
-		   NULL, "\"순진하다냐리!", Line_Continue);
+		   NULL, "\"순진하다냥!", Line_Continue);
 	SetSpeedOfMessage( FALSE, 0 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 
 	OutputLine(NULL, "　■塾のキャラクターは確かにマッチョな学ラン男ばかりで実に汗臭いにゃりんが、",
-		   NULL, " ○○훈련소의 캐릭터들은 확실히 근육질의 학생복 남자들뿐이어서 정말로 땀 냄새 나는냐리, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ○○훈련소의 캐릭터들은 확실히 근육질의 학생복 남자들뿐이어서 정말로 땀 냄새 난다냥, ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それはあくまでもジャ○プ系という世界観で、しかも北斗○拳が全盛期だった時代だったからこそにゃりん。",
-		   NULL, "그건 점○계라는 세계관 안에서, 또한 북두○권이 전성기였던 시대였기 때문인냐리. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그건 점○계라는 세계관 안에서, 또한 북두○권이 전성기였던 시대였기 때문이다냥. ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "つまり、ビジュアルではなく、連続バトルによるカタルシスと多彩なバトルシチュエーションというエッセンス自体は、■ーゼンと決して反発し合わないにゃりん！！」",
-		   NULL, "즉, 비주얼이 아니라, 연속되는 배틀이 주는 카타르시스와 다양한 배틀 상황이라는 본질은, ○젠메이든과 결코 상충되지 않는다는 말이다냐리!!\"", Line_Continue);
+		   NULL, "즉, 비주얼이 아니라, 연속되는 배틀이 주는 카타르시스와 다양한 배틀 상황이라는 본질은, ○젠메이든과 결코 상충되지 않는다는 말이다냥!!\"", Line_Continue);
 
 	PlaySE( 0, "wav/dageki", 128, 64 );
 	ShakeScreen( 2, 9,  100 , 3, 33, );
@@ -1058,7 +1058,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「斬新なのにも関わらず、…すでにどこかのサークルが描いてそうな気がする内容にゃりん…。」",
-		   NULL, "\"신선함에도 불구하고, ...이미 다른 동인 서클이 그려 놓은 것 같은 내용인냐리...\"", Line_Normal);
+		   NULL, "\"신선함에도 불구하고, ...이미 다른 동인 서클이 그려 놓은 것 같은 내용같다냥...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1124,10 +1124,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「さて、最後は竜騎士さんにゃりんよ。",
-		   NULL, "\"자, 이제 용기사 씨 차례인냐리.", Line_WaitForInput);
+		   NULL, "\"자, 이제 용기사 씨 차례이다냥.", Line_WaitForInput);
 
 	OutputLine(NULL, "さてさて、どんな作品の名前を出すにゃりん？」",
-		   NULL, " 그럼, 어떤 작품의 이름을 제안할거냐리?\"", Line_Normal);
+		   NULL, " 그럼, 어떤 작품의 이름을 제안할거냥?\"", Line_Normal);
 	ClearMessage();
 
 	DrawSceneWithMask( "background/ke_shiryou1_02", "effect/left", 0, 0, 500 );
@@ -1209,7 +1209,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…た、確かに、……それはすごいビッグタイトルが飛び出したにゃりんよ…！」",
-		   NULL, "\"...화, 확실히, ......대단한 빅 타이틀이 튀어나왔다냐리...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...화, 확실히, ......대단한 빅 타이틀이 튀어나왔다냥...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1278,10 +1278,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「り、理屈はわかるにゃりんが、どの辺のエッセンスを吸い出すにゃりんか。",
-		   NULL, "\"이, 이론을 알겠는냐리, 어떤 부분의 에센스를 뽑아내야 하는 냐리?", Line_WaitForInput);
+		   NULL, "\"이, 이론을 알겠다냥, 어떤 부분의 에센스를 뽑아내야 하는거냥?", Line_WaitForInput);
 
 	OutputLine(NULL, "さっきＢＴさんも言った通り、ウチのサークルではシューティングなんか作れないにゃりんよ。」",
-		   NULL, " 방금 BT씨가 말했듯이, 우리 서클에서는 슈팅 같은 건 만들 수 없다는 냐리.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 방금 BT씨가 말했듯이, 우리 서클에서는 슈팅 같은 건 만들 수 없다냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1446,7 +1446,7 @@ void main()
 
 
 	OutputLine(NULL, "つまりこういうことにゃりんな？",
-		   NULL, " 즉, 이런 말이라는 냐리?", Line_WaitForInput);
+		   NULL, " 즉, 이런 말이라는 냥?", Line_WaitForInput);
 
 	OutputLine(NULL, "　自分好みの色々な服装が勢揃いで登場、",
 		   NULL, " 자신의 취향대로 다양한 옷차림이 총출동하여 등장한다,", Line_Continue);
@@ -1849,7 +1849,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……負けた後になって口調が水銀■に戻ってる辺りが実に狡猾にゃり。」",
-		   NULL, "\"...패배한 후에 말투가 스이○○로 돌아가는 꼴이 정말 웃기는 냐리.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...패배한 후에 말투가 스이○○로 돌아가는 꼴이 정말 웃기다냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1885,7 +1885,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どうやら『うみねこ』のことは竜騎士抜きで僕たちで考えた方がよさそうにゃりん。」",
-		   NULL, "\"보아하니 '괭이갈메기'에 대해서는 용기사를 빼고 우리끼리 생각하는 편이 좋을 것 같다는 냐리.\"", Line_Normal);
+		   NULL, "\"보아하니 '괭이갈메기'에 대해서는 용기사를 빼고 우리끼리 생각하는 편이 좋을 것 같다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1912,7 +1912,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「次回の、仮称『うみねこのなく頃に』もどうか乞うご期待にゃりん！",
-		   NULL, "\"다음 작품, 가칭 '괭이갈메기 울 적에'도 기대해 주는 냐리!", Line_WaitForInput);
+		   NULL, "\"다음 작품, 가칭 '괭이갈메기 울 적에'도 기대해 주는 냥!", Line_WaitForInput);
 
 	OutputLine(NULL, "　どうか今後ともよろしくお願いいたしますにゃ〜！」",
 		   NULL, " 앞으로도 잘 부탁드립니디냐~!\"", GetGlobalFlag(GLinemodeSp));
@@ -1935,10 +1935,10 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…思うに、竜騎士が色々ごちゃ混ぜにしたからおかしくなったにゃりんよ。",
-		   NULL, "\"...생각해 보니, 용기사가 여러 가지를 뒤섞어서 이상해진 것 같냐리.", Line_WaitForInput);
+		   NULL, "\"...생각해 보니, 용기사가 여러 가지를 뒤섞어서 이상해진 것 같다냥.", Line_WaitForInput);
 
 	OutputLine(NULL, "少し修正する意味で、ｄａｉさんにも作品をひとつ混ぜてもらうにゃりん！」",
-		   NULL, " 조금 고치는 의미에서, dai씨에게도 작품 하나를 섞어 달라고 하는 냐리!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 조금 고치는 의미에서, dai씨에게도 작품 하나를 섞어 달라고 하는냥!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1973,7 +1973,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ｄａｉさんご無沙汰にゃりんよ。」",
-		   NULL, "dai씨, 오래간만인 냐리.\"", Line_Normal);
+		   NULL, "dai씨, 오래간만이다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2201,7 +2201,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……どうか今後も当サークルを、見捨てずによろしくお願いしますにゃりん！」",
-		   NULL, "\"...앞으로도 저희 서클을 버리지 말고 잘 부탁드립니다, 냐리!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...앞으로도 저희 서클을 버리지 말고 잘 부탁드립니다냥!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
