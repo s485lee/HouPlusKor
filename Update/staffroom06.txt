@@ -481,7 +481,7 @@ void main()
 	OutputLine(NULL, "「祭囃し編」のみとなりました。",
 		   NULL, " '마츠리바야시 편'만이 남았습니다.", Line_WaitForInput);
 	OutputLine(NULL, "長かった物語の最後を締めくくれる読み応えのある内容になるよう、がんばるつもりです。",
-		   NULL, " 긴 이야기의 마지막을 마무리 짓는, 읽을 가치가 있는 내용으로 만들기 위해 노력할 겁니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 긴 이야기의 마지막을 마무리 짓는, 읽을 가치가 있는 내용으로 만들기 위해 노력하겠습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
