@@ -796,7 +796,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_Continue); }
 	OutputLine(NULL, "「こ、こりゃ俺たちの出番は、完全になくなったな…。」",
-		   NULL, "\"이, 이건 우리 차례가 완전히 없어졌어...\"", Line_Normal);
+		   NULL, "\"이, 이러면 우리 차례가 완전히 없어져버려...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
