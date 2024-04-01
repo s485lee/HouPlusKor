@@ -112,7 +112,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．上記お見込みの通り。",
-		   NULL, "답. 위의 예상대로이다.", Line_Normal);
+		   NULL, "답. 위의 예상한 대로이다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -166,7 +166,7 @@ void main()
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
 	OutputLine(NULL, "これは仕様なのか。",
-		   NULL, " Was it designed that way?", Line_ContinueAfterTyping);
+		   NULL, " 이건 기능인가.", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 9,  100 , 2, 50, );
 
@@ -181,7 +181,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．上記お見込みの通り。",
-		   NULL, "Answer: Yes, it is as you surmised.", Line_ContinueAfterTyping);
+		   NULL, "답. 위의 예상한 대로이다.", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 12, 100, 1, 50, );
 
