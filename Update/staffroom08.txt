@@ -658,7 +658,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あと、修羅場へ応援や差し入れをしてくれた戦友諸君にも敬礼！",
-		   NULL, "또한, 고난중에 응원이나 선물을 보내준 전우들에게도 경례!", Line_Normal);
+		   NULL, "또한, 고난을 겪는 중에 응원이나 선물을 보내준 전우들에게도 경례!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

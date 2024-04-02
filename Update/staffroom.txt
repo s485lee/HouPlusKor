@@ -2201,7 +2201,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……どうか今後も当サークルを、見捨てずによろしくお願いしますにゃりん！」",
-		   NULL, "\"...앞으로도 저희 서클을 버리지 말고 잘 부탁드립니다냥!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...앞으로도 저희 서클을 버리지 말고, 잘 부탁드립니다냥!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
