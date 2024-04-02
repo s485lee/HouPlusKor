@@ -32,7 +32,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…いや～…、よく同人誌のあとがきなんかにありますけど、これをタイプしてる今現在、ぜ～んぜん、終わってないんですよね☆",
-		   NULL, "\"...에이~ ...종종 동인지의 후기 같은 데에 있잖아요, 이걸 타이핑하고 있는 지금 이 순간, 전~혀, 끝나지 않았어요☆", Line_WaitForInput);
+		   NULL, "\"...에이~ ...종종 동인지의 후기 같은 데에 있잖아요, 이걸 타이핑하고 있는 지금 이 순간, 전~혀, 끝나지 않았다구요☆", Line_WaitForInput);
 	OutputLine(NULL, "　作業。」",
 		   NULL, " 작업이.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -317,7 +317,7 @@ void main()
 	OutputLine(NULL, "「Ｈ死ッ！！！",
 		   NULL, "\"H사!!!", Line_WaitForInput);
 	OutputLine(NULL, "　Ｈ死に違いないッ！！！」",
-		   NULL, " H사로 죽어버려라!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " H사로 죽어버릴래!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
@@ -345,12 +345,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「竜騎士07さんはどんなＨ死が希望ですか？」",
-		   NULL, "\"용기사07씨는 어떤 H사를 바라십니까?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"용기사07씨는 어떤 H사를 바라나요?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「は、はぅ？！",
-		   NULL, "\"하, 하우!", Line_WaitForInput);
+		   NULL, "\"하, 하우?!", Line_WaitForInput);
 	OutputLine(NULL, "　…い、言ったらかなうんすか？！？！",
 		   NULL, " ...말하면 이루어지나요?!?!", Line_WaitForInput);
 

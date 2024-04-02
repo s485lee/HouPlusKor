@@ -326,7 +326,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ゆくゆくはサークルの総務部長も…なんて言われて大慌てで固辞したという。",
-		   NULL, "결국에는 서클의 총무부장도...해달라며 제안받고 크게 당황하여 거절했다고 한다.", Line_Normal);
+		   NULL, "결국에는 서클의 총무부장도...해달라며 제안받고 크게 당황하며 거절했다고 한다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -358,7 +358,7 @@ void main()
 	ShakeScreen( 2, 12,  100 , 3, 33, );
 
 	OutputLine(NULL, "なんて何度も連呼したもんだからむくれられた。",
-		   NULL, " 라는 말을 여러 번 반복하니 화를 내더군요.", Line_Normal);
+		   NULL, " 라는 말을 여러 번 반복하니 화를 냈다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -429,7 +429,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　監禁生活は長期にわたり、自分はこのまま誘拐されたことになって郷里の両親に捜索願を出されてしまうのではと、戦々恐々としながら過ごしているという。",
-		   NULL, "장기간의 감금 생활에, 이대로 납치된 것으로 되어 고향의 부모님께서 수색 요청을 내실까 봐, 전전긍긍하며 지내고 있다고 합니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "장기간의 감금 생활에, 이대로 납치된 것으로 되어 고향의 부모님께서 수색 요청을 내실까 봐, 전전긍긍하며 지내고 있다고 한다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -520,7 +520,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつては八咫桜さんと二人きりで過ごしてきた修羅場も、いつの間にか倍の人数になっていました。",
-		   NULL, "한때 야타자쿠라 씨와 둘이서 겪었던 고난의 시간도, 어느샌가 사람 수가 두 배로 늘어났습니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "한때 야타자쿠라 씨와 둘이서 겪었던 고난의 시간도, 어느샌가 사람 수가 두 배로 늘어났다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -542,7 +542,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これを打ってる時点ではまだマスターアップじゃないけれど、終わったら焼肉でも行こうな～！",
-		   NULL, "이걸 쓰고 있는 지금은 아직 마스터 업이 끝났지 않았지만, 끝나면 함께 고기라도 먹으러 가자~!", Line_Normal);
+		   NULL, "이걸 쓰고 있는 지금은 아직 마스터 업이 끝났지 않았지만, 끝나면 함께 고기라도 먹으러 가죠~!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -693,7 +693,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今はしばしの休息を取るがいい。",
-		   NULL, "금은 잠시 휴식을 취하는 것이 좋다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "지금은 잠시 휴식을 취하는 것이 좋다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
