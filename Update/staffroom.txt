@@ -256,7 +256,7 @@ void main()
 	Wait( 800 );
 
 	OutputLine(NULL, "『それじゃ□姫だー！』とか",
-		   NULL, " '그건 ○히메인 거야!' 같은", Line_ContinueAfterTyping);
+		   NULL, " '그건 ○희인 거야!' 같은", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/tataku", 128, 64 );
 	ShakeScreen( 0, 12, 100, 5, 20, );
