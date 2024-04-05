@@ -411,93 +411,93 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もし、僕にわがままをひとつ言うことをお許しいただけるなら。",
-		   NULL, "If I were allowed to ask one selfish thing,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "만약, 제가 제멋대로 말씀드려도 괜찮으시다면.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうかどうか、……いつになるかお約束は出来ないけれど、次なる何らかの作品で、また皆さんとぜひ再会したいのです。",
-		   NULL, "then please, please... while I can't promise when it will be, I'd like to see you all again in whatever my next title ends up being.", Line_Normal);
+		   NULL, "어떻게든, ......언제가 될지 약속드릴 수는 없지만, 다음 작품에서 여러분과 꼭 다시 만나고 싶습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それがどんな作品で、どんな形になり、いつ発表されることになるのか。",
-		   NULL, "I don't know what my next title will be, what shape it will take, or when it will be announced.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그게 어떤 작품이 되고, 어떤 형태가 되며, 언제 발표될지는.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何もお約束できないのが心苦しいです。",
-		   NULL, "It pains me that I can't promise anything about it.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "아무것도 약속드릴 수 없어 마음이 아픕니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、ひとつだけ、全身全霊をかけてお約束できることがあります。",
-		   NULL, "But there is one thing I can promise with my very soul.", Line_Normal);
+		   NULL, "하지만, 단 하나를, 제 몸과 영혼을 걸고 약속드릴 수 있는 것이 있습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それは。",
-		   NULL, "And that...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그건.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　絶対に、僕は作品を作り続けることを止めないということ。",
-		   NULL, "is that I will not stop continuing to produce new titles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "절대로, 작품을 만들어 나가는 것을 멈추지 않을 것입니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕にたくさんの作品を執筆する機会と気力を下さった皆さんに、必ずや恩返しをしたいということ。",
-		   NULL, "I definitely want to repay you all for giving me the opportunity and the willpower to write so many things.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "저에게 수많은 작품을 쓸 기회와 의욕을 주신 모든 분들께, 반드시 보답하고 싶습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それだけだけれども、……それだけは絶対にお約束したいです。",
-		   NULL, "So even if that's all I can promise...... I want to promise you at least that.", Line_Normal);
+		   NULL, "그것뿐이지만, ......그것만은 꼭 약속드리고 싶습니다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今後は、ノベルゲームだけではないと思います。",
-		   NULL, "My next title might not be limited to visual novels.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "앞으로는, 비주얼 노벨 게임만이 아니라고 생각합니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　０７ｔｈ　Ｅｘｐａｎｓｉｏｎの原点に立ち戻り、非電源ゲームを発表することもあるでしょう。",
-		   NULL, "I might return to 07th Expansion's roots and announce a non-electric game.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "07th Expansion의 원점으로 돌아가서, 아날로그 게임을 발표하는 일도 있을 겁니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あるいはビジュアルアーツさんの「Ｒｅｗｒｉｔｅ」のように、商業作品にかかわって発表することもあるでしょう。",
-		   NULL, "Perhaps I might announce my involvement in a professional title like Visual Arts-san's Rewrite.", Line_Normal);
+		   NULL, "또는 비주얼 아츠의 'Rewrite'와 같은, 상업 작품에 참여하여 발표하는 일도 있을 겁니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あるいは、今の僕にも想像できないような、まったく新しい何かかもしれません。",
-		   NULL, "Or perhaps it will be something completely new that I can't even imagine right now.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "아니면, 지금의 저조차 상상할 수 없는, 완전히 새로운 무언가일지도 모릅니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、必ず必ず。",
-		   NULL, "But I definitely, definitely", Line_WaitForInput);
+		   NULL, "하지만, 반드시 반드시", Line_WaitForInput);
 	OutputLine(NULL, "皆さんに楽しんでもらえる何かを作り続けていきたいと思っています。",
-		   NULL, " want to continue creating something that you all can enjoy.", Line_Normal);
+		   NULL, " 모든 분들께서 즐길 수 있는 어떤 것을 계속 만들어 나가고 싶습니다.", Line_Normal);
 	ClearMessage();
 
 
@@ -505,19 +505,19 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　来年から、短距離走ではなく、長距離走になるかもしれません。",
-		   NULL, "Starting next year, perhaps it'll be a marathon instead of a short-distance race.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "내년부터는 단거리가 아닌, 장거리 달리기가 될지도 모릅니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　年１回のコミケ発表という形も難しいかもしれません。",
-		   NULL, "It might prove difficult even doing even one Comiket release per year.", Line_Normal);
+		   NULL, "매년 1회 코미케 발표도 어려울 수 있습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、僕は書くこと、作ることを止めたりはしません。",
-		   NULL, "But writing and creating is something I'll never stop doing.", Line_Normal);
+		   NULL, "하지만, 저는 글을 쓰는 것, 만드는 것을 멈추지 않을 것입니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -525,26 +525,26 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうか、待っていてほしい。",
-		   NULL, "So please wait for me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "부디, 기다려 주셨으면 합니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　次はなにが、いつ「なくのか」。",
-		   NULL, "For whatever, and whenever the next When They Cry comes.", Line_Normal);
+		   NULL, "다음엔, 무언가 '울지 않을까'.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうか長い目で待っていて頂けると嬉しいです。",
-		   NULL, "I hope you'll wait patiently for me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "어떻게든 긴 시간을 기다려 주실 수 있다면 기쁠 겁니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　長くなりましたが、僕のわがままにお付き合いを下さり、ありがとうございます……。",
-		   NULL, "This has grown long now, but thank you very much for putting up with my selfishness......", Line_Normal);
+		   NULL, "길어져 버렸지만, 저의 제멋대로인 부탁에 함께해 주셔서 감사합니다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -557,133 +557,133 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さて、最後にお知らせです。",
-		   NULL, "Now, I have one announcement at the end.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "자, 마지막으로 공지사항입니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　毎年開催してきた公式イベント、07thパーティーですが、",
-		   NULL, "This is regarding the public event hosted every year, the 07th Party.", Line_WaitForInput);
+		   NULL, "매년 개최해 온 공식 이벤트, 07th 파티인데요,", Line_WaitForInput);
 	OutputLine(NULL, "今年の１０月の開催以降は、いつ開催できるのか、ちょっと見通しがついておりません。",
-		   NULL, " I'm not really sure when the next one will be held after the one being hosted this October.", Line_Normal);
+		   NULL, " 올해 10월 개최 이후로는 언제 개최할 수 있을지, 조금도 전망이 서지 않고 있습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ひょっとしたら、最後の機会になってしまうかも……。",
-		   NULL, "Maybe that could end up being the last one......", GetGlobalFlag(GLinemodeSp));
+		   NULL, "어쩌면, 마지막 기회가 되어 버릴지도......", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、ならば皆さんに最後にもう一度会って、これまでの感謝をしたい。",
-		   NULL, "But with that in mind, I would like to see everyone one more time and express my gratitude.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만, 그렇다면 여러분과 마지막으로 다시 한 번 만나서, 지금까지의 감사를 전하고 싶습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　心からそう思っております。",
-		   NULL, "I truly would.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "마음 깊이 그렇게 생각하고 있습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　宣伝めいていて恐縮ですが、どうかぜひ足をお運びいただければ幸いです。",
-		   NULL, "I'm sorry this is becoming something of an advertisement, but please, it would be really nice if you could make it.", Line_Normal);
+		   NULL, "홍보 같아서 죄송하지만, 부디 꼭 방문해 주시면 감사하겠습니다.", Line_Normal);
 	ClearMessage();
 
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なんだか、今にも死んじゃいそうなしんみりした話ばかりですみません。",
-		   NULL, "I'm sorry for such serious talk that makes it sound like I could die at any minute.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "어쩐지, 지금이라도 죽을 것 같은 우울한 이야기만 해서 죄송합니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、竜騎士07は今日も元気です。",
-		   NULL, "I'm perfectly healthy right now.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그러나, 용기사07은 오늘도 활기찹니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕の作品作りへのモチベーションは、決して枯れることはありません。",
-		   NULL, "My motivation for creating new titles hasn't dwindled at all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "저의 작품 제작에 대한 동기부여는, 절대로 시들지 않습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だって、皆さんに再会する唯一の方法が、作品を作り続けることだと思っているからです。",
-		   NULL, "After all, the only way for me to see all of you again, is for me to keep creating new titles.", Line_Normal);
+		   NULL, "왜냐하면, 여러분과 다시 만나는 유일한 방법이 작품을 계속 만드는 것이라고 생각하기 때문입니다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「ひぐらし」からずっとずっと。",
-		   NULL, "I'd like to truly thank you very much", GetGlobalFlag(GLinemodeSp));
+		   NULL, "'쓰르라미'부터 계속해서.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　応援を本当にありがとうございました。",
-		   NULL, "for supporting Higurashi all this time.", Line_Normal);
+		   NULL, "응원해 주셔서 진심으로 감사드립니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これまでの竜騎士07は、皆さんの応援で後押ししていただいた竜騎士07。",
-		   NULL, "Up until today, the support I've received from you all has kept me moving forward.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "지금까지의 용기사07은, 여러분의 응원으로 밀어준 용기사07.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これからの竜騎士07は、そんな皆さんへの恩返しの為に頑張る竜騎士07。",
-		   NULL, "So from today onward, I'll be doing my best to repay you all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "앞으로의 용기사07은, 그런 여러분에게 보답하기 위해 노력하는 용기사07.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな感じで、この節目に、人生を少しだけ変えてみたいと思います。",
-		   NULL, "So, with that turning point in mind, I'm hoping to change my life around a little bit.", Line_Normal);
+		   NULL, "그런 느낌으로, 이 중요한 시점에, 인생을 조금만 바꿔보고 싶습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　長々と長文をここまでお付き合い下さり、本当にありがとうございました。",
-		   NULL, "I'm truly grateful to you for accompanying me through such long text.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "긴 글을 여기까지 함께해 주셔서, 정말 감사드립니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、遠くないいつか。",
-		   NULL, "I hope that someday, in the not too distant future,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "또한, 멀지 않은 언젠가,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何かの作品にてまたお会いしましょう。",
-		   NULL, "we're able to meet again in another title.", Line_Normal);
+		   NULL, "또다른 작품에서 다시 만납시다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしてその作品こそは。",
-		   NULL, "I plan to make that title", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그리고 그 작품이야말로.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今ここをお読みのあなたへ、捧げる物語のつもりです。",
-		   NULL, "a story I offer to all of you reading this now.", Line_Normal);
+		   NULL, "지금 이 글을 읽고 계신 여러분께 바치는 이야기입니다.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
