@@ -354,7 +354,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「んで、八咫桜さんはどうですか？",
-		   NULL, "\"그럼, 야타사쿠라 씨는 어떤가요?", Line_WaitForInput);
+		   NULL, "\"그럼, 야타자쿠라 씨는 어떤가요?", Line_WaitForInput);
 
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 

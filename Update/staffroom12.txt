@@ -223,7 +223,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　偶然、八咫桜さんの部屋で拾った同人誌の奥付に書いてあった、「メンバー募集」に惹かれ、……今とは異なるＰＮで同人活動を始めた。",
-		   NULL, "우연히, 야타사쿠라씨의 방에서 주운 동인지의 출판 정보에 적혀 있던, '멤버 모집'에 이끌려, ......지금과는 다른 펜네임으로 동인 활동을 시작했습니다.", Line_Normal);
+		   NULL, "우연히, 야타지쿠라씨의 방에서 주운 동인지의 출판 정보에 적혀 있던, '멤버 모집'에 이끌려, ......지금과는 다른 펜네임으로 동인 활동을 시작했습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -282,7 +282,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　結局、……５部くらいしか、売れなかった。",
-		   NULL, "결국...... 5부 정도밖에, 팔리지 않았어요.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "결국...... 5부 정도밖에, 팔리지 않았다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -299,12 +299,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…こみパでは詠美のシナリオに本気で涙を流した。",
-		   NULL, "...코믹피티에 나오는 에이미의 시나리오에 진심으로 눈물을 흘렸어요.", Line_Normal);
+		   NULL, "...코믹파티에 나오는 에이미의 시나리오에 진심으로 눈물을 흘리고.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの日に全てを絶望して活動をやめることも出来たんだ。",
-		   NULL, "그날 모든 것에 절망하고, 활동을 그만둘 수도 있었어요.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그날 모든 것에 절망하고, 활동을 그만둘 수도 있었습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -384,7 +384,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えっとですね、ギャグとか救いのない、いわゆる鬼畜系なんですよ…。」",
-		   NULL, "\"음, 재갈을 채운다거나, 구원이 없는. 이른바 귀축계입니다...\"", Line_Normal);
+		   NULL, "\"음, 재갈을 채운다거나, 안 봐주는. 이른바 귀축계입니다...\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
@@ -413,7 +413,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えっとですね、色々と着替えさせられるんですよ。」",
-		   NULL, "\"음, 여러 가지로 옷을 갈아입게 되요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"음, 여러 가지로 옷을 갈아입게 돼요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -451,7 +451,7 @@ void main()
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
 	OutputLine(NULL, "その女の子に、次々とＦＦの衣装を着させてＨをするわけなんですよ。」",
-		   NULL, " 그 여자애에게, 차레차레로 FF의 의상을 입혀서 야한 짓을 하는 거예요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그 여자애에게, 차레차레로 FF의 의상을 입혀서 야한 짓을 하는 겁니다.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
@@ -753,7 +753,7 @@ void main()
 	OutputLine(NULL, "「次回は…冬コミ！！",
 		   NULL, "\"다음은... 겨울 코미케!!", Line_WaitForInput);
 	OutputLine(NULL, "　９月１日から製作を始めても…４ヶ月しかないにゃりー！！」",
-		   NULL, " 9월 1일부터 제작을 시작해도... 4개워띾에 없다냥!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 9월 1일부터 제작을 시작해도... 4개월밖에 없다냥!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
@@ -763,7 +763,7 @@ void main()
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
 	OutputLine(NULL, "　女アサはどう見てもスク水に見えるわけなんですよ！！",
-		   NULL, " 여성 어쌔신은 어떻게 봐도 학교 수영복으로 보이는 거예요!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 여성 어쌔신은 어떻게 봐도 학교 수영복으로 보여요!! ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 
