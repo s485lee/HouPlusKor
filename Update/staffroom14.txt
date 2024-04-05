@@ -294,7 +294,7 @@ void main()
 		   NULL, "하지만, 그만큼의 분량의 텍스트에 연출을 더하고 디버깅하여 발표하는 작업을. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頼もしいとはいえ、わずかな仲間たちと共に続けるには、そろそろ僕だけでなく、スタッフたちの若き時間も限界です。",
-		   NULL, "믿음직하다고는 하지만, 얼마 안 되는 동료들과 함께 계속하기에는, 슬슬 저뿐만 아니라 스태프들의 젊음도 한계입니다.", Line_Normal);
+		   NULL, "믿음직하다고는 하지만, 얼마 안 되는 동료들과 함께 계속하기에는, 슬슬 저뿐만 아니라 스태프들의 젊음도 한계에 도달했습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -314,32 +314,32 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　年２回にこだわり続けてきたのには、理由があります。",
-		   NULL, "There was a reason I continued to focus on releasing twice a year.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "매년 두 번 출시하는 것에 집착한 이유가 있습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうせまぐれで当たった竜騎士07は、せめて年２回新作を出し続けなければ、その存在を忘れられてしまう……。",
-		   NULL, "\"It was only a lucky fluke, and if I at least continue to produce two new titles a year, then people will remember me......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "어차피 우연히 성공한 용기사07은, 적어도 매년 두 번 신작을 계속 출시하지 않으면, 그 존재를 잊혀지게 될 거야......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そういう理由、あるいは脅迫観念があったからです。",
-		   NULL, "That was the reason, or the sense of threat that loomed over me.", Line_Normal);
+		   NULL, "라는 이유로, 또는 강박관념이 있었기 때문입니다.", Line_Normal);
 	ClearMessage();
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「ひぐらしのなく頃に奉」を今回出させていただき、",
-		   NULL, "When I produced Higurashi When They Cry Hou this time,", Line_WaitForInput);
+		   NULL, "'쓰르라미 울 적에 봉'을 이번에 출시하게 되어,", Line_WaitForInput);
 	OutputLine(NULL, "僕はやっと、２０代、３０代の頃の生き方や、「年２回」という呪縛を、",
-		   NULL, " I finally felt like I had the chance to be free of the way I lived my twenties and thirties, a chance to be free of the \"twice a year\" curse, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 저는 마침내, 20대, 30대 때의 생활방식과, '연 2회'라는 속박에서, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして何より、自分を許す機会を頂いたのだと思います。",
-		   NULL, "and above all, the chance to forgive myself.", Line_Normal);
+		   NULL, "그리고 무엇보다, 스스로를 용서할 기회를 얻었다고 생각합니다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -347,66 +347,66 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　応援して下さる皆さんのお陰で、僕は今日まで走って来れました。",
-		   NULL, "Thanks to all of your support, I've managed to be where I am today.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "응원해주신 모든 분들 덕분에, 저는 오늘까지 달릴수 있었습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それはもう短距離走のような、あまりに早く、あまりにあっという間の人生でした。",
-		   NULL, "My life until now has passed by far too fast, like I was in a short distance race.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "제 인생은, 단거리 달리기와 같이, 너무나도 빠르고 순식간에 지나가 버렸습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな痛快な人生を与えて下さった皆さんには、いくら感謝してもしたりません。",
-		   NULL, "But I can't be grateful enough to all of you who gave me such a thrilling life.", Line_Normal);
+		   NULL, "그런 짜릿한 인생을 선사해주신 여러분께는, 아무리 감사해도 부족합니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これから先の１０年、２０年は、そんな皆さんに恩返しをしていく時間だと思っています。",
-		   NULL, "I hope to spend the next ten or twenty years returning the favor to you all.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "앞으로의 10년, 20년은 그런 여러분께 보답하는 시간이 될 것이라고 생각합니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、まだその具体的な方法は見つかっていません。",
-		   NULL, "Though I still haven't figured out exactly how to do that yet.", Line_Normal);
+		   NULL, "하지만, 아직 그 구체적인 방법은 찾지 못했습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこで考えたのが、もしかして僕の恩返しの方法は、",
-		   NULL, "But then I thought, perhaps my way of returning that favor is to", Line_WaitForInput);
+		   NULL, "그래서 생각한 게, 혹시 제가 할 수 있는 보답의 방법은,", Line_WaitForInput);
 	OutputLine(NULL, "「年２回でなくとも、作品を作り続けることではないのか」。",
-		   NULL, " \"continue producing new titles, even if it's not two per year.\"", Line_WaitForInput);
+		   NULL, " \"연 2회가 아니더라도, 작품을 계속 만드는 것이 아닐까.\"", Line_WaitForInput);
 	OutputLine(NULL, "そう、思ったのです。",
-		   NULL, " Yes, I think it is.", Line_Normal);
+		   NULL, " 라고, 생각했습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でも、今はまだちょっぴり不安もあります。",
-		   NULL, "But I'm still a little worried.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만, 지금은 아직 불안함도 조금 있습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　年２回の発表をやめたら、皆さんにはやっぱり忘れ去られてしまうんじゃないかな。",
-		   NULL, "If I stop producing two titles a year, will everyone forget about me?", Line_Normal);
+		   NULL, "연 2회 발표를 그만두면, 여러분들에게 결국 잊혀져버리지 않을까.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本当は、その恐怖から逃れる為だけに、明日倒れることになろうとも、年２回発表の信念を翻したくはないのです。",
-		   NULL, "To be honest, I'd rather run from that fear by holding to my conviction of announcing two new titles per year, even if it meant I might collapse tomorrow.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "사실, 그 공포로부터 벗어나기 위해서라도, 내일 쓰러지게 될지라도, 연 2회 발표하는 신념을 저버리고 싶지 않습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でももう、そんなやせ我慢の時期も過ぎ去り、自分を見直す決断をしなければならない時期となりました。",
-		   NULL, "But the time for such forced endurance is long past, and I'm at a point where I need to hold firm to reevaluating myself.", Line_Normal);
+		   NULL, "하지만 이제, 그런 고집을 부릴 시기도 지나가고, 자신을 되돌아보고 결정을 내려야 할 시기가 되었습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
