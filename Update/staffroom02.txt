@@ -427,7 +427,7 @@ void main()
 	OutputLine(NULL, "「エカテリーナさんは前回のスタッフルームの後、残影を覚えたらしいですよ。",
 		   NULL, "\"에카테리나 씨는 지난번 스태프룸 이후로, 잔영을 익혔다고 합니다.", Line_WaitForInput);
 	OutputLine(NULL, "残影指弾で窓手うまうま～うにゃん！＞ｄ（＝ｗ＝　と、快適なＲＯライフっぽいです。",
-		   NULL, " 잔영 손가락 총으로 창문을 우물우물~냥! >d(=w= 처럼, 편안한 RO 생활인 것 같아요. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 잔영 지탄으로 창수를 우물우물~우냥! >d(=w= 처럼, 편안한 RO 생활인 것 같아요. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分がいないＧｖＧに限って砦を取っているのが悲しいとか。",
 		   NULL, "자신이 없을 때만 GvG에서 성을 점령하는 게 슬프다고 합니다.", Line_WaitForInput);

@@ -96,7 +96,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“07th作品が縁で、国境を超えた方と結婚することになりました”",
-		   NULL, "\"07th 작품 덕분에, 외국 분과 결혼하게 되었습니다.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"07th 작품 덕분에, 국경을 넘은 결혼을 하게 되었습니다.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -291,7 +291,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかし、あれだけの分量のテキストに演出をつけてデバッグして発表するという作業を、",
-		   NULL, "하지만, 그만큼의 분량의 텍스트에 연출을 더하고 디버깅하여 발표하는 작업을. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만, 그만큼의 분량의 텍스트에 연출을 더하고 디버깅하여 발표하는 작업을, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頼もしいとはいえ、わずかな仲間たちと共に続けるには、そろそろ僕だけでなく、スタッフたちの若き時間も限界です。",
 		   NULL, "믿음직하다고는 하지만, 얼마 안 되는 동료들과 함께 계속하기에는, 슬슬 저뿐만 아니라 스태프들의 젊음도 한계에 도달했습니다.", Line_Normal);
@@ -557,7 +557,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さて、最後にお知らせです。",
-		   NULL, "자, 마지막으로 공지사항입니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "자, 마지막으로 공지입니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
