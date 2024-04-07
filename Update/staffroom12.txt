@@ -784,7 +784,7 @@ void main()
 	OutputLine(NULL, "「歯を食いしばるにゃあぁああぁああ！！",
 		   NULL, "\"입을 악물어라냐아아아아아아앙!!", Line_WaitForInput);
 	OutputLine(NULL, "　はぃいいぃ！！　指導指導ーッ！！！」",
-		   NULL, " 이야아아압!! --!!!\"", Line_Normal);
+		   NULL, " 이야아아압!! 참교육--!!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
