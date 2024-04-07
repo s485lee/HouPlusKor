@@ -44,7 +44,7 @@ void main()
 	OutputLine(NULL, "「さて。",
 		   NULL, "\"자.", Line_WaitForInput);
 	OutputLine(NULL, "『ひぐらしのなく頃に』の製作の上で、メインで製作しているのは私、",
-		   NULL, " '쓰르라미 울 적에'를 주로 제작하고 있는 저,',", Line_WaitForInput);
+		   NULL, " '쓰르라미 울 적에'를 주로 제작하고 있는 저,", Line_WaitForInput);
 	OutputLine(NULL, "竜騎士07と八咫桜なわけですが、もちろん二人だけで作品を作っているわけではありません。」",
 		   NULL, " 용기사07과 야타자쿠라이지만, 물론 저희 둘만으로 작품을 만들고 있는 건 아닙니다.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -86,7 +86,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「４ＵさんＢＴさん、いつもいつも、このちゃらんぽらんな竜騎士07を影で支えてくれて感謝にゃり。」",
-		   NULL, "\"4U씨 BT씨, 언제나 이 허둥대는인 용기사07을 뒤에서 도와주셔서 감사한다냥.\"", Line_Normal);
+		   NULL, "\"4U씨 BT씨, 언제나 이 허둥대는 용기사07을 뒤에서 도와주셔서 감사한다냥.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
@@ -781,7 +781,7 @@ void main()
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 
 	OutputLine(NULL, "　ＰｖＰ来いやゴルァ！",
-		   NULL, "PvP로 가자고!", Line_ContinueAfterTyping);
+		   NULL, " PvP로 가자고!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 9,  30 , 2, 50, );
 	Wait( 40 );
@@ -959,7 +959,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この度は『ひぐらしのなく頃に』をお手にとって下さり、誠にありがとうございました。",
-		   NULL, "이번 "쓰르라미 울 적에'를 구매해 주셔서 진심으로 감사드립니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이번 '쓰르라미 울 적에'를 구매해 주셔서 진심으로 감사드립니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
