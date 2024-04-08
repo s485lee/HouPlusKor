@@ -2240,7 +2240,7 @@ void main()
 		   NULL, " 이런 불명예스러운 싸움법으로는 안된다고.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9085", 128, TRUE);
 	OutputLine(NULL, "……というか、そもそも、男の俺が、女の子の水着を無理やり脱がすという状況がすでにおかしいし不可能だ！",
-		   NULL, " ...랄까, 애시당초 남자인 내가 여자애 수영복을 억지로 벗기능 상황 자체가 이미 이상하고 불가능해! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...일단, 애시당초 남자인 내가 여자애 수영복을 억지로 벗기능 상황 자체가 이미 이상하고 불가능해! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9086", 128, TRUE);
 	OutputLine(NULL, "　説得して自発的に脱いでもらうのが困難な今、結構、どうしようもないぞ……」",
