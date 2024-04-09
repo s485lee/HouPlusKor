@@ -91,7 +91,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“「うみねこのなく頃に」が縁で結婚することになりました。指輪やウェルカムボードに片翼の鷲をモチーフに使っていいですか？”",
-		   NULL, "\"'괭이갈메기 울 적에' 인연으로 결혼하게 되었습니다. 결혼 반지나 결혼식 안내판에 편익의 독수리를 모티브로 사용해도 될까요?\"", Line_Normal);
+		   NULL, "\"'괭이갈매기 울 적에' 인연으로 결혼하게 되었습니다. 결혼 반지나 결혼식 안내판에 편익의 독수리를 모티브로 사용해도 될까요?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

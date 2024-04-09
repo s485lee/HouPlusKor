@@ -101,7 +101,7 @@ void main()
 		   NULL, "\"......미이?", Line_WaitForInput);
 
 	OutputLine(NULL, "　『うみねこのなく頃に』で決定じゃなかったのですか？",
-		   NULL, " '괭이갈메기 울 적에'로 이미 결정된 거 아니었나요?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " '괭이갈매기 울 적에'로 이미 결정된 거 아니었나요?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	DisableWindow();
 
@@ -125,7 +125,7 @@ void main()
 		   NULL, "\"음,", Line_WaitForInput);
 
 	OutputLine(NULL, "『うみねこ』という仮タイトルを取り合えずつけて、一応の物語の方向性もつけては見たが、そんなことで果たして良いのであろうか。",
-		   NULL, " '괭이갈메기'라는 임시 제목을 달아두고, 대략적인 스토리 방향성도 정해봤지만, 과연 그게 좋은 걸까 싶어요. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " '괭이갈매기'라는 임시 제목을 달아두고, 대략적인 스토리 방향성도 정해봤지만, 과연 그게 좋은 걸까 싶어요. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/nageru", 128, 64 );
 	Wait( 200 );
@@ -1885,7 +1885,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どうやら『うみねこ』のことは竜騎士抜きで僕たちで考えた方がよさそうにゃりん。」",
-		   NULL, "\"보아하니 '괭이갈메기'에 대해서는 용기사를 빼고 우리끼리 생각하는 편이 좋을 것 같다냥.\"", Line_Normal);
+		   NULL, "\"보아하니 '괭이갈매기'에 대해서는 용기사를 빼고 우리끼리 생각하는 편이 좋을 것 같다냥.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1912,7 +1912,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「次回の、仮称『うみねこのなく頃に』もどうか乞うご期待にゃりん！",
-		   NULL, "\"다음 작품, 가칭 '괭이갈메기 울 적에'도 기대해 주는 냥!", Line_WaitForInput);
+		   NULL, "\"다음 작품, 가칭 '괭이갈매기 울 적에'도 기대해 주는 냥!", Line_WaitForInput);
 
 	OutputLine(NULL, "　どうか今後ともよろしくお願いいたしますにゃ〜！」",
 		   NULL, " 앞으로도 잘 부탁드립니디냐~!\"", GetGlobalFlag(GLinemodeSp));
