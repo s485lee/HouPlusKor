@@ -4555,9 +4555,9 @@ void main()
 	DrawSceneWithMask( "background/ma2", "effect/right", 0, 0, 300 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺の脳には、何をするんだレナ！という、通常時の社会モラルから紡がれる言葉と、",
-		   NULL, "내 머릿속에는, 레나가 도데체 무슨 짓을 하는지 묻고싶은, 평소의 사회 도덕적인 생각과,", Line_WaitForInput);
+		   NULL, "내 머릿속에서는, 레나가 무슨 짓을 하는지 묻고싶은, 평소의 사회적 도덕과,", Line_WaitForInput);
 	OutputLine(NULL, "…レナにここまでの反撃をさせるに値するどれほどの脅威だったのかということを探る２つが入り混じった。",
-		   NULL, " ...레나가 이런 반격을 할 만큼 어떤 큰 위협이 있었는지 궁금해하는 생각이 엉킨다.", Line_Normal);
+		   NULL, " ...레나를 이렇게까지 반격하게 만든 어떤 큰 위협이 무엇이었을지 궁금해 하는 두 가지 생각이 뒤엉킨다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
