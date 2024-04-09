@@ -150,7 +150,7 @@ void main()
 	ModSetConfigFontSize(15);
 	ModGenericCall("FaceDilate", "26");
 
-	ModSetMainFontOutlineWidth(20);
+	ModSetMainFontOutlineWidth(25);
 
 	ModAddArtset("Console", "ゲーム機", "CG");
 	ModAddArtset("Remake", "リメーク", "CGAlt:CG");
