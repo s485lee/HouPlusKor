@@ -2005,7 +2005,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0130", 128, TRUE);
 	OutputLine(NULL, "「そんな…！！　ねぇ私たちって、そんなにも未開人なの？！　文明人じゃないの？！　私たちが日常を失ってから、やっと１週間が経った程度なのに、もうそんな迷信が蔓延ってるの？！」",
-		   NULL, "\"너무해...!! 우리가 정말 그렇게 미개한 사람들이야? 우리는 문명인이 아닌 거야? 우리가 일상을 잃는지 겨우 일주일밖에 안 됐는데, 벌써 그런 미신이 퍼지고 있다고?!\"", Line_Normal);
+		   NULL, "\"너무해...!! 우리가 정말 그렇게 미개한 사람들이야? 우리는 문명인이 아닌 거야? 우리가 일상을 잃은지, 겨우 일주일밖에 안 됐는데, 벌써 그런 미신이 퍼지고 있다고?!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

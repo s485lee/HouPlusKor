@@ -116,7 +116,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雨の音しか聞こえない無人の「雛見沢停留所」に２人の学生（魅音・梨花）がやってくる。",
-		   NULL, "비 소리만 들리고 아무도 없는 '히나미자와 정류소'에 두 명의 학생(미온·리카)이 모습을 드러낸다.", Line_Normal);
+		   NULL, "빗소리만 들리고 아무도 없는 '히나미자와 정류소'에 두 명의 학생(미온·리카)이 모습을 드러낸다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -281,7 +281,7 @@ void main()
 	OutputLine("<color=#5ec69a>魅音</color> ", "「梨花さんに誘われたらもー！",
 		   "<color=#5ec69a>미온</color> ", "\"리카 씨가 같이 가자고 하면!", Line_Continue);
 	OutputLine(NULL, "予定なんかオールキャンセル！",
-		   NULL, " 다른 약속따위는 올 캔슬!", Line_Continue);
+		   NULL, "  다른 약속 따위는 올 캔슬!", Line_Continue);
 	OutputLine(NULL, "学校なんかないも同然ですよ！」",
 		   NULL, " 학교 같은 건 없는 거나 마찬가지예요!\"", Line_Normal);
 	ClearMessage();
@@ -570,7 +570,7 @@ void main()
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ちきしょー！",
 		   "<color=#5ec69a>미온</color> ", "\"젠장!", Line_Continue);
 	OutputLine(NULL, "…隙見てあいつらスマキにするっすー。",
-		   NULL, " 기회 봐서 저 녀석들, 때려 눕히겠습니다!", Line_Continue);
+		   NULL, " 기회 봐서 저 녀석들, 때려눕히겠습니다!", Line_Continue);
 	OutputLine(NULL, "…梨花さん、続きはその後ってことで。」",
 		   NULL, " 리카 씨, 이이서는 나중에 하는 걸로.\"", Line_Normal);
 	ClearMessage();
@@ -588,7 +588,7 @@ void main()
 	ModDrawCharacter(3, 53, "sprite/hmi2a_04_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 
 	OutputLine(NULL, "　怪しいぎらぎらとした目つきで２人の男を凝視する魅音。",
-		   NULL, "수상한 눈빛으로 두 남사를 뚫어지게 쳐다보는 미온.", Line_WaitForInput);
+		   NULL, "수상한 눈빛으로 두 남자를 뚫어지게 쳐다보는 미온.", Line_WaitForInput);
 	OutputLine(NULL, "あまりの異様さに思わず後退る利根川と荒川。",
 		   NULL, " 그 이상함에 당황하여 저도 모르게 뒷걸음치는 토네가와와 아라카와.", Line_Normal);
 	ClearMessage();
@@ -945,9 +945,9 @@ void main()
 	DrawScene( "black", 1000 );
 
 	OutputLine(NULL, "　ほんのしばらくの沈黙。",
-		   NULL, "잠시 동안 침묵이 흐른다.", Line_WaitForInput);
+		   NULL, "잠깐 침묵이 흐른다.", Line_WaitForInput);
 	OutputLine(NULL, "梨花は差し出される手に握手しようとしない。",
-		   NULL, " 리카는 내민 손에 악수하려 하려고 하지 않는다.", Line_Normal);
+		   NULL, " 리카는 내민 손에 악수하려 하지 않는다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1073,7 +1073,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　無言で妙に嬉しがる魅音。",
-		   NULL, "말 없이 이상하리만큼 기뻐하는 미온.", Line_Normal);
+		   NULL, "말없이 이상하리만큼 기뻐하는 미온.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1337,7 +1337,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　建設省の２人、ぎょっとして顔を見合わせる。",
-		   NULL, "건설성의 두 사람, 당황하며 서로 얼굴을 마주본다.", Line_Normal);
+		   NULL, "건설성의 두 사람, 당황하며 서로 얼굴을 마주 본다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その後に手をぱんぱんとはたきながら梨花が戻ってくる。",
@@ -1449,7 +1449,7 @@ void main()
 	OutputLine(NULL, "　これ以降、魅音がダム賛成意見を述べる度に、建設省の２人大仰に頷く。",
 		   NULL, "이후로, 미온이 댐 찬성 의견을 말할 때마다, 건설성의 두 사람은 과장되게 고개를 끄덕인다.", Line_WaitForInput);
 	OutputLine(NULL, "たまに梨花に睨まれ、抱き合ったまますくみ上がる。",
-		   NULL, " 가끔 리카에게 노려받을때마다, 두 사람은 서로 껴안은 채로 웅크린다.", Line_Normal);
+		   NULL, " 가끔 리카에게 노려 받을 때마다, 두 사람은 서로 껴안은 채로 웅크린다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1887,7 +1887,7 @@ void main()
 	PlaySE( 0, "enrai2", 70, 64 );
 
 	OutputLine(NULL, "　遠くで雷の音。",
-		   NULL, "멀리서 천둥 소리가 들린다.", Line_WaitForInput);
+		   NULL, "멀리서 천둥소리가 들린다.", Line_WaitForInput);
 	OutputLine(NULL, "徐々に舞台明るくなる。",
 		   NULL, " 점차 무대가 밝아진다.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音、遠くなっていく。",
@@ -2332,7 +2332,7 @@ void main()
 	OutputLine(NULL, "どかどかどっかん！",
 		   NULL, " 쿵쾅쿵쾅!", Line_Continue);
 	OutputLine(NULL, "と打撲音が響く。",
-		   NULL, " 거리는 소란스러운 소리가 울려퍼진다.", Line_WaitForInput);
+		   NULL, " 거리는 소란스러운 소리가 울려 퍼진다.", Line_WaitForInput);
 	OutputLine(NULL, "しばらくの沈黙。",
 		   NULL, " 잠시의 정적.", Line_Normal);
 	ClearMessage();
@@ -2361,11 +2361,11 @@ void main()
 	ChangeVolumeOfBGM( 1, 50, 2000 );
 
 	OutputLine(NULL, "　落雷の音。",
-		   NULL, "낙뢰 소리.", Line_WaitForInput);
+		   NULL, "천둥소리.", Line_WaitForInput);
 	OutputLine(NULL, "徐々に舞台明るくなる。",
 		   NULL, " 점점 무대가 밝아진다.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音、遠くなっていく。",
-		   NULL, " 세찬 비 소리가 멀어져 간다.", Line_Normal);
+		   NULL, " 세찬 빗소리가 멀어져 간다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2466,7 +2466,7 @@ void main()
 	OutputLine(NULL, "雛見沢に国民的美少女を見たッ！」",
 		   NULL, " 히나미자와에서 국보적인 미소녀를 찾았다!\"", Line_Continue);
 	OutputLine(NULL, "（魅音カッコ付けたポーズのまま固まっている・しばらくの沈黙・吉村、魅音に構わず話を続ける）",
-		   NULL, " (미온이 멋진 포즈를 취한 채로 굳어있다. 잠시 동안의 침묵. 요시무라는 미온을 신경 쓰지 않고 계속 이야기한다.)", Line_Normal);
+		   NULL, " (미온이 멋진 포즈를 취한 채로 굳어있다. 잠깐의 침묵. 요시무라는 미온을 신경 쓰지 않고 계속 이야기한다.)", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2667,7 +2667,7 @@ void main()
 	OutputLine(NULL, "　遠雷。",
 		   NULL, "먼 천둥소리.", Line_WaitForInput);
 	OutputLine(NULL, "雨の音が少し強くなる。",
-		   NULL, " 비 소리가 세차진다.", Line_WaitForInput);
+		   NULL, " 빗소리가 세차진다.", Line_WaitForInput);
 	OutputLine(NULL, "しばしの沈黙。",
 		   NULL, " 잠시의 침묵.", Line_Normal);
 	ClearMessage();
@@ -3973,7 +3973,7 @@ void main()
 	OutputLine("<color=#5f5248>荒川</color> ", "「「いる」わけないじゃないですかッ！",
 		   "<color=#5f5248>아라카와</color> ", "\"'있을'리가 없잖아요!", Line_Continue);
 	OutputLine(NULL, "「い」ないんですよッ！",
-		   NULL, " 없다구요!", Line_Continue);
+		   NULL, " 없다고요!", Line_Continue);
 	OutputLine(NULL, "落ち着いて下さいッ！」",
 		   NULL, " 진정해주세요!\"", Line_Normal);
 	ClearMessage();
@@ -4125,7 +4125,7 @@ void main()
 	OutputLine(NULL, "　雨の音と共に舞台、徐々に暗転。",
 		   NULL, "빗소리와 함께 무대는 서서히 어두워진다.", Line_WaitForInput);
 	OutputLine(NULL, "しばらくの沈黙。",
-		   NULL, " 잠시 동안의 침묵.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 잠깐의 침묵.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	OutputLine(NULL, "　舞台は真っ暗のまま。",
@@ -4157,7 +4157,7 @@ void main()
 	OutputLine(NULL, "徐々に舞台明るくなる。",
 		   NULL, " 점점 무대가 밝아진다.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音、遠くなっていく。",
-		   NULL, " 세찬 비 소리가 멀어저 간다.", Line_Normal);
+		   NULL, " 세찬 빗소리가 멀어저 간다.", Line_Normal);
 	ClearMessage();
 
 	OutputLine(NULL, "　荒川だけ依然トイレから戻らない。",
@@ -4480,7 +4480,7 @@ void main()
 	OutputLine(NULL, "雨の音。",
 		   NULL, " 빗소리.", Line_WaitForInput);
 	OutputLine(NULL, "長い沈黙。",
-		   NULL, " 긴 시간동안의 침묵.", Line_WaitForInput);
+		   NULL, " 긴 시간 동안의 침묵.", Line_WaitForInput);
 	OutputLine(NULL, "魅音の顔は笑顔を装いながらも青白い。",
 		   NULL, " 미온의 얼굴은 미소를 짓고 있지만 창백하다.", Line_WaitForInput);
 	OutputLine(NULL, "カタカタ震える肩。",
@@ -4618,9 +4618,9 @@ void main()
 	GetAchievement("BUSSTOP_2");
 
 	OutputLine(NULL, "　大きな雷鳴。",
-		   NULL, "큰 천둥 소리.", Line_WaitForInput);
+		   NULL, "큰 천둥소리.", Line_WaitForInput);
 	OutputLine(NULL, "土砂降りの雨の音と共に暗転。",
-		   NULL, " 세찬 비 소리와 함께 무대가 어두워진다.", Line_WaitForInput);
+		   NULL, " 세찬 빗소리와 함께 무대가 어두워진다.", Line_WaitForInput);
 	OutputLine(NULL, "しばらくの沈黙。",
 		   NULL, " 잠시의 침묵.", Line_Normal);
 	ClearMessage();
@@ -4643,11 +4643,11 @@ void main()
 	DrawScene( "black", 200 );
 
 	OutputLine(NULL, "　落雷の音。",
-		   NULL, "천둥 소리.", Line_WaitForInput);
+		   NULL, "천둥소리.", Line_WaitForInput);
 	OutputLine(NULL, "徐々に舞台明るくなる。",
 		   NULL, " 무대가 서서히 밝아온다.", Line_WaitForInput);
 	OutputLine(NULL, "どしゃぶりの音、遠くなっていく。",
-		   NULL, " 세차게 쏟아지는 비 소리가 점점 멀어져 간다.", Line_Normal);
+		   NULL, " 세차게 쏟아지는 빗소리가 점점 멀어져 간다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　５人全員ベンチに座っている。",
@@ -4723,7 +4723,7 @@ void main()
 	DrawScene( "background/hina_bus_04", 400 );
 
 	OutputLine(NULL, "　過剰な反応を示して拒否する魅音。",
-		   NULL, "과잉반응을 보이면서 거부하는 미온.", Line_WaitForInput);
+		   NULL, "과잉 반응을 보이면서 거부하는 미온.", Line_WaitForInput);
 	OutputLine(NULL, "吉村と利根川・荒川、異様な反応にちょっと驚く。",
 		   NULL, " 요시무라와 토네가와 아라카와, 과민한 반응에 조금 놀란다.", Line_Normal);
 	ClearMessage();
@@ -4755,7 +4755,7 @@ void main()
 
 
 	OutputLine(NULL, "　しばらくの沈黙と雨の音。",
-		   NULL, "잠시 동안 침묵이 흐르고 빗소리가 들린다.", Line_WaitForInput);
+		   NULL, "잠깐 침묵이 흐르고 빗소리가 들린다.", Line_WaitForInput);
 	OutputLine(NULL, "そこへ刑事２人（星野・岡野）登場。",
 		   NULL, " 그때 형사 두 명(호시노, 오카노)이 등장한다.", Line_Normal);
 	ClearMessage();
@@ -5161,7 +5161,7 @@ void main()
 	OutputLine(NULL, "　利根川退場。",
 		   NULL, "토네가와는 퇴장한다.", Line_WaitForInput);
 	OutputLine(NULL, "しばらくして岡野に電話が入る。",
-		   NULL, " 잠시 후, 오카노에게 전화가 걸려온다.", Line_Normal);
+		   NULL, " 잠시 후, 오카노에게 전화가 걸려 온다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5172,7 +5172,7 @@ void main()
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	OutputLine(NULL, "　岡野は携帯で話をしながら退場する。",
-		   NULL, "오카노는 휴대폰으로 이야기하며 퇴장한다.", Line_Normal);
+		   NULL, "오카노는 휴대전화로 이야기하며 퇴장한다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5488,7 +5488,7 @@ void main()
 	PlayBGM( 1, "me/a5_14446", 70, 0 );
 
 	OutputLine(NULL, "　舞台は薄暗い真っ赤なライトで照らし出される。",
-		   NULL, "무대는 빨간 빛으로 비춰진다.", Line_WaitForInput);
+		   NULL, "무대는 빨간빛으로 비친다.", Line_WaitForInput);
 	OutputLine(NULL, "その中で荒川にライト。",
 		   NULL, " 아라카와에게 스포트라이트가 집중된다.", Line_Normal);
 	ClearMessage();
@@ -5538,7 +5538,7 @@ void main()
 	//Unhandled: print 22
 
 	OutputLine(NULL, "　真っ赤なライトが今度は青いライトに変わる。",
-		   NULL, "빨간 빛이 이번에는 파란 빛으로 바뀐다.", Line_Normal);
+		   NULL, "빨간빛이 이번에는 파란빛으로 바뀐다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkon_0000", 128, TRUE);
@@ -5585,7 +5585,7 @@ void main()
 	FadeBustshot( 5, FALSE, 0, 0, 0, 0, 400, TRUE );
 
 	OutputLine(NULL, "　青いライトが再び真っ赤なライトに変わる。",
-		   NULL, "파란 빛이 다시 빨간 빛으로 바뀐다.", Line_Normal);
+		   NULL, "파란빛이 다시 빨간빛으로 바뀐다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkat_0000", 128, TRUE);
@@ -5674,9 +5674,9 @@ void main()
 	OutputLine(NULL, "　電車の入ってくる音。",
 		   NULL, "전철이 들어오는 소리,", Line_WaitForInput);
 	OutputLine(NULL, "ぐしゃあ！　という嫌な音。",
-		   NULL, " 철푸덕! 으깨지는 소리.", Line_WaitForInput);
+		   NULL, " 철퍼덕! 으깨지는 소리.", Line_WaitForInput);
 	OutputLine(NULL, "荒川を照らすライトは消え、舞台は再び青いライトで照らされる。",
-		   NULL, " 아라카와를 비추던 조명이 꺼지고 무대는 다시 파란 조명으로 비춰진다.", Line_Normal);
+		   NULL, " 아라카와를 비추던 조명이 꺼지고 무대는 다시 파란 조명으로 비친다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5786,7 +5786,7 @@ void main()
 	OutputLine(NULL, "　地べたを這いつくばりながら、どこかへ逃げようとする荒川。",
 		   NULL, "바닥을 기어가며 어디론가 도망치려는 아라카와.", Line_WaitForInput);
 	OutputLine(NULL, "頭痛がひどく、それもままならない。",
-		   NULL, " 두통이 너무 심해서 그것도 여의치 않다.", Line_Normal);
+		   NULL, " 두통이 너무 심해서 그것도 여의찮다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5971,7 +5971,7 @@ void main()
 	OutputLine("<color=#715348>吉村</color> ", "「…殴りかかりましたね。",
 		   "<color=#715348>요시무라</color> ", "\"...결국엔 때렸군요.", Line_Continue);
 	OutputLine(NULL, "箒の柄で何度も何度も！",
-		   NULL, " 빗자루 대로 몇 번이고!", Line_Continue);
+		   NULL, " 빗자루대로 몇 번이고!", Line_Continue);
 	OutputLine(NULL, "泣いても叩き続けた。」",
 		   NULL, " 울어도 계속 때렸죠.\"", Line_Normal);
 	ClearMessage();
@@ -6173,7 +6173,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1160", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「うるせえうるせえうるせえよッ！…黙れよ！黙んねえと殺すぞッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"닥쳐, 닥쳐, 닥쳐! ...입 닥쳐! 닥치지 않으면 죽여버릴거야!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"닥쳐, 닥쳐, 닥쳐! ...입 닥쳐! 닥치지 않으면 죽여버릴 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1510", 128, TRUE);
@@ -6216,7 +6216,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1180", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「ふざけるなッ！殺してやる！誰だろうと殺してやるッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"까불지마! 죽여버릴거야! 다 죽여버릴거야!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"까불지마! 죽여버릴 거야! 다 죽여버릴 거야!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -6239,14 +6239,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　悔しがりながら舞台中央で傘を振り回す荒川。",
-		   NULL, "아라카와는 무대 중앙에서 우산을 휘두르며 분풀이를 한다.", Line_WaitForInput);
+		   NULL, "아라카와는 무대 중앙에서 우산을 휘두르며 분풀이한다.", Line_WaitForInput);
 	OutputLine(NULL, "５人はなおも大笑い。",
 		   NULL, " 5인들은 여전히 웃음을 참지 못한다.", Line_Normal);
 	ClearMessage();
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_1190", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「殺してやる殺してやるッ！皆殺しだぁッ！糞どもめぇッ！…わぁあああぁあぁああぁあああああッ！」",
-		   "<color=#5f5248>아라카와</color> ", "\"죽여버릴거야! 죽여버릴거야! 다 죽일거다! 개새끼들아! ...와아아아아아아아아아아앗!\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"죽여버릴 거야! 죽여버릴 거야! 다 죽일거다! 개새끼들아! ...와아아아아아아아아아아앗!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -7062,7 +7062,7 @@ void main()
 	ShakeScreen( 0, 6, 100, 2, 50, );
 
 	OutputLine(NULL, "　再び吉村が手をかざすと魅音、喉を詰まらせたように咳き込む。",
-		   NULL, "다시 요시무라가 손을 들자 미온은 목이 메는 듯 기침을 한다.", Line_Normal);
+		   NULL, "다시 요시무라가 손을 들자, 미온은 목이 메는 듯 기침을 한다.", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1920", 128, TRUE);
@@ -7563,7 +7563,7 @@ void main()
 	OutputLine(NULL, "　混乱しながら岡野に掴みかかる吉村。",
 		   NULL, "혼란 속에서 오카노에게 달려드는 요시무라.", Line_WaitForInput);
 	OutputLine(NULL, "だがあっさりと組み伏せられてしまう。",
-		   NULL, " 하지만 손쉽게 제압당해버린다.", Line_Normal);
+		   NULL, " 하지만 손쉽게 제압 당해 버린다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -7595,7 +7595,7 @@ void main()
 	OutputLine(NULL, "　吉村を掴んだまま岡野退場。",
 		   NULL, "오카노가 요시무라를 붙잡은 채로 퇴장한다.", Line_WaitForInput);
 	OutputLine(NULL, "星野も梨花に目配せしてから退場する。",
-		   NULL, " 호시노도 리카에게 눈짓을 한 뒤 퇴장한다.", Line_Normal);
+		   NULL, " 호시노도 리카에게 눈짓한 뒤 퇴장한다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -7715,7 +7715,7 @@ void main()
 	OutputLine(NULL, "　魅音と梨花だけしかいない。",
 		   NULL, "미온과 리카만이 남아 있다.", Line_WaitForInput);
 	OutputLine(NULL, "雨の音と沈黙。",
-		   NULL, " 비 소리와 침묵.", Line_Normal);
+		   NULL, " 빗소리와 침묵.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -8252,7 +8252,7 @@ void main()
 	OutputLine(NULL, "　星野と岡野がぬっと現れる。",
 		   NULL, "호시노와 오카노가 갑작스럽게 나타난다.", Line_WaitForInput);
 	OutputLine(NULL, "続いて新田を先頭に保土田・織田が入ってくる。",
-		   NULL, " 그 다음으로 닛타를 앞세워 호토다와 오다가 들어온다.", Line_Normal);
+		   NULL, " 그다음으로 닛타를 앞세워 호토다와 오다가 들어온다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10062,7 +10062,7 @@ void main()
 	OutputLine("<color=#5ec69a>魅音</color> ", "「殺してやるぞ殺してやるぞッ！",
 		   "<color=#5ec69a>미온</color> ", "\"죽여버릴 거야, 죽여버릴 거야!", Line_Continue);
 	OutputLine(NULL, "…梨花さんを殺したヤツらは皆殺しにしてやるッ！",
-		   NULL, " ...리카 씨를 죽인 녀석들은 모두 죽여버릴거야!", Line_Continue);
+		   NULL, " ...리카 씨를 죽인 녀석들은 모두 죽여버릴 거야!", Line_Continue);
 	OutputLine(NULL, "…おおおぉぉおおおおおッ！」",
 		   NULL, " ...아아아아아아아아악!\"", Line_Normal);
 	ClearMessage();
@@ -10146,7 +10146,7 @@ void main()
 	OutputLine(NULL, "…畜生畜生畜生ッ！",
 		   NULL, " ...이 개새끼야!", Line_Continue);
 	OutputLine(NULL, "…殺してやる殺してやる殺してやるッ！」",
-		   NULL, " ...죽여버릴거야 죽여버릴거야 죽여버릴거야!\"", Line_Normal);
+		   NULL, " ...죽여버릴 거야 죽여버릴 거야 죽여버릴 거야!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10238,7 +10238,7 @@ void main()
 
 
 	OutputLine(NULL, "　舞台は真っ赤なライトで照らされる。",
-		   NULL, "무대는 새빨간 불빛으로 비춰진다.", Line_WaitForInput);
+		   NULL, "무대는 새빨간 불빛으로 비친다.", Line_WaitForInput);
 	OutputLine(NULL, "泣いて絶叫する魅音。",
 		   NULL, " 울부짖으며 절규하는 미온.", Line_Normal);
 	ClearMessage();
@@ -10310,11 +10310,11 @@ void main()
 	PlayBGM( 1, "me/ame2", 70, 0 );
 
 	OutputLine(NULL, "　おおきな雷鳴。",
-		   NULL, "큰 천둥 소리.", Line_WaitForInput);
+		   NULL, "큰 천둥소리.", Line_WaitForInput);
 	OutputLine(NULL, "舞台フラッシュして暗転。",
 		   NULL, " 무대가 번쩍이고 어둠에 휩싸인다.", Line_WaitForInput);
 	OutputLine(NULL, "雨の音だけがしとしと続く。",
-		   NULL, " 비 소리만이 조용히 계속된다.", Line_WaitForInput);
+		   NULL, " 빗소리만이 조용히 계속된다.", Line_WaitForInput);
 	OutputLine(NULL, "長い沈黙。",
 		   NULL, " 긴 침묵.", Line_Normal);
 	ClearMessage();
