@@ -223,7 +223,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　偶然、八咫桜さんの部屋で拾った同人誌の奥付に書いてあった、「メンバー募集」に惹かれ、……今とは異なるＰＮで同人活動を始めた。",
-		   NULL, "우연히, 야타지쿠라씨의 방에서 주운 동인지의 출판 정보에 적혀 있던, '멤버 모집'에 이끌려, ......지금과는 다른 펜네임으로 동인 활동을 시작했습니다.", Line_Normal);
+		   NULL, "우연히, 야타자쿠라씨의 방에서 주운 동인지의 출판 정보에 적혀 있던, '멤버 모집'에 이끌려, ......지금과는 다른 펜네임으로 동인 활동을 시작했습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -469,7 +469,7 @@ void main()
 	PlayBGM( 0, "bgm0/4", 70, 0 );
 
 	OutputLine(NULL, "まずＦＦⅠ～Ⅲからは各お姫さまの衣装をドット絵から想像して描き起こして。",
-		   NULL, " 우선 FFⅠ～Ⅲ에서는 각 공주님의 의상을 픽셀 아트에서 상상해서 그리고. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 우선 FFⅠ~III에서는 각 공주님의 의상을 픽셀 아트에서 상상해서 그리고. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
@@ -535,7 +535,7 @@ void main()
 	OutputLine(NULL, "「………専門学校時代の友達のＨ君、彼、ス●ウェアでしょ。",
 		   NULL, "\".........전문학교 시절 친구 H군, 그, 스●어에서 일하잖아.", Line_WaitForInput);
 	OutputLine(NULL, "そーゆうの公言しちゃマズイんじゃ。」",
-		   NULL, " 그런 걸 공개적으로 말하는 건 안 돼는거 아냐?\"", Line_Normal);
+		   NULL, " 그런 걸 공개적으로 말하는 건 안 되는거 아냐?\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
