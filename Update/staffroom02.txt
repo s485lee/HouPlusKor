@@ -50,7 +50,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ひぐらしの制作は毎回、命を削り過ぎにゃりん。",
-		   NULL, "\"'쓰르라미'의 제작은 매번, 목숨을 너무 깎아먹는다냥!", Line_WaitForInput);
+		   NULL, "\"'쓰르라미'의 제작은 매번, 목숨을 너무 깎아 먹는다냥!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
@@ -199,14 +199,14 @@ void main()
 	OutputLine(NULL, "「何とも壮絶な例えにゃりん。",
 		   NULL, "\"참으로 극적인 비유이다냥.", Line_WaitForInput);
 	OutputLine(NULL, "まースタッフルームだからたわ言は大目に見るにゃり。」",
-		   NULL, " 어차피, 스태프룸이니 헛소리는 너그럽게 봐준다냥.\"", Line_Normal);
+		   NULL, " 어차피, 스태프 룸이니 헛소리는 너그럽게 봐준다냥.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「えっへっへ！",
 		   NULL, "\"에헤헤!", Line_WaitForInput);
 	OutputLine(NULL, "　しかもここは隠しスタッフルームですからねー！！",
-		   NULL, " 게다가 여기는 숨겨진 스태프룸이니까요!!", Line_WaitForInput);
+		   NULL, " 게다가 여기는 숨겨진 스태프 룸이니까요!!", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
@@ -219,7 +219,7 @@ void main()
 
 	SetSpeedOfMessage( TRUE, 128 );
 	OutputLine(NULL, "　ついてこれるもんならついてこーい！",
-		   NULL, " 따라올 수 있다면 따라와봐!", Line_ContinueAfterTyping);
+		   NULL, " 따라올 수 있다면 따라와 봐!", Line_ContinueAfterTyping);
 
 	ShakeScreen( 2, 15,  30 , 2, 50, );
 	Wait( 40 );
@@ -230,7 +230,7 @@ void main()
 	PlaySE( 0, "wav/koruku", 70, 64 );
 
 	OutputLine(NULL, "　んじゃあ恒例のＲＯ内輪話、行ってみよーー！！！",
-		   NULL, " 그럼, 평소대로 RO 이야기, 시작해보자--!!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그럼, 평소대로 RO 이야기, 시작해 보자--!!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まずは時火さんの話が欠かせませんねー",
 		   NULL, "먼저, 토키카 씨 이야기가 빠질 수 없죠!", Line_WaitForInput);
@@ -278,7 +278,7 @@ void main()
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
 	OutputLine(NULL, "ここまでなら割と普通。",
-		   NULL, " 이 정도면 꽤나 보통입니다. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 이 정도면 꽤 보통입니다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ですがね、ですがですよ？！？！",
 		   NULL, "하지만, 하지만이에요?!?!", Line_WaitForInput);
@@ -311,7 +311,7 @@ void main()
 	OutputLine(NULL, "　ＰＳはプレステ。",
 		   NULL, " PS는 플레이스테이션.", Line_WaitForInput);
 	OutputLine(NULL, "つまりですね、露店と狩りとプレステのゲームを同時にってこと。」",
-		   NULL, " 즉, 가게와 사냥, 그리고 플레이스테이션 게임을 동시에 한다는 거에요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 즉, 가게와 사냥, 그리고 플레이스테이션 게임을 동시에 한다는 거예요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
@@ -325,14 +325,14 @@ void main()
 	OutputLine(NULL, "「つーかですね、これはマジで目を疑います！",
 		   NULL, "\"이거요, 진짜로 눈을 의심하게 합니다!", Line_WaitForInput);
 	OutputLine(NULL, "　メインアカはアサのコボマップ大人狩り。",
-		   NULL, " 메인 계정은 어새신으로 코볼드 맵에서 파밍을 해요.", Line_WaitForInput);
+		   NULL, " 주 계정은 어쌔신으로 코볼드 맵에서 파밍을 해요.", Line_WaitForInput);
 	OutputLine(NULL, "だから多少の放置は平気なんですよ。",
 		   NULL, " 그래서 조금 방치해도 문제없어요. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "囲まれても全部回避するから。",
 		   NULL, "둘러싸여도 다 피하기 때문이죠.", Line_WaitForInput);
 	OutputLine(NULL, "んでサブアカはエルの買取屋。",
-		   NULL, " 그리고 서브 계정은 엘리듐 상점으로.", Line_WaitForInput);
+		   NULL, " 그리고 부계정은 엘리듐 상점으로.", Line_WaitForInput);
 	OutputLine(NULL, "これがもー手慣れてる！",
 		   NULL, " 이게 벌써 익숙해져 버렸어요! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
@@ -359,7 +359,7 @@ void main()
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
 	OutputLine(NULL, "　メッセを見る限りじゃ最近はＶＩＴ剣士休業で青ハブハンターらしいじゃないですか。",
-		   NULL, " 메시지를 보니 최근에는 VIT 검사 휴업으로 청허브를 파밍한다고 하는데요.", Line_WaitForInput);
+		   NULL, " 메시지를 보니 최근에는 VIT 검사 휴업으로 청 허브를 파밍한다고 하는데요.", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
@@ -374,7 +374,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも青ハブ狩り専門のキャラまでいるとか！」",
-		   NULL, "게다가 청허브 파밍 전문 캐릭터까지 있다고요?!\"", Line_Normal);
+		   NULL, "다가 청 허브 파밍 전문 캐릭터까지 있다고요?!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
@@ -386,7 +386,7 @@ void main()
 	PlaySE( 0, "wav/kira", 70, 64 );
 
 	OutputLine(NULL, "青ハブの生える場所を何箇所もチェックして管理。",
-		   NULL, " 청허브가 나는 곳을 여러 곳 체크하고 관리.", Line_WaitForInput);
+		   NULL, " 청 허브가 나는 곳을 여러 곳 체크하고 관리.", Line_WaitForInput);
 
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
@@ -404,14 +404,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……青ハブを狩るためだけに生まれてファイヤーボルトを習得したマジなんて、どこのアンソロ読んでも見たことないッス…。",
-		   NULL, "\"......청허브를 따기 위해서만 태어나서 파이어볼트를 습득한 마법사 같은 건, 어떤 앤솔로지를 읽어도 본 적 없어요...", Line_WaitForInput);
+		   NULL, "\"......청 허브를 따기 위해서만 태어나서 파이어볼트를 습득한 마법사 같은 건, 어떤 앤솔로지를 읽어도 본 적 없어요...", Line_WaitForInput);
 	OutputLine(NULL, "漢見せてもらったッス、押忍！！」",
 		   NULL, " 남자다움을 보여주셨어요, 아자!!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「そう言えばＢＴさんは最近、殴りプリらしいにゃりね。",
-		   NULL, "\"그러고 보니 BT씨은 최근, 공격형 프리스트인 것 같다냥.", Line_WaitForInput);
+		   NULL, "\"그러고 보니 BT 씨는 최근, 공격형 프리스트인 것 같다냥.", Line_WaitForInput);
 	OutputLine(NULL, "ダンサにケミに殴りプリ？",
 		   NULL, " 댄서에, 케미스트에, 공격형 프리스트?", Line_WaitForInput);
 	OutputLine(NULL, "　……なかなか立ってるにゃり！！",
@@ -420,12 +420,12 @@ void main()
 		   NULL, " 게다가 모두 레벨 80 이상이다냥. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ＢＴさんは努力家さんだから、レベルの上がりも安定してるにゃりよ。」",
-		   NULL, "BT씨은 노력파이니까, 레벨 상승도 안정적이다냥.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "BT씨은 노력파니까, 레벨업도 안정적이다냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「エカテリーナさんは前回のスタッフルームの後、残影を覚えたらしいですよ。",
-		   NULL, "\"에카테리나 씨는 지난번 스태프룸 이후로, 잔영을 익혔다고 합니다.", Line_WaitForInput);
+		   NULL, "\"에카테리나 씨는 지난번 스태프 룸 이후로, 잔영을 익혔다고 합니다.", Line_WaitForInput);
 	OutputLine(NULL, "残影指弾で窓手うまうま～うにゃん！＞ｄ（＝ｗ＝　と、快適なＲＯライフっぽいです。",
 		   NULL, " 잔영 지탄으로 창수를 우물우물~우냥! >d(=w= 처럼, 편안한 RO 생활인 것 같아요. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
@@ -474,7 +474,7 @@ void main()
 	OutputLine(NULL, "「…竜騎士さんは相変わらずのダメダメ挫折ライフにゃりね。",
 		   NULL, "\"...용기사 씨는 여전히 실패하는 인생이다냥.", Line_WaitForInput);
 	OutputLine(NULL, "以上、ＲＯスタッフルームでしたにゃりん！」",
-		   NULL, " 이상, RO 스태프룸이었습니다냥!\"", Line_Normal);
+		   NULL, " 이상, RO 스태프 룸이었습니다냥!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
@@ -567,7 +567,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「より一層、楽しんでもらえるシナリオになるよう、努力します。",
-		   NULL, "\"더욱 더 즐거워하실 수 있는 시나리오가 될 수 있도록 노력하겠습니다.", Line_WaitForInput);
+		   NULL, "\"더욱더 즐거워하실 수 있는 시나리오가 될 수 있도록 노력하겠습니다.", Line_WaitForInput);
 	OutputLine(NULL, "誤字脱字が多くてすみません。",
 		   NULL, " 오탈자가 많아서 죄송합니다.", Line_WaitForInput);
 
