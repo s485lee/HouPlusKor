@@ -102,7 +102,7 @@ void main()
 	DrawScene( "black", 400 );
 
 	OutputLine(NULL, "などと喚き出した場合、後頭部にネリチャギを叩きこんでやるのが適当と思われるが、その判断は各個で良いのか。",
-		   NULL, " 이와 같이 외칠 경우, 뒤통수에 내려차기를 가하는 것이 적절하다고 여겨지지만, 그 판단을 개인적으로 해도 되는 것인가.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 이와 같이 외칠 경우, 뒤통수에 내려차기를 가하는 것이 적절하다고 여겨지지만, 그 판단을 개인적으로 해도 되는가.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -120,7 +120,7 @@ void main()
 		   NULL, "질문. 야타자쿠라가 잠깐 한눈판 사이, FD5에서 여우 사냥을 시작한 것을 목격한 경우, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "直ちに教育的指導を行なうべきであると思うが、自分もＢＳを起動してＷＩＳにて指導を行なっても良いのか。",
-		   NULL, "즉시 교육적 지도를 해야 한다고 생각하지만, 자신도 BS를 시작해서 WIS로 지도를 해도 해도 되는 것인가.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "즉시 교육적 지도를 해야 한다고 생각하지만, 자신도 BS를 시작해서 WIS로 지도를 해도 해도 되는가.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -140,7 +140,7 @@ void main()
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
 	OutputLine(NULL, "「負ううん、負ううん」などとみんなで連呼されるととても屈辱的なのだが…。",
-		   NULL, " '우운, 우운' 같은 말을 모두가 반복하면 매우 굴욕적이지만...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " '우운, 우운' 같은 말을 모두가 반복하면 매우 굴욕적이다...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -161,7 +161,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "きっとチートかＢＯＴに違いないと思うので管理会社に通報したのだが、いくら通報しても対応してくれない。",
-		   NULL, "분명히 치트나 봇일 것이라고 생각해서 관리 회사에 신고했는데, 아무리 신고해도 응대해 주지 않는다.", Line_WaitForInput);
+		   NULL, "분명히 치트나 봇일 것으로 생각해서 관리 회사에 신고했는데, 아무리 신고해도 응대해 주지 않는다.", Line_WaitForInput);
 
 	PlaySE( 0, "wav/boyon", 70, 64 );
 
@@ -223,7 +223,7 @@ void main()
 		   NULL, "질문. I씨가 이번 글쓰기 자료용으로 빌려준 자○대 관련 책에 '반출금지'라던가, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「確実に破棄すること」などと物騒な赤いハンコが押されているのだが、この資料、本当にヤバくないのか。",
-		   NULL, "'확실히 파기하라'는 등의 위협적인 붉은 도장이 찍혀 있는데, 이 자료, 정말 위험하지 않은가.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "'확실히 파기하라'는 등의 위협적인 붉은 도장이 찍혀 있는데, 이 자료, 정말 위험하지 않은 건가.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -233,7 +233,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．ボクは善意の第三者なのですよ。にぱ～☆",
-		   NULL, "답. 저는 선의의 제3자예요. 니파☆", Line_Normal);
+		   NULL, "답. 저는 선의의 제삼자예요. 니파☆", Line_Normal);
 	ClearMessage();
 
 
@@ -301,14 +301,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "いや、天誅系の中では一番面白いよコレ。",
-		   NULL, "아니, 닌자계열 중에서는 이게 가장 재미있다고요. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "아니, 닌자 계열 중에서는 이게 가장 재미있어. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/tataku", 70, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "敵進路上に予めステルス地雷を敷設し、火薬と気絶を特化したグレネード弾で、タラバの装甲兵が護衛する牛車を側面奇襲する快感はＦＰＳ系では初めての興奮！",
-		   NULL, "적 진로 위에 미리 스텔스 지뢰를 설치하고, 화약과 기절을 특화한 그레네이드 탄으로 타라바의 장갑병이 호위하는 소 수레를 측면 기습하는 쾌감은 FPS에서 처음 느끼는 흥분! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "적 진로 위에 미리 스텔스 지뢰를 설치하고, 화약과 기절을 특화한 그레네이드 탄으로 타라바의 장갑 병이 호위하는 소 수레를 측면 기습하는 쾌감은 FPS에서 처음 느끼는 흥분! ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "daidageki-kai2", 70, 64 );
 
@@ -327,7 +327,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　護衛含めて７人が、誰にも気付かれずわずか１０秒足らずで全員沈黙っすよ？！",
-		   NULL, " 호위를 포함해 7명이, 누구에게도 눈치채이지 않고 겨우 10초도 안 되어 모두 침묵해버렸어?!", Line_ContinueAfterTyping);
+		   NULL, " 호위를 포함해 7명이, 누구에게도 눈치채이지 않고 겨우 10초도 안 되어 모두 침묵해 버렸어?!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/furu", 70, 64 );
 	Wait( 200 );
@@ -365,7 +365,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　よって「皆殺し編」の執筆に極めて貢献しているものと認められる。",
-		   NULL, "그러므로 '미나고로시 편'의 집필에 극히 기여하고 있는 것으로 간주됩니다.", Line_ContinueAfterTyping);
+		   NULL, "그러므로 '미나고로시 편'의 집필에 극히 기여하고 있는 것으로 간주합니다.", Line_ContinueAfterTyping);
 	DisableWindow();
 
 	PlaySE( 0, "wav/finish", 70, 64 );
@@ -409,10 +409,10 @@ void main()
 	OutputLine(NULL, "　みんなお疲れ様でしたーーー！！",
 		   NULL, " 모두 수고하셨습니다---!!", Line_WaitForInput);
 	OutputLine(NULL, "　…とは言っても、これを打っている時点ではまさに追い込み中。",
-		   NULL, " ...하지만, 이걸 쓰고 있는 지금 이 순간에도 정말 마감에 쫓기고 있는 중. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...하지만, 이걸 쓰고 있는 지금, 이 순간에도 정말 마감에 쫓기고 있는 중. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "修羅場に疲れ切った男たちのうめき声が漏れ聞こえるのみです。」",
-		   NULL, "고난에 지친 남자들의 신음소리만이 새어 들려오고 있네요.\"", Line_Normal);
+		   NULL, "고난에 지친 남자들의 신음만이 새어 들려오고 있네요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -488,12 +488,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうか、最後の物語までお付き合いいただければ幸いです。",
-		   NULL, "부디, 마지막 이야기까지 함께해 주시면 감사하겠습니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "부디, 마지막 이야기까지 함께해 주시기를 바랍니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この度はこのようなお見苦しい裏スタッフルームまでお読み下さり、誠にありがとうございました。",
-		   NULL, "이번에 이렇게 보기 불편한 뒷스태프룸 까지 읽어 주셔서 진심으로 감사드립니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이번에 이렇게 보기 불편한 뒷 스태프 룸까지 읽어 주셔서 진심으로 감사드립니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

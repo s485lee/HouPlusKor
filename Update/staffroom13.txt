@@ -19,7 +19,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「というわけで、やっとこさスタッフルーム！！",
-		   NULL, "\"그럼 이제 드디어 스태프 룸입니다!!", Line_ContinueAfterTyping);
+		   NULL, "\"그러면 이제 드디어 스태프 룸입니다!!", Line_ContinueAfterTyping);
 	SetSpeedOfMessage( FALSE, 0 );
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 	ShakeScreen( 2, 12,  30 , 2, 50, );
@@ -103,7 +103,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「４Ｕさんは、現在はオリカ作家としてソロ活動を開始！！",
-		   NULL, "\"4U님은 현재 오리지날 카드 작가로서 솔로 활동을 시작하셨습니다!!", Line_WaitForInput);
+		   NULL, "\"4U님은 현재 오리지널 카드 작가로서 솔로 활동을 시작하셨습니다!!", Line_WaitForInput);
 	OutputLine(NULL, "　今後のご活躍をお祈りしたいと思います！！",
 		   NULL, " 앞으로의 활약을 기원합니다!!", Line_WaitForInput);
 
@@ -125,7 +125,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ＢＴさんは、『ひぐらしのなく頃に』の製作だけでなく、",
-		   NULL, "\"BT씨는 '쓰르라미 울 적에' 제작 뿐만 아니라,", Line_WaitForInput);
+		   NULL, "\"BT씨는 '쓰르라미 울 적에' 제작뿐만 아니라,", Line_WaitForInput);
 	OutputLine(NULL, "ＨＰの運営から、量産計画、サークル運営方針などいろいろ意見してくれる相談役でもあるにゃり。」",
 		   NULL, " 홈페이지 운영부터, 대량 생산 계획, 서클 운영 방침 등 여러 의견을 주는 자문 역할도 하고 계신다냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -171,7 +171,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＢＴ</color>", NULL, "<color=#f5e6d3>BT</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「竜騎士さん～、ちょっとこれじゃあ少ないですねー。",
-		   NULL, "\"용기사씨~, 이걸론 조금 부족하네요.", Line_WaitForInput);
+		   NULL, "\"용기사씨~, 이거론 조금 부족하네요.", Line_WaitForInput);
 	OutputLine(NULL, "ってゆーか、経費払って下さい経費。",
 		   NULL, " 그보다, 경비를 내주세요, 경비.", Line_WaitForInput);
 
@@ -331,7 +331,7 @@ void main()
 	OutputLine(NULL, "「……かつてアインハンダーのハードモードをクリアして、",
 		   NULL, "\"......한때 아인핸더의 하드 모드를 클리어하고,", Line_WaitForInput);
 	OutputLine(NULL, "エーコン４のメガリス内を速度１２００で潜り抜けた廃シューターを虜にするとは。",
-		   NULL, " 에이스 컴뱃4의 메가리스 내부를 속도 1200으로 빠져나간 버려진 슈터를 사로잡다니.", Line_WaitForInput);
+		   NULL, " 에이스 컴뱃4의 메가리스 내부를 속도 1200으로 빠져나간 베테랑 슈터를 사로잡다니.", Line_WaitForInput);
 	OutputLine(NULL, "…オンラインゲーム、恐るべしにゃり。」",
 		   NULL, " ...온라인 게임, 정말 무섭다냥.\"", Line_Normal);
 	ClearMessage();
@@ -344,7 +344,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「では続けて参りましょう！",
-		   NULL, "\"그럼 계속해보겠습니다!", Line_WaitForInput);
+		   NULL, "\"그럼 계속해 보겠습니다!", Line_WaitForInput);
 	OutputLine(NULL, "　『ひぐらしのなく頃に』の超初期から細々といろんな細部をお手伝い下さった、エカテリ～ナさーん！」",
 		   NULL, " '쓰르라미 울 적에' 초창기부터 세세한 부분들을 도와주신, 에카테리~나 씨!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -569,7 +569,7 @@ void main()
 	OutputLine(NULL, "「いやぁ。",
 		   NULL, "\"그러니까...", Line_WaitForInput);
 	OutputLine(NULL, "前に彼の家族写真のトリミングを頼まれた時の画像データがいい感じで残ってたんですよねぇ☆",
-		   NULL, " 예전에 그의 가족 사진을 편집해달라고 부탁받았을 때의 사진 데이터가 좋은 느낌으로 남아있었어요☆ ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 예전에 그의 가족사진을 편집해달라고 부탁받았을 때의 사진 데이터가 좋은 느낌으로 남아있었어요☆ ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それで、チョイチョイっと加工して、綿流し編のあの「目」に☆　テヘ☆」",
 		   NULL, "그래서, 조금 수정해서, 와타나가시편의 그 '눈'으로 만들었어요☆ 히히☆\"", GetGlobalFlag(GLinemodeSp));
@@ -584,7 +584,7 @@ void main()
 	OutputLine(NULL, "「さて。",
 		   NULL, "\"자.", Line_WaitForInput);
 	OutputLine(NULL, "他にもまだまだ感謝したりない大勢の方がいますが、皆さん、いつも本当に本当にありがとうございます！！！",
-		   NULL, " 아직도 감사를 다 표현하지 못한 많은 분들이 계시지만, 여러분, 항상 정말로 정말로 감사드립니다!!!", Line_WaitForInput);
+		   NULL, " 아직도 감사를 다 표현하지 못한 많은 분이 계시지만, 여러분, 항상 정말로 정말로 감사드립니다!!!", Line_WaitForInput);
 	OutputLine(NULL, "　深く深く感謝申し上げますー！！！」",
 		   NULL, " 깊이 깊이 감사의 말씀을 드립니다!!!!\"", Line_Normal);
 	ClearMessage();
@@ -634,7 +634,7 @@ void main()
 	OutputLine(NULL, "　八咫桜さんも紹介します～！！",
 		   NULL, " 야타자쿠라 씨도 소개할게요~!!", Line_WaitForInput);
 	OutputLine(NULL, "　八咫桜さんは『ひぐらしのなく頃に』のまさに立役者さんです。",
-		   NULL, " 야타자쿠라 씨는 '쓰르라미 울 적에'의 진정한 일등공신입니다. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 야타자쿠라 씨는 '쓰르라미 울 적에'의 진정한 일등 공신입니다. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
@@ -691,7 +691,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どうでもいいけど、竜騎士さん、スタッフルーム書くの遅すぎ。",
-		   NULL, "\"어찌 되었든, 용기사 씨, 스태프룸 글 쓰는 거 너무 늦어요.", Line_WaitForInput);
+		   NULL, "\"어찌 되었든, 용기사 씨, 스태프 룸 글 쓰는 거 너무 늦어.", Line_WaitForInput);
 	OutputLine(NULL, "こんな下らないテキスト、早く打ち上げて欲しいにゃりね。」",
 		   NULL, " 이런 시시한 텍스트, 얼른 마무리 주었으면 좋겠다냥.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -964,7 +964,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、『ひぐらしのなく頃に』の製作に携わってくださった皆さま、応援してくれた皆さま、本当にありがとうございました。",
-		   NULL, "또한, '쓰르라미 울 적에'의 제작에 참여해 주신 모든 분들과, 응원해 주신 모든 분들께 진심으로 감사드립니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "또한, '쓰르라미 울 적에'의 제작에 참여해 주신 모든 분과, 응원해 주신 모든 분께 진심으로 감사드립니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

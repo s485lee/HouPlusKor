@@ -34,9 +34,9 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　『ひぐらし』を作る上でたくさんの皆さんにお世話になっていますが、",
-		   NULL, "'쓰르라미'의 제작 과정에서 많은 분들에게 도움을 받고 있습니다만,", Line_WaitForInput);
+		   NULL, "'쓰르라미'의 제작 과정에서 많은 분께 도움을 받고 있습니다만,", Line_WaitForInput);
 	OutputLine(NULL, "ここでは特に、今回の祭囃し編でお世話になった皆さんへ…。",
-		   NULL, " 여기서는 특히, 이번 '마츠리바야시 편'에서 도움을 주신 모든 분들에게...", Line_Normal);
+		   NULL, " 여기서는 특히, 이번 '마츠리바야시 편'에서 도움을 주신 모든 분에게...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -107,7 +107,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そりゃあ浮くだろうよぷかぷかと。",
-		   NULL, "그럼 물에 둥둥 떠다니겠지.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그러면 물에 둥둥 떠다니겠지.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -135,7 +135,7 @@ void main()
 	PlaySE( 0, "wav/koruku", 70, 64 );
 
 	OutputLine(NULL, "信長の野望がまだ途中だとか、",
-		   NULL, " 노부나가의 야망을 아직 플레이중이라던가,", Line_ContinueAfterTyping);
+		   NULL, " 노부나가의 야망을 아직 플레이 중이라던가,", Line_ContinueAfterTyping);
 	Wait( 500 );
 
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
@@ -202,7 +202,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だがとりあえず、今この瞬間はマスターアップの７２時間前だ。",
-		   NULL, "...하지만 일단, 지금 이 순간은 마스터 업 72시간 전이다.", Line_WaitForInput);
+		   NULL, "...하지만 일단, 지금, 이 순간은 마스터 업 72시간 전이다.", Line_WaitForInput);
 	OutputLine(NULL, "　夢を見るより誤字脱字を探した方がいいんじゃあないだろうか。",
 		   NULL, " 꿈을 꾸는 것보다 오탈자를 찾는 게 나을지도 몰라. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -276,7 +276,7 @@ void main()
 	OutputLineAll(NULL, "", Line_WaitForInput);
 
 	OutputLine(NULL, "それおいらにもインストールさせてくれー！！",
-		   NULL, " 그거 나한테도 설치해줘!!", Line_ContinueAfterTyping);
+		   NULL, " 그거 나한테도 설치해 줘!!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 	ShakeScreen( 2, 15,  100 , 4, 25, );
@@ -382,7 +382,7 @@ void main()
 	OutputLine(NULL, "すみません、あぅあぅ…。",
 		   NULL, "죄송해요, 아우아우...", Line_WaitForInput);
 	OutputLine(NULL, "あと八咫桜邸にクーラーが来たことに気付かず、扇風機を買ってきたお茶目さに萌えｗ",
-		   NULL, " 그리고 집에 에어컨이 설치됐는지도 모르고, 선풍기를 사온 야타자쿠라의 귀여움에 반해버렸어ㅋ", Line_Normal);
+		   NULL, " 그리고 집에 에어컨이 설치됐는지도 모르고, 선풍기를 사 온 야타자쿠라의 귀여움에 반해 버렸어ㅋ", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -472,7 +472,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　デジカメ使えてフォトショップが使えて本職の料理人で特に中華が得意でエビチリもよかったけど揚げだし豆腐もなかなか！",
-		   NULL, "디지털 카메라를 사용할 줄 알고, 포토샵도 할 줄 알며, 본업이 요리사인데 특히 중식이 특기로, 칠리새우도 좋았지만, 튀긴 두부도 상당히 좋다!", Line_ContinueAfterTyping);
+		   NULL, "디지털카메라를 사용할 줄 알고, 포토샵도 할 줄 알며, 본업이 요리사인데 특히 중식이 특기로, 칠리새우도 좋았지만, 튀긴 두부도 상당히 좋다!", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
@@ -480,7 +480,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　食器洗いからゴミの分別、部屋の片付けまでしてくれる。",
-		   NULL, "설거지 하는 것부터 쓰레기 분리수거, 방 정리까지 해준다.", Line_WaitForInput);
+		   NULL, "설거지하는 것부터 쓰레기 분리수거, 방 정리까지 해준다.", Line_WaitForInput);
 
 	PlaySE( 0, "wav/hikaru", 70, 64 );
 
@@ -504,7 +504,7 @@ void main()
 
 
 	OutputLine(NULL, "君の口から聞かされる、労働基準法？",
-		   NULL, " 너가 말하는, 노동기준법?", Line_ContinueAfterTyping);
+		   NULL, " 너가 말한, 노동 기준법?", Line_ContinueAfterTyping);
 	Wait( 900 );
 
 	PlaySE( 0, "wav/boyon", 70, 64 );
@@ -520,7 +520,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かつては八咫桜さんと二人きりで過ごしてきた修羅場も、いつの間にか倍の人数になっていました。",
-		   NULL, "한때 야타자쿠라 씨와 둘이서 겪었던 고난의 시간도, 어느샌가 사람 수가 두 배로 늘어났다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "한때 야타자쿠라 씨와 둘이 함께 겪었던 고난의 시간도, 어느샌가 사람 수가 두 배로 늘어났다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -532,7 +532,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何度も言うけど、これ監禁じゃないからね？",
-		   NULL, "몇 번을 말하지만, 이건 감금이 아닌거 알고 계시죠?", Line_WaitForInput);
+		   NULL, "몇 번을 말하지만, 이건 감금이 아닌 거 알고 계시죠?", Line_WaitForInput);
 
 	PlaySE( 0, "wav/kira", 70, 64 );
 
@@ -644,7 +644,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「どれも特上ないじゃんって突っ込めよーー！！」",
-		   NULL, "\"특상 같은건 하나도 없는 점을 지적해--!!\"", Line_Normal);
+		   NULL, "\"특상 같은 건 하나도 없는 점을 지적해--!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -688,7 +688,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ではまた会おう戦友たち！！",
-		   NULL, "그럼 전우들이여, 다시 만나자!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "그러면 전우들이여, 다시 만나자!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -717,12 +717,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こんな、私信だらけの裏スタッフルームまで見つけてくれてありがとうー！",
-		   NULL, "이렇게 개인적인 말로 가득한 뒷 스태프룸까지 찾아줘서 고마워!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이렇게 개인적인 말로 가득한 뒷 스태프 룸까지 찾아줘서 고마워!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それでは皆さん、またお会いしましょう～～！！",
-		   NULL, "그럼 여러분, 다시 만나요~~!!", Line_Normal);
+		   NULL, "그러면 여러분, 다시 만나요~~!!", Line_Normal);
 	ClearMessage();
 
 

@@ -72,7 +72,7 @@ void main()
 	ModDrawCharacterWithFiltering(7, 2, "sprite/re2a_warai_a1_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 1, 300, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「まさか、令和の時代になっても出来るなんて、思わなかったかな、かな」",
-		   NULL, "\"설마, 레이와 시대에도 할 수 있을 거라곤, 생각하지도 못했을 까나, 까나.\"", Line_Normal);
+		   NULL, "\"설마, 레이와 시대에도 할 수 있을 거라곤, 생각하지도 못했을까나, 까나.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【沙都子】
@@ -80,7 +80,7 @@ void main()
 	ModDrawCharacterWithFiltering(8, 4, "sprite/sa2a_akireru_a1_", "0", "effect/right", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>사토코</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「昭和の次が平成で、その次が令和で……。",
-		   NULL, "\"쇼와 다음이 헤이세이이고, 그 다음이 레이와고...", Line_WaitForInput);
+		   NULL, "\"쇼와 다음이 헤이세이이고, 그다음이 레이와고...", Line_WaitForInput);
 	OutputLine(NULL, "覚えるのが大変ですわね」",
 		   NULL, " 기억하기 참 어려운 거예요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -181,7 +181,7 @@ void main()
 	ModDrawCharacter(9, 5, "sprite/ri2_niko_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……実際には、この後、地獄のデバッグ大会になるので、全然、マスターアップじゃないのですよ。",
-		   NULL, "\"...사실은, 이후에 지옥 같은 디버그 대회가 되어서, 전혀 마스터업 상태가 아니였던 거예요.", Line_WaitForInput);
+		   NULL, "\"...사실은, 이후에 지옥 같은 디버그 대회가 되어서, 전혀 마스터업 상태가 아니었던 거예요.", Line_WaitForInput);
 	OutputLine(NULL, "にぱ～☆」",
 		   NULL, " 니파~☆\"", Line_Normal);
 	ClearMessage();
@@ -256,7 +256,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "「んで、みんな、締め切りギリギリになって、阿鼻叫喚の地獄絵図の徹夜になって、ヘロヘロ状態で入稿する訳だね！」",
-		   NULL, "\"그리고 나서, 모두가 마감 직전에 아비규환의 밤샘 작업을 해서, 헤롱헤롱한 상테로 발매하게 되는 거네!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그리고 나서, 모두가 마감 직전에 아비규환의 밤샘 작업을 해서, 해롱해롱한 상태로 발매하게 되는 거네!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -286,7 +286,7 @@ void main()
 	OutputLine(NULL, "「あの時代のあとがきは、ある種の修羅場自慢、",
 		   NULL, "\"그 시대의 후기는, 어떤 의미에서는 고생 자랑,", Line_WaitForInput);
 	OutputLine(NULL, "寝てない自慢みたいなところがあったんだよねー」",
-		   NULL, " 밤을 샌 자랑 같은게 있었지.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 밤을 새운 자랑 같은 게 있었지.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -302,7 +302,7 @@ void main()
 	ModDrawCharacter(18, 4, "sprite/sa2a_odoroki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>사토코</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「なら、素直にそう書けばよろしいのに、何であんなメチャクチャなテンションの＠＆＃％なお疲れ様会になりますの？」",
-		   NULL, "\"그럼, 솔직하게 그렇게 쓰면 좋을텐데, 왜 그렇게 높은 텐션의 정신없는 '출연자 논평회'가 되는 건가요?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그럼, 솔직하게 그렇게 쓰면 좋을 텐데, 왜 그렇게 높은 텐션의 정신없는 '출연자 논평회'가 되는 건가요?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -313,7 +313,7 @@ void main()
 	OutputLine(NULL, "「まぁ、そこに制作スタッフの実写立ち絵が出てきて、くぅ～疲れました☆、って言っても、可愛くないからじゃないかな？",
 		   NULL, "\"음, 제작 스태프의 실사 스탠딩 그림이 나타나서, '크으~ 지쳤어요☆'라고 해도, 귀엽지 않아서가 아닐까?", Line_WaitForInput);
 	OutputLine(NULL, "　ということで、本編のシナリオ同様、スタッフルームやお疲れ様会もアップロードとかはやめて頂くようお願いします！」",
-		   NULL, " 그래서 본편의 시나리오처럼, 스태프룸이나 '출연자 논평회'도 불법 업로드는 자제해 주셨으면 해요!\"", Line_Normal);
+		   NULL, " 그래서 본편의 시나리오처럼, 스태프 룸이나 '출연자 논평회'도 불법 업로드는 자제해 주셨으면 해요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【圭一】
@@ -457,7 +457,7 @@ void main()
 	ModDrawCharacter(4, 1, "sprite/kei2_komaru_", "0", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……でも考えてみると、『ひぐらし』以降、ずいぶんと大人しくなったよな？」",
-		   NULL, "\"...하지만 생각해보면, '쓰르라미' 이후로는 꽤 조용해졌지 않았나?\"", Line_Normal);
+		   NULL, "\"...하지만 생각해 보면, '쓰르라미' 이후로는 꽤 조용해졌지 않았나?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【レナ】
@@ -481,7 +481,7 @@ void main()
 	ModDrawCharacter(1, 2, "sprite/re2a_komaru_a1_", "0", 120, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「修羅場の末期に、あれだけの元気があったのも、若さゆえなんだよね」",
-		   NULL, "\"고난의 막바지에, 그만큼의 에너지가 있었던 것도, 젊음 때문이야.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"고난의 막바지에, 그만큼의 에너지가 있었던 것도, 젊기 때문이네.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -654,7 +654,7 @@ void main()
 	ModDrawCharacter(3, 3, "sprite/me2_tokui_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「じゃー、ここは男らしく、圭ちゃんから行こうかな！",
-		   NULL, "\"그럼, 여기서는 남자답게 케이쨩부터 시작해볼까!", Line_WaitForInput);
+		   NULL, "\"그럼, 여기서는 남자답게 케이쨩부터 시작해 볼까!", Line_WaitForInput);
 	DisableWindow();
 	ModDrawCharacter(3, 3, "sprite/me2_akuwarai_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 200, TRUE );
 	OutputLine(NULL, "　模範解答はダメだよ！",
@@ -780,7 +780,7 @@ void main()
 		   NULL, "당사자들이 서로를 사랑하고, 그것을 확신한다면, 그들의 관계는 이미 영원하다! 그게 바로 결혼이 아닐까? 아닐까?! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ではここで当初の疑問に立ち返ろう！！　俺、前原圭一が『結婚するならどんな人がいい？』ッ？！　この時点ですでに勘違いッ、ミステイクッ、オーマイガー！！",
-		   NULL, "그럼, 원래의 질문으로 돌아가보자!! 나, 마에바라 케이이치가 '결혼한다면 어떤 사람이 좋을까?' 라고? 이 시점에서 이미 오해가 있었어, 실수야, 오 마이 갓!!!", Line_Normal);
+		   NULL, "그럼, 원래의 질문으로 돌아가 보자!! 나, 마에바라 케이이치가 '결혼한다면 어떤 사람이 좋을까?'라고? 이 시점에서 이미 오해가 있었어, 실수야, 오 마이 갓!!!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 1, "sprite/kei2_hig2_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
@@ -800,7 +800,7 @@ void main()
 	ModDrawCharacterWithFiltering(3, 2, "sprite/re2a_hau_a1_", "2", "effect/left", 0, -320, 0, FALSE, 0, 0, 0, 0, 0, 2, 300, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「う～～ん、レナはよくわかんないけど、今のは聞かなかったことにした方がいいかな、かな！」",
-		   NULL, "\"으으음, 레나는 잘 모르겠지만, 지금 그 말은 못 들은 걸로 하는 게 좋을 까나, 까나!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"으으음, 레나는 잘 모르겠지만, 지금 그 말은 못 들은 걸로 하는 게 좋을까나, 까나!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -991,7 +991,7 @@ void main()
 	OutputLine(NULL, "「原作者も『ひぐらし』を描き始めてから２０年が経つ訳だしな。",
 		   NULL, "\"원작자도 '쓰르라미'를 집필한 지 20년도 지났으니까.", Line_WaitForInput);
 	OutputLine(NULL, "当時と今じゃ、色々と考えも違ってるんじゃねぇか？」",
-		   NULL, " 그때와 지금이랑은, 생각도 여러모로 달라졌지 않을까?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그때와 지금이랑은, 생각도 여러모로 달라지지 않았을까?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1051,7 +1051,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(9, 1, "sprite/kei2_def1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	OutputLine(NULL, "　でも俺は、『ひぐらし』の中には２０年前の元気な気持ちが、今もぎゅっと閉じ込められてるって思うと、それはそれですげえことだと思うぜ」",
-		   NULL, " 하지만 나는, '쓰르라미' 안에 20년 전의 에너지 넘치는 기분이이 지금도 꽉 담겨 있다고 생각하면, 그 자체로 대단한 일이라고 생각해.\"", Line_Normal);
+		   NULL, " 하지만 나는, '쓰르라미' 안에 20년 전의 에너지 넘치는 기분이 지금도 꽉 담겨 있다고 생각하면, 그 자체로 대단한 일이라고 생각해.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【レナ】
@@ -1069,7 +1069,7 @@ void main()
 	OutputLine(NULL, "「皆さん、本当にありがとうございます！",
 		   NULL, "\"여러분, 정말 감사합니다!", Line_WaitForInput);
 	OutputLine(NULL, "　今なお、応援してくれたり、楽しんでくれたりする方々がいらっしゃることが、どれほどの励みになったことか、計り知れません」",
-		   NULL, " 지금도 응원해주시고, 즐겨주시는 분들이 계시는 것이 얼마나 큰 힘이 되었는지 모릅니다.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 지금도 응원해 주시고, 즐겨주시는 분들이 계시는 것이 얼마나 큰 힘이 되었는지 모릅니다.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1117,7 +1117,7 @@ void main()
 	ModDrawCharacterWithFiltering(13, 6, "sprite/si1a_wink_a1_", "0", "effect/right", 0, 160, 0, FALSE, 0, 0, 0, 0, 0, 3, 300, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>시온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「まぁ、実現するかどうかはわかりませんが、何か面白いことが出来たら素敵ですよね！」",
-		   NULL, "\"뭐, 할 수 있을지, 없을 지는 모르겠지만, 뭔가 재미있는 일을 할 수 있다면 정말 좋겠죠!\"", Line_Normal);
+		   NULL, "\"뭐, 할 수 있을지, 없을지는 모르겠지만, 뭔가 재미있는 일을 할 수 있다면 정말 좋겠죠!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1196,7 +1196,7 @@ void main()
 	ModDrawCharacter(11, 5, "sprite/ri2_majime_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ボクの頭を、よくもあんなにガシガシと踏みつけて、お便所に押し込めたものです」",
-		   NULL, "\"제 머리를 그렇게 거칠게 짓밟아서, 변소에 밀어넣었던 거예요.\"", Line_Normal);
+		   NULL, "\"제 머리를 그렇게 거칠게 짓밟아서, 변소에 밀어 넣었던 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【魅音】
@@ -1216,7 +1216,7 @@ void main()
 	ModDrawCharacter(15, 1, "sprite/kei2_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「別に、魅音の魅力はそういうところじゃねぇから、本当のファンならむしろ、暴れっぷりを喜んでると思うけどなぁ」",
-		   NULL, "\"별로, 미온의 매력은 그런 데 있는 게 아니니까, 진짜 팬이라면 오히려 그런 모습을 좋아할 거라고 생각해.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"별로, 미온의 매력은 그런 데 있는 게 아니니까, 진짜 팬이라면 오히려 그런 모습을 좋아할 거로 생각해.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1300,7 +1300,7 @@ void main()
 	OutputLine(NULL, "「みー。",
 		   NULL, "\"미이.", Line_WaitForInput);
 	OutputLine(NULL, "ボクはとにかく、受難受難また受難の大変なアニメだったのですよ……」",
-		   NULL, " 어쨌든 저는, 시련에 시련을 더한 아주 힘든 애니메이션이였던 거예요...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 어쨌든 저는, 시련의 시련을 더한 아주 힘든 애니메이션이었던 거예요...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1324,7 +1324,7 @@ void main()
 	ModDrawCharacter(2, 2, "sprite/re2a_def_a1_", "2", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「文字しかないプロットから、全体構成、プロットが出来て、次の絵コンテでいよいよ絵が付くんだけれど。",
-		   NULL, "\"글자로만 있는 줄거리에서 전체 구성이 이루어지고, 그 다음 스토리보드에서 드디어 그림이 붙게 되는데. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"글자로만 있는 줄거리에서 전체 구성이 이루어지고, 그다음 스토리보드에서 드디어 그림이 붙게 되는데. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "文字から想像するシーンって、人によって様々な違いがあるでしょ？",
 		   NULL, "글자로 상상하는 장면은 사람마다 다르잖아?", Line_WaitForInput);
@@ -1347,7 +1347,7 @@ void main()
 	ModDrawCharacter(18, 4, "sprite/sa2a_warai_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>사토코</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「トラップも連続で絡めると、思わぬ相乗効果で、仕掛けた私自身も驚くような展開になったりもしますわ」",
-		   NULL, "\"트랩을 연속으로 엮으면, 예상치 못한 시너지 효과로, 설치한 제 자신도 놀라는 전개가 되기도 하는 것이와요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"트랩을 연속으로 엮으면, 예상치 못한 시너지 효과로, 설치한 저 자신도 놀라는 전개가 되기도 하는 것이와요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1466,7 +1466,7 @@ void main()
 		   NULL, " 별로 전혀 신경 쓸 필요 없는 거예요? ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　沙都子にトイレットペーパーも買ってきてってお願いしたのに、買い忘れて帰ってきた時なんかは、プリントの藁半紙でお尻を拭きながら、沙都子をどんな酷い殺し方をしてやろうか、８つか９つくらいは頭の中で実演しますのです。",
-		   NULL, "사토코에게 휴지를 사오라고 부탁했는데 사오지 않고 돌아왔을 때는, 신문지로 엉덩이를 닦으면서, 사토코를 어떻게 끔찍하게 죽여볼까, 머리 속에서 8번이나 9번이나 연습한 거예요. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "사토코에게 휴지를 사 오라고 부탁했는데 사 오지 않고 돌아왔을 때는, 신문지로 엉덩이를 닦으면서, 사토코를 어떻게 끔찍하게 죽여볼까, 머릿속에서 8번이나 9번이나 연습한 거예요. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでスッキリしておトイレから出たら、沙都子に、梨花はおトイレが長過ぎでございましてよ、とか言われた日には、カケラの百や二百は、沙都子をいじめるだけで費やせてしまいそうなのですよ、にぱ～☆」",
 		   NULL, "그러고 나서 화장실에서 나오면, '리카는 화장실을 너무 오래 사용하네요'라고 사토코에게 들었을 때는, 조각 백 개나 이백 개를 사토코를 괴롭히는 데에 사용할 수 있는 거예요, 니파~☆\"", Line_Normal);
@@ -1480,7 +1480,7 @@ void main()
 	OutputLine(NULL, "お姉の無神経なとことか、訳のわからない拘りとか！",
 		   NULL, " 언니의 무심한 점이나 이해할 수 없는 고집들!", Line_Continue);
 	OutputLine(NULL, "　そういうのがイラついて、頭の中でだったら、百や二百は殺してますよ！」",
-		   NULL, " 그런 것들이 짜증나서, 머릿속에서라면 백 번이고 이백 번이고 죽였을 거예요!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그런 것들이 짜증이 나서, 머릿속에서라면 백 번이고 이백 번이고 죽였을 거예요!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1497,7 +1497,7 @@ void main()
 	ModDrawCharacter(1, 2, "sprite/re2a_def_a1_", "2", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それを、レナは不健全なことだとは思わないかな、かな……」",
-		   NULL, "\"레나는 그런 건 좋지 않다고 생각하지 않을 까나, 까나...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"레나는 그런 건 좋지 않다고 생각하지 않을까나, 까나...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1726,7 +1726,7 @@ void main()
 		   NULL, " 우리들은 언제든 여기 있어서, 사토코를 받아줄 수 있어. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……そういう位置に、これからもずっといるのが、仲間であり、親友なんだと思ってるよ」",
-		   NULL, "...그런 자리에, 앞으로도 계속 있겠다는 게, 그게 바로 친구이자 최고의 친구이라고 생각해.\"", Line_Normal);
+		   NULL, "...그런 자리에, 앞으로도 계속 있겠다는 게, 그게 바로 친구이자 최고의 친구라고 생각해.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【沙都子】
@@ -1759,7 +1759,7 @@ void main()
 	ModDrawCharacter(3, 2, "sprite/re2a_komaru_a2_", "0", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「家族同然に親しい仲だからこそ、……かえって言い出せないことって、きっとあるよね。",
-		   NULL, "\"가족처럼 가까운 사이일수록, ......오히려 말하기 어려운 것들이 분명 있어.", Line_WaitForInput);
+		   NULL, "\"가족처럼 가까운 사이일수록, ......오히려 말하기 어려운 것들이 분명히 있어.", Line_WaitForInput);
 	OutputLine(NULL, "レナはその意味で、どれほどの惨劇のカケラが積み重ねられたとしても。",
 		   NULL, " 레나는 그런 의미에서, 아무리 많은 참극의 조각이 쌓여 있다 해도. ", GetGlobalFlag(GLinemodeSp));
 	DisableWindow();
@@ -1825,7 +1825,7 @@ void main()
 	ModDrawCharacter(4, 3, "sprite/me2_tokui_a1_", "2", 320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 4, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「じゃ、部活メンバーだけのお疲れ様会はおしまいにして、みんなにもう合流しようかね」",
-		   NULL, "\"그럼, 부활동 멤버만의 논평회는 여기서 마무리하고, 모두와 함께 할까.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그럼, 부활동 멤버만의 논평회는 여기서 마무리하고, 모두와 함께할까.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1855,7 +1855,7 @@ void main()
 	OutputLine(NULL, "「にーにーはお席に座ってていいんですわ！",
 		   NULL, "\"니니는 자리에 앉아 있어도 됐사와요!", Line_WaitForInput);
 	OutputLine(NULL, "　お肉をいっぱい取ってあげますから、いっぱい食べて、もっと元気になって下さいまし！」",
-		   NULL, " 고기를 많이 가져다 줄 테니까, 많이 먹어서 더 건강해 지세요!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 고기를 많이 가져다줄 테니까, 많이 먹어서 더 건강해 지세요!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1903,7 +1903,7 @@ void main()
 	OutputLine(NULL, "「……ふぁいと、お～☆",
 		   NULL, "\"...파이트, 오~☆", Line_WaitForInput);
 	OutputLine(NULL, "　なのですよ」",
-		   NULL, " 인거예요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 인 거예요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1945,7 +1945,7 @@ void main()
 	OutputLine(NULL, "さぁ、梨花も行くのです。",
 		   NULL, " 자, 리카도 가는 거예요.", Line_WaitForInput);
 	OutputLine(NULL, "いっぱいいっぱい食べるといいのですよ」",
-		   NULL, " 많이 많이 먹는게 좋은 거예요.\"", Line_Normal);
+		   NULL, " 많이 많이 먹는 게 좋은 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;■梨花退場

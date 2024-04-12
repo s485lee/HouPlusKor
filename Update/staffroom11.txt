@@ -32,7 +32,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「…いや～…、よく同人誌のあとがきなんかにありますけど、これをタイプしてる今現在、ぜ～んぜん、終わってないんですよね☆",
-		   NULL, "\"...에이~ ...종종 동인지의 후기 같은 데에 있잖아요, 이걸 타이핑하고 있는 지금 이 순간, 전~혀, 끝나지 않았다구요☆", Line_WaitForInput);
+		   NULL, "\"...에이~ ...종종 동인지의 후기 같은 데에 있잖아요, 이걸 타이핑하고 있는 지금, 이 순간, 전~혀, 끝나지 않았다고요☆", Line_WaitForInput);
 	OutputLine(NULL, "　作業。」",
 		   NULL, " 작업이.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -46,14 +46,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ジングルベ～ル、ジングルベ～ル、ジャケットの差し替え～☆",
-		   NULL, "\"징글~벨, 징글~벨, 자켓 바꾸기~☆", Line_WaitForInput);
+		   NULL, "\"징글~벨, 징글~벨, 재킷 바꾸기~☆", Line_WaitForInput);
 	OutputLine(NULL, "　間違えたアドレスでジャケット作っちゃった～♪",
-		   NULL, " 잘못된 주소로 자켓을 만들어 버렸어~♪", Line_WaitForInput);
+		   NULL, " 잘못된 주소로 재킷을 만들어 버렸어~♪", Line_WaitForInput);
 	OutputLine(NULL, "　冬コミまであと３０時間～♪",
 		   NULL, " 겨울 코미케까지 30시간~♪ ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ジャケットを１５０部差し替えて～マスターアップさせて～、１５０枚焼いて～……、誰かウソだと言ってぇえぇぇぇえぇぇぇッ！！」",
-		   NULL, "자켓 150부를 교체하고~ 마스터 업 시키고~ 150장을 굽고~...... 누군가 거짓말이라고 말해줘어어어어어어어어!!\"", Line_ContinueAfterTyping);
+		   NULL, "재킷 150부를 교체하고~ 마스터 업 시키고~ 150장을 굽고~...... 누군가 거짓말이라고 말해줘어어어어어어어어!!\"", Line_ContinueAfterTyping);
 
 	PlaySE( 0, "wav/daidageki", 70, 64 );
 	ShakeScreen( 2, 12,  30 , 2, 50, );
@@ -67,7 +67,7 @@ void main()
 	OutputLine(NULL, "「マスターアップまで、あとこの文章だけ…？",
 		   NULL, "\"마스터 업까지, 이 문장만 남았나...?", Line_WaitForInput);
 	OutputLine(NULL, "　けど、明日の仕事まであと４時間ー…！！」",
-		   NULL, " 근데, 내일 출근하기 까지 4시간밖에 안 남았어...!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 근데, 내일 출근하기까지 4시간밖에 안 남았어...!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
@@ -113,7 +113,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「では…そろそろ真面目に行きましょう。」",
-		   NULL, "\"그럼... 이제 진지하게 시작해볼까요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그럼... 이제 진지하게 시작해 볼까요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
@@ -244,7 +244,7 @@ void main()
 	PlaySE( 0, "wav/finish", 70, 64 );
 
 	OutputLine(NULL, "レナのフィギュア化に挑戦されているとのことなのです…！！",
-		   NULL, " 레나의 피규어화를 도전하고 있다고 합니다...!!", Line_Normal);
+		   NULL, " 레나의 피규어 화를 도전하고 있다고 합니다...!!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
