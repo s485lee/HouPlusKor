@@ -374,7 +374,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかも青ハブ狩り専門のキャラまでいるとか！」",
-		   NULL, "다가 청 허브 파밍 전문 캐릭터까지 있다고요?!\"", Line_Normal);
+		   NULL, "게다가 청 허브 파밍 전문 캐릭터까지 있다고요?!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
