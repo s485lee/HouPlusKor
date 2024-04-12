@@ -75,7 +75,7 @@ void main()
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "　八咫桜さんの、有給はもう使い切りましたので、冬コミが同じスケジュールだったら７００％間に合いませんのでそのつもりで、という言葉が重過ぎる…。",
 		   NULL, "야타자쿠라 씨가, 유급휴가는 이미 다 사용했으니, 겨울 코미케가 같은 일정이라면 700% 불가능하니 그렇게 알아두세요, 라고 한 말이 너무 무거워...", Line_Normal);
 	ClearMessage();

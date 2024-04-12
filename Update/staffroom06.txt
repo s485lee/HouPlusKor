@@ -70,7 +70,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "問．竜騎士07が突然、奇声を上げ、「知っているのか雷電！」",
 		   NULL, "질문. 용기사07이 갑자기 이상한 소리를 내며 '너는 라이덴을 알고 있는가!'", Line_ContinueAfterTyping);
@@ -306,7 +306,7 @@ void main()
 	PlaySE( 0, "wav/tataku", 70, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "敵進路上に予めステルス地雷を敷設し、火薬と気絶を特化したグレネード弾で、タラバの装甲兵が護衛する牛車を側面奇襲する快感はＦＰＳ系では初めての興奮！",
 		   NULL, "적 진로 위에 미리 스텔스 지뢰를 설치하고, 화약과 기절을 특화한 그레네이드 탄으로 타라바의 장갑 병이 호위하는 소 수레를 측면 기습하는 쾌감은 FPS에서 처음 느끼는 흥분! ", GetGlobalFlag(GLinemodeSp));
 

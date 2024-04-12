@@ -208,7 +208,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "　多彩なジョブとアビリティの組み合わせが生み出した無数の戦略は、様々なボスに様々な勝ち方を提案し、クリア後も再びプレイしたくなる魅力を秘めていた…。",
 		   NULL, "다양한 직업과 능력의 조합으로 만들어진 수많은 전략은, 여러 보스에게 다양한 승리 방법을 제안하고, 클리어 후에도 다시 플레이하고 싶게 만드는 매력이 있었다...", Line_Normal);
 	ClearMessage();
@@ -367,7 +367,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "「中でも第３作の『最後の聖戦』は、永遠の力を秘めたキリストの聖杯を巡って、ナチス第３帝国とイ■ディが、世界を狭しと駆け巡る、壮大なアクション大活劇映画だったのだ！」",
 		   NULL, "\"그중에서도 3편 '최후의 성전'은, 영원한 힘을 간직한 그리스도의 성배를 두고, 나치 제3제국과 인○가 전 세계를 누비며 펼치는 웅장한 액션 대활극이었다냥!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -539,7 +539,7 @@ void main()
 	PlaySE( 0, "wav/finish", 70, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>竜騎士07</color>", NULL, "<color=#f5e6d3>용기사07</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "　そして手にした者の願いをかなえるという伝説の聖杯を巡って選ばれた主人公たちが様々なジョブを持つキャラクターたちを従え、終わらぬ戦いに身を投じていくのだ！！」",
 		   NULL, "그리고 소유자의 소원을 이루어준다는 전설의 성배를 둘러싸고 선택받은 주인공들이 다양한 직업을 가진 캐릭터들을 거느리고, 끝나지 않는 싸움에 몸을 던지게 된다!!\"", Line_ContinueAfterTyping);
 

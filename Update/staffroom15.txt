@@ -254,7 +254,7 @@ void main()
 	ModSetLayerFilter(17, 256, "none");
 	ModDrawCharacterWithFiltering(17, 3, "sprite/me2_tokui_a1_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 1, 300, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "「んで、みんな、締め切りギリギリになって、阿鼻叫喚の地獄絵図の徹夜になって、ヘロヘロ状態で入稿する訳だね！」",
 		   NULL, "\"그리고 나서, 모두가 마감 직전에 아비규환의 밤샘 작업을 해서, 해롱해롱한 상태로 발매하게 되는 거네!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -772,7 +772,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(3, 1, "sprite/kei2_nayamu_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
 	OutputLine(NULL, "　それを許さない時点で、俺は日本語のいう結婚という言葉を、俺自身が信じる結婚という言葉とは別のものであると断言するのであるッ！！　いやいや、究極的には互いが人間であるかさえ問うことは愚かしいッ！　人間と動物だって、果てには、人間と無機物だって結婚できていいはずなんだ！",
 		   NULL, "그걸 허용하지 않는 순간, 나는 일본어로 '결혼'이라는 말과 내가 믿는 '결혼'이라는 말이 다른 것임을 단언한다! 아니, 궁극적으로는 서로가 인간인지조차 묻는 것이 어리석어! 인간과 동물이든, 인간과 무기물이든 결혼할 수 있어야 해! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
