@@ -976,7 +976,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　　　　　平成１６年７月３０日",
-		   NULL, "　　　　　　　　　　　　헤이세이 16년 (2004) 7월 30일", Line_ContinueAfterTyping);
+		   NULL, "　　　　　　　　　　　　헤이세이 16년 (2004년) 7월 30일", Line_ContinueAfterTyping);
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll(NULL, "", Line_Normal); ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

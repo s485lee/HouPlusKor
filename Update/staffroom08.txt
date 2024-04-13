@@ -330,6 +330,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　総務部長という言い方が実に怪しい。",
 		   NULL, "'총무부장'이라는 표현이 참으로 수상하다.", Line_WaitForInput);
 	OutputLine(NULL, "どうせ面倒な仕事を全て押し付けるだけの役職だ。",
@@ -396,6 +397,7 @@ void main()
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　本当は音楽協力だけのはずだったのに、",
 		   NULL, "사실 음악 협력만 하기로 되어 있었지만,", Line_WaitForInput);
 

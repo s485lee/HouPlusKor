@@ -772,7 +772,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(3, 1, "sprite/kei2_nayamu_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-4>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　それを許さない時点で、俺は日本語のいう結婚という言葉を、俺自身が信じる結婚という言葉とは別のものであると断言するのであるッ！！　いやいや、究極的には互いが人間であるかさえ問うことは愚かしいッ！　人間と動物だって、果てには、人間と無機物だって結婚できていいはずなんだ！",
 		   NULL, "그걸 허용하지 않는 순간, 나는 일본어로 '결혼'이라는 말과 내가 믿는 '결혼'이라는 말이 다른 것임을 단언한다! 아니, 궁극적으로는 서로가 인간인지조차 묻는 것이 어리석어! 인간과 동물이든, 인간과 무기물이든 결혼할 수 있어야 해! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
@@ -785,7 +785,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(3, 1, "sprite/kei2_hig2_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　人に限定する時点で視野が狭いッ、わかってないッ！！　つまり現時点で、前原圭一にはすでに、百をゆうに超える嫁たちがいるッ！！　もちろん、それらは人ではないッ、生物でさえないッ！！　まず、俺が最初に嫁にしたのはシリコーン製のボギャッ？！？！」",
 		   NULL, "사람에게만 한정짓는 순간 시야가 좁아진다는 걸, 모르고 있어!!! 즉, 현재 시점에서, 마에바라 케이이치에게는 이미 백을 훌쩍 넘는 아내들이 있어!! 물론, 그들은 사람이 아니야, 생물조차 아냐!! 우선, 내가 처음으로 아내로 맞이한 건 실리콘 제품 으갸악?!\"", Line_Normal);
 	ClearMessage();

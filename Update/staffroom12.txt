@@ -247,7 +247,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　入稿後に届いた落選通知の悲しさは今でも忘れられない…。",
-		   NULL, "입고 후에 받은 거절 통지의 슬픔은 지금도 잊을 수 없어요...", Line_Normal);
+		   NULL, "입고 후에 받은 거절 통지의 슬픔은 지금도 잊을 수 없어...", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -255,7 +255,7 @@ void main()
 		   NULL, "결국, 당시 서클 사람들의 호의 덕분에...... 일단 출전에는 이르렀지만,", Line_ContinueAfterTyping);
 	Wait( 1000 );
 	OutputLine(NULL, "………今から思えば、…出展しない方が、マシだったんだ。",
-		   NULL, " .........지금 생각해 보면, 출전하지 않는 편이, 더 나았을 거예요.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " .........지금 생각해 보면, 출전하지 않는 편이, 더 나았을 겁니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -269,7 +269,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…誰も本を手に取ってくれなかった…。",
-		   NULL, "...아무도 제 책을 봐주지 않았어요...", Line_Normal);
+		   NULL, "...아무도 제 책을 봐주지 않았습니다...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -289,12 +289,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…悲しかった。",
-		   NULL, "...슬펐어요.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...슬펐습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…悔しかった。",
-		   NULL, "...분했어요.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...분했습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
