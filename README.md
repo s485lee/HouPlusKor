@@ -40,6 +40,8 @@ Microsoft Windows<br />
 <br /><br />
 
 # 다운로드
+<img src="https://github.com/s485lee/HouPlusKor/assets/155126361/00a5f857-584f-43ab-9c11-de0b7e792255" width="70">
+
 | 플랫폼  | 링크 | Version |
 | :---:  | :---:  | :---:  |
 | macOS  | [다운로드](https://mega.nz/file/mE5wBb7Z#sGHfua4b6lbtU5hY3ctgCI5o7fzKHt8Ad_yscQwiKOQ)  | 1.0  |
