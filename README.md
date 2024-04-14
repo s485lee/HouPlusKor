@@ -1,5 +1,7 @@
 # 쓰르라미 울 적에 봉+ 한글패치
 ![Static Badge](https://img.shields.io/badge/%EC%A0%95%EC%8B%A4%EC%9D%80%3F-%EB%A0%88%EB%82%98-orange?style=flat-square)<br /> 
+![GitHub Release](https://img.shields.io/github/v/release/s485lee/HouPlusKor?sort=date&display_name=release&style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/s485lee/HouPlusKor?display_date=published_at&style=flat-square&color=blue)<br /> 
 Steam판 쓰르라미 울 적에 봉+ 한글패치.<br /> 
 <br /> 
 쓰르라미 울 적에 봉+ 한글패치는 07th-Mod Hou Plus Voice and Graphics Patch v1.0.3를 기반으로 제작되었습니다.<br />
@@ -15,8 +17,7 @@ macOS<br />
 ![Static Badge](https://img.shields.io/badge/macOS-Ventura-green?style=flat-square)
 ![Static Badge](https://img.shields.io/badge/macOS-Monterey-green?style=flat-square)<br /> 
 ![Static Badge](https://img.shields.io/badge/Supports-Apple%20Silicon%20%2F%20Intel-green?style=flat-square)<br /> 
-![GitHub Release](https://img.shields.io/github/v/release/s485lee/HouPlusKor?sort=date&display_name=release&style=flat-square)
-![GitHub Release Date](https://img.shields.io/github/release-date/s485lee/HouPlusKor?display_date=published_at&style=flat-square&color=blue)<br /> 
+
 <br /> 
 Microsoft Windows<br /> 
 ![Static Badge](https://img.shields.io/badge/Windows-11-green?style=flat-square)
