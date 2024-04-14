@@ -17,8 +17,6 @@ macOS<br />
 ![Static Badge](https://img.shields.io/badge/macOS-Ventura-green?style=flat-square)
 ![Static Badge](https://img.shields.io/badge/macOS-Monterey-green?style=flat-square)<br /> 
 ![Static Badge](https://img.shields.io/badge/Supports-Apple%20Silicon%20%2F%20Intel-green?style=flat-square)<br /> 
-
-<br /> 
 Microsoft Windows<br /> 
 ![Static Badge](https://img.shields.io/badge/Windows-11-green?style=flat-square)
 ![Static Badge](https://img.shields.io/badge/Windows-10-green?style=flat-square)<br /> 
