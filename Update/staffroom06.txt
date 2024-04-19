@@ -112,7 +112,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．上記お見込みの通り。",
-		   NULL, "답변. 상기 내용 대로이다.", Line_Normal);
+		   NULL, "답. 상기 내용 대로이다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -181,7 +181,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "解．上記お見込みの通り。",
-		   NULL, "답변. 상기 내용 대로이다.", Line_ContinueAfterTyping);
+		   NULL, "답. 상기 내용 대로이다.", Line_ContinueAfterTyping);
 
 	ShakeScreen( 0, 12, 100, 1, 50, );
 
