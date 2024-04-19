@@ -1555,7 +1555,7 @@ void main()
 	OutputLine(NULL, "…でも、それでも。",
 		   NULL, " ...그래도, 그런데도.", Line_WaitForInput);
 	OutputLine(NULL, "ひとりで布団を被っているのに比べたらずっとマシだった……。",
-		   NULL, " 혼자서 이불 속에 숨어 있는 것보다는 훨씬 낫다......", Line_Normal);
+		   NULL, " 혼자서 이불 속에 숨어 있는 것보다는 훨씬 나았다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
