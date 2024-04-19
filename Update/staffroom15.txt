@@ -1388,7 +1388,7 @@ void main()
 	ModDrawCharacter(21, 3, "sprite/me2_akuwarai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あの、いつも陰で暗躍し、美味しい所をみ～とかにぱ～☆とか笑うだけで全部持ってっちゃう梨花ちゃんを、",
-		   NULL, "\"그래서, 항상 뒤에서 일을 꾸미고, 가장 좋은 부분을 '미이~'이나 '니파☆'하고 웃기만 해서 다 가져가는 리카 쨩을,", Line_WaitForInput);
+		   NULL, "\"그래서, 항상 뒤에서 일을 꾸미고, 가장 좋은 부분을 '미이~'이나 '니파☆'하고 웃기만 해서 다 가져가는 리카쨩을,", Line_WaitForInput);
 	OutputLine(NULL, "ガシガシゲシゲシと踏み入れる名シーンになったという訳だね！」",
 		   NULL, " 콱콱 밟아 넣는 명장면이 되었다는 거지!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
