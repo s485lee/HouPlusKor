@@ -5542,7 +5542,7 @@ void main()
 	OutputLine(NULL, "　それにそもそもオヤシロさまは神さまなんだよ？",
 		   NULL, "게다가 원래 오야시로 님은 신이잖아?", Line_Continue);
 	OutputLine(NULL, "　人間じゃないんだよ？！",
-		   NULL, " 인간이 아니라구?!", Line_Continue);
+		   NULL, " 인간이 아니라고?!", Line_Continue);
 	OutputLine(NULL, "　私たち人間には何もできないんだよ、",
 		   NULL, " 우리 인간으론 할 수 있는 게 아무것도 없어,", Line_Continue);
 	OutputLine(NULL, "何もッ！！！」",
