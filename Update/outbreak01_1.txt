@@ -6210,7 +6210,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0520", 128, TRUE);
 	OutputLine(NULL, "「あは、だってさぁ。敵は町会神社部と青年部と防犯部で、だいたい１００人ちょっとなんでしょ？　それでさらに猟友会が加わって鉄砲が２０丁以上。」",
-		   NULL, "\"아하, 봐봐. 적들이 마을 회의 신사부, 청년부, 방범부로 한 100명 정도잖아? 더해서 사냥 동호회까지 가세해서 총이 20정 이상.\"", Line_Normal);
+		   NULL, "\"아하, 들어봐. 적들이 마을 회의 신사부, 청년부, 방범부로 한 100명 정도잖아? 더해서 사냥 동호회까지 가세해서 총이 20정 이상.\"", Line_Normal);
 	ClearMessage();
 
 	//;ld l,kei_9,80
