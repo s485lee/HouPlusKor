@@ -357,7 +357,7 @@ void main()
 	OutputLine(NULL, "「あぁん？",
 		   NULL, "\"뭐라고오?!", Line_WaitForInput);
 	OutputLine(NULL, "　表出ろやー、この風の谷のウマシカがー！」",
-		   NULL, " 나와 봐, 이 바람계곡의 얼간이가!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 덤벼 봐, 이 바람계곡의 얼간이가!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
