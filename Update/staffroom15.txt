@@ -194,7 +194,7 @@ void main()
 	OutputLine(NULL, "「なるほど……。",
 		   NULL, "\"그렇군요...", Line_WaitForInput);
 	OutputLine(NULL, "あの、阿鼻叫喚のハイテンションは、マスターアップ直前の完全に茹った頭で作ってるからなのですわね」",
-		   NULL, " 그, 아비규환의 하이텐션은, 마스터업 바로 직전에 완전히 익어버린 머리로 만들어진 거였군요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그, 아비규환의 난장판은, 마스터업 바로 직전에 완전히 익어버린 머리로 만들어진 거였군요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -203,7 +203,7 @@ void main()
 	ModDrawCharacterWithFiltering(13, 1, "sprite/kei2_nayamu_", "2", "effect/left", 0, -240, 0, FALSE, 0, 0, 0, 0, 0, 1, 300, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「あまりの酷いテンションに、本編のしんみりした気持ちが台無しだーって苦情メールも来たらしいぜ」",
-		   NULL, "\"너무나 높은 텐션에, 본편의 잔잔하고 진지한 감정이 다 없어졌다고 불평하는 메일도 온 모양이야.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"너무나 신이 나버린 분위기 때문에, 본편의 잔잔하고 진지한 감정이 다 없어졌다고 불평하는 메일도 온 모양이야.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
