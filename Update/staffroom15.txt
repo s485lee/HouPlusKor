@@ -1835,7 +1835,7 @@ void main()
 	OutputLine(NULL, "「悟史くぅん！",
 		   NULL, "\"사토시 군!", Line_WaitForInput);
 	OutputLine(NULL, "　すごいですねぇ、よくエンジェルモートまでひとりで来られましたねぇ～！！」",
-		   NULL, " 대단해요, 엔젤모트까지 혼자서 어떻게 온 건가요~!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 대단하네요, 엔젤모트까지 혼자서 어떻게 온 건가요~!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1855,7 +1855,7 @@ void main()
 	OutputLine(NULL, "「にーにーはお席に座ってていいんですわ！",
 		   NULL, "\"니니는 자리에 앉아 있어도 됐사와요!", Line_WaitForInput);
 	OutputLine(NULL, "　お肉をいっぱい取ってあげますから、いっぱい食べて、もっと元気になって下さいまし！」",
-		   NULL, " 고기를 많이 가져다줄 테니까, 많이 먹어서 더 건강해 지세요!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 고기를 잔뜩 가져다줄 테니까, 많이 먹어서 더 건강해 지세요!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
