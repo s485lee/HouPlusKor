@@ -6160,14 +6160,14 @@ void main()
 	OutputLine(NULL, "…俺たちはどこか別の世界で、彼らよりもっともっと強大で恐ろしくてはるかに人数の多い相手と戦ったことがある。",
 		   NULL, " ...우리는 어딘가 다른 세계에서, 그들보다 훨씬 더 강하고 무서우며 수적으로 월등히 많은 상대와 싸운 적이 있다.", Line_WaitForInput);
 	OutputLine(NULL, "それでも自分たちは圧勝したッ！！",
-		   NULL, " 그런데도 우리는 압도적으로 이겼다!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그런데도 우리는 압도적으로 승리했다!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからこの程度のヤツラに遅れを取る気がまったくしないのだ！",
-		   NULL, "그래서 이 정도의 녀석들에게 뒤처질 생각이 전혀 들지 않는다!", Line_Normal);
+		   NULL, "그래서 이 정도의 녀석들에게 질 생각이 전혀 들지 않는다!", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
