@@ -4223,7 +4223,7 @@ void main()
 	OutputLine(NULL, "　例え村人が、互いを疑い合い殺し合うような異常事態になっても、",
 		   NULL, "비록 마을 사람들이 서로를 의심하며 죽이는 상황이 되더라도, ", Line_Continue);
 	OutputLine(NULL, "……俺たち部活メンバーは互いを絶対に疑わないッ！！",
-		   NULL, " ......우리 부활 멤버는 서로를 절대로 의심하지 않아!!", Line_Normal);
+		   NULL, " ......우리 부활 멤버는 서로를 절대로 의심하지 않는다!!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
