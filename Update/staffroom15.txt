@@ -428,9 +428,9 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si1a_odoroki_a1_", "2", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>시온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「それは言っちゃダメでしょうがッ、",
-		   NULL, "\"그건 말하면 안 되는 거예요,", Line_WaitForInput);
+		   NULL, "\"그건 말하면 안 되는 거잖아요,", Line_WaitForInput);
 	OutputLine(NULL, "それは言っちゃダメでしょうがッ！！！」",
-		   NULL, " 그건 말하면 안 되는 거예요!!!\"", Line_Normal);
+		   NULL, " 그건 말하면 안 되는 거잖아요!!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
