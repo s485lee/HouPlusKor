@@ -43,8 +43,8 @@ Microsoft Windows<br />
 
 | 플랫폼  | 링크 | Version |
 | :---:  | :---:  | :---:  |
-| macOS  | [다운로드](https://mega.nz/file/qNpjgTyT#2tH_1aL0FLjSkkxpyFb3SMnpJ8gezWTf1o-9u-6k14c)  | 1.0.1  |
-| Windows | [다운로드](https://mega.nz/file/iZwgwAhL#MYPGe52RlmrZUEsKCiJIeHSZURx4VaQ4HGYqmbWrDTo)  | 1.0.1  |
+| macOS  | [다운로드](https://mega.nz/file/3UolFKIJ#MoBM5ZJMrSqZVQsJY64IxbnZAOg9Sy5NUYKSyAJnFCg)  | 1.0.2  |
+| Windows | [다운로드](https://mega.nz/file/eEIBjDKL#wecl0keIy6SmiT9yUnL_Yows0MRtZAmwn_umtzhuSpM)  | 1.0.2  |
 
 # 설치 방법
 07th모드 통합패치이기 때문에 따로 07th 모드를 다운로드 할 필요는 없습니다. <br />
