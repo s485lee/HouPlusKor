@@ -817,7 +817,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0070", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「あぁどうも。私は利根川と申します。こっちは荒川君。ちなみに、彼はまだ独身なんですよー。」",
-		   "<color=#ccaa95>토네가와</color> ", "\"아, 안녕하세요. 저는 토네가와라고 합니다. 이쪽은 아라카와 군이에요. 참고로, 그는 아직 미혼이랍니다~.\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"아, 안녕하세요. 저는 토네가와라고 합니다. 이쪽은 아라카와 군이에요. 참고로, 그는 아직 독신이랍니다~.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -858,7 +858,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0240", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…建設省。……河川局の方ですね？…ダム計画の。」",
-		   "<color=#6972c1>리카</color> ", "\"건설청... 하천국 쪽이죠? 댐 계획의...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"건설성. .....하천국 쪽이죠? ...댐 계획의...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -882,9 +882,9 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0320", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…へー、梨花さんよくわかりますねぇ。",
-		   "<color=#5ec69a>미온</color> ", "\"헤-, 리카 씨 잘 아시네요.", Line_Continue);
+		   "<color=#5ec69a>미온</color> ", "\"...헤-, 리카 씨 잘 아시네요.", Line_Continue);
 	OutputLine(NULL, "…いわゆるあれですかー？",
-		   NULL, " ...이른바 그건가요?,", Line_Continue);
+		   NULL, " ...이른바 그건가요?", Line_Continue);
 	OutputLine(NULL, "「簡単な推理だよワトソン君」ってヤツー！」",
 		   NULL, " '간단한 추리야, 왓슨 군'이라는 거죠!\"", Line_Normal);
 	ClearMessage();
@@ -959,7 +959,7 @@ void main()
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0270", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…握手なんかすると思う？…雛見沢を滅ぼそうとする人間と。」",
-		   "<color=#6972c1>리카</color> ", "\"...악수 같은 걸 할 줄 알아? ...히나미자와를 더럽히려는 사람과.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...악수 같은 걸 할 줄 알아? ...히나미자와를 멸망시키려 하는 사람과.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -1012,7 +1012,7 @@ void main()
 
 	ModPlayVoiceLS(4, 56, "ps3/s26/56/tton_0130", 128, TRUE);
 	OutputLine("<color=#ccaa95>利根川</color> ", "「雛見川にダムは必要なんです。下流地域の利水と治水事業にこの上なく貢献できるでしょう。」",
-		   "<color=#ccaa95>토네가와</color> ", "\"히나미강에 댐은 필요합니다. 하류 지역의 이수와 치수 사업에 크게 기여할 수 있을 거예요.\"", Line_Normal);
+		   "<color=#ccaa95>토네가와</color> ", "\"히나미강에 댐은 필요합니다. 하류 지역의 이수와 치수 사업에 크게 기여할 수 있을 겁니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_0300", 128, TRUE);
@@ -1190,7 +1190,7 @@ void main()
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0160", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「これは丸ビル６杯分に当ります。」",
-		   "<color=#5f5248>아라카와</color> ", "\"이는 37층 빌딩 6채를 지을수 있는 분량입니다\"", Line_Normal);
+		   "<color=#5f5248>아라카와</color> ", "\"이는 37층 빌딩 6채를 지을수 있는 분량입니다.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
