@@ -4692,7 +4692,7 @@ void main()
 	OutputLine(NULL, "　最初にレナが倒した男、",
 		   NULL, "레나가 처음에 쓰러트린 남자가, ", Line_Continue);
 	OutputLine(NULL, "…つまり、家の玄関に銃を放った男が額を押さえながら立ち上がろうとしている。",
-		   NULL, " 즉, 집 현관에 총을 쏜 남자가 이마를 붙잡고 일어서려고 하고 있다.", Line_Normal);
+		   NULL, "즉, 집 현관에 총을 쏜 남자가 이마를 붙잡고 일어서려고 하고 있다.", Line_Normal);
 	ClearMessage();
 
 
