@@ -3019,7 +3019,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0890", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「一度に３人も逃げられたんだからねぇ。…ま、そんなわけでお爺さんもお婆さんも頑張って２人だけでご先祖さまの土地を守っていくんだけどー、…駄目なんだよね。」",
-		   "<color=#5ec69a>미온</color> ", "\"한 번에 세 명이나 달아났으니까 말이예요. ...그래서 할아버지와 할머니도 열심히 두 사람만으로 조상 대대로 내려온 땅을 지켜나가려고 했지만. ...안 되는 거예요.\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"한 번에 세 명이나 달아났으니까 말이에요. ...그래서 할아버지와 할머니도 열심히 두 사람만으로 조상 대대로 내려온 땅을 지켜나가려고 했지만. ...안 되는 거예요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -3982,7 +3982,7 @@ void main()
 	ModDrawCharacter(1, 55, "sprite/hara1a_11_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0780", 128, TRUE);
 	OutputLine("<color=#5f5248>荒川</color> ", "「お伽話ですよ！",
-		   "<color=#5f5248>아라카와</color> ", "\"전설일 뿐이예요!", Line_Continue);
+		   "<color=#5f5248>아라카와</color> ", "\"전설일 뿐이에요!", Line_Continue);
 	OutputLine(NULL, "…「い」ないんだッ！",
 		   NULL, " ...없다고요!", Line_Continue);
 	OutputLine(NULL, "オヤシロさまなんて！",
@@ -5102,7 +5102,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1280", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「じゃなくてほらッ！学級閉鎖ー！みんなインフルエンザでぶっ倒れてー！」",
-		   "<color=#5ec69a>미온</color> ", "\"그게 아니라! 맞아! 휴교령이예요! 다들 인플루엔자로 쓰러져버려서!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"그게 아니라! 맞아! 휴교령이에요! 다들 인플루엔자로 쓰러져버려서!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
