@@ -963,9 +963,9 @@ void main()
 	ModDrawCharacter(2, 6, "sprite/si1a_tohoho_a1_", "0", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>시온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「この作品は、平成１４年に描かれた作品でフィクションです。",
-		   NULL, "\"이 작품은 헤이세이 14년에 만들어진 픽션입니다.", Line_WaitForInput);
+		   NULL, "\"이 작품은 헤이세이 14년(*2002년)에 만들어진 픽션입니다.", Line_WaitForInput);
 	OutputLine(NULL, "今とは文化的に違う価値観の時代に描かれたことを、ご了承いただける方だけインストールして下さい。",
-		   NULL, " 자금과는 문화적으로 다른 가치관의 시대에 그려졌음을, 이해 해주시는 분만 설치해 주세요. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 지금과는 문화적으로 다른 가치관의 시대에 그려졌음을, 이해해 주시는 분만 설치해 주세요. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>시온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また、この作品の所持、または閲覧が、今後の日本でも合法であることを当方が保証するものではありません。",
 		   NULL, "또한, 이 작품을 소유하거나 플레이하는 것이, 앞으로의 일본에서도 합법적임을 저희가 보증하는 것은 아닙니다.", Line_WaitForInput);
@@ -1337,7 +1337,7 @@ void main()
 	ModDrawCharacter(2, 3, "sprite/me2_tokui_a1_", "2", -320, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「餅は餅屋ってこともあるからね。",
-		   NULL, "\"'전문가는 전문가다'라는 말도 있으니까.", Line_WaitForInput);
+		   NULL, "\"'떡은 떡집에, 약은 약사에게, 진료는 의사에게'라는 말도 있으니까.", Line_WaitForInput);
 	OutputLine(NULL, "それに、文字で読んで面白いものと、アニメで見て面白いものは、微妙に違うだろうしね」",
 		   NULL, " 글로 읽을 때의 재미와 애니메이션으로 보는 재미는 미묘하게 다를 거야.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
