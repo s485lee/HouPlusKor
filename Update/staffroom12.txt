@@ -421,7 +421,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>八咫桜</color>", NULL, "<color=#f5e6d3>야타자쿠라</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「何ですかソレ。」",
-		   NULL, "\"그게 뭐에요.\"", Line_Normal);
+		   NULL, "\"그게 뭐예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 

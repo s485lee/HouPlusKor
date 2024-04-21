@@ -1390,7 +1390,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0110", 128, TRUE);
 	OutputLine(NULL, "「なっ、何ですか梨花っ、お、脅かしっこはなしなのですっ……。」",
-		   NULL, "\"뭐, 뭔가요, 리카! 노, 놀래키는 거 없기에요......\"", Line_Normal);
+		   NULL, "\"뭐, 뭔가요, 리카! 노, 놀래키는 거 없기예요......\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -1659,7 +1659,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>사토코</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0210", 128, TRUE);
 	OutputLine(NULL, "「安全第一が一番ですわ。",
-		   NULL, "\"안전제일이 최고에요.", Line_Continue);
+		   NULL, "\"안전제일이 최고예요.", Line_Continue);
 	OutputLine(NULL, "………ッ？！　静かに！」",
 		   NULL, " ......?! 조용히!\"", Line_Normal);
 	ClearMessage();
@@ -14414,7 +14414,7 @@ void main()
 	OutputLine(NULL, "ご飯の１杯くらいで千年も恨むなど、",
 		   NULL, " 밥 한 공기 정도로 천 년을 증오하다니,", Line_Continue);
 	OutputLine(NULL, "本当に田村のナンチャラは心が狭いのですよー！」",
-		   NULL, " 정말 타무라인지 뭔지는 마음이 좁은 거에요!\"", Line_Normal);
+		   NULL, " 정말 타무라인지 뭔지는 마음이 좁은 거예요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -16254,7 +16254,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1530", 128, TRUE);
 	OutputLine(NULL, "「ボクもこれでアガリなのですよ、にぱ～☆」",
-		   NULL, "\"저도 이걸로 끝인 거에요, 니파～☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"저도 이걸로 끝인 거예요, 니파～☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

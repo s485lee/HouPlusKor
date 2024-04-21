@@ -4511,7 +4511,7 @@ void main()
 	ModDrawCharacter(3, 53, "sprite/hmi2a_09_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 400, TRUE );
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1150", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…………なん…で…………そんなこと…まで…知ってんですか…………。」",
-		   "<color=#5ec69a>미온</color> ", "\"............어...째서... 그런 거... 까지... 알고 있는 거에요............?\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"............어...째서... 그런 거... 까지... 알고 있는 거예요............?\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_0950", 128, TRUE);
@@ -9199,7 +9199,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2490", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「えぇッ！？…何ですかそれッ！…だって暗証番号が！」",
-		   "<color=#5ec69a>미온</color> ", "\"뭐라?! ...그게 무슨 소리에요?! ...비밀번호가 있는데!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"뭐라?! ...그게 무슨 소리예요?! ...비밀번호가 있는데!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
