@@ -762,7 +762,7 @@ void main()
 	OutputLine(NULL, "　自衛隊の救援部隊が、仮設トイレを設置してくれたらしいが、",
 		   NULL, "자위대 구호 부대가 임시 화장실을 설치해 주었다고 들었지만,", Line_WaitForInput);
 	OutputLine(NULL, "親父は使用に強く反対していたため、前原家は水の出ない水洗トイレを使用し続けていた。",
-		   NULL, " 아버지가 사용을 강력하게 반대했기 때문에, 마에바라 가는 물이 나오지 않는 수세식 화장실을 계속 사용하고 있었다. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 아버지가 사용을 강력하게 반대했기 때문에, 마에바라가는 물이 나오지 않는 수세식 화장실을 계속 사용하고 있었다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "洗濯に使うために風呂水を残していたため、それを洗面器にすくって流せばしばらくは何とかなるわけだ。",
 		   NULL, "세탁물로 다시 쓰기 위해 목욕물을 모아 두고 있어서, 그 물을 변기에 붓고 내리면 당분간은 어떻게든 된다고 한다.", Line_Normal);
@@ -1077,7 +1077,7 @@ void main()
 		   NULL, " 히나미자와는 오랜 전통에 따라, 삼대 가문이라 불리는 구 가문들에 의해 통솔되고 있다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今やその筆頭家は魅音の園崎家だ。",
-		   NULL, "지금 그중 선두는 미온의 소노자키 가다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "지금 그중 선두는 미온의 소노자키가다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1086,7 +1086,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音によると、園崎家は連合町会を指揮して事態の沈静化を図ろうと率先して動いているらしかった。",
-		   NULL, "미온에 의하면, 소노자키 가는 사태를 진정시키기 위해 연합 마을회를 이끌며 적극적으로 나서고 있다고 했다. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "미온에 의하면, 소노자키가는 사태를 진정시키기 위해 연합 마을회를 이끌며 적극적으로 나서고 있다고 했다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "また、行政や自衛隊とも協力していて、一般の村人が知り及んでいない情報についても知っているようだった。",
 		   NULL, "또한 정부와 자위대와도 협력하고 있어서, 일반 마을 사람들이 알지 못하는 정보에 대해서도 알고 있는 것으로 보였다.", Line_Normal);
@@ -1764,7 +1764,7 @@ void main()
 	OutputLine(NULL, "　オヤシロさまの祟りを疑い不安感を拭えない人々のために、",
 		   NULL, "오야시로 님의 저주를 의심하며 불안해하는 사람들을 위해,", Line_Continue);
 	OutputLine(NULL, "古手梨花の村内巡回を園崎家は強く要望していたのだが、",
-		   NULL, " 소노자키 가는 후루데 리카가 마을을 돌아다닐 수 있도록 강력히 요청했었지만,", Line_WaitForInput);
+		   NULL, " 소노자키가는 후루데 리카가 마을을 돌아다닐 수 있도록 강력히 요청했었지만,", Line_WaitForInput);
 	OutputLine(NULL, "なぜかその要望は無視され続けた。",
 		   NULL, " 무슨 이유에서인지 그 요청은 계속 무시당했다.", Line_Normal);
 	ClearMessage();
@@ -1953,7 +1953,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0120", 128, TRUE);
 	OutputLine(NULL, "「……沙都子ちゃんの北条家が、オヤシロさまに祟られている、呪われている、というような話？」",
-		   NULL, "\"......사토코쨩의 호죠 가가 오야시로 님에게 저주받아, 노여움을 받고 있다는 이야기?\"", Line_Normal);
+		   NULL, "\"......사토코쨩의 호죠가가 오야시로 님에게 저주받아, 노여움을 받고 있다는 이야기?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2131,7 +2131,7 @@ void main()
 	OutputLine(NULL, "　言うまでもなく、",
 		   NULL, "말할 것도 없이,", Line_Continue);
 	OutputLine(NULL, "魅音の園崎家は当初から沙都子の北条家と仲が悪い。",
-		   NULL, " 미온의 소노자키 가는 처음부터 사토코의 호죠 가와 사이가 나쁘다.", Line_WaitForInput);
+		   NULL, " 미온의 소노자키가는 처음부터 사토코의 호죠가와 사이가 나쁘다.", Line_WaitForInput);
 	OutputLine(NULL, "……その魅音の家が沙都子を匿うというのは非常に難しいことだろう。",
 		   NULL, " ......미온의 집에 사토코를 숨긴다는 것은 매우 어렵겠지.", Line_Normal);
 	ClearMessage();
@@ -3011,7 +3011,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　前原家などの、いわゆる外様を包み込む気持ち悪い雰囲気が色濃くなっていく中、",
-		   NULL, "마에바라 가와 같은, 소위 외부인들을 둘러싸는 불쾌한 분위기가 점차 더해가는 가운데,", Line_Continue);
+		   NULL, "마에바라가와 같은, 소위 외부인들을 둘러싸는 불쾌한 분위기가 점차 더해가는 가운데,", Line_Continue);
 	OutputLine(NULL, "さらに村人の不安感を煽る異変が起きた。",
 		   NULL, " 마을 사람들의 불안감을 더욱 부추기는 사건이 발생했다.", Line_Normal);
 	ClearMessage();
@@ -3583,7 +3583,7 @@ void main()
 		   NULL, " 그런 이야기는 항상 마지막에, 이사 온 '외부인' 가족에 대한 의심으로 마무리된다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを前原家も痛いぐらいに最近は理解していた。",
-		   NULL, "마에바라 가도 최근 이 사실을 뼈아프게 알아채고 있었다.", Line_Normal);
+		   NULL, "마에바라가도 최근 이 사실을 뼈아프게 알아채고 있었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -3591,7 +3591,7 @@ void main()
 	//;ld l,kei_1,22
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　園崎家の魅音と言えど、白昼堂々と前原家に接触できないような、",
-		   NULL, "소노자키 가의 미온이라 할지라도, 대낮에 우리집에 올 수 없는 상황이 되었다는 걸,", Line_Continue);
+		   NULL, "소노자키가의 미온이라 할지라도, 대낮에 우리집에 올 수 없는 상황이 되었다는 걸,", Line_Continue);
 	OutputLine(NULL, "そういう状況になってしまっているということを、この封筒を開けずとも理解できた。",
 		   NULL, " 이 봉투를 열지 않고도 알 수 있었다.", Line_Normal);
 	ClearMessage();
@@ -3622,7 +3622,7 @@ void main()
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0430", 128, TRUE);
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "「圭ちゃんへ。気をつけて！　ウチの町会内で、前原家と竜宮家を槍玉に挙げようという意見が強くなってる。もう本当に馬鹿げてることだけれども、彼らは誰かを生贄にあげないと恐怖感に押しつぶされてしまうところまで追い詰められている。」",
-		   NULL, "\"케이쨩에게. 조심해! 우리 마을회에서 마에하라 가와 류구 가를 표적으로 삼자는 의견이 커지고 있어. 정말 바보스러워 보이는 일이지만, 사람들은 누군가를 희생양으로 삼지 않으면 자신들의 공포감에 짓눌릴 것만 같다는 생각에 몰려있어.\"", Line_Normal);
+		   NULL, "\"케이쨩에게. 조심해! 우리 마을회에서 마에바라가와 류구가를 표적으로 삼자는 의견이 커지고 있어. 정말 바보스러워 보이는 일이지만, 사람들은 누군가를 희생양으로 삼지 않으면 자신들의 공포감에 짓눌릴 것만 같다는 생각에 몰려있어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -3695,7 +3695,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0500", 128, TRUE);
 	OutputLine(NULL, "「周囲は自衛隊に封鎖されているけど、園崎家は秘密のトンネルを持っていて、その内のひとつが封鎖線の外に出口を持ってるの。このトンネルは私と婆っちゃしか知らない。」",
-		   NULL, "\"주변은 자위대에 의해 봉쇄됐지만, 우리 소노자키 가엔 비밀 터널이 있는데, 그중 하나가 봉쇄선 밖으로 출구가 있어. 이 터널은 나랑 할머니밖에 몰라.\"", Line_Normal);
+		   NULL, "\"주변은 자위대에 의해 봉쇄됐지만, 우리 소노자키가엔 비밀 터널이 있는데, 그중 하나가 봉쇄선 밖으로 출구가 있어. 이 터널은 나랑 할머니밖에 몰라.\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -5422,7 +5422,7 @@ void main()
 	//;mld l,kei_1,80
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……魅音は、園崎家の立場として聞き及んだ情報を冷静に判断して、",
-		   NULL, ".........미온은, 소노자키 가의 입장에서 알게 된 정보를 신중하게 판단해서,", Line_Continue);
+		   NULL, ".........미온은, 소노자키가의 입장에서 알게 된 정보를 신중하게 판단해서,", Line_Continue);
 	OutputLine(NULL, "どうやっても救えないと判断したのだ…！",
 		   NULL, " 어떻게 해도 구할 수 없다고 결론을 내렸다...!", Line_WaitForInput);
 	OutputLine(NULL, "　苦渋の末にだ！",
@@ -5845,7 +5845,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s24/01/nkei_0500", 128, TRUE);
 	OutputLine(NULL, "「みっともない顔すんなよ母さん。こういう時は火打石で見送るもんだぜ…！　父さん、後で園崎家で会おうぜ…！」",
-		   NULL, "\"그런 얼굴 하지 마요 엄마. 이런 때는 당당하게 배웅해야 해...! 아빠, 나중에 소노자키 가에서 만나자...!\"", Line_Normal);
+		   NULL, "\"그런 얼굴 하지 마요 엄마. 이런 때는 당당하게 배웅해야 해...! 아빠, 나중에 소노자키가에서 만나자...!\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>케이이치의 아버지</color>", NULL, Line_ContinueAfterTyping); }

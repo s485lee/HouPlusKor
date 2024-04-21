@@ -506,7 +506,7 @@ void main()
 
 
 	OutputLine(NULL, "君の口から聞かされる、労働基準法？",
-		   NULL, " 너가 말한, 노동 기준법?", Line_ContinueAfterTyping);
+		   NULL, " 네가 말한, 노동 기준법?", Line_ContinueAfterTyping);
 	Wait( 900 );
 
 	PlaySE( 0, "wav/boyon", 70, 64 );

@@ -59,7 +59,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　当然、その内部には、古手家の人間か、特別な祭事に際し人手が必要な時のみ、御三家の一部の人間しか立ち入ることは出来ない。",
-		   NULL, "당연히 그 내부는 후루데 가의 사람, 아니면 특별한 제사로 일손이 필요할 때 3대 가문의 일부 사람들만 들어갈 수 있다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "당연히 그 내부는 후루데가의 사람, 아니면 특별한 제사로 일손이 필요할 때 3대 가문의 일부 사람들만 들어갈 수 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -68,7 +68,7 @@ void main()
 	OutputLine(NULL, "　つまり。",
 		   NULL, "즉.", Line_WaitForInput);
 	OutputLine(NULL, "……日常の掃除は、古手家の人間、即ち、梨花がひとりでやるしかない訳だ。",
-		   NULL, " ...일일 청소는 후루데 가의 사람, 다시 말해 리카 혼자서 해야하는 일이다.", Line_Normal);
+		   NULL, " ...일일 청소는 후루데가의 사람, 다시 말해 리카 혼자서 해야하는 일이다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 

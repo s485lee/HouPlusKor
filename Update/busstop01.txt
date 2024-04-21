@@ -6290,7 +6290,7 @@ void main()
 
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1560", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「…近藤さんも柿沼さんも！…たくさん辛い事があった。でも解放されたんです。…森さんも加藤さんもね！」",
-		   "<color=#715348>요시무라</color> ", "\"...콘도 씨도 카키누마 씨도!... 많은 힘든 일이 있었다. 하지만 해방됐어요. ...모리 씨도 카토 씨도요!\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"...콘도 씨도 카키누마 씨도!... 많은 힘든 일이 있었지요. 하지만 해방됐어요. ...모리 씨도 카토 씨도요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -7745,7 +7745,7 @@ void main()
 	ModDrawCharacter(1, 52, "sprite/hri2a_14_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1120", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…元気出して。…私は元気なあなたが好きよ。」",
-		   "<color=#6972c1>리카</color> ", "\"...기운 내. ...나는 기운 넘치는 너가 좋아.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...기운 내. ...나는 기운 넘치는 네가 좋아.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8628,7 +8628,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_2300", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「で、でも気持ちよくないですよ！…頭の中に…変な虫が住んでるなんて！」",
-		   "<color=#5ec69a>미온</color> ", "\"하-하지만 기분 나쁘잖아요! ...이상한 벌레가 살고 있다니까요!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"하-하지만 기분 나쁘잖아요! ...머리 안에 이상한 벌레가 살고 있다니까요!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 58, "ps3/s26/58/thos_0280", 128, TRUE);
@@ -9112,7 +9112,7 @@ void main()
 	ModDrawCharacter(1, 52, "sprite/hri2a_09_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 1, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1480", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…つまり、…今日のあなたの動向を知る者はひとりもいない、って事よね。」",
-		   "<color=#6972c1>리카</color> ", "\"...그러니까... 오늘 너가 어디에 있었는지 아는 사람은 아무도 없다는 거네.\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...그러니까... 오늘 네가 어디에 있었는지 아는 사람은 아무도 없다는 거네.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -10047,7 +10047,7 @@ void main()
 
 	ModPlayVoiceLS(4, 59, "ps3/s26/59/toka_0230", 128, TRUE);
 	OutputLine("<color=#574f58>岡野</color> ", "「き、…貴様…ッ！」",
-		   "<color=#574f58>오카노</color> ", "\"이...이 자식이...!\"", Line_Normal);
+		   "<color=#574f58>오카노</color> ", "\"이... 이 자식이...!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
