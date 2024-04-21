@@ -3121,14 +3121,14 @@ void main()
 	OutputLine(NULL, "　彼らは村からの脱出を試みようとした。",
 		   NULL, "그들은 마을에서 탈출을 시도했다.", Line_Continue);
 	OutputLine(NULL, "しかし、封鎖線のバリケードには異常が起こっていた。",
-		   NULL, " 그러나, 봉쇄선의 바리게이트에도 변화가 있었다.", Line_Normal);
+		   NULL, " 그러나, 봉쇄선의 바리케이드에도 변화가 있었다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
 	DrawScene( "background/outb_jiei_003", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　バリケードの前で封鎖を行なっていた白い雨合羽の隊員たちに代わり、",
-		   NULL, "바리게이트의 앞을 지키고 있던 흰 비옷 차림의 대원들 대신,", Line_Continue);
+		   NULL, "바리케이드의 앞을 지키고 있던 흰 비옷 차림의 대원들 대신,", Line_Continue);
 	OutputLine(NULL, "迷彩模様のもっともっと厳めしい、",
 		   NULL, " 더 엄격하게 보이는 위장복을 입은,", Line_Continue);
 	OutputLine(NULL, "まるで宇宙服のようなもので身を包んだ兵士たちが立ち塞がっていたからだ。",
