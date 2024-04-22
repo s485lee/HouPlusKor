@@ -4473,7 +4473,7 @@ void main()
 	OutputLine(NULL, "　俺もバットを手に裸足のままレナを追うように飛び出す。",
 		   NULL, "나도 배트를 손에 들고 맨발인 채로 레나를 쫓아 뛰쳐나간다.", Line_WaitForInput);
 	OutputLine(NULL, "その背に親父が俺の名を呼ぶが聞かなかった。",
-		   NULL, " 뒤에서 아버지가 나의 이름을 불렀지만, 나는 듣지 않았다.", Line_Normal);
+		   NULL, " 뒤에서 아버지가 내 이름을 불렀지만, 나는 듣지 않았다.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4903,7 +4903,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s24/02/nren_0270", 128, TRUE);
 	OutputLine(NULL, "「…圭一くんのところにも手紙が来たでしょ？　魅ぃちゃんは私の家にも同じ手紙を持ってきた。」",
-		   NULL, "\"...케이이치 군한테도 편지가 왔지? 미이쨩은 우리 집에도 같은 편지를 가져왔어.\"", Line_Normal);
+		   NULL, "\"...케이이치군한테도 편지가 왔지? 미이쨩은 우리 집에도 같은 편지를 가져왔어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5449,7 +5449,7 @@ void main()
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0660", 128, TRUE);
 	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "「町会役員たちが音頭を取って、神社部と青年部、防犯部がさらに村の有志も加えて１００人以上に膨れ上がってるらしい！！　防犯部には猟友会も合流してて少なくとも２０丁以上のショットガン、ライフルで武装してる！」",
-		   NULL, "\"마을 임원들이 선두에 서서 일을 주도하고, 신사부와 청년부, 방범부에 더해 마을 봉사자들까지 합쳐서 100명 이상이 모인 것 같아!! 방범 부에는 사냥꾼 협회도 가세해서 적어도 20정 이상의 샷건과 라이플로 무장했어!\"", Line_Normal);
+		   NULL, "\"마을 임원들이 선두에 서서 일을 주도하고, 신사부와 청년부, 방범부에 더해 마을 봉사자들까지 합쳐서 100명 이상이 모인 것 같아!! 방범부에는 사냥꾼 협회도 가세해서 적어도 20정 이상의 샷건과 라이플로 무장했어!\"", Line_Normal);
 	ClearMessage();
 
 	//;ld r,mio_9b,80
