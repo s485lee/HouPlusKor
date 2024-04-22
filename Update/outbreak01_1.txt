@@ -5970,7 +5970,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナと圭一が爽やかに両親に掛ける言葉は、",
-		   NULL, "레나와 케이이치가 부모님에게 경쾌하게 건넨 말은,", Line_Continue);
+		   NULL, "레나와 케이이치가 부모님께 경쾌하게 건넨 말은,", Line_Continue);
 	OutputLine(NULL, "まるで朝の登校を思わせる。",
 		   NULL, " 아침에 같이 학교 가는 것처럼 보인다.", Line_Normal);
 	ClearMessage();
