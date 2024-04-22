@@ -2818,7 +2818,7 @@ void main()
 	DrawScene( "background/mati12", 400 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　国連の丙種秘密調査委員会は、",
-		   NULL, "유엔의 병종 비밀 조사 위원회는,", Line_Continue);
+		   NULL, "UN의 병종 비밀 조사 위원회는,", Line_Continue);
 	OutputLine(NULL, "丙種が人類の最も唾棄すべき大罪のいくつかを間接的に主導している可能性を指摘し、",
 		   NULL, " 병종이 인류의 가장 멸시받아야 할 큰 죄 중 일부를 간접적으로 주도하고 있을 가능성을 지적하고,", Line_Continue);
 	OutputLine(NULL, "丙種の撲滅を掲げましたが、",
