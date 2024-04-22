@@ -1611,7 +1611,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0490", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…でもねぇ、世帯数数百のこんな山奥の村で青春時代を終えちゃうなんて寂しいじゃないですかー…。」",
-		   "<color=#5ec69a>미온</color> ", "\"...하지만요, 가구 몇백 개의 이런 산골짜기 마을에서 보낸다는 건 좀 쓸쓸하지 않나요.....\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...하지만요, 가구 몇백 개의 이런 산골짜기 마을에서 청춘을 보낸다는 건 좀 쓸쓸하지 않나요.....\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
