@@ -111,7 +111,7 @@ void main()
 		   NULL, "\"아우아우─!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9001", 128, TRUE);
 	OutputLine(NULL, "　それはオヤシロさまに対して不敬なのですよー！」",
-		   NULL, " 그런 말은 오야시로 님께 불경한 발언이에요!\"", Line_Normal);
+		   NULL, " 그런 말은 오야시로님께 불경한 발언이에요!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【梨花】
@@ -742,7 +742,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9012", 128, TRUE);
 	OutputLine(NULL, "「すごい魅力パワーを放つものの、すっごいダサイ、恥ずかしいデザインで、着ている方が恥ずかしくなってしまうとか」",
-		   NULL, "\"엄청난 매력 파워를 보여주지만, 무지 촌스럽고 창피한 디자인이라 입은 사람이 부끄러워한다던가.\"", Line_Normal);
+		   NULL, "\"엄청난 매력 파워를 보여주지만, 무지 촌스럽고 창피한 디자인이라 입은 사람이 부끄러워한다든가.\"", Line_Normal);
 	ClearMessage();
 	//;【圭一】
 	//;ld c,kei_1,80
@@ -930,7 +930,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9025", 128, TRUE);
 	OutputLine(NULL, "「でも、モテモテになるってだけなんだろ？　そんなの、ラブコメ漫画によくあるような、微笑ましい程度の力じゃないのか？」",
-		   NULL, "\"근데, 인기만점이 되는게 다잖아? 그런건 러브 코메디 만화에서 흔히 있고 훈훈하게 끝날 정도의 힘인거 아냐?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"근데, 인기만점이 되는게 다잖아? 그런 건 러브 코메디 만화에서 흔히 있고 훈훈하게 끝날 정도의 힘인거 아냐?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -978,7 +978,7 @@ void main()
 	ModDrawCharacter(2, 1, "sprite/kei7_warai_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 200, TRUE );
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9027", 128, TRUE);
 	OutputLine(NULL, "　ま、まさか水着がとろ～りと溶けだすとか……♪」",
-		   NULL, " 서, 설마 수영복이 사르륵 녹아내린다던가...♪\"", Line_Normal);
+		   NULL, " 서, 설마 수영복이 사르륵 녹아내린다든가...♪\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1674,7 +1674,7 @@ void main()
 		   NULL, "\"미이쨩, 됐어.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9012", 128, TRUE);
 	OutputLine(NULL, "圭一くん、苦しんでるよ……♪」",
-		   NULL, " 케이이치군, 괴로워 하고 있어......♪\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 케이이치 군, 괴로워 하고 있어......♪\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1946,7 +1946,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、そのような蛮行を、彼女たちの取り巻きの男たちが許す訳もない……！",
-		   NULL, "하지만, 그런 만행을 그녀들을 둘러싼 남자들이 용서할리가 없다...!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "하지만, 그런 만행을 그녀들을 둘러싼 남자들이 용서할 리가 없다...!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -2119,7 +2119,7 @@ void main()
 		   NULL, "\"꺄아아아아아아아아악?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9016", 128, TRUE);
 	OutputLine(NULL, "　け、圭一くん？！」",
-		   NULL, " 케, 케이이치군?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 케, 케이이치 군?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -5454,7 +5454,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こんな状態で水着を剥ぎ取るなんて、出来る訳がない……！",
-		   NULL, "이런 상태에서 수영복을 벗긴다니, 가능할리가 없어...!", Line_Normal);
+		   NULL, "이런 상태에서 수영복을 벗긴다니, 가능할 리가 없어...!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5733,7 +5733,7 @@ void main()
 	OutputLine(NULL, "　銀河の命運が掛かっているから、この子の水着を脱がしてくれなんて、",
 		   NULL, "은하의 운명이 걸려 있으니까 이 아이의 수영복을 벗겨달라니,", Line_WaitForInput);
 	OutputLine(NULL, "そんな話を見ず知らずの女性が聞いてくれる訳がない……ッ！！",
-		   NULL, " 그런 이야기를 처음보는 여성분이 들어줄리가 없잖아...!!", Line_Normal);
+		   NULL, " 그런 이야기를 처음보는 여성분이 들어줄 리가 없잖아...!!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5766,7 +5766,7 @@ void main()
 		   NULL, "\"레나가 벗길게.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/meha/2/rena9019", 128, TRUE);
 	OutputLine(NULL, "圭一くんはあっち向いてて」",
-		   NULL, " 케이이치군은 저쪽 보고 있어.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 케이이치 군은 저쪽 보고 있어.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -6362,7 +6362,7 @@ void main()
 		   NULL, "\"다, 당신에게 멋진 한여름의 아방튀르를!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9059", 128, TRUE);
 	OutputLine(NULL, "　たくましき救世主は、素敵な水着美少女とプールサイドで、ハートのストローで一緒にジュースを飲んじゃったり！！",
-		   NULL, " 늠름한 구세주는 멋진 수영복 미소녀와 풀사이드에서 하트 빨대로 같이 주스를 마신다던가!! ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 늠름한 구세주는 멋진 수영복 미소녀와 풀사이드에서 하트 빨대로 같이 주스를 마신다든가!! ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/meha/12/hanyu9060", 128, TRUE);
 	OutputLine(NULL, "　それを絶対、絶対、ぜーったい叶えてあげますのですッ！！！」",

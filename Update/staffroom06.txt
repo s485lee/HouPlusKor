@@ -194,7 +194,7 @@ void main()
 		   NULL, "질문. 에카테리나가 최근에 '팡야'를 시작한 것 같은데,", Line_ContinueAfterTyping);
 	Wait( 800 );
 	OutputLine(NULL, "パヤ～～ン☆とか、トマバックミスった～～（＞ｗ＜；）などとわけのわからないことを口走るのだが、これの理解を深めるためにパンヤのアカウントを取っても良いのか。",
-		   NULL, " '팡야☆'라던가, '토마호크 미스했어（＞w＜；）' 같은 알 수 없는 말을 하고 있는데, 이를 이해하기 위해 '팡야' 계정을 만들어도 되는가. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " '팡야☆'라든가, '토마호크 미스했어（＞w＜；）' 같은 알 수 없는 말을 하고 있는데, 이를 이해하기 위해 '팡야' 계정을 만들어도 되는가. ", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
@@ -220,7 +220,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "問．Ｉさんが、今回の執筆の資料用に貸してくれた自■隊関係の本に「持出を禁ずる」とか、",
-		   NULL, "질문. I씨가 이번 글쓰기 자료용으로 빌려준 자○대 관련 책에 '반출금지'라던가, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "질문. I씨가 이번 글쓰기 자료용으로 빌려준 자○대 관련 책에 '반출금지'라든가, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「確実に破棄すること」などと物騒な赤いハンコが押されているのだが、この資料、本当にヤバくないのか。",
 		   NULL, "'확실히 파기하라'는 등의 위협적인 붉은 도장이 찍혀 있는데, 이 자료, 정말 위험하지 않은 건가.", GetGlobalFlag(GLinemodeSp));

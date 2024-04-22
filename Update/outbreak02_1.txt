@@ -1101,7 +1101,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>사토코</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s25/04/nsat_0190", 128, TRUE);
 	OutputLine(NULL, "「オヤシロさまが降臨して下さるのを、待つ他ないんですの……？」",
-		   NULL, "\"오야시로 님이 강림해 내려오시는 걸 기다리는 수밖에 없나요......?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"오야시로님이 강림해 내려오시는 걸 기다리는 수밖에 없나요......?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1112,7 +1112,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0930", 128, TRUE);
 	OutputLine(NULL, "「伝承ではそういうことになってるね。……人々には何も出来ず、オヤシロさまの降臨を待つ他なかった。」",
-		   NULL, "\"전승에선 그렇게 전해져오고 있어. ......사람들은 아무것도 할 수 없었고, 오야시로 님이 강림하는 걸 기다려야만 했다고.\"", Line_Normal);
+		   NULL, "\"전승에선 그렇게 전해져오고 있어. ......사람들은 아무것도 할 수 없었고, 오야시로님이 강림하는 걸 기다려야만 했다고.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1143,7 +1143,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0860", 128, TRUE);
 	OutputLine(NULL, "「あぁ、まったくっ。オヤシロさまよ！　どこかにいてこの騒ぎを見てるんなら、早く降臨してこの騒ぎを終わらせてくれ！！」",
-		   NULL, "\"아으으, 진짜! 오야시로 님! 어딘가에서 이 소동을 보고 있으면, 빨리 강림해서 난장판을 끝내줘!!\"", Line_Normal);
+		   NULL, "\"아으으, 진짜! 오야시로님! 어딘가에서 이 소동을 보고 있으면, 빨리 강림해서 난장판을 끝내줘!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1324,7 +1324,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0150", 128, TRUE);
 	OutputLine(NULL, "「あとは、寝て過ごすも、誰かの溜め込んだおやつをつまみ食いするも自由ってわけだわ。何しろ、もう誰もいないのだから。」",
-		   NULL, "\"이다음은, 자면서 시간을 보내던가, 누군가가 숨겨놓은 간식을 주워먹던가 맘대로야. 어쨌든, 이제 아무도 없으니까.\"", Line_Normal);
+		   NULL, "\"이다음은 자면서 시간을 보내든가, 누군가가 숨겨놓은 간식을 주워먹든가 맘대로야. 어쨌든 이제 아무도 없으니까.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -1652,7 +1652,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0880", 128, TRUE);
 	OutputLine(NULL, "「大通りは、どこもかしこもイカレた連中が走り回ってるか殺し合ってるかのどちらかだからな。」",
-		   NULL, "\"큰길은, 어디든지 정신이 나간 녀석들이 뛰어다니고 있던가, 서로를 죽이고 있거나 둘 중 하나일 테니까 말이야.\"", Line_Normal);
+		   NULL, "\"큰길은 어디든지 정신이 나간 녀석들이 뛰어다니고 있든가, 서로를 죽이고 있거나 둘 중 하나일 테니까 말이야.\"", Line_Normal);
 	ClearMessage();
 
 	//;【沙都子】
@@ -2069,7 +2069,7 @@ void main()
 	OutputLine(NULL, "天の神様、",
 		   NULL, " 하늘에 계신 신님,", Line_Continue);
 	OutputLine(NULL, "オヤシロさま！！",
-		   NULL, " 오야시로 님!!", Line_Continue);
+		   NULL, " 오야시로님!!", Line_Continue);
 	OutputLine(NULL, "　どうか梯子をお恵み下さいぃいいぃ！！」",
 		   NULL, " 제발 사다리를 베풀어 주세요오오오오오!!\"", Line_Normal);
 	ClearMessage();
@@ -2172,7 +2172,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0830", 128, TRUE);
 	OutputLine(NULL, "「ありがと。圭一くんが登れるなら、無駄な犠牲者が出なくて済むかな、かな。」",
-		   NULL, "\"고마워. 케이이치군이 올라가면, 불필요한 희생자가 안 나오고 끝날까나, 까나.\"", Line_Normal);
+		   NULL, "\"고마워. 케이이치 군이 올라가면, 불필요한 희생자가 안 나오고 끝날까나, 까나.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -2376,7 +2376,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女の子</color>", NULL, "<color=#f5e6d3>소녀</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0010", 128, TRUE);
 	OutputLine(NULL, "「こっち。……ここもいつまでも安全、……なわけない。」",
-		   NULL, "\"여기로. ......이곳도 언제까지나 안전, ......할리가 없어요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"여기로. ......이곳도 언제까지나 안전, ......할 리가 없어요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2930,7 +2930,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0160", 128, TRUE);
 	OutputLine(NULL, "「そんなことオヤシロさまだってわからないのですっ。」",
-		   NULL, "\"그런 거, 오야시로 님이라 해도 몰라요.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그런 거, 오야시로님이라 해도 몰라요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2987,7 +2987,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0170", 128, TRUE);
 	OutputLine(NULL, "「い、いつでもどうぞなのですよ……。」",
-		   NULL, "\"어, 언제든지 열어도 된다예요......\"", Line_Normal);
+		   NULL, "\"어, 언제든지 열어도 된다에요......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4196,14 +4196,14 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　日本中に雛見沢症候群をまき散らすか。",
-		   NULL, "일본 전체에 히나미자와 증후군이 퍼지던가,", GetGlobalFlag(GLinemodeSp));
+		   NULL, "일본 전체에 히나미자와 증후군이 퍼지든가,", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さもなくば、彼女の言うところの「悪魔」を阻止されてしまうのか。",
-		   NULL, "아니면 그녀가 말하는 대로 '악마'를 저지하던가.", Line_Normal);
+		   NULL, "아니면 그녀가 말하는 대로 '악마'를 저지하든가.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -4246,7 +4246,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0230", 128, TRUE);
 	OutputLine(NULL, "「あぅあぅ……。梨花が面白がってるように思いますです……。」",
-		   NULL, "\"아우아우...... 리카가 재밌어하는 것처럼 보인다예요......\"", Line_Normal);
+		   NULL, "\"아우아우...... 리카가 재밌어하는 것처럼 보인다에요......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5247,7 +5247,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0600", 128, TRUE);
 	OutputLine(NULL, "「わかってますのです。オヤシロパワーで、悪い人が来ないように退けますですよ。」",
-		   NULL, "\"알고 있습니다예요. 오야시로 파워로, 나쁜 사람이 다가오지 못하도록 격퇴합니다예요.\"", Line_Normal);
+		   NULL, "\"알고 있습니다에요. 오야시로 파워로, 나쁜 사람이 다가오지 못하도록 격퇴합니다에요.\"", Line_Normal);
 	ClearMessage();
 
 	//;【富竹】
@@ -5325,7 +5325,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0400", 128, TRUE);
 	OutputLine(NULL, "「……出来たらもうやっていますですよ、あぅあぅ。」",
-		   NULL, "\"......할 수 있었으면 벌써 했습니다예요, 아우아우.\"", Line_Normal);
+		   NULL, "\"......할 수 있었으면 벌써 했습니다에요, 아우아우.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5370,7 +5370,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0410", 128, TRUE);
 	OutputLine(NULL, "「千年を生きても、まったく理解できない人間は稀にいますのです。……あいつもそういう内のひとりなのです。」",
-		   NULL, "\"천 년을 살아도 전혀 이해할 수 없는 인간은 드물게 있습니다예요. ......그 녀석도 그런 인간중 하나인 거예요.\"", Line_Normal);
+		   NULL, "\"천 년을 살아도 전혀 이해할 수 없는 인간은 드물게 있습니다에요. ......그 녀석도 그런 인간중 하나인 거예요.\"", Line_Normal);
 	ClearMessage();
 
 	//;【梨花】
@@ -5741,7 +5741,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>采</color>", NULL, "<color=#85e6e0>우네</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0130", 128, TRUE);
 	OutputLine(NULL, "「いいえ、……などと言うわけがないのです。皆さんと一緒にいた方が危ない、……という気持ちは、見ている内になくなりましたです。」",
-		   NULL, "\"아뇨, ......라고 말할 리가 없죠. 여러분과 같이 있는 편이 위험하다, ......라는 생각은, 여러분을 보는 동안에 사라졌습니다예요.\"", Line_Normal);
+		   NULL, "\"아뇨, ......라고 말할 리가 없죠. 여러분과 같이 있는 편이 위험하다, ......라는 생각은, 여러분을 보는 동안에 사라졌습니다에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -8395,7 +8395,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0430", 128, TRUE);
 	OutputLine(NULL, "「我が同胞よ……、心を鎮めるのです……。我こそはオヤシロさま、そなたたちの長なり…！」",
-		   NULL, "\"나의 동포여...... 마음을 진정시키세요...... 나야말로 오야시로 님, 그대들의 우두머리이니...!\"", Line_Normal);
+		   NULL, "\"나의 동포여...... 마음을 진정시키세요...... 나야말로 오야시로님, 그대들의 우두머리이니...!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -8654,7 +8654,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>토미타케</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0410", 128, TRUE);
 	OutputLine(NULL, "「まぁまぁ！　オヤシロさまの奇跡の力ってことで、ここはありがたくこのチャンスをいただこうじゃないか、はっはっは。」",
-		   NULL, "\"자자! 오야시로 님의 기적의 힘이란 걸로, 여기서 감사히도 이 기회를 잘 활용해보자고, 하하하!\"", Line_Normal);
+		   NULL, "\"자자! 오야시로님의 기적의 힘이란 걸로, 여기서 감사히도 이 기회를 잘 활용해보자고, 하하하!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9765,7 +9765,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0550", 128, TRUE);
 	OutputLine(NULL, "「……でも、僕は田村媛命の民は、少し陣取り過ぎだと思っていますのです。先住民は敬わなければなりませんが、土地は分け合うべきなのです。それを独り占めする田村は意地悪なのですよ、あぅ。」",
-		   NULL, "\"......그래도 전, 타무라히메노미코토의 백성은 좀 과하게 토지를 차지했다고 생각합니다예요. 원주민은 존경해야 합니다만, 토지는 나눠 가져야 해요. 그걸 독차지하는 타무라는 심술궂은 거예요, 아우.\"", Line_Normal);
+		   NULL, "\"......그래도 전, 타무라히메노미코토의 백성은 좀 과하게 토지를 차지했다고 생각합니다에요. 원주민은 존경해야 합니다만, 토지는 나눠 가져야 해요. 그걸 독차지하는 타무라는 심술궂은 거예요, 아우.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -9784,7 +9784,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0560", 128, TRUE);
 	OutputLine(NULL, "「それでは大変なことになってしまうのです。花壇もこの星もおしまいなのですよ、あぅあぅ！」",
-		   NULL, "\"그래서는 엄청난 일이 일어나고 말 겁니다예요. 화단도 이 별도 끝장인 거예요, 아우아우!\"", Line_Normal);
+		   NULL, "\"그래서는 엄청난 일이 일어나고 말 겁니다에요. 화단도 이 별도 끝장인 거예요, 아우아우!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 5, "sprite/ri2_fuman_a1_", "0", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
@@ -9831,7 +9831,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0580", 128, TRUE);
 	OutputLine(NULL, "「僕たちの場合は、花壇は早い者勝ちになりますです、あぅ。」",
-		   NULL, "\"저희 같은 경우엔, 화단은 선착순이 됩니다예요, 아우.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"저희 같은 경우엔, 화단은 선착순이 됩니다에요, 아우.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -9861,7 +9861,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0590", 128, TRUE);
 	OutputLine(NULL, "「そうなりますのです。」",
-		   NULL, "\"그렇게 됩니다예요.\"", Line_Normal);
+		   NULL, "\"그렇게 됩니다에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10334,7 +10334,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0930", 128, TRUE);
 	OutputLine(NULL, "「富竹は話せる男なのですよ。きっと采に良くしてくれますのです。」",
-		   NULL, "\"토미타케는 말할 수 있는 남자랍니다. 틀림없이 우네에게 잘 말해줍니다예요.\"", Line_Normal);
+		   NULL, "\"토미타케는 말할 수 있는 남자랍니다. 틀림없이 우네에게 잘 말해줍니다에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -12067,7 +12067,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0730", 128, TRUE);
 	OutputLine(NULL, "「行きますですよ、",
-		   NULL, "\"갑니다예요,", Line_Continue);
+		   NULL, "\"갑니다에요,", Line_Continue);
 	OutputLine(NULL, "ピカーッ！！」",
 		   NULL, " 번쩍!!\"", Line_Normal);
 	ClearMessage();
@@ -12324,7 +12324,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_1450", 128, TRUE);
 	OutputLine(NULL, "「あー、おじさんだけ何もしてないとか言わないよーにねぇ？　状況とメンバー全員の特性を考えての、おじさんの作戦勝ちなんだからね～？」",
-		   NULL, "\"아, 아저씨만 아무것도 안했다던가 그런 소린 하지 마? 상황과 멤버 전원의 특성을 고려한, 아저씨의 작전 승리니까 말이지~?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"아, 아저씨만 아무것도 안했다든가 그런 소린 하지 마? 상황과 멤버 전원의 특성을 고려한, 아저씨의 작전 승리니까 말이지~?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -14121,7 +14121,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_0880", 128, TRUE);
 	OutputLine(NULL, "「めっちゃ同感なのですよ……。僕たちのことを無能呼ばわりとはチョー腹が立ちますですよ……。」",
-		   NULL, "\"엄청 동감인 거예요...... 저희를 무능 취급하다니, 정~말로 화가 납니다예요.....\"", Line_Normal);
+		   NULL, "\"엄청 동감인 거예요...... 저희를 무능 취급하다니, 정~말로 화가 납니다에요.....\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -15143,7 +15143,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_1000", 128, TRUE);
 	OutputLine(NULL, "「さぁ、これで今回の騒ぎの首謀者を全てタイホできたのですよ！　あう！」",
-		   NULL, "\"자, 이걸로 이번 소동의 주모자들을 전부 체포할 수 있었다예요! 아우!\"", Line_Normal);
+		   NULL, "\"자, 이걸로 이번 소동의 주모자들을 전부 체포할 수 있었다에요! 아우!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -15475,7 +15475,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_1050", 128, TRUE);
 	OutputLine(NULL, "「僕のせいですか？！　僕が一番の元凶の扱いは納得できませんのですよー！　あうあうあう！！」",
-		   NULL, "\"제 잘못인가요?! 제가 가장 큰 원흉 취급 당하는 건 납득할 수 없습니다예요! 아우아우아우!!\"", Line_Normal);
+		   NULL, "\"제 잘못인가요?! 제가 가장 큰 원흉 취급 당하는 건 납득할 수 없습니다에요! 아우아우아우!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -15630,7 +15630,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>우네</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_1000", 128, TRUE);
 	OutputLine(NULL, "「……そもそも、田村が異民族嫌いになった発端は、羽入が勝手に盗み食いをしたせいのように思いますのです。羽入が盗み食いをしなかったら、田村も異民族を嫌いにならず、我を受け入れてくれたかもしれないのです。」",
-		   NULL, "\"......애초에, 타무라가 이민족을 싫어하게 된 발단은, 하뉴가 멋대로 훔쳐먹어서 그런 거라고 생각합니다예요. 하뉴가 훔쳐먹지 않았으면, 타무라도 이민족을 싫어하게 되지 않고, 저를 받아줬을지도 모르는 거예요.\"", Line_Normal);
+		   NULL, "\"......애초에, 타무라가 이민족을 싫어하게 된 발단은, 하뉴가 멋대로 훔쳐먹어서 그런 거라고 생각합니다에요. 하뉴가 훔쳐먹지 않았으면, 타무라도 이민족을 싫어하게 되지 않고, 저를 받아줬을지도 모르는 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -15798,7 +15798,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8676cf>羽入</color>", NULL, "<color=#8676cf>하뉴</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 12, "ps3/s25/12/nhan_1100", 128, TRUE);
 	OutputLine(NULL, "　僕たちも手加減はしませんのですよ？！」",
-		   NULL, "저희도 봐주진 않습니다예요?!\"", Line_Normal);
+		   NULL, "저희도 봐주진 않습니다에요?!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 

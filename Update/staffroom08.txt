@@ -135,13 +135,13 @@ void main()
 	PlaySE( 0, "wav/koruku", 70, 64 );
 
 	OutputLine(NULL, "信長の野望がまだ途中だとか、",
-		   NULL, " 노부나가의 야망을 아직 플레이 중이라던가,", Line_ContinueAfterTyping);
+		   NULL, " 노부나가의 야망을 아직 플레이 중이라든가,", Line_ContinueAfterTyping);
 	Wait( 500 );
 
 	PlaySE( 0, "wav/kyupirn", 70, 64 );
 
 	OutputLine(NULL, "ハンゲの麻雀っていいねとか、",
-		   NULL, " 한게임의 마작이 좋다던가,", Line_ContinueAfterTyping);
+		   NULL, " 한게임의 마작이 좋다든가,", Line_ContinueAfterTyping);
 	Wait( 400 );
 
 	PlaySE( 0, "wav/hikaru", 70, 64 );
