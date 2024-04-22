@@ -1074,7 +1074,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_0720", 128, TRUE);
 	OutputLine(NULL, "「……なるほど。何となく状況が飲み込めて来たかな。」",
-		   NULL, "\"...그렇네. 무슨 일이 벌어지고 있는지 이해되기 시작했을 까나.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"...그렇네. 무슨 일이 벌어지고 있는지 이해되기 시작했을까나.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -15495,7 +15495,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>레나</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s25/02/nren_1370", 128, TRUE);
 	OutputLine(NULL, "「ウネちゃんだって、長い孤独な旅の末に地球に辿り着いたわけだし。田村ちゃんも、少しは受け入れてあげてもよかったんじゃないかな、かな。」",
-		   NULL, "\"우네쨩도, 긴 외로움의 여정 끝에 지구에 도착했으니까. 타무라쨩도, 조금은 받아들여줘도 좋지 않았을 까나, 까나.\"", Line_Normal);
+		   NULL, "\"우네쨩도, 긴 외로움의 여정 끝에 지구에 도착했으니까. 타무라쨩도, 조금은 받아들여줘도 좋지 않았을까나, 까나.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
