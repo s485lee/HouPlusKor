@@ -2504,7 +2504,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　　　　　　　　撤収命令（緊急）",
-		   NULL, "　　　　　　　　철수 명령(긴급)　　　　", GetGlobalFlag(GLinemodeSp));
+		   NULL, "　　　　　　　　철수 명령 (긴급)　　　　", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
