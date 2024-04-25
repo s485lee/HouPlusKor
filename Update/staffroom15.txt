@@ -1469,7 +1469,7 @@ void main()
 		   NULL, "사토코에게 휴지를 사 오라고 부탁했는데 사 오지 않고 돌아왔을 때는, 신문지로 엉덩이를 닦으면서, 사토코를 어떻게 끔찍하게 죽여볼까, 머릿속에서 8번이나 9번이나 연습한 거예요. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでスッキリしておトイレから出たら、沙都子に、梨花はおトイレが長過ぎでございましてよ、とか言われた日には、カケラの百や二百は、沙都子をいじめるだけで費やせてしまいそうなのですよ、にぱ～☆」",
-		   NULL, "그러고 나서 화장실에서 나오면, '리카는 화장실을 너무 오래 사용하네요'라고 사토코에게 들었을 때는, 조각 백 개나 이백 개를 사토코를 괴롭히는 데에 사용할 수 있는 거예요, 니파~☆\"", Line_Normal);
+		   NULL, "그러고 나서 화장실에서 나오면, '리카는 화장실을 너무 오래 사용하네요'라고 사토코에게 들었을 때는, 조각 백 개나 이백 개를 사토코를 괴롭히는 데 쓸 수 있는 거예요, 니파~☆\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【詩音】
