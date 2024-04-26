@@ -4,8 +4,6 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/s485lee/HouPlusKor?display_date=published_at&style=flat-square&color=blue)<br /> 
 Steam판 쓰르라미 울 적에 봉+ 한글패치.<br /> 
 <br /> 
-쓰르라미 울 적에 봉+ 한글패치는 07th-Mod Hou Plus Voice and Graphics Patch v1.0.3를 기반으로 제작되었습니다.<br />
-<br /> 
 패치는 07th-Mod와 통합해서 배포됩니다. 따라서, 따로 07-Mod를 설치할 필요는 없습니다.<br /> 
 <br /> 
 macOS용 패치는 Retina 디스플레이를 지원하기 위한 라이브러리 파일이 포함되었습니다. [higurashi-retinizer](https://github.com/TellowKrinkle/higurashi-retinaizer)<br />
