@@ -37,12 +37,8 @@ Microsoft Windows<br />
 <br /><br />
 
 # 다운로드
-<img src="https://github.com/s485lee/HouPlusKor/assets/155126361/00a5f857-584f-43ab-9c11-de0b7e792255" width="70">
-
-| 플랫폼  | 링크 | Version |
-| :---:  | :---:  | :---:  |
-| macOS  | [다운로드](https://mega.nz/file/vNwFhZBa#ayV7NavNwEp0AxZiQZrG0F8cOLVrnW89DWXKQUPNTdw)  | 1.0.3  |
-| Windows | [다운로드](https://mega.nz/file/jFADlaJD#zmh7zJuwfVZ9PuXF6PjQ-BfeuD4i0grvTfDw1mBWti4)  | 1.0.3  |
+<img src="https://github.com/s485lee/HouPlusKor/assets/155126361/00a5f857-584f-43ab-9c11-de0b7e792255" width="70"><br />
+[최신버전 다운로드](https://github.com/s485lee/HouPlusKor/releases)
 
 # 설치 방법
 07th모드 통합패치이기 때문에 따로 07th 모드를 다운로드 할 필요는 없습니다. <br />
