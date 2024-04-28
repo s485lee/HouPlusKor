@@ -4522,7 +4522,7 @@ void main()
 		   NULL, "\"리카가 제정신으로 돌아온다면 대화가 빠를 거예요.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9042", 128, TRUE);
 	OutputLine(NULL, "レナさんはあまり浮かれず落ち着いてましたし。",
-		   NULL, " 레나 씨는 많이 들 떠있지 않고 침착하니까요. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 레나 씨는 많이 들떠있지 않고 침착하니까요. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>사토코</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/meha/4/satoko9043", 128, TRUE);
 	OutputLine(NULL, "梨花が状況を理解して、危険だから脱いで返してくれと言えばきっと、簡単に返してくれますわ！」",
@@ -4876,7 +4876,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　パカパカパン！",
-		   NULL, "콰광콰광퍼엉", Line_ContinueAfterTyping);
+		   NULL, "콰광콰광퍼엉!", Line_ContinueAfterTyping);
 	PlaySE( 0, "cracker3", 70, 64 );
 	ShakeScreen( 0, 6, 100, 2, 50, );
 	ShakeScreen( 2, 6,  100 , 2, 50, );
@@ -5418,7 +5418,7 @@ void main()
 	OutputLine(NULL, "　しかしここには親衛隊がまだ大勢いるのだ。",
 		   NULL, "하지만 여기는 아직 친위대가 많이 남아있다.", Line_WaitForInput);
 	OutputLine(NULL, "二人で組みかかり、一時的に拘束できたとしても、すぐに大勢の親衛隊が二人を引き剥がし、逆に二人を拘束するはず。",
-		   NULL, " 둘이서 덤비오니 잠시동안 붙잡고 있을지는 몰라도, 금새 수많은 친위대가 두사람을 떼어내고는 역으로 붙잡힐 터.", Line_Normal);
+		   NULL, " 둘이서 덤벼오니 잠깐은 붙잡고 있을 수 있을지는 몰라도, 금새 수많은 친위대가 두사람을 떼어내고는 역으로 붙잡힐 터.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -7497,10 +7497,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#c89a80>入江</color>", NULL, "<color=#c89a80>이리에</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 10, "ps3/meha/10/irie9028", 128, TRUE);
 	OutputLine(NULL, "「貴方如きに、奥ゆかしい英国文化を理解できているとは到底思えませんね！",
-		   NULL, "\"당신과 함께 고상한 영국 문화를 이해하게 될 줄은 생각도 못했습니다!", Line_WaitForInput);
+		   NULL, "\"당신 따위가 고상한 영국 문화를 이해할 수 있을 것 같지는 않네요!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/meha/10/irie9029", 128, TRUE);
 	OutputLine(NULL, "　彼女のような素晴らしい逸材には、格の負けぬご主人様が必要ですッ。",
-		   NULL, " 그대같은 훌륭한 인재에게는 격 떨어지는 주인님이 필요합니다.", Line_WaitForInput);
+		   NULL, " 그녀와 같은 훌륭한 인재에게는 그에 걸맞는 주인님이 필요합니다.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/meha/10/irie9030", 128, TRUE);
 	OutputLine(NULL, "この私のような！！！」",
 		   NULL, " 바로 이몸과 같은!!\"", Line_Normal);
