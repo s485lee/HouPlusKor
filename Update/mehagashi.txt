@@ -1348,10 +1348,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>男</color>", NULL, "<color=#f5e6d3>남자</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob099004", 128, TRUE);
 	OutputLine(NULL, "「んのわぁああああぁああぁあああぁ、キュ～～～トッ、セ、セクシィイイイイッィイイ！！！",
-		   NULL, "\"느와아아아아아아아아아아아아아아앗, 큐~~~트, 세, 섹시이이이이이이이이이이!!!\"", Line_WaitForInput);
+		   NULL, "\"느와아아아아아아아아아아아아아아앗, 큐~~~트, 세, 섹시이이이이이이이이이이!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/meha/0/mob099005", 128, TRUE);
 	OutputLine(NULL, "　ささッ、沙都子さまぁあああぁあああッ！！」",
-		   NULL, " \"사사, 사토코니이이이이이이이이임!!!\"", Line_Normal);
+		   NULL, " 사사, 사토코니이이이이이이이이임!!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【レナ】
