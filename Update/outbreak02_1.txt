@@ -6744,7 +6744,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……彼らは過剰に怯え、敵を求めている。",
-		   NULL, "......그들은 과하게 겁을 먹은 나머지, 적을 일부로 찾고 있다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "......그들은 과하게 겁을 먹은 나머지, 적을 일부러 찾고 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
