@@ -1726,7 +1726,7 @@ void main()
 		   NULL, " 우리들은 언제든 여기 있어서, 사토코를 받아줄 수 있어. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……そういう位置に、これからもずっといるのが、仲間であり、親友なんだと思ってるよ」",
-		   NULL, "...그런 자리에, 앞으로도 계속 있겠다는 게, 그게 바로 친구이자 최고의 친구라고 생각해.\"", Line_Normal);
+		   NULL, "...그런 자리에, 앞으로도 계속 있겠다는 게, 그게 바로 최고의 친구라고 생각해.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	//;【沙都子】

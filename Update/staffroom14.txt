@@ -321,7 +321,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうせまぐれで当たった竜騎士07は、せめて年２回新作を出し続けなければ、その存在を忘れられてしまう……。",
-		   NULL, "어차피 우연히 성공한 용기사07은, 적어도 매년 두 번 신작을 계속 출시하지 않으면, 그 존재를 잊히게 될 거야......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "어차피 우연히 성공한 용기사07은, 적어도 매년 두 번 신작을 계속 출시하지 않으면, 그 존재를 잊히게 될 거야......", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
