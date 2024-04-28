@@ -3900,7 +3900,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いや、ひょっとしたらもう、市内全域か、あるいは県内全域にまで及んでいるかもしれない……。",
-		   NULL, "어쩌면 이제는 시시보네 시 전체로, 아니, 기후현 전체까지 퍼졌을지도 모른다......", Line_Normal);
+		   NULL, "어쩌면 이제는 시시보네시 전체로, 아니, 기후현 전체까지 퍼졌을지도 모른다......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -3983,7 +3983,7 @@ void main()
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0230", 128, TRUE);
 	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=0>", Line_Continue); }
 	OutputLine(NULL, "「鹿骨市内にまで雛見沢症候群が拡散したということさ。現在は市外と隔離され、橋は全て落とされているはずだ。……その間に、東京が何か手を打てるといいんだけどね。」",
-		   NULL, "\"시시보네 시까지 히나미자와 증후군이 확산됐다는 뜻이야. 지금은 시외랑 격리하기 위해, 다리를 모조리 끊고 있겠지. ......그 사이에 도쿄가 무슨 수를 써줬으면 좋겠는데.\"", Line_Normal);
+		   NULL, "\"시시보네시까지 히나미자와 증후군이 확산됐다는 뜻이야. 지금은 시외랑 격리하기 위해, 다리를 모조리 끊고 있겠지. ......그 사이에 도쿄가 무슨 수를 써줬으면 좋겠는데.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -6016,7 +6016,7 @@ void main()
 	DrawScene( "background/hi_scroll", 1000 );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　政府は鹿骨市に繋がる橋やトンネルの全てを破壊し、",
-		   NULL, "정부는 시시보네 시와 이어진 다리나 터널을 모두 파괴하고,", Line_Continue);
+		   NULL, "정부는 시시보네시와 이어진 다리나 터널을 모두 파괴하고,", Line_Continue);
 	OutputLine(NULL, "物理的な封鎖を行なっている。",
 		   NULL, " 물리적인 봉쇄를 행하고 있다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -9987,7 +9987,7 @@ void main()
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0880", 128, TRUE);
 	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=0>", Line_Continue); }
 	OutputLine(NULL, "「この子に、田村なんか気にしないで自由にこの星に住んでもらえばいいのよ！　だって、田村の民が取り付いてる人間は、ウネには取り付けるんでしょう？　そしてウネが取り付いた人間には、羽入の民は取り付けない！」",
-		   NULL, "\"타무라 따윈, 신경을 쓰지 않고 이 아이가 자유롭게 이 별에 살도록 해주면 되는 거야! 생각해 봐, 타무라의 백성이 붙어 있는 인간은 우네도 붙을 수 있는 거잖아? 그리고, 우네가 붙은 인간에겐 하뉴의 백성은 붙을 수 없고!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"타무라 따윈, 신경 쓰지 않고 이 아이가 자유롭게 이 별에 살도록 해주면 되는 거야! 생각해 봐, 타무라의 백성이 붙어 있는 인간은 우네도 붙을 수 있는 거잖아? 그리고, 우네가 붙은 인간에겐 하뉴의 백성은 붙을 수 없고!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -10624,7 +10624,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1000", 128, TRUE);
 	OutputLine(NULL, "「あんたたちの喧嘩はどうでもいいわ。田村の何とやらが話を聞かなくても別に結構よ。でもね、人の世の惨劇を食い止めるにはこれしか方法がないの！」",
-		   NULL, "\"너희 싸움은 어떻게 되던 상관없어. 타무라 뭐시기가 얘기를 듣지 않아도 딱히 괜찮고. 하지만, 인간 세상의 참극을 막는 건 이 방법밖에 없어!\"", Line_Normal);
+		   NULL, "\"너희 싸움은 어떻게 되든 상관없어. 타무라 뭐시기가 얘기를 듣지 않아도 딱히 괜찮고. 하지만, 인간 세상의 참극을 막는 건 이 방법밖에 없어!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -12966,7 +12966,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹が無線で聞いたところでは、鹿骨市への援助の準備が整い、食料や生活必需品の空輸なども始まるという。",
-		   NULL, "토미타케가 무전으로 듣기로는, 시시보네 시에 대한 지원 준비가 되어가고 있고, 식량이나 생활 필수품의 공수도 시작될 거라고 한다.", Line_Normal);
+		   NULL, "토미타케가 무전으로 듣기로는, 시시보네시에 대한 지원 준비가 되어가고 있고, 식량이나 생활 필수품의 공수도 시작될 거라고 한다.", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……この途方もない規模の大騒ぎは、簡単には収束しないだろう。",
@@ -13364,7 +13364,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1180", 128, TRUE);
 	OutputLine(NULL, "「つまり、あんたは背を腹には変えられない決断をしたわけだわ。……あんたの土地の一部、つまり鹿骨市を丸ごと不浄の民に汚染されても、その方がまだマシだという判断をしたわけだわ。」",
-		   NULL, "\"즉, 너는 대를 위해 소의 희생을 결단했다는 뜻이야. ......네 땅의 일부, 요컨대 시시보네 시가 통째로 부정한 백성에게 오염되더라도, 그 쪽이 훨씬 낫다는 판단을 했단 거지.\"", Line_Normal);
+		   NULL, "\"즉, 너는 대를 위해 소의 희생을 결단했다는 뜻이야. ......네 땅의 일부, 요컨대 시시보네시가 통째로 부정한 백성에게 오염되더라도, 그 쪽이 훨씬 낫다는 판단을 했단 거지.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -14388,7 +14388,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>ウネ</color>", NULL, "<color=#85e6e0>우네</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0830", 128, TRUE);
 	OutputLine(NULL, "「しかしながら、我の体は汝の手のチョー届かぬところなのです。鹿骨市を出ることさえ出来ぬ汝には指一本触れられはしないのです。」",
-		   NULL, "\"하지만, 제 몸은 그대의 손이 정~말로 안 닿는 곳에 있는 거예요. 시시보네 시를 벗어나는 것도 불가능한 그대는 손가락 하나 닿을 수 없는 거예요.\"", Line_Normal);
+		   NULL, "\"하지만, 제 몸은 그대의 손이 정~말로 안 닿는 곳에 있는 거예요. 시시보네시를 벗어나는 것도 불가능한 그대는 손가락 하나 닿을 수 없는 거예요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
