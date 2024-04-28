@@ -14976,7 +14976,7 @@ void main()
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_1430", 128, TRUE);
 	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=0>", Line_Continue); }
 	OutputLine(NULL, "「ねぇ？　角の民の長とその巫女の能力、無能じゃないでしょ？　ちょーっと気が長くなるくらい面倒臭いだけで、私から見れば、無能はあんたの方なんだからね。くすくすくすくす！」",
-		   NULL, "\"알겠어? 뿔을 지닌 백성의 우두머리와 그 무녀의 능력, 무능하지 않잖아? 살~짝 정신나갈 정도로 귀찮긴 하지만, 내 기준에서 보면, 무능한 건 네쪽이니까 말이야. 쿡쿡쿡쿡!\"", Line_Normal);
+		   NULL, "\"알겠어? 뿔을 지닌 백성의 우두머리와 그 무녀의 능력, 무능하지 않다고? 살~짝 정신나갈 정도로 귀찮긴 하지만, 내 기준에서 보면, 무능한 건 네쪽이니까 말이야. 쿡쿡쿡쿡!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene( "effect/furiker_c", 50 );
@@ -15923,7 +15923,7 @@ void main()
 	OutputLine(NULL, "緑一色、",
 		   NULL, " 녹일색,", Line_Continue);
 	OutputLine(NULL, "四暗刻単騎！",
-		   NULL, " 사암각 단기!", Line_Continue);
+		   NULL, " 스안커 단기!", Line_Continue);
 	OutputLine(NULL, "　４倍役満、",
 		   NULL, " 4배 역만,", Line_Continue);
 	OutputLine(NULL, "１２万８千！！」",
@@ -15963,9 +15963,9 @@ void main()
 	OutputLine(NULL, "　人和、",
 		   NULL, " 인화,", Line_Continue);
 	OutputLine(NULL, "七対子、",
-		   NULL, " 칠대자,", Line_Continue);
+		   NULL, " 치또이쯔,", Line_Continue);
 	OutputLine(NULL, "赤々ドラドラ、",
-		   NULL, " 적적도라도라,", Line_Continue);
+		   NULL, " 아카아카도라도라,", Line_Continue);
 	OutputLine(NULL, "ただの役満、",
 		   NULL, " 그냥 역만,", Line_Continue);
 	OutputLine(NULL, "３万２千点～！！」",
@@ -16026,7 +16026,7 @@ void main()
 	OutputLine(NULL, "字一色、",
 		   NULL, " 자일색,", Line_Continue);
 	OutputLine(NULL, "四暗刻単騎、",
-		   NULL, " 사암각 단기,", Line_Continue);
+		   NULL, " 스안커 단기,", Line_Continue);
 	OutputLine(NULL, "６倍役満直撃",
 		   NULL, " 6배 역만 직격,", Line_Continue);
 	OutputLine(NULL, "１９万２千だぁあああぁッ！！」",
