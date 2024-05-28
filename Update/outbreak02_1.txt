@@ -3459,7 +3459,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>타카노</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s25/09/ntak_0040", 128, TRUE);
 	OutputLine(NULL, "「くす。ありがとう。そう言ってくれて。……やはりジロウさんは、私にとって特別な人なんだわ。」",
-		   NULL, "\"쿡쿡. 고마워. 그렇게 말해줘서. ......역시 지로 씨는, 내게 특별한 사람이야.\"", Line_Normal);
+		   NULL, "\"쿡쿡. 고마워. 그렇게 말해줘서. ......역시 지로 씨는, 나에게 특별한 사람이야.\"", Line_Normal);
 	ClearMessage();
 
 
@@ -11371,7 +11371,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>타카노</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s25/09/ntak_0290", 128, TRUE);
 	OutputLine(NULL, "「人の子の分際で、神の御使いの私にそんなことをするなんて……。悪い子ねぇ……。」",
-		   NULL, "\"인간의 아이 주제에, 신의 사자인 내게 그런 짓을 하다니...... 나쁜 아이네......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"인간의 아이 주제에, 신의 사자인 나에게 그런 짓을 하다니...... 나쁜 아이네......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -11469,7 +11469,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>타카노</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s25/09/ntak_0310", 128, TRUE);
 	OutputLine(NULL, "「あら、ジロウさん。……くす、それはとても興味深いわね。人の子の武器が、私に傷を付けられるかどうか、とても興味深いわ。くすくすくす……。」",
-		   NULL, "\"어머, 지로 씨. ......후훗, 정말 흥미로운데. 인간의 아이의 무기가, 내게 상처입힐 수 있을지 어떨지, 무척 흥미로워. 쿡쿡쿡......\"", Line_Normal);
+		   NULL, "\"어머, 지로 씨. ......후훗, 정말 흥미로운데. 인간의 아이의 무기가, 나를 상처입힐 수 있을지 어떨지, 무척 흥미로워. 쿡쿡쿡......\"", Line_Normal);
 	ClearMessage();
 
 	//;ld r,tak_1,80

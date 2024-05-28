@@ -4639,7 +4639,7 @@ void main()
 	OutputLine(NULL, "　まるで、",
 		   NULL, "마치,", Line_Continue);
 	OutputLine(NULL, "その言葉は俺に対して言われたかのようだった。",
-		   NULL, " 그 말은 내게 하는 말처럼 들렸다.", Line_Normal);
+		   NULL, " 그 말은 나에게 하는 말처럼 들렸다.", Line_Normal);
 	ClearMessage();
 
 	//;ld l,kei_5,22
@@ -5129,7 +5129,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナが魅音に代わって、俺宛の手紙にも書いてあったことを説明する。",
-		   NULL, "레나가 미온을 대신해서, 내게 온 편지의 내용을 설명한다.", Line_WaitForInput);
+		   NULL, "레나가 미온을 대신해서, 나에게 온 편지의 내용을 설명한다.", Line_WaitForInput);
 	OutputLine(NULL, "魅音は説明を引き継ごうとしたのだろうが、咽こんでしまった。",
 		   NULL, " 미온은 설명을 이어가려고 했으나, 목이 메어 버렸다.", Line_Normal);
 	ClearMessage();
