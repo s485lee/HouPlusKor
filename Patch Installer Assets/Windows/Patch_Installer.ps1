@@ -27,8 +27,12 @@ if ($userConfirm -eq "y") {
     $gamePath = Join-Path $steamPath 'steamapps\common\Higurashi When They Cry Hou+'
     $destination = "$gamePath\HigurashiEp10_Data"  # Correct destination path
 
+    Write-Host "한글패치 설치 경로: $destination"
+    
     # Verify if the game directory exists
     if (Test-Path "$gamePath\HigurashiEp10.exe") {
+        Write-Host "게임 파일 설치 확인 완료. 한글패치 설치 시작..."
+        
         # Copy game data files
         $files = Get-ChildItem -Path $source -Recurse
         $fileCount = $files.Count
@@ -38,12 +42,24 @@ if ($userConfirm -eq "y") {
             $percentComplete = ($current / $fileCount) * 100
             $progress = "`r한글패치 설치 중... [$current/$fileCount] {0:N0}%" -f $percentComplete
             Write-Host $progress -NoNewline
-            Copy-Item -Path $file.FullName -Destination $destination -Force
+            $targetPath = Join-Path $destination $file.FullName.Substring($source.Length)
+            if ($file.PSIsContainer) {
+                if (-Not (Test-Path $targetPath)) {
+                    New-Item -Path $targetPath -ItemType Directory
+                }
+            } else {
+                if (-Not (Test-Path (Split-Path -Path $targetPath -Parent))) {
+                    New-Item -Path (Split-Path -Path $targetPath -Parent) -ItemType Directory
+                }
+                Copy-Item -Path $file.FullName -Destination $targetPath -Force
+            }
         }
         Write-Host "`n한글패치가 성공적으로 설치되었습니다."
 
-        # Handle Steam grid images
+        # Handle Steamgrid images
         $userDataDir = Join-Path $steamPath 'userdata'
+        Write-Host "Steamgrid 이미지 설치 시작..."
+        Write-Host "한글패치 설치 경로: $userDataDir"
         if (Test-Path $gridImagesSource) {
             $images = Get-ChildItem -Path $gridImagesSource -Recurse
             $imageCount = $images.Count
@@ -53,15 +69,20 @@ if ($userConfirm -eq "y") {
                 $percentComplete = ($current / $imageCount) * 100
                 $progress = "`rSteamgrid 이미지 설치 중... [$current/$imageCount] {0:N0}%" -f $percentComplete
                 Write-Host $progress -NoNewline
-                $gridDestination = Join-Path $userDataDir 'config\grid'
-                if (-Not (Test-Path $gridDestination)) {
-                    New-Item -Path $gridDestination -ItemType Directory
+                foreach ($userDir in Get-ChildItem -Path $userDataDir -Directory) {
+                    $gridDestination = Join-Path $userDir.FullName 'config\grid'
+                    if (-Not (Test-Path $gridDestination)) {
+                        New-Item -Path $gridDestination -ItemType Directory
+                    }
+                    $targetGridPath = Join-Path $gridDestination $image.Name
+                    Copy-Item -Path $image.FullName -Destination $targetGridPath -Force
                 }
-                Copy-Item -Path $image.FullName -Destination $gridDestination -Force
             }
-            Write-Host "`nSteamgrid 이미지가 성공적으로 설치되었습니다."
+            Write-Host "`nSteamgrid 이미지가 다음과 같은 경로에 성공적으로 설치되었습니다: $userDataDir\*\config\grid"
+        } else {
+            Write-Host "Error: Steamgrid 이미지를 찾을 수 없습니다. $gridImagesSource"
         }
-        # Completion message after successful installation
+
         Write-Host "하우~☆! 오모치카에리~!"
         Write-Host "한글패치가 성공적으로 적용되었습니다. 게임을 Steam에서 실행해 주세요. 니파~☆"
     } else {
