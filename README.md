@@ -60,7 +60,7 @@ Microsoft Windows<br />
 **Windows**<br /> 
 자동패치 (권장):<br /> 
 
-1. 다운로드 .zip 파일을 압축 해제한 후, HouPlus_Korean Patch 폴더로 들어가주세요. <br />
+1. 다운로드한 .zip 파일을 압축 해제한 후, HouPlus_Korean Patch 폴더로 들어가주세요. <br />
 <img width="912" alt="Screenshot 2024-06-01 at 11 41 56 PM" src="https://github.com/s485lee/HouPlusKor/assets/155126361/d4e8e13d-323a-4f04-8517-9d6d926d6975">
 
 <br />2. HouPlus_Korean Patch 폴더 안, Patch Installer.dat 파일을 더블클릭해 패치 인스톨러를 실행해 주세요:<br />
