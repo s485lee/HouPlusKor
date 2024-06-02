@@ -57,11 +57,22 @@ Microsoft Windows<br />
 <br />
 수동패치 방법은 동봉된 설명서를 봐주세요.<br /><br />
 
-**Windows**
+**Windows**<br /> 
+자동패치 (권장):<br /> 
 
+1. 다운로드 .zip 파일을 압축 해제한 후, HouPlus_Korean Patch 폴더로 들어가주세요. <br />
+<img width="912" alt="Screenshot 2024-06-01 at 11 41 56 PM" src="https://github.com/s485lee/HouPlusKor/assets/155126361/d4e8e13d-323a-4f04-8517-9d6d926d6975">
+
+<br />2. HouPlus_Korean Patch 폴더 안, Patch Installer.dat 파일을 더블클릭해 패치 인스톨러를 실행해 주세요:<br />
+<img width="1122" alt="Screenshot 2024-06-01 at 11 42 46 PM" src="https://github.com/s485lee/HouPlusKor/assets/155126361/6ca6e49a-8077-46f1-bc41-0d5ea9affd0f">
+
+<br />3. 패치 인스톨러의 안내에 따라 한글패치를 설치해 주세요: <br />
+<img width="1171" alt="Screenshot 2024-06-01 at 11 42 53 PM" src="https://github.com/s485lee/HouPlusKor/assets/155126361/1a817f51-7fdd-4c46-9f61-fc9a564d825d">
+<br /><br />
+수동패치:<br /> 
 1. 봉+ 게임 폴더를 열어주세요. Steam판일경우 게임을 선택 후, 우클릭 - 관리 - 로컬 파일 보기를 클릭:<br />
 <img width="727" alt="image" src="https://github.com/s485lee/HouPlusKor/assets/155126361/27d2bf45-e3f3-4671-928c-fc2264b52563"><br /><br />
-2. 압축 파일은 푼 후, HigurashiEp10_Data폴더를 게임 폴더에 덮어쓰기 해주세요.<br />
+2. 압축 파일은 푼 후, Data 폴더 안 HigurashiEp10_Data폴더를 게임 폴더에 덮어쓰기 해주세요.<br />
 <img width="1756" alt="Screenshot 2024-03-05 at 8 20 37 PM" src="https://github.com/s485lee/HouPlusKor/assets/155126361/427d5a98-6b2e-4a98-9e94-5077e3f42eeb"><br />
 <img width="1128" alt="Screenshot 2024-03-05 at 8 20 44 PM" src="https://github.com/s485lee/HouPlusKor/assets/155126361/5525aeb6-7ebd-42bb-9b0f-9720a2eb73ed"><br />
 
