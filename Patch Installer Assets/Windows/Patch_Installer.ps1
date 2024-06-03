@@ -3,6 +3,74 @@ $patchPath = $PSScriptRoot
 $source = "$patchPath\Data\HigurashiEp10_Data\"  # Source path where patch data is located
 $gridImagesSource = "$patchPath\Steamgrid\"  # Source path for grid images
 
+function Get-SteamInstallPath {
+    $registryPath = "HKCU:\Software\Valve\Steam"
+
+    if (Test-Path $registryPath) {
+        $installPath = Get-ItemProperty -Path $registryPath -Name "SteamPath" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty "SteamPath" -ErrorAction SilentlyContinue
+        if ($installPath) {
+            return $installPath
+        }
+    }
+    return $null
+}
+
+$steamInstallPath = Get-SteamInstallPath
+
+if ($steamInstallPath) {
+    Write-Output "Steam이 다음과 같은 경로에서 발견: $steamInstallPath"
+
+    # Define the path to the libraryfolders.vdf file
+    $libraryFoldersPath = Join-Path -Path $steamInstallPath -ChildPath "config\libraryfolders.vdf"
+
+    # Check if the libraryfolders.vdf file exists
+    if (Test-Path $libraryFoldersPath) {
+        # Read the contents of the libraryfolders.vdf file
+        $libraryFoldersContent = Get-Content -Path $libraryFoldersPath -Raw
+
+        # Extract the paths from the libraryfolders.vdf file
+        $libraryFolders = [regex]::Matches($libraryFoldersContent, '"path"\s+"([^"]+)"') | ForEach-Object {
+            $_.Groups[1].Value
+        }
+
+        # Initialize a variable to store the game path
+        $gamePath = $null
+
+        # App ID for HouPlus
+        $appId = "2491040"
+
+        # Iterate over each library folder and check for the game
+        foreach ($folder in $libraryFolders) {
+            $appsPath = Join-Path -Path $folder -ChildPath "steamapps\appmanifest_$appId.acf"
+            if (Test-Path $appsPath) {
+                $gameInstallFolderPath = (Get-Content -Path $appsPath | Select-String -Pattern '"installdir"\s+"([^"]+)"').Matches.Groups[1].Value
+                $gamePath = Join-Path -Path $folder -ChildPath "steamapps\common\$gameInstallFolderPath"
+                break
+            }
+        }
+
+        # Check if the game path was found
+        if ($gamePath) {
+            Write-Host ""
+            Write-Output "게임이 다음과 같은 경로에 설치됨: $gamePath"
+            Write-Host ""
+        } else {
+            Write-Host ""
+            Write-Output "경고: 게임 파일을 찾을 수 없습니다."
+            Read-Host "Enter 키를 눌러 패치 인스톨러를 종료할 까나, 까나...?"
+            exit
+        }
+    } else {
+        Write-Output "libraryfolders.vdf 파일을 찾을 수 없음."
+        Read-Host "Enter 키를 눌러 패치 인스톨러를 종료할 까나, 까나...?"
+        exit
+    }
+} else {
+    Write-Output "Steam 발견 실패."
+    Read-Host "Enter 키를 눌러 패치 인스톨러를 종료할 까나, 까나...?"
+    exit
+}
+
 # Ask the user to confirm if they want to install the patch
 Write-Host "Windows용 쓰르라미 울 적에 봉+ 한글패치 인스톨러"
 Write-Host ""
@@ -24,7 +92,6 @@ $userConfirm = Read-Host "선택"
 if ($userConfirm -eq "y") {
     # Automatically find the Steam installation path
     $steamPath = Get-ItemProperty -Path 'HKCU:\Software\Valve\Steam' -Name 'SteamPath' | Select-Object -ExpandProperty SteamPath
-    $gamePath = Join-Path $steamPath 'steamapps\common\Higurashi When They Cry Hou+'
     $destination = "$gamePath\HigurashiEp10_Data"  # Correct destination path
 
     Write-Host "한글패치 설치 경로: $destination"
