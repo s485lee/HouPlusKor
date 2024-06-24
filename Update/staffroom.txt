@@ -1104,7 +1104,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ＢＴ</color>", NULL, "<color=#f5e6d3>BT</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……みー。",
-		   NULL, "\"......미이.", Line_WaitForInput);
+		   NULL, "\"......미이. ", Line_WaitForInput);
 
 	OutputLine(NULL, "精霊ドライアードとかできそうなのです。",
 		   NULL, "정령 드라이어드 같은 게 나올 것 같은 거예요. ", Line_WaitForInput);

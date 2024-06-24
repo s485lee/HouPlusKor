@@ -1242,7 +1242,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0370", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「普通はペアでご招待なんですよねぇ！…当たったら一緒に行きましょうねー…温泉ー！」",
-		   "<color=#5ec69a>미온</color> ", "\"보통은 커플로 초대되는 거잖아요! ..당첨되면 같이 가죠, 온천으로!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"보통은 커플로 초대되는 거잖아요! ...당첨되면 같이 가죠, 온천으로!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -3529,7 +3529,7 @@ void main()
 
 	ModPlayVoiceLS(4, 0, "ps3/s26/00/tkak_0010", 128, TRUE);
 	OutputLine("<color=#f5e6d3>柿沼の声</color> ", "「…ここんトコ、寝苦しくてなぁ…。なかなか眠れないんだよ。」",
-			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"...요즘들어... 잠자기가 힘들어... 좀처럼 잠이 오지 않아.\"", Line_Normal);
+			"<color=#f5e6d3>카키누마의 목소리</color> ", "\"...요즘 들어... 잠자기가 힘들어... 좀처럼 잠이 오지 않아.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 
 	ModPlayVoiceLS(4, 55, "ps3/s26/55/tara_0620", 128, TRUE);
@@ -6986,7 +6986,7 @@ void main()
 	ModDrawCharacter(1, 54, "sprite/hyos1a_09_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 3, 400, TRUE );
 	ModPlayVoiceLS(4, 54, "ps3/s26/54/tyos_1870", 128, TRUE);
 	OutputLine("<color=#715348>吉村</color> ", "「はしたない。…年頃のお嬢さんが無闇に大声を出すもんではありませんよ。」",
-		   "<color=#715348>요시무라</color> ", "\"예의 없어. ...나이 어린 아가씨가 함부로 큰 소리를 지르는 건 아니에요.\"", Line_Normal);
+		   "<color=#715348>요시무라</color> ", "\"예의 없이. ...나이 어린 아가씨가 함부로 큰 소리를 지르는 게 아니에요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -7461,7 +7461,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_1760", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「ウ、…ウジぃ！？…いやぁああぁぁあああぁああッ！」",
-		   "<color=#5ec69a>미온</color> ", "\"구...  구더기?! ...싫어어어어어어어어!\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"구... 구더기?! ...싫어어어어어어어어!\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
@@ -8560,7 +8560,7 @@ void main()
 
 	ModPlayVoiceLS(4, 57, "ps3/s26/57/tnit_0120", 128, TRUE);
 	OutputLine("<color=#6b493e>新田</color> ", "「冷静に冷静に。…最後までお聞きになって下さい。星野さん。続けて下さい。」",
-		   "<color=#6b493e>닛타</color> ", "\"차분히 차분하게. ...끝까지 들어주세요. 호시노 씨. 계속해 주세요.\"", Line_Normal);
+		   "<color=#6b493e>닛타</color> ", "\"차분히 차분히. ...끝까지 들어주세요. 호시노 씨. 계속해 주세요.\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 

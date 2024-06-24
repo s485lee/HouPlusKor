@@ -264,7 +264,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>케이이치의 어머니</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkmo_0000", 128, TRUE);
 	OutputLine(NULL, "「圭一！　大変よ！　あのね、雛見沢がね、悪いウィルスが見付かったとかで隔離されちゃったんですって！」",
-		   NULL, "\"케이이치! 큰일이야! 들어봐, 히나미자와에, 위험한 바이러스가 발견되어서 마을이 격리됐대!\"", Line_Normal);
+		   NULL, "\"케이이치! 큰일이야! 들어봐, 히나미자와에 위험한 바이러스가 발견되어서 마을이 격리됐대!\"", Line_Normal);
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>케이이치의 아버지</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkfa_0000", 128, TRUE);
@@ -284,7 +284,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>케이이치의 어머니</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkmo_0010", 128, TRUE);
 	OutputLine(NULL, "「そうみたいね…。食料の援助とかはあるそうだけど…、困ったわぁ！　今日、興宮で特売があるからって、冷蔵庫はそんなに在庫がないのよ。」",
-		   NULL, "\"그런 모양이야... 식량 원조는 있다고 하지만... 큰일났네! 오늘, 오키노미야에서 특별 세일이 있다고 해서 냉장고를 거의 비워둔 참인데.\"", Line_Normal);
+		   NULL, "\"그런 모양이야... 식량 원조는 있다고 하지만... 큰일났네! 오늘 오키노미야에서 특별 세일이 있다고 해서 냉장고를 거의 비워둔 참인데.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>케이이치의 아버지</color>", NULL, Line_ContinueAfterTyping); }
@@ -360,7 +360,7 @@ void main()
 	OutputLine(NULL, "　ふと、時計を見上げると、",
 		   NULL, "문득 시계를 올려다보았을 때, ", Line_WaitForInput);
 	OutputLine(NULL, "レナとの待ち合わせの時間をとっくに過ぎ去り、すでに遅刻している時間だった。",
-		   NULL, " 이미 레나와의 약속 시간을 훨씬 넘겨버려, 지각한 시간이 되어 있었다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이미 레나와의 약속 시간을 훨씬 넘겨버려 지각한 시간이 되어 있었다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -444,7 +444,7 @@ void main()
 	OutputLine(NULL, "……だが、危険なウィルスが村の中に満ちているかもしれないというのだ。",
 		   NULL, " 하지만, 마을 곳곳에 위험한 바이러스가 퍼져 있을 수 있다고 하는데.", Line_WaitForInput);
 	OutputLine(NULL, "そんな戸外へわざわざ飛び出すのは自殺行為ではないのか…？",
-		   NULL, " 이런 상황에서 과연 집 밖으로 나서는 건 자살 행위와 다를 바 없는 건 아닐까...?", Line_Normal);
+		   NULL, " 이런 상황에서 집 밖으로 나서는 건 자살 행위와 다를 바 없는 건 아닐까...?", Line_Normal);
 	ClearMessage();
 
 
@@ -489,7 +489,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>케이이치의 아버지</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s24/00/nkfa_0040", 128, TRUE);
 	OutputLine(NULL, "「　クーラーも外気とつながってるかもしれんな！　クーラーは噴出孔を新聞紙で覆ってそれからガムテープでしっかりと止めるんだ！　父さんは１階をやるからな！　母さんは台所を頼む！！」",
-		   NULL, "에어컨도 바깥 공기와 연결돼 있을지도 몰라! 에어컨의 송풍구를 신문지로 막고, 덕트 테이프로 철저히 밀봉해! 나는 1층울 할 테니까! 당신은 부엌을 부탁해!!\"", Line_Normal);
+		   NULL, "에어컨도 바깥 공기와 연결돼 있을지도 몰라! 에어컨의 송풍구를 신문지로 막고, 덕트 테이프로 철저히 밀봉해! 나는 1층을 할 테니까! 당신은 부엌을 부탁해!!\"", Line_Normal);
 	ClearMessage();
 
 
