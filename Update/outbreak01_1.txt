@@ -2110,7 +2110,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今の雛見沢は、口コミという原始的通信手段で支配されている。",
-		   NULL, "자금 히나미자와는, 원시적인 입소문이 지배하고 있다.", Line_WaitForInput);
+		   NULL, "지금 히나미자와는, 원시적인 입소문이 지배하고 있다.", Line_WaitForInput);
 	OutputLine(NULL, "この通信法はあまりにデマが紛れ込みやすい。",
 		   NULL, " 이 통신 방식은 유언비어가 너무 쉽게 퍼질 수 있다. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
