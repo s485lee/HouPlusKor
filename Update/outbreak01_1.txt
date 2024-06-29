@@ -1148,9 +1148,9 @@ void main()
 	OutputLine(NULL, "　そこで魅音は目つきを一度鋭くし、",
 		   NULL, "그때, 미온은 눈빛을 날카롭게 하고, ", Line_WaitForInput);
 	OutputLine(NULL, "俺とレナの頭を引っ掴んで、魅音と俺たちの頭をぶつけて近寄せた。",
-		   NULL, " 나와 레나의 머리를 붙잡아, 미온은 우리들의 머리를 가까이 끌어당겼다.", Line_WaitForInput);
+		   NULL, "나와 레나의 머리를 붙잡아 가까이 끌어당겼다. ", Line_WaitForInput);
 	OutputLine(NULL, "そして俺たちにしか聞こえない小声で言う。",
-		   NULL, " 그리고, 우리에게만 들릴 정도로 작은 목소리로 말했다.", Line_Normal);
+		   NULL, "그리고, 우리에게만 들릴 정도로 작은 목소리로 말했다.", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 0, "bgm0/getting_mad", 70, 0 );
@@ -1431,7 +1431,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　テレビが、いわゆる「雛見沢ウィルス騒動」を取り上げたのは、隔離封鎖の初期だけで、",
-		   NULL, "TV는 이른바 '히나미자와 바이러스 사건'을 다룬 것은 격리와 폐쇄 초기뿐이었고, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "TV가 이른바 '히나미자와 바이러스 사건'을 다룬 것은 격리와 폐쇄 초기뿐이었고, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "１０日目を迎えると、特別な動きがない限りニュースで取り上げられることはなくなっていた。",
 		   NULL, "10일이나 지난 지금에는, 특별한 소식이 없다면 뉴스에서 다뤄지지 않게 되었다.", Line_Normal);
@@ -1456,9 +1456,9 @@ void main()
 	//;ld l,kei_1,80
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　世間はニュースが取り上げなければ、",
-		   NULL, "뉴스에서 다루지 않으면 사람들은,", Line_Continue);
+		   NULL, "뉴스에서 다루지 않으면 사람들은 ", Line_Continue);
 	OutputLine(NULL, "もうウィルス騒ぎが解決してしまったに違いないと錯覚するのだろうか。",
-		   NULL, " 이미 바이러스 사태가 해결된 것처럼 착각하게 되는 걸까.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "이미 바이러스 사태가 해결된 것처럼 착각하게 되는 걸까.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
