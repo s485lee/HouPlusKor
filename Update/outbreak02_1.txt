@@ -3487,7 +3487,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>토미타케</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0120", 128, TRUE);
 	OutputLine(NULL, "「君は何を企んでいるんだい……。」",
-		   NULL, "\"넌 대체 무슨 음모를 꾸미고 있는 거야......\"", Line_Normal);
+		   NULL, "\"당신은 대체 무슨 음모를 꾸미고 있는 거야......\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
