@@ -572,7 +572,7 @@ void main()
 	OutputLine(NULL, "…隙見てあいつらスマキにするっすー。",
 		   NULL, " 기회 봐서 저 녀석들, 때려눕히겠습니다!", Line_Continue);
 	OutputLine(NULL, "…梨花さん、続きはその後ってことで。」",
-		   NULL, " 리카 씨, 이이서는 나중에 하는 걸로.\"", Line_Normal);
+		   NULL, " 리카 씨, 이어서는 나중에 하는 걸로.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
