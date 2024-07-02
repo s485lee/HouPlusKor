@@ -9308,7 +9308,7 @@ void main()
 	ModDrawCharacter(1, 52, "portrait/hri2a_12_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	ModPlayVoiceLS(4, 52, "ps3/s26/52/trik_1620", 128, TRUE);
 	OutputLine("<color=#6972c1>梨花</color> ", "「…そういう事になってるのよ。…あなた中学の時、家出で補導歴もあるしね…。」",
-		   "<color=#6972c1>리카</color> ", "\"...'그렇게 되어 있는 거'야. ...너 중학교 때 가출해서 보호받은 이력도 있으니까...\"", Line_Normal);
+		   "<color=#6972c1>리카</color> ", "\"...'그렇게 되어 있는' 거야. ...너 중학교 때 가출해서 보호받은 이력도 있으니까...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
