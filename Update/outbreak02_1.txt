@@ -13467,7 +13467,7 @@ void main()
 	OutputLine(NULL, "「我、チョー途方に暮れていたのです。",
 		   NULL, "\"저, 정~말로 망연자실 했었어요. ", Line_Continue);
 	OutputLine(NULL, "そこへノコノコと、我の話を信じてくれそうな、マヌケな民の長が現れたのです。",
-		   NULL, "그때 어슬렁어슬렁, 제 얘기를 들어줄 것 같은, 얼빠진 백성의 우두머리가 나타난 거예요. ", Line_Continue);
+		   NULL, "그때 어슬렁어슬렁, 제 얘기를 들어줄 것 같은 얼빠진 백성의 우두머리가 나타난 거예요. ", Line_Continue);
 	OutputLine(NULL, "……くっふふふふふふふふ……！！」",
 		   NULL, "......쿳후후후후후후후......!!\"", Line_Normal);
 	ClearMessage();
