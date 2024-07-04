@@ -4596,7 +4596,7 @@ void main()
 	ShakeScreen( 2, 12,  100 , 4, 25, );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "男は、何度かやめてやめてと言葉を吐いたが、",
-		   NULL, "남자는 몇 번이나 멈추리고 말했지만,", Line_Continue);
+		   NULL, "남자는 몇 번이나 멈추라고 말했지만,", Line_Continue);
 	OutputLine(NULL, "レナはまったく耳を貸さなかった。",
 		   NULL, " 레나는 전혀 귀를 기울이지 않았다.", Line_Normal);
 	ClearMessage();
