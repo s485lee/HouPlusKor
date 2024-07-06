@@ -6781,7 +6781,7 @@ void main()
 	FadeBustshot( 1, FALSE, 0, 0, 0, 0, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ハンドサインで、続く仲間たちに待機を指示してから、タイミングを計る。",
-		   NULL, "수신호를 통해 따라오는 동료들에게 대기를 지시하고 타이밍을 본다.", Line_Normal);
+		   NULL, "수신호를 통해 따라오는 친구들에게 대기를 지시하고 타이밍을 본다.", Line_Normal);
 	ClearMessage();
 
 	//;cl_a 22
@@ -8306,7 +8306,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音はすぐに伏せてと叫んで仲間たちの頭を地面に押し付ける。",
-		   NULL, "미온은 바로 '엎드려!'라고 소리치며 동료들의 머리를 땅에 누른다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "미온은 바로 '엎드려!'라고 소리치며 친구들의 머리를 땅에 누른다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

@@ -3501,7 +3501,7 @@ void main()
 		   NULL, "\"그건 둘째치고 당분간 이마에 자국 남겠네?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/meha/3/mion9047", 128, TRUE);
 	OutputLine(NULL, "　詩音のあだ名、大仏様になっちゃうかもね～～？」",
-		   NULL, " 시온이 별명, 부처님 되겠어~~?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 네 별명, 부처님 되겠어~~?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3809,7 +3809,7 @@ void main()
 		   NULL, " 저 추종자 녀석들한테 너의 진짜 매력을 보여주고 싶어.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/meha/1/keiichi9139", 128, TRUE);
 	OutputLine(NULL, "そして魅音にも知って欲しい」",
-		   NULL, " 그리고 미온도 깨달았음 좋겠어.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 그리고 미온도 깨달었으면 좋겠어.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -3885,7 +3885,7 @@ void main()
 	OutputLine(NULL, "　おい、詩音！！",
 		   NULL, "야, 시온!!!", Line_WaitForInput);
 	OutputLine(NULL, "　本当にこれでいいのかッ？！",
-		   NULL, " 진짜 이럼 되는 거냐?!", Line_WaitForInput);
+		   NULL, " 진짜 이러면 되는 거냐?!", Line_WaitForInput);
 	OutputLine(NULL, "　これが、モテモテの水着を脱がせる為のただの作戦だとバレたら、俺、後で魅音に八つ裂きにされるぞ？！",
 		   NULL, " 이게 그냥 인기만점 수영복을 벗기기 위한 작전이었단 걸 들켰다간, 나 미온한테 갈기갈기 찢긴다고?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
