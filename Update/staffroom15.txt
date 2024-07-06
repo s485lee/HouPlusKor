@@ -1207,7 +1207,7 @@ void main()
 	OutputLine(NULL, "　ドン引きだよね？！",
 		   NULL, " 충격적이지 않아?!", Line_WaitForInput);
 	OutputLine(NULL, "　天使の魅音ちゃんがあんなことするなんて、とんでもないよね？！",
-		   NULL, " 천사 같은 미온쨩이 그런 짓을 한다니, 정말 믿을 수 없다고?!", Line_WaitForInput);
+		   NULL, " 천사 같은 미온쨩이 그런 짓을 한다니, 정말 말도 안 된다고?!", Line_WaitForInput);
 	OutputLine(NULL, "　全国のおじさんファンがおじさんに幻滅しちゃったら、どーしてくれるのさぁ！！」",
 		   NULL, " 전국의 아저씨 팬들이 아저씨에게 실망하면 어떡하려고 그래!!\"", Line_Normal);
 	ClearMessage();
@@ -1216,7 +1216,7 @@ void main()
 	ModDrawCharacter(15, 1, "sprite/kei2_majime_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「別に、魅音の魅力はそういうところじゃねぇから、本当のファンならむしろ、暴れっぷりを喜んでると思うけどなぁ」",
-		   NULL, "\"별로, 미온의 매력은 그런 데 있는 게 아니니까, 진짜 팬이라면 오히려 그런 모습을 좋아할 거로 생각해.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"별로, 미온의 매력은 그런게 아니니까, 진짜 팬이라면 오히려 그런 모습을 좋아할 거로 생각해.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -1253,7 +1253,7 @@ void main()
 	OutputLine(NULL, "「まず、右手の人差し指が可愛らしい、だろ？",
 		   NULL, "\"먼저, 오른손 검지가 귀여워, 그치?", Line_WaitForInput);
 	OutputLine(NULL, "　それから、右手の中指が可愛らしい、だろ？",
-		   NULL, " 그다음에, 오른손 중지도 귀여워, 그치?", Line_WaitForInput);
+		   NULL, " 그다음엔, 오른손 중지도 귀여워, 그치?", Line_WaitForInput);
 	OutputLine(NULL, "　それから、」",
 		   NULL, " 그리고...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1287,7 +1287,7 @@ void main()
 	OutputLine(NULL, "「そんなことないですよ～。",
 		   NULL, "\"그런 게 아니에요~", Line_WaitForInput);
 	OutputLine(NULL, "ねーねーは沙都子を理解します！",
-		   NULL, " 네네는 사토코를 이해해요!", Line_WaitForInput);
+		   NULL, " 네ー네는 사토코를 이해해요!", Line_WaitForInput);
 	OutputLine(NULL, "　悪いのは全部、梨花ちゃまです！",
 		   NULL, " 나쁜 건 다 리카쨔마예요!", Line_WaitForInput);
 	OutputLine(NULL, "　世の中には、どう逆立ちしたって、お勉強の嫌いな人はいるんですっ」",
