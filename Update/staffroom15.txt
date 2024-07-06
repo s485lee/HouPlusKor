@@ -891,7 +891,7 @@ void main()
 	DisableWindow();
 	ModDrawCharacter(4, 3, "sprite/me2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	OutputLine(NULL, "　おじさんが引くよ！",
-		   NULL, " 아저씨가 뽑을께!", Line_WaitForInput);
+		   NULL, " 아저씨가 뽑을게!", Line_WaitForInput);
 	DisableWindow();
 	PlaySE( 0, "wav/fly", 70, 64 );
 	DrawSceneWithMask( "background/res4", "effect/up", 0, 0, 300 );
