@@ -51,6 +51,11 @@ Microsoft Windows<br />
 2. 마운트한 DMG 이미지에서, 패치 인스톨러를 **우클릭** 한 후, Open/열기를 클릭해 패치 인스톨러를 실행해 주세요:<br />
  <img width="974" alt="Screenshot 2024-04-13 at 12 48 04 PM" src="https://github.com/s485lee/HouPlusKor/assets/155126361/798706c4-ea96-43ad-8bdc-927c6e40cd98"><br />
 
+**macOS Sequoia를 사용하는 경우:** <br />
+- 마운트한 DMG 이미지에서, 패치 인스톨러를 클릭해 열면 다음과 같은 창이 나옵니다. **그래도 열기**를 클릭해 패치 인스톨러를 실행해 주세요:<br />
+<img width="372" alt="Prompt 1" src="https://github.com/s485lee/Higurashi_Korean_Mac/assets/155126361/68975ab2-f672-425a-8efe-33bb441cd630"> <br />
+- 그래도 열기 옵션이 보이지 않는 경우, 시스템 설정에서 **개인정보 보호 및 보안** 탭에서 보안에 있는 **그래도 열기 / Open Anyway**를 선택해 패치 인스톨러를 실행해 주세요:<br />
+<img width="827" alt="Prompt 2" src="https://github.com/s485lee/Higurashi_Korean_Mac/assets/155126361/2cbec20d-51ac-450c-a7b7-975df9120dc2">
 
 3. 패치 인스톨러의 안내에 따라 한글패치를 설치해 주세요: <br />
 <img width="904" alt="Screenshot 2024-04-13 at 12 49 54 PM" src="https://github.com/s485lee/Higurashi_Korean_Mac/assets/155126361/e3b573d9-1492-4a71-94e1-e4afa1b392ed"><br />
