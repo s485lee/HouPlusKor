@@ -54,7 +54,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　風は時折、静寂な街に木霊する奇声や怒声、",
-		   NULL, "바람은 조용한 마을에 때때로 메아리치는 괴성, 비명,", Line_Continue);
+		   NULL, "바람은 고요한 거리에 때때로 메아리치는 괴성, 비명,", Line_Continue);
 	OutputLine(NULL, "あるいは見当もつかない不気味な音を運んでくる。",
 		   NULL, " 혹은 짐작도 가지 않는 꺼림칙한 소리를 몰고 왔다.", Line_Normal);
 	ClearMessage();
@@ -72,7 +72,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s25/03/nmio_0770", 128, TRUE);
 	OutputLine(NULL, "「……まるで、街の断末魔が聞こえるようだよ。」",
-		   NULL, "\"......마치, 마을의 단말마가 들리는 것 같아.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......마치, 도시의 단말마가 들리는 것 같아.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -242,7 +242,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0760", 128, TRUE);
 	OutputLine(NULL, "「とにかく、街の様子を見てみよう。いつまでもここにはいられない。」",
-		   NULL, "\"어쨌든, 마을의 상황을 알아보자. 언제까지고 여기에 있을 순 없어.\"", Line_Normal);
+		   NULL, "\"어쨌든, 도시의 상황을 알아보자. 언제까지고 여기에 있을 순 없어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5240,7 +5240,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>토미타케</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s25/08/ntom_0330", 128, TRUE);
 	OutputLine(NULL, "「そろそろ街が近付いてきたね。……何があるかわからないから、用心してね。」",
-		   NULL, "\"슬슬 마을이 가까워졌네. ......뭐가 있을지 모르니 조심해.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"슬슬 시가 가까워졌네. ......뭐가 있을지 모르니 조심해.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	//;【梨花】
@@ -5261,7 +5261,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0610", 128, TRUE);
 	OutputLine(NULL, "「富竹。……これだけ広い街の中から、どうやって鷹野を探し出すのですか。」",
-		   NULL, "\"토미타케. ......이렇게나 넓은 마을 안에서 어떻게 타카노를 찾을 셈인가요.\"", Line_Normal);
+		   NULL, "\"토미타케. ......이렇게나 넓은 도시 안에서 어떻게 타카노를 찾을 셈인가요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -5876,7 +5876,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>采</color>", NULL, "<color=#85e6e0>우네</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0150", 128, TRUE);
 	OutputLine(NULL, "「……この街に住んでいる、……のではないです。」",
-		   NULL, "\"......이 마을에 살고 있, ......는 건 아니에요.\"", Line_Normal);
+		   NULL, "\"......이 동네에 살고 있, ......는 건 아니에요.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -10204,7 +10204,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0910", 128, TRUE);
 	OutputLine(NULL, "「興宮じゃどうしようもないわね。何しろ、この街はすでにη１７３に感染してる。ここの人々にはあんたは感染できないんでしょ？」",
-		   NULL, "\"오키노미야에선 속수무책이야. 아무튼, 이 마을은 이미 η173에 감염돼 있어. 여기 있는 사람들에게 넌 감염될 수 없지?\"", Line_Normal);
+		   NULL, "\"오키노미야에선 속수무책이야. 아무튼, 이 도시는 이미 η173에 감염돼 있어. 여기 있는 사람들에게 넌 감염될 수 없지?\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
@@ -12772,7 +12772,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#85e6e0>采</color>", NULL, "<color=#85e6e0>우네</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 50, "ps3/s25/50/nune_0600", 128, TRUE);
 	OutputLine(NULL, "「……もう、……出られる……？　この街を……？」",
-		   NULL, "\"......이제, ...나갈 수 있어......? 이 마을에서......?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......이제, ...나갈 수 있어......? 이 동네에서......?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
