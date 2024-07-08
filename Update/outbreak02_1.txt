@@ -242,7 +242,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>케이이치</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s25/01/nkei_0760", 128, TRUE);
 	OutputLine(NULL, "「とにかく、街の様子を見てみよう。いつまでもここにはいられない。」",
-		   NULL, "\"어쨌든, 도시의 상황을 알아보자. 언제까지고 여기에 있을 순 없어.\"", Line_Normal);
+		   NULL, "\"어쨌든, 시내의 상황을 알아보자. 언제까지고 여기에 있을 순 없어.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 
