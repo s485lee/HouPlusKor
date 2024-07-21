@@ -1513,7 +1513,7 @@ void main()
 
 	ModPlayVoiceLS(4, 53, "ps3/s26/53/tmio_0460", 128, TRUE);
 	OutputLine("<color=#5ec69a>魅音</color> ", "「…えーとえぇーと…！……深川弁当にイカ飯弁当ー…。…なんちてー…。」",
-		   "<color=#5ec69a>미온</color> ", "\"...그러니까, 그래서...! 후쿠가와 도시락에 오징어 밥 도시락... 이라든지...\"", Line_Normal);
+		   "<color=#5ec69a>미온</color> ", "\"...그러니까, 그래서...! 후카가와메시 (*바지락 덮밥)에 이카메시 (*오징어 밥)... 라든지...\"", Line_Normal);
 	if (GetGlobalFlag(GADVMode) == 0) { ClearMessage(); }
 	DisableWindow();
 
