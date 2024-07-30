@@ -11362,7 +11362,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>시온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s25/06/nshi_0130", 128, TRUE);
 	OutputLine(NULL, "「そ、そんなはずは……ッ！！」",
-		   NULL, "\"마, 말도 안돼......!!\"", Line_Normal);
+		   NULL, "\"마, 말도 안 돼......!!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 

@@ -7018,7 +7018,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s24/05/nrik_0050", 128, TRUE);
 	OutputLine(NULL, "「ふぁいと、",
-		   NULL, "\"파이트,", Line_Continue);
+		   NULL, "\"파이팅, ,", Line_Continue);
 	OutputLine(NULL, "おーっ、",
 		   NULL, " 오,", Line_Continue);
 	OutputLine(NULL, "なのですっ。」",

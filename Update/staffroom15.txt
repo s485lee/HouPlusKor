@@ -152,7 +152,7 @@ void main()
 	ModDrawCharacter(9, 5, "sprite/ri2_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 200, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ボクたちも、お話の中では殺伐としていたので、ここで暴れてスッキリしたかったのですよ。",
-		   NULL, "\"우리들도, 이야기에서는 험악한 분위기 때문에, 여기서 한바탕 크게 소란을 피워서 시원하게 하고 싶었던 거예요.", Line_WaitForInput);
+		   NULL, "\"우리들도, 이야기에서의 험악한 분위기 때문에, 여기서는 한바탕 크게 소란을 피워서 시원하게 하고 싶었던 거예요.", Line_WaitForInput);
 	OutputLine(NULL, "にぱ～☆」",
 		   NULL, " 니파~☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -256,7 +256,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	//if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, Line_Continue); }
 	OutputLine(NULL, "「んで、みんな、締め切りギリギリになって、阿鼻叫喚の地獄絵図の徹夜になって、ヘロヘロ状態で入稿する訳だね！」",
-		   NULL, "\"그리고 나서, 모두가 마감 직전에 아비규환의 밤샘 작업을 해서, 해롱해롱한 상태로 발매하게 되는 거지!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"그리고 나서, 모두가 마감 직전에 아비규환의 밤샘 작업을 해서, 헤롱헤롱한 상태로 발매하게 되는 거지!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -717,7 +717,7 @@ void main()
 	ModDrawCharacterWithFiltering(2, 5, "sprite/ri2_warai_a1_", "2", "effect/left", 0, -160, 0, FALSE, 0, 0, 0, 0, 0, 1, 300, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「もちろん、効果は覿面なのですよ。",
-		   NULL, "\"물론이죠, 효과는 명백하답니다.", Line_WaitForInput);
+		   NULL, "\"물론이죠, 효과는 확실하답니다.", Line_WaitForInput);
 	OutputLine(NULL, "ほら、圭一の目付きが変わってきましたのです」",
 		   NULL, " 보세요, 케이이치의 눈빛이 변하고 있는 거예요.\"", Line_Normal);
 	ClearMessage();
@@ -1901,7 +1901,7 @@ void main()
 	ModDrawCharacter(6, 5, "sprite/ri2_niko_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 2, 400, TRUE );
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「……ふぁいと、お～☆",
-		   NULL, "\"...파이트, 오~☆", Line_WaitForInput);
+		   NULL, "\"...파이팅, 오~☆", Line_WaitForInput);
 	OutputLine(NULL, "　なのですよ」",
 		   NULL, " 인 거예요.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

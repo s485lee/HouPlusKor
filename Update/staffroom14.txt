@@ -60,12 +60,12 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「ひぐらしのなく頃に」がたくさんの方に愛され、様々な派生をして、僕の創作の幅や考え方は大きく変わりました。",
-		   NULL, "'쓰르라미 울 적에'가 많은 분에게 사랑받고 다양한 창작물들이 파생되면서, 제 창작의 범위와 사고방식이 크게 변했습니다.", Line_Normal);
+		   NULL, "'쓰르라미'가 많은 분에게 사랑받고 다양한 창작물들이 파생되면서, 제 창작의 범위와 사고방식이 크게 변했습니다.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「ひぐらしのなく頃に」のお陰で、たくさんの素晴らしい出会いがあり、",
-		   NULL, "'쓰르라미 울 적에' 덕분에 많은 훌륭한 만남이 있었고,", Line_WaitForInput);
+		   NULL, "'쓰르라미' 덕분에 많은 훌륭한 만남이 있었고,", Line_WaitForInput);
 	OutputLine(NULL, "僕は素晴らしい人々に恵まれていることを知りました。",
 		   NULL, " 저는 훌륭한 사람들에게 축복받았다는 것을 알게 되었습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -147,7 +147,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「ひぐらしのなく頃に」を発表したあの日から、たくさんの出会いと別れ、楽しいことと悲しいこと。",
-		   NULL, "'쓰르라미 울 적에'를 발표한 그날부터, 많은 만남과 이별, 즐거운 일과 슬픈 일.", Line_WaitForInput);
+		   NULL, "'쓰르라미'를 발표한 그날부터, 많은 만남과 이별, 즐거운 일과 슬픈 일.", Line_WaitForInput);
 	OutputLine(NULL, "生まれてきたことに感謝したり、生きていくことに絶望したり。",
 		   NULL, " 태어났다는 것에 감사하거나, 살아가는 것에 절망하기도 하고. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -157,7 +157,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「ひぐらしのなく頃に」とは、紛れも無く、僕の人生の一部でした。",
-		   NULL, "'쓰르라미 울 적에'는 분명히 제 인생의 일부였습니다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "'쓰르라미'는 분명히 제 인생의 일부였습니다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -279,7 +279,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　僕がこれまで掲げてきた、「年２回のコミケにて、必ず新作を発表すること」",
-		   NULL, "저는 지금까지 내세워왔던, '매년 2회의 코믹마켓에서, 반드시 새 작품을 발표하는 것'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "제가 지금까지 내세워왔던, '매년 2회의 코믹마켓에서, 반드시 새 작품을 발표하는 것'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
