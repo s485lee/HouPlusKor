@@ -1941,7 +1941,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>미온</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0240", 128, TRUE);
 	OutputLine(NULL, "「…うん。",
-		   NULL, "\"...응.", Line_WaitForInput);
+		   NULL, "\"...응.", Line_Continue);
 	OutputLine(NULL, "…………ほら、沙都子の両親がダムの誘致派だったのは知ってるでしょ？",
 		   NULL, " .........있잖아, 사토코의 부모님이 댐 유치 파였던 건 알고 있지?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s24/03/nmio_0250", 128, TRUE);
