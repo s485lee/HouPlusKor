@@ -3099,7 +3099,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　異常事態の村で理性を保つ最後の防波堤だったのが自衛隊の活動である。",
-		   NULL, "비정상적인 상황 속에서 마을의 이성을 지탱해 준 마지막 보루가 바로 자위대의 존재이었다.", Line_WaitForInput);
+		   NULL, "비정상적인 상황 속에서 마을의 이성을 지탱해 준 마지막 보루가 바로 자위대의 존재였다.", Line_WaitForInput);
 	OutputLine(NULL, "それが忽然と消えたのだから、それはつまり、",
 		   NULL, " 그게 홀연히 사라졌다는 것은, 다시 말해,", Line_Continue);
 	OutputLine(NULL, "この村が日本から切り捨てられたと見えてもおかしくなかった。",
@@ -3490,7 +3490,7 @@ void main()
 	OutputLine(NULL, "　なのに、雛見沢の七夕は、",
 		   NULL, "그런데도, 히나미자와의 칠석은,", Line_Continue);
 	OutputLine(NULL, "物々しいバリケードに感染者を拒絶する張り紙を貼り付け、男たちが猟銃を手に睨みを利かせる。",
-		   NULL, " 위협적인 바리케이드에 감염자를 거부하는 벽보를 붙이고, 남자들이 엽총을 든 채로 마을을 활보하고 있어, ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 위협적인 바리케이드에 감염자를 거부하는 벽보를 붙이고, 남자들이 엽총을 든 채로 마을을 활보하고 있어서, ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……同じ日本の中のこととは思えなかった……。",
 		   NULL, "......같은 일본이라고는 믿기 어려웠다......", Line_Normal);

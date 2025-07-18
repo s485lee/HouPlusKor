@@ -413,7 +413,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>리카</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s25/05/nrik_0080", 128, TRUE);
 	OutputLine(NULL, "「疑心暗鬼の鬼に心を許した連中は、もうあらかた殺し合って、死に絶えた頃なのかもね。」",
-		   NULL, "\"의심암귀의 귀신에게 마음을 내 준 녀석들은, 이제 대강 살육을 마치고, 죽었을 타이밍일지도.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"의심암귀의 귀신에게 마음을 내준 녀석들은, 이제 대강 살육을 마치고, 죽었을 타이밍일지도.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
