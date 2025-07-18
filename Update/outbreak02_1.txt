@@ -7182,7 +7182,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　冷静な部活メンバーは、数々の部活の修羅場で、退くべき時を身に付けている。",
-		   NULL, "침작한 부활동 멤버들은 수많은 난장판 같은 부활동에서, 물러설 때를 익혀왔다.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "침착한 부활동 멤버들은 수많은 난장판 같은 부활동에서, 물러설 때를 익혀왔다.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
